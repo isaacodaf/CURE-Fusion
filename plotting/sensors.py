@@ -1,4 +1,4 @@
-"""Portable, unchanged-result sensor figures for the V11 manuscript."""
+"""Camera and radar figures from recorded sensor observations."""
 import argparse
 import hashlib
 import json
