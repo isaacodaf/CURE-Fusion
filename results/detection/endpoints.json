@@ -1,302 +1,287 @@
 {
-  "calibration_scope": "Pooled objects; camera deterministic target, radar16 fresh draws; working mean variance, not epistemic uncertainty",
+  "status": "validated_values_for_internal_editorial_integration_only",
   "class_order": [
     "person",
     "bicycle",
     "slidecar",
     "doll"
   ],
+  "seed": 11,
+  "fitting_images": 6180,
   "development_images": 992,
   "development_sequences": 8,
+  "scope": "One-seed development on reused historical optimization sequences; not a final-test, five-seed, SOTA, causal, native-3D or general robustness claim",
   "endpoints": [
     {
-      "AP50_percent": 46.54855755344111,
-      "AP75_percent": 43.349032729483035,
-      "AP_percent": 40.562165421198834,
       "arm": "frozen_unadapted_pretrained_reference",
       "condition": "clean",
+      "unavailable_reason": null,
+      "AP_percent": 40.562165421198834,
+      "AP50_percent": 46.54855755344111,
+      "AP75_percent": 43.349032729483035,
       "per_class_percent": [
         80.60568843901885,
         81.64297324577647,
         0.0,
         0.0
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 0.09964771005761534,
-      "AP75_percent": 0.0,
-      "AP_percent": 0.013572506941560664,
       "arm": "frozen_unadapted_pretrained_reference",
       "condition": "camera_removed",
+      "unavailable_reason": null,
+      "AP_percent": 0.013572506941560664,
+      "AP50_percent": 0.09964771005761534,
+      "AP75_percent": 0.0,
       "per_class_percent": [
         2.632541903485749e-05,
         0.0542637023472078,
         0.0,
         0.0
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 46.54855755344111,
-      "AP75_percent": 43.349032729483035,
-      "AP_percent": 40.562165421198834,
       "arm": "frozen_unadapted_pretrained_reference",
       "condition": "radar_removed",
-      "per_class_percent": [
-        80.60568843901885,
-        81.64297324577647,
-        0.0,
-        0.0
-      ],
-      "unavailable_reason": null
-    },
-    {
+      "unavailable_reason": null,
+      "AP_percent": 40.562165421198834,
       "AP50_percent": 46.54855755344111,
       "AP75_percent": 43.349032729483035,
-      "AP_percent": 40.562165421198834,
-      "arm": "frozen_unadapted_pretrained_reference",
-      "condition": "radar_thinned_fresh",
       "per_class_percent": [
         80.60568843901885,
         81.64297324577647,
         0.0,
         0.0
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 78.5763299149019,
-      "AP75_percent": 69.67570609737066,
-      "AP_percent": 62.32842133589812,
+      "arm": "frozen_unadapted_pretrained_reference",
+      "condition": "radar_thinned_fresh",
+      "unavailable_reason": null,
+      "AP_percent": 40.562165421198834,
+      "AP50_percent": 46.54855755344111,
+      "AP75_percent": 43.349032729483035,
+      "per_class_percent": [
+        80.60568843901885,
+        81.64297324577647,
+        0.0,
+        0.0
+      ]
+    },
+    {
       "arm": "task_only",
       "condition": "clean",
+      "unavailable_reason": null,
+      "AP_percent": 62.32842133589812,
+      "AP50_percent": 78.5763299149019,
+      "AP75_percent": 69.67570609737066,
       "per_class_percent": [
         83.2449159413077,
         82.01559814586074,
         39.946699772009865,
         44.106471484414186
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 0.021925499259057766,
-      "AP75_percent": 0.00012704837413986803,
-      "AP_percent": 0.003693275631156261,
       "arm": "task_only",
       "condition": "camera_removed",
+      "unavailable_reason": null,
+      "AP_percent": 0.003693275631156261,
+      "AP50_percent": 0.021925499259057766,
+      "AP75_percent": 0.00012704837413986803,
       "per_class_percent": [
         0.006963211916911644,
         0.007809890607713401,
         0.0,
         0.0
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 78.53307536455249,
-      "AP75_percent": 68.24535498708302,
-      "AP_percent": 61.45016150323981,
       "arm": "task_only",
       "condition": "radar_removed",
+      "unavailable_reason": null,
+      "AP_percent": 61.45016150323981,
+      "AP50_percent": 78.53307536455249,
+      "AP75_percent": 68.24535498708302,
       "per_class_percent": [
         83.34499343526618,
         81.80073201213095,
         36.818521306424145,
         43.836399259137984
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 78.35857878272468,
-      "AP75_percent": 69.316830987053,
-      "AP_percent": 62.18787076979645,
       "arm": "task_only",
       "condition": "radar_thinned_fresh",
+      "unavailable_reason": null,
+      "AP_percent": 62.18787076979645,
+      "AP50_percent": 78.35857878272468,
+      "AP75_percent": 69.316830987053,
       "per_class_percent": [
         83.2186646694185,
         82.07371253074375,
         39.287179130905855,
         44.17192674811768
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 77.5433292753851,
-      "AP75_percent": 69.44618300991094,
-      "AP_percent": 61.46852524609443,
       "arm": "cure",
       "condition": "clean",
+      "unavailable_reason": null,
+      "AP_percent": 61.46852524609443,
+      "AP50_percent": 77.5433292753851,
+      "AP75_percent": 69.44618300991094,
       "per_class_percent": [
         83.07143634821811,
         82.22146427516444,
         35.614346319943465,
         44.96685404105169
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 0.1944402940933885,
-      "AP75_percent": 0.00038252119133091826,
-      "AP_percent": 0.0302036484318159,
       "arm": "cure",
       "condition": "camera_removed",
+      "unavailable_reason": null,
+      "AP_percent": 0.0302036484318159,
+      "AP50_percent": 0.1944402940933885,
+      "AP75_percent": 0.00038252119133091826,
       "per_class_percent": [
         0.012647191270752771,
         0.10816740245651084,
         0.0,
         0.0
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 77.10354221971221,
-      "AP75_percent": 68.24228778134488,
-      "AP_percent": 60.33464463564161,
       "arm": "cure",
       "condition": "radar_removed",
+      "unavailable_reason": null,
+      "AP_percent": 60.33464463564161,
+      "AP50_percent": 77.10354221971221,
+      "AP75_percent": 68.24228778134488,
       "per_class_percent": [
         82.75821700610469,
         82.02879044105595,
         33.35415466056054,
         43.197416434845294
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 77.5109557232729,
-      "AP75_percent": 69.75090637783448,
-      "AP_percent": 61.44535344933322,
       "arm": "cure",
       "condition": "radar_thinned_fresh",
+      "unavailable_reason": null,
+      "AP_percent": 61.44535344933322,
+      "AP50_percent": 77.5109557232729,
+      "AP75_percent": 69.75090637783448,
       "per_class_percent": [
         82.9958742925395,
         82.26019783248147,
         35.632622344947876,
         44.89271932736399
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 77.73473188998724,
-      "AP75_percent": 68.36204790362369,
-      "AP_percent": 61.74123413987785,
       "arm": "modality_dropout",
       "condition": "clean",
+      "unavailable_reason": null,
+      "AP_percent": 61.74123413987785,
+      "AP50_percent": 77.73473188998724,
+      "AP75_percent": 68.36204790362369,
       "per_class_percent": [
         83.06752945066937,
         82.41052014955551,
         37.96609468196074,
         43.52079227732574
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 0.41342810770682814,
-      "AP75_percent": 0.0004929668144731084,
-      "AP_percent": 0.07357247999600824,
       "arm": "modality_dropout",
       "condition": "camera_removed",
+      "unavailable_reason": null,
+      "AP_percent": 0.07357247999600824,
+      "AP50_percent": 0.41342810770682814,
+      "AP75_percent": 0.0004929668144731084,
       "per_class_percent": [
         0.2418511104749091,
         0.05243880950912386,
         0.0,
         0.0
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 78.36727798856433,
-      "AP75_percent": 68.70740304445638,
-      "AP_percent": 61.724752568486274,
       "arm": "modality_dropout",
       "condition": "radar_removed",
+      "unavailable_reason": null,
+      "AP_percent": 61.724752568486274,
+      "AP50_percent": 78.36727798856433,
+      "AP75_percent": 68.70740304445638,
       "per_class_percent": [
         82.97643427813689,
         82.10733769833489,
         38.69164874468504,
         43.12358955278825
-      ],
-      "unavailable_reason": null
+      ]
     },
     {
-      "AP50_percent": 77.5107380646116,
-      "AP75_percent": 68.35648224123108,
-      "AP_percent": 61.53452329341309,
       "arm": "modality_dropout",
       "condition": "radar_thinned_fresh",
+      "unavailable_reason": null,
+      "AP_percent": 61.53452329341309,
+      "AP50_percent": 77.5107380646116,
+      "AP75_percent": 68.35648224123108,
       "per_class_percent": [
         83.09675970562374,
         82.25692126676005,
         37.341274446462485,
         43.44313775480611
-      ],
-      "unavailable_reason": null
+      ]
     }
   ],
-  "fitting_images": 6180,
+  "paired_CURE_minus_task_only": {
+    "clean": {
+      "status": "complete_descriptive_conditional_bootstrap",
+      "paired_CURE_minus_task_only_pp": -0.8598960898036023,
+      "pointwise95_interval_pp": null,
+      "valid_draws": 1340,
+      "undefined_draws": 660,
+      "CI_withheld_if_any_missing_class": true,
+      "p_value": null,
+      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability"
+    },
+    "camera_removed": {
+      "status": "complete_descriptive_conditional_bootstrap",
+      "paired_CURE_minus_task_only_pp": 0.026510372800659647,
+      "pointwise95_interval_pp": null,
+      "valid_draws": 1340,
+      "undefined_draws": 660,
+      "CI_withheld_if_any_missing_class": true,
+      "p_value": null,
+      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability"
+    },
+    "radar_removed": {
+      "status": "complete_descriptive_conditional_bootstrap",
+      "paired_CURE_minus_task_only_pp": -1.1155168675981986,
+      "pointwise95_interval_pp": null,
+      "valid_draws": 1340,
+      "undefined_draws": 660,
+      "CI_withheld_if_any_missing_class": true,
+      "p_value": null,
+      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability"
+    },
+    "radar_thinned_fresh": {
+      "status": "complete_descriptive_conditional_bootstrap",
+      "paired_CURE_minus_task_only_pp": -0.742517320463143,
+      "pointwise95_interval_pp": null,
+      "valid_draws": 1340,
+      "undefined_draws": 660,
+      "CI_withheld_if_any_missing_class": true,
+      "p_value": null,
+      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability"
+    }
+  },
   "fresh_value_calibration": {
-    "cure": {
-      "Gaussian_mean_NLL": [
-        1.0279894325480123,
-        -3.7880075628209453
-      ],
-      "RMSE": [
-        1.701769376836127,
-        0.024267386356819447
-      ],
-      "bias": [
-        0.2900389066436659,
-        0.00031666099485445833
-      ],
-      "central90_coverage": [
-        0.8516461721539071,
-        0.9738199127330425
-      ],
-      "objects": 2521,
-      "order": [
-        "camera_removal",
-        "radar_thinning"
-      ],
-      "source_CPU_assignment_comparison": {
-        "different_records": [],
-        "images": 992,
-        "scope": "Source CPU tensor algebra and Hungarian matching; differences are retained for numerical/tie review and never silently rematched in calibration or task metrics"
-      }
-    },
-    "modality_dropout": {
-      "Gaussian_mean_NLL": [
-        103.16955518409894,
-        4.481136714679833
-      ],
-      "RMSE": [
-        14.65423648652482,
-        2.6380432544112384
-      ],
-      "bias": [
-        -13.99037875795426,
-        -0.9527373130798809
-      ],
-      "central90_coverage": [
-        0.0,
-        0.1725505751685839
-      ],
-      "objects": 2521,
-      "order": [
-        "camera_removal",
-        "radar_thinning"
-      ],
-      "source_CPU_assignment_comparison": {
-        "different_records": [],
-        "images": 992,
-        "scope": "Source CPU tensor algebra and Hungarian matching; differences are retained for numerical/tie review and never silently rematched in calibration or task metrics"
-      }
-    },
     "task_only": {
-      "Gaussian_mean_NLL": [
-        54.14275630387546,
-        2.081824680571525
-      ],
+      "objects": 2521,
       "RMSE": [
         10.60230590410545,
         1.7275255928301978
@@ -305,66 +290,81 @@
         -10.32560192500727,
         -1.2481386438053683
       ],
+      "Gaussian_mean_NLL": [
+        54.14275630387546,
+        2.081824680571525
+      ],
       "central90_coverage": [
         0.0003966679888932963,
         0.46846489488298293
       ],
-      "objects": 2521,
       "order": [
         "camera_removal",
         "radar_thinning"
       ],
       "source_CPU_assignment_comparison": {
-        "different_records": [],
         "images": 992,
+        "different_records": [],
+        "scope": "Source CPU tensor algebra and Hungarian matching; differences are retained for numerical/tie review and never silently rematched in calibration or task metrics"
+      }
+    },
+    "cure": {
+      "objects": 2521,
+      "RMSE": [
+        1.701769376836127,
+        0.024267386356819447
+      ],
+      "bias": [
+        0.2900389066436659,
+        0.00031666099485445833
+      ],
+      "Gaussian_mean_NLL": [
+        1.0279894325480123,
+        -3.7880075628209453
+      ],
+      "central90_coverage": [
+        0.8516461721539071,
+        0.9738199127330425
+      ],
+      "order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "source_CPU_assignment_comparison": {
+        "images": 992,
+        "different_records": [],
+        "scope": "Source CPU tensor algebra and Hungarian matching; differences are retained for numerical/tie review and never silently rematched in calibration or task metrics"
+      }
+    },
+    "modality_dropout": {
+      "objects": 2521,
+      "RMSE": [
+        14.65423648652482,
+        2.6380432544112384
+      ],
+      "bias": [
+        -13.99037875795426,
+        -0.9527373130798809
+      ],
+      "Gaussian_mean_NLL": [
+        103.16955518409894,
+        4.481136714679833
+      ],
+      "central90_coverage": [
+        0.0,
+        0.1725505751685839
+      ],
+      "order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "source_CPU_assignment_comparison": {
+        "images": 992,
+        "different_records": [],
         "scope": "Source CPU tensor algebra and Hungarian matching; differences are retained for numerical/tie review and never silently rematched in calibration or task metrics"
       }
     }
   },
-  "historical_five_seed_result_must_remain": true,
-  "paired_CURE_minus_task_only": {
-    "camera_removed": {
-      "CI_withheld_if_any_missing_class": true,
-      "p_value": null,
-      "paired_CURE_minus_task_only_pp": 0.026510372800659647,
-      "pointwise95_interval_pp": null,
-      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
-      "status": "complete_descriptive_conditional_bootstrap",
-      "undefined_draws": 660,
-      "valid_draws": 1340
-    },
-    "clean": {
-      "CI_withheld_if_any_missing_class": true,
-      "p_value": null,
-      "paired_CURE_minus_task_only_pp": -0.8598960898036023,
-      "pointwise95_interval_pp": null,
-      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
-      "status": "complete_descriptive_conditional_bootstrap",
-      "undefined_draws": 660,
-      "valid_draws": 1340
-    },
-    "radar_removed": {
-      "CI_withheld_if_any_missing_class": true,
-      "p_value": null,
-      "paired_CURE_minus_task_only_pp": -1.1155168675981986,
-      "pointwise95_interval_pp": null,
-      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
-      "status": "complete_descriptive_conditional_bootstrap",
-      "undefined_draws": 660,
-      "valid_draws": 1340
-    },
-    "radar_thinned_fresh": {
-      "CI_withheld_if_any_missing_class": true,
-      "p_value": null,
-      "paired_CURE_minus_task_only_pp": -0.742517320463143,
-      "pointwise95_interval_pp": null,
-      "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
-      "status": "complete_descriptive_conditional_bootstrap",
-      "undefined_draws": 660,
-      "valid_draws": 1340
-    }
-  },
-  "scope": "One-seed development on reused historical optimization sequences; not a final-test, five-seed, SOTA, causal, native-3D or general robustness claim",
-  "seed": 11,
-  "status": "validated_values_for_internal_editorial_integration_only"
+  "calibration_scope": "Pooled objects; camera deterministic target, radar16 fresh draws; working mean variance, not epistemic uncertainty",
+  "historical_five_seed_result_must_remain": true
 }
