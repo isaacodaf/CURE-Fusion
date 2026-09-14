@@ -455,9 +455,9 @@
     "source_sha256": "d584670fe9b44cbc0eba92eb490f0144a04c5bdf2a2224cdce227963dccc292d"
   },
   {
-    "operation": "exact_copy_final_sensor_renderer",
+    "operation": "source_extraction_with_docstring_clarification",
     "release_path": "plotting/sensors.py",
-    "release_sha256": "1d1da56c529b42fcadef13a5da93dd0da88084591f7cc3dcd8f7ce2183d4be20",
+    "release_sha256": "3fff976687ca9cde7b378b7b53d0e277a69faf5d12d7beeefe7b6fe7b712246a",
     "source": "QA/cure_v11_figures_20260914/render_sensor_figures_v2.py",
     "source_sha256": "1d1da56c529b42fcadef13a5da93dd0da88084591f7cc3dcd8f7ce2183d4be20"
   },
