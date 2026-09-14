@@ -1,0 +1,156 @@
+[
+  {
+    "AP_mean_percent": 38.06655484707589,
+    "AP_sample_SD_percent": 0.49718369820918934,
+    "method": "camera_only",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 33.371004233602726,
+    "AP_sample_SD_percent": 0.8006517863325497,
+    "method": "camera_only",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 38.05038427599736,
+    "AP_sample_SD_percent": 0.6154785054122769,
+    "method": "concat_fusion",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 33.28692286878196,
+    "AP_sample_SD_percent": 0.6449519629375993,
+    "method": "concat_fusion",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 37.33631042159713,
+    "AP_sample_SD_percent": 0.7606743469428607,
+    "method": "confidence_gate",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 34.198791454005,
+    "AP_sample_SD_percent": 0.7476160559706089,
+    "method": "confidence_gate",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 37.29278848811154,
+    "AP_sample_SD_percent": 0.41444714962930296,
+    "method": "cross_attention",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 33.18460634313648,
+    "AP_sample_SD_percent": 0.4716250945502734,
+    "method": "cross_attention",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 37.501167556745,
+    "AP_sample_SD_percent": 0.5710278223498968,
+    "method": "cure_without_signed_negative",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 34.01404647355946,
+    "AP_sample_SD_percent": 0.29965679250157307,
+    "method": "cure_without_signed_negative",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 38.125328882725654,
+    "AP_sample_SD_percent": 0.417625084156107,
+    "method": "cure_without_temporal",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 34.266399841924134,
+    "AP_sample_SD_percent": 0.4738289155047793,
+    "method": "cure_without_temporal",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 37.43078995904307,
+    "AP_sample_SD_percent": 0.5861834104148861,
+    "method": "cure_without_uncertainty",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 33.802575115436106,
+    "AP_sample_SD_percent": 0.9032960804302919,
+    "method": "cure_without_uncertainty",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 37.5376868831126,
+    "AP_sample_SD_percent": 0.355896771090771,
+    "method": "matched_corruption_fusion",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 33.90820367105419,
+    "AP_sample_SD_percent": 0.12366641604809965,
+    "method": "matched_corruption_fusion",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 39.01354015846278,
+    "AP_sample_SD_percent": 0.5860678299168183,
+    "method": "modality_dropout",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 35.118897011316584,
+    "AP_sample_SD_percent": 0.5227431967262895,
+    "method": "modality_dropout",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 0.3041729964512388,
+    "AP_sample_SD_percent": 0.012466851329654043,
+    "method": "radar_only",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 0.3024382214315487,
+    "AP_sample_SD_percent": 0.014810700274913439,
+    "method": "radar_only",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 36.55524072505793,
+    "AP_sample_SD_percent": 0.331258207416185,
+    "method": "task_only_residual_controller",
+    "population": "all",
+    "training_seeds": 5
+  },
+  {
+    "AP_mean_percent": 33.28989437138168,
+    "AP_sample_SD_percent": 0.6251590887415388,
+    "method": "task_only_residual_controller",
+    "population": "natural_adverse",
+    "training_seeds": 5
+  }
+]

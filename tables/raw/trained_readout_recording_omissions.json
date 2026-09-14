@@ -1,0 +1,578 @@
+[
+  {
+    "CURE_error": 1.7083631533649923,
+    "CURE_minus_baseline": 0.00610520255449587,
+    "baseline_error": 1.7022579508104965,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": -0.35865319657275574
+  },
+  {
+    "CURE_error": 1.7405452111438566,
+    "CURE_minus_baseline": 0.0035437478004971545,
+    "baseline_error": 1.7370014633433595,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": -0.20401524554136685
+  },
+  {
+    "CURE_error": 1.7351115690204393,
+    "CURE_minus_baseline": 0.008741239693430547,
+    "baseline_error": 1.7263703293270087,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": -0.5063363025265888
+  },
+  {
+    "CURE_error": 1.6744659191012088,
+    "CURE_minus_baseline": 0.005233835201614134,
+    "baseline_error": 1.6692320838995947,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": -0.31354748402552257
+  },
+  {
+    "CURE_error": 1.7074959412844974,
+    "CURE_minus_baseline": 0.0069615614279634475,
+    "baseline_error": 1.700534379856534,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": -0.40937493004702397
+  },
+  {
+    "CURE_error": 1.712482156305769,
+    "CURE_minus_baseline": 0.030915458463597556,
+    "baseline_error": 1.6815666978421715,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": -1.8384913606619868
+  },
+  {
+    "CURE_error": 1.694480332916121,
+    "CURE_minus_baseline": 0.00602802284490056,
+    "baseline_error": 1.6884523100712205,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": -0.35701469380833295
+  },
+  {
+    "CURE_error": 1.6432096928151212,
+    "CURE_minus_baseline": 0.003812129181474999,
+    "baseline_error": 1.6393975636336462,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": -0.23253231955679965
+  },
+  {
+    "CURE_error": 1.272098690369735,
+    "CURE_minus_baseline": 0.005203767381485536,
+    "baseline_error": 1.2668949229882496,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": -0.4107497225745771
+  },
+  {
+    "CURE_error": 1.3021304636775712,
+    "CURE_minus_baseline": -0.00031136513972263025,
+    "baseline_error": 1.3024418288172939,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 0.023906260750650166
+  },
+  {
+    "CURE_error": 1.300340501907024,
+    "CURE_minus_baseline": 0.00680327212556886,
+    "baseline_error": 1.2935372297814551,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": -0.525943279322405
+  },
+  {
+    "CURE_error": 1.2585556024493594,
+    "CURE_minus_baseline": 0.004730131746542687,
+    "baseline_error": 1.2538254707028167,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": -0.37725599432043566
+  },
+  {
+    "CURE_error": 1.2775282490650335,
+    "CURE_minus_baseline": 0.005621912581730282,
+    "baseline_error": 1.2719063364833032,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": -0.44200680667054737
+  },
+  {
+    "CURE_error": 1.2749887525292782,
+    "CURE_minus_baseline": 0.02155581957081565,
+    "baseline_error": 1.2534329329584626,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": -1.7197425569422053
+  },
+  {
+    "CURE_error": 1.2658652439202134,
+    "CURE_minus_baseline": 0.003856051579376407,
+    "baseline_error": 1.262009192340837,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": -0.3055486127025775
+  },
+  {
+    "CURE_error": 1.2255837718283173,
+    "CURE_minus_baseline": 0.006442075445704187,
+    "baseline_error": 1.2191416963826132,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": -0.5284107224631018
+  },
+  {
+    "CURE_error": 0.02019679307440199,
+    "CURE_minus_baseline": -6.32018613798968e-05,
+    "baseline_error": 0.020259994935781886,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": 0.3119539840963803
+  },
+  {
+    "CURE_error": 0.025107796375895223,
+    "CURE_minus_baseline": -0.00011100273672660574,
+    "baseline_error": 0.02521879911262183,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 0.4401586936431445
+  },
+  {
+    "CURE_error": 0.02510368102994577,
+    "CURE_minus_baseline": -9.857273889606402e-05,
+    "baseline_error": 0.025202253768841835,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": 0.3911266817649972
+  },
+  {
+    "CURE_error": 0.024280676750243556,
+    "CURE_minus_baseline": -0.00011017224994112201,
+    "baseline_error": 0.024390849000184678,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": 0.45169501865346406
+  },
+  {
+    "CURE_error": 0.024402799678300648,
+    "CURE_minus_baseline": -0.00010768868549738964,
+    "baseline_error": 0.024510488363798037,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": 0.4393575676625239
+  },
+  {
+    "CURE_error": 0.02975716489577271,
+    "CURE_minus_baseline": -0.00018722998017556627,
+    "baseline_error": 0.029944394875948275,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": 0.6252588537895343
+  },
+  {
+    "CURE_error": 0.024425325994179306,
+    "CURE_minus_baseline": -0.00010491110635028195,
+    "baseline_error": 0.024530237100529588,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": 0.4276807677004335
+  },
+  {
+    "CURE_error": 0.02374581020412143,
+    "CURE_minus_baseline": -0.00011607857139631778,
+    "baseline_error": 0.02386188877551775,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": 0.48646011423627566
+  },
+  {
+    "CURE_error": 0.006983212400600468,
+    "CURE_minus_baseline": -0.0002656422398689363,
+    "baseline_error": 0.007248854640469404,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": 3.664609832095278
+  },
+  {
+    "CURE_error": 0.007745169723961349,
+    "CURE_minus_baseline": -0.0002788528103398816,
+    "baseline_error": 0.00802402253430123,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 3.4752246662797415
+  },
+  {
+    "CURE_error": 0.007644444170724997,
+    "CURE_minus_baseline": -0.00021890242762388074,
+    "baseline_error": 0.007863346598348878,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": 2.7838328742859297
+  },
+  {
+    "CURE_error": 0.007234082367327629,
+    "CURE_minus_baseline": -0.00027232458570388817,
+    "baseline_error": 0.007506406953031517,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": 3.627895308738993
+  },
+  {
+    "CURE_error": 0.007430673716888669,
+    "CURE_minus_baseline": -0.0002616427433846996,
+    "baseline_error": 0.007692316460273368,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": 3.4013517870194465
+  },
+  {
+    "CURE_error": 0.007292060878935733,
+    "CURE_minus_baseline": -0.00037940536727991674,
+    "baseline_error": 0.0076714662462156495,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": 4.94566951222758
+  },
+  {
+    "CURE_error": 0.007391569318646865,
+    "CURE_minus_baseline": -0.00026596010071185984,
+    "baseline_error": 0.0076575294193587246,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": 3.4731841844380718
+  },
+  {
+    "CURE_error": 0.0071126112420609846,
+    "CURE_minus_baseline": -0.0002304311054860701,
+    "baseline_error": 0.007343042347547055,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": 3.138087656038724
+  },
+  {
+    "CURE_error": 1.7083631533649923,
+    "CURE_minus_baseline": -0.14871369382433786,
+    "baseline_error": 1.8570768471893302,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": 8.007945069662291
+  },
+  {
+    "CURE_error": 1.7405452111438566,
+    "CURE_minus_baseline": -0.14302634318298257,
+    "baseline_error": 1.8835715543268392,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 7.593358630545788
+  },
+  {
+    "CURE_error": 1.7351115690204393,
+    "CURE_minus_baseline": -0.15453602067597316,
+    "baseline_error": 1.8896475896964124,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": 8.178033910587567
+  },
+  {
+    "CURE_error": 1.6744659191012088,
+    "CURE_minus_baseline": -0.13503149679694504,
+    "baseline_error": 1.8094974158981538,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": 7.462375774099761
+  },
+  {
+    "CURE_error": 1.7074959412844974,
+    "CURE_minus_baseline": -0.14186727237835406,
+    "baseline_error": 1.8493632136628515,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": 7.671141684351534
+  },
+  {
+    "CURE_error": 1.712482156305769,
+    "CURE_minus_baseline": -0.1137168578924741,
+    "baseline_error": 1.8261990141982432,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": 6.226969624249811
+  },
+  {
+    "CURE_error": 1.694480332916121,
+    "CURE_minus_baseline": -0.13440366591293973,
+    "baseline_error": 1.8288839988290608,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": 7.348944274157976
+  },
+  {
+    "CURE_error": 1.6432096928151212,
+    "CURE_minus_baseline": -0.14154491644398037,
+    "baseline_error": 1.7847546092591016,
+    "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": 7.930777469892025
+  },
+  {
+    "CURE_error": 1.272098690369735,
+    "CURE_minus_baseline": -0.1424159899403159,
+    "baseline_error": 1.414514680310051,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": 10.068187479616642
+  },
+  {
+    "CURE_error": 1.3021304636775712,
+    "CURE_minus_baseline": -0.13546340555725234,
+    "baseline_error": 1.4375938692348236,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 9.422925935915016
+  },
+  {
+    "CURE_error": 1.300340501907024,
+    "CURE_minus_baseline": -0.14952403230870015,
+    "baseline_error": 1.4498645342157241,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": 10.31296571369561
+  },
+  {
+    "CURE_error": 1.2585556024493594,
+    "CURE_minus_baseline": -0.12571561774822193,
+    "baseline_error": 1.3842712201975813,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": 9.0817186627833
+  },
+  {
+    "CURE_error": 1.2775282490650335,
+    "CURE_minus_baseline": -0.13131042737536203,
+    "baseline_error": 1.4088386764403955,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": 9.320472923637645
+  },
+  {
+    "CURE_error": 1.2749887525292782,
+    "CURE_minus_baseline": -0.06102703543778576,
+    "baseline_error": 1.336015787967064,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": 4.5678378943894815
+  },
+  {
+    "CURE_error": 1.2658652439202134,
+    "CURE_minus_baseline": -0.12561795092610817,
+    "baseline_error": 1.3914831948463215,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": 9.027629754449295
+  },
+  {
+    "CURE_error": 1.2255837718283173,
+    "CURE_minus_baseline": -0.13566936889704118,
+    "baseline_error": 1.3612531407253585,
+    "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": 9.966505482202104
+  },
+  {
+    "CURE_error": 0.02019679307440199,
+    "CURE_minus_baseline": 0.0001165583851636745,
+    "baseline_error": 0.020080234689238315,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": -0.5804632613489513
+  },
+  {
+    "CURE_error": 0.025107796375895223,
+    "CURE_minus_baseline": -6.39127904120719e-05,
+    "baseline_error": 0.025171709166307295,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 0.2539072336717574
+  },
+  {
+    "CURE_error": 0.02510368102994577,
+    "CURE_minus_baseline": -2.791723779036956e-05,
+    "baseline_error": 0.02513159826773614,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": 0.11108421156886816
+  },
+  {
+    "CURE_error": 0.024280676750243556,
+    "CURE_minus_baseline": -6.186692371273894e-05,
+    "baseline_error": 0.024342543673956295,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": 0.254151433561689
+  },
+  {
+    "CURE_error": 0.024402799678300648,
+    "CURE_minus_baseline": -6.2982914349443e-05,
+    "baseline_error": 0.02446578259265009,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": 0.2574326576758046
+  },
+  {
+    "CURE_error": 0.02975716489577271,
+    "CURE_minus_baseline": -0.00019402202690545906,
+    "baseline_error": 0.029951186922678168,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": 0.6477941171625146
+  },
+  {
+    "CURE_error": 0.024425325994179306,
+    "CURE_minus_baseline": -5.950920801113882e-05,
+    "baseline_error": 0.024484835202190445,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": 0.24304516456706837
+  },
+  {
+    "CURE_error": 0.02374581020412143,
+    "CURE_minus_baseline": -0.000207576247170934,
+    "baseline_error": 0.023953386451292365,
+    "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": 0.8665841366231275
+  },
+  {
+    "CURE_error": 0.006983212400600468,
+    "CURE_minus_baseline": -6.930330109693357e-05,
+    "baseline_error": 0.007052515701697401,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2424,
+    "omitted_recording_index": 0,
+    "percent_error_reduction": 0.9826748925954698
+  },
+  {
+    "CURE_error": 0.007745169723961349,
+    "CURE_minus_baseline": -7.431938155022695e-05,
+    "baseline_error": 0.007819489105511576,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2353,
+    "omitted_recording_index": 1,
+    "percent_error_reduction": 0.9504378169392536
+  },
+  {
+    "CURE_error": 0.007644444170724997,
+    "CURE_minus_baseline": 5.9106958871508845e-05,
+    "baseline_error": 0.007585337211853488,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2350,
+    "omitted_recording_index": 2,
+    "percent_error_reduction": -0.77922651585145
+  },
+  {
+    "CURE_error": 0.007234082367327629,
+    "CURE_minus_baseline": -7.700570285169763e-05,
+    "baseline_error": 0.007311088070179326,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2475,
+    "omitted_recording_index": 3,
+    "percent_error_reduction": 1.053272811276762
+  },
+  {
+    "CURE_error": 0.007430673716888669,
+    "CURE_minus_baseline": -7.796336381557523e-05,
+    "baseline_error": 0.007508637080704244,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2493,
+    "omitted_recording_index": 4,
+    "percent_error_reduction": 1.0383157819136901
+  },
+  {
+    "CURE_error": 0.007292060878935733,
+    "CURE_minus_baseline": -0.0003806587824406,
+    "baseline_error": 0.007672719661376333,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 883,
+    "omitted_recording_index": 5,
+    "percent_error_reduction": 4.961197583652066
+  },
+  {
+    "CURE_error": 0.007391569318646865,
+    "CURE_minus_baseline": -7.722608885717738e-05,
+    "baseline_error": 0.007468795407504042,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2477,
+    "omitted_recording_index": 6,
+    "percent_error_reduction": 1.0339831879661143
+  },
+  {
+    "CURE_error": 0.0071126112420609846,
+    "CURE_minus_baseline": -0.00012590573445458737,
+    "baseline_error": 0.007238516976515572,
+    "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+    "objects": 2192,
+    "omitted_recording_index": 7,
+    "percent_error_reduction": 1.739385772846458
+  }
+]

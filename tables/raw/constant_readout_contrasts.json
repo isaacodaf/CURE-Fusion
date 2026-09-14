@@ -1,0 +1,398 @@
+[
+  {
+    "CURE": 1.7017693768361282,
+    "baseline": "fit_global_mean",
+    "baseline_error": 3.0936339520070075,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3918645751708794,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -1.891875304703432,
+        -1.0653420219590553
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": true,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "RMSE",
+    "modality": "camera_removal",
+    "relative_error_reduction_percent": 44.99124966830357,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        36.41067776518681,
+        56.92030945274049
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 1.2722233995848446,
+    "baseline": "fit_global_mean",
+    "baseline_error": 2.60349914585004,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3312757462651952,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -1.889380505489188,
+        -1.0304965623924958
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "MAE",
+    "modality": "camera_removal",
+    "relative_error_reduction_percent": 51.134095756752586,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        42.75141921795284,
+        64.1165476165479
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 0.024267386356819486,
+    "baseline": "fit_global_mean",
+    "baseline_error": 0.024814152953480762,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0005467665966612766,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -0.000969304125214927,
+        0.00013531183028629435
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "RMSE",
+    "modality": "radar_thinning",
+    "relative_error_reduction_percent": 2.2034465479692344,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -0.6126307466691527,
+        3.953606854626268
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 0.00736010705825726,
+    "baseline": "fit_global_mean",
+    "baseline_error": 0.009486717164250634,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.002126610105993374,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -0.0027087658259827294,
+        -0.0017461896094301784
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "MAE",
+    "modality": "radar_thinning",
+    "relative_error_reduction_percent": 22.416712432486197,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        16.363827410197135,
+        34.80566004799685
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 1.7017693768361282,
+    "baseline": "fit_global_median",
+    "baseline_error": 3.106720686530328,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.4049513096941997,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -1.7324667117383268,
+        -1.0611065047914146
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "RMSE",
+    "modality": "camera_removal",
+    "relative_error_reduction_percent": 45.222968250270625,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        36.30723583703755,
+        54.93200612843153
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 1.2722233995848446,
+    "baseline": "fit_global_median",
+    "baseline_error": 2.613362853841997,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3411394542571524,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -1.7747791509606405,
+        -1.034822536715876
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "MAE",
+    "modality": "camera_removal",
+    "relative_error_reduction_percent": 51.31853207010637,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        43.159379824959785,
+        62.34890405328059
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 0.024267386356819486,
+    "baseline": "fit_global_median",
+    "baseline_error": 0.02458944267490187,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.00032205631808238447,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -0.0005646518791197392,
+        0.0005681987585958351
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 1,
+    "leave_one_out_lower_error_count": 7,
+    "leave_one_out_undefined_count": 0,
+    "metric": "RMSE",
+    "modality": "radar_thinning",
+    "relative_error_reduction_percent": 1.3097341096352078,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -2.9250904662513584,
+        2.724498783319863
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 0.00736010705825726,
+    "baseline": "fit_global_median",
+    "baseline_error": 0.006593751475508282,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0007663555827489782,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        0.0003629564006456098,
+        0.0009076565709242987
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 8,
+    "leave_one_out_lower_error_count": 0,
+    "leave_one_out_undefined_count": 0,
+    "metric": "MAE",
+    "modality": "radar_thinning",
+    "relative_error_reduction_percent": -11.622451734729712,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -14.018646337471386,
+        -5.230021577512614
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 1.7017693768361282,
+    "baseline": "zero",
+    "baseline_error": 11.705752717769888,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.003983340933761,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -10.447603533535863,
+        -8.288563425493034
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "RMSE",
+    "modality": "camera_removal",
+    "relative_error_reduction_percent": 85.46211065732867,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        82.1690889161435,
+        86.97970658740316
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 1.2722233995848446,
+    "baseline": "zero",
+    "baseline_error": 11.289562177109557,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.017338777524714,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -10.494293282394061,
+        -8.314504489039718
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 0,
+    "leave_one_out_lower_error_count": 8,
+    "leave_one_out_undefined_count": 0,
+    "metric": "MAE",
+    "modality": "camera_removal",
+    "relative_error_reduction_percent": 88.73097663464422,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        86.20764252585428,
+        89.76017166864912
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 0.024267386356819486,
+    "baseline": "zero",
+    "baseline_error": 0.02462646948484069,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.0003590831280212044,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -0.0006233964953692628,
+        0.0005536650139161753
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 1,
+    "leave_one_out_lower_error_count": 7,
+    "leave_one_out_undefined_count": 0,
+    "metric": "RMSE",
+    "modality": "radar_thinning",
+    "relative_error_reduction_percent": 1.4581185835113142,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -2.840808261315458,
+        3.0237172937806474
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  },
+  {
+    "CURE": 0.00736010705825726,
+    "baseline": "zero",
+    "baseline_error": 0.006577789704143582,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0007823173541136787,
+    "difference_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        0.00036267372267455446,
+        0.0009110037247836116
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    },
+    "historically_selected_descriptive_contrast": false,
+    "leave_one_out_equal_error_count": 0,
+    "leave_one_out_higher_error_count": 8,
+    "leave_one_out_lower_error_count": 0,
+    "leave_one_out_undefined_count": 0,
+    "metric": "MAE",
+    "modality": "radar_thinning",
+    "relative_error_reduction_percent": -11.89331658962689,
+    "relative_reduction_bootstrap": {
+      "defined_draws": 2000,
+      "percentile_95": [
+        -13.943334862482537,
+        -5.325994158835612
+      ],
+      "policy": "All draws retained; interval unavailable if any draw is undefined",
+      "undefined_draws": 0
+    }
+  }
+]

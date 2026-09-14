@@ -1,0 +1,386 @@
+[
+  {
+    "AP_percent": 80.60568843901885,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "person",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 81.64297324577647,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "bicycle",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "slidecar",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "doll",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 2.632541903485749e-05,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "person",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0542637023472078,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "bicycle",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "slidecar",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "doll",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 80.60568843901885,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "person",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 81.64297324577647,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "bicycle",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "slidecar",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "doll",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 80.60568843901885,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "person",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 81.64297324577647,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "bicycle",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "slidecar",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "frozen_unadapted_pretrained_reference",
+    "class_name": "doll",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 83.2449159413077,
+    "arm": "task_only",
+    "class_name": "person",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 82.01559814586074,
+    "arm": "task_only",
+    "class_name": "bicycle",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 39.946699772009865,
+    "arm": "task_only",
+    "class_name": "slidecar",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 44.106471484414186,
+    "arm": "task_only",
+    "class_name": "doll",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 0.006963211916911644,
+    "arm": "task_only",
+    "class_name": "person",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.007809890607713401,
+    "arm": "task_only",
+    "class_name": "bicycle",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "task_only",
+    "class_name": "slidecar",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "task_only",
+    "class_name": "doll",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 83.34499343526618,
+    "arm": "task_only",
+    "class_name": "person",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 81.80073201213095,
+    "arm": "task_only",
+    "class_name": "bicycle",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 36.818521306424145,
+    "arm": "task_only",
+    "class_name": "slidecar",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 43.836399259137984,
+    "arm": "task_only",
+    "class_name": "doll",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 83.2186646694185,
+    "arm": "task_only",
+    "class_name": "person",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 82.07371253074375,
+    "arm": "task_only",
+    "class_name": "bicycle",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 39.287179130905855,
+    "arm": "task_only",
+    "class_name": "slidecar",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 44.17192674811768,
+    "arm": "task_only",
+    "class_name": "doll",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 83.07143634821811,
+    "arm": "cure",
+    "class_name": "person",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 82.22146427516444,
+    "arm": "cure",
+    "class_name": "bicycle",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 35.614346319943465,
+    "arm": "cure",
+    "class_name": "slidecar",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 44.96685404105169,
+    "arm": "cure",
+    "class_name": "doll",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 0.012647191270752771,
+    "arm": "cure",
+    "class_name": "person",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.10816740245651084,
+    "arm": "cure",
+    "class_name": "bicycle",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "cure",
+    "class_name": "slidecar",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "cure",
+    "class_name": "doll",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 82.75821700610469,
+    "arm": "cure",
+    "class_name": "person",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 82.02879044105595,
+    "arm": "cure",
+    "class_name": "bicycle",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 33.35415466056054,
+    "arm": "cure",
+    "class_name": "slidecar",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 43.197416434845294,
+    "arm": "cure",
+    "class_name": "doll",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 82.9958742925395,
+    "arm": "cure",
+    "class_name": "person",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 82.26019783248147,
+    "arm": "cure",
+    "class_name": "bicycle",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 35.632622344947876,
+    "arm": "cure",
+    "class_name": "slidecar",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 44.89271932736399,
+    "arm": "cure",
+    "class_name": "doll",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 83.06752945066937,
+    "arm": "modality_dropout",
+    "class_name": "person",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 82.41052014955551,
+    "arm": "modality_dropout",
+    "class_name": "bicycle",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 37.96609468196074,
+    "arm": "modality_dropout",
+    "class_name": "slidecar",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 43.52079227732574,
+    "arm": "modality_dropout",
+    "class_name": "doll",
+    "condition": "clean"
+  },
+  {
+    "AP_percent": 0.2418511104749091,
+    "arm": "modality_dropout",
+    "class_name": "person",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.05243880950912386,
+    "arm": "modality_dropout",
+    "class_name": "bicycle",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "modality_dropout",
+    "class_name": "slidecar",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 0.0,
+    "arm": "modality_dropout",
+    "class_name": "doll",
+    "condition": "camera_removed"
+  },
+  {
+    "AP_percent": 82.97643427813689,
+    "arm": "modality_dropout",
+    "class_name": "person",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 82.10733769833489,
+    "arm": "modality_dropout",
+    "class_name": "bicycle",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 38.69164874468504,
+    "arm": "modality_dropout",
+    "class_name": "slidecar",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 43.12358955278825,
+    "arm": "modality_dropout",
+    "class_name": "doll",
+    "condition": "radar_removed"
+  },
+  {
+    "AP_percent": 83.09675970562374,
+    "arm": "modality_dropout",
+    "class_name": "person",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 82.25692126676005,
+    "arm": "modality_dropout",
+    "class_name": "bicycle",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 37.341274446462485,
+    "arm": "modality_dropout",
+    "class_name": "slidecar",
+    "condition": "radar_thinned_fresh"
+  },
+  {
+    "AP_percent": 43.44313775480611,
+    "arm": "modality_dropout",
+    "class_name": "doll",
+    "condition": "radar_thinned_fresh"
+  }
+]

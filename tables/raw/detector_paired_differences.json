@@ -1,0 +1,46 @@
+[
+  {
+    "CI_withheld_if_any_missing_class": true,
+    "condition": "clean",
+    "p_value": null,
+    "paired_CURE_minus_task_only_pp": -0.8598960898036023,
+    "pointwise95_interval_pp": null,
+    "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
+    "status": "complete_descriptive_conditional_bootstrap",
+    "undefined_draws": 660,
+    "valid_draws": 1340
+  },
+  {
+    "CI_withheld_if_any_missing_class": true,
+    "condition": "camera_removed",
+    "p_value": null,
+    "paired_CURE_minus_task_only_pp": 0.026510372800659647,
+    "pointwise95_interval_pp": null,
+    "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
+    "status": "complete_descriptive_conditional_bootstrap",
+    "undefined_draws": 660,
+    "valid_draws": 1340
+  },
+  {
+    "CI_withheld_if_any_missing_class": true,
+    "condition": "radar_removed",
+    "p_value": null,
+    "paired_CURE_minus_task_only_pp": -1.1155168675981986,
+    "pointwise95_interval_pp": null,
+    "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
+    "status": "complete_descriptive_conditional_bootstrap",
+    "undefined_draws": 660,
+    "valid_draws": 1340
+  },
+  {
+    "CI_withheld_if_any_missing_class": true,
+    "condition": "radar_thinned_fresh",
+    "p_value": null,
+    "paired_CURE_minus_task_only_pp": -0.742517320463143,
+    "pointwise95_interval_pp": null,
+    "scope": "Pointwise exploratory sequence-resampling uncertainty conditional on this one fitted seed and eight reused development sequences; not simultaneous/confirmatory or seed variability",
+    "status": "complete_descriptive_conditional_bootstrap",
+    "undefined_draws": 660,
+    "valid_draws": 1340
+  }
+]

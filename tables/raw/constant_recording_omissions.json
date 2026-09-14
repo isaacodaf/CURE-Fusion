@@ -1,0 +1,962 @@
+[
+  {
+    "CURE": 1.7083631533649923,
+    "baseline_error": 3.122787546969273,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.4144243936042808,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 45.293647817220474,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7405452111438566,
+    "baseline_error": 3.1499860145083605,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.4094408033645038,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 44.74435114546008,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7351115690204393,
+    "baseline_error": 3.030282280469123,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.295170711448684,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 42.74092614395568,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.6744659191012088,
+    "baseline_error": 3.066972551613369,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3925066325121602,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 45.40329621729538,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7074959412844974,
+    "baseline_error": 3.0976486622063035,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.390152720921806,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 44.87767569907907,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.712482156305769,
+    "baseline_error": 3.1217877175149735,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.4093055612092045,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 45.14418303660472,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.694480332916121,
+    "baseline_error": 3.08603690882626,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.391556575910139,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 45.09202634389108,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.6432096928151212,
+    "baseline_error": 3.0900077658314786,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.4467980730163574,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 46.821826437288706,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.272098690369735,
+    "baseline_error": 2.627686422963466,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.355587732593731,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 51.58864165629471,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.3021304636775712,
+    "baseline_error": 2.6567452810930434,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3546148174154722,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 50.98775660036756,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.300340501907024,
+    "baseline_error": 2.5245675077727454,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.2242270058657214,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 48.49254385539382,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2585556024493594,
+    "baseline_error": 2.5841894935743834,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.325633891125024,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 51.29785932576647,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2775282490650335,
+    "baseline_error": 2.6075611984954348,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3300329494304013,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 51.006777911783296,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2749887525292782,
+    "baseline_error": 2.682022291404679,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.4070335388754007,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 52.46166459483388,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2658652439202134,
+    "baseline_error": 2.592783825128816,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3269185812086028,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 51.17737037497441,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2255837718283173,
+    "baseline_error": 2.6018758965666966,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -1.3762921247383793,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 52.89614798901303,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02019679307440199,
+    "baseline_error": 0.020674064209732404,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0004772711353304149,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 2.3085501258419128,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.025107796375895226,
+    "baseline_error": 0.025647618136600325,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.000539821760705099,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 2.104763716575886,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02510368102994577,
+    "baseline_error": 0.025644909836087866,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0005412288061420953,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 2.1104726419449937,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02428067675024356,
+    "baseline_error": 0.024842723658389493,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0005620469081459335,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 2.262420642255658,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.024402799678300648,
+    "baseline_error": 0.024945805553775582,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0005430058754749348,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 2.1767421954138944,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02975716489577271,
+    "baseline_error": 0.030145762268381567,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0003885973726088579,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 1.2890613584398802,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.024425325994179306,
+    "baseline_error": 0.024966228728261403,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0005409027340820965,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 2.1665376055367225,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02374581020412143,
+    "baseline_error": 0.02445947170989479,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0007136615057733581,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 2.9177306617160337,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.006983212400600468,
+    "baseline_error": 0.009088435087114759,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.002105222686514291,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 23.163753345160565,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007745169723961349,
+    "baseline_error": 0.00982390703663607,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.002078737312674722,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 21.159985583358377,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007644444170724997,
+    "baseline_error": 0.009777561806143897,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0021331176354189,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 21.816457698876622,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007234082367327629,
+    "baseline_error": 0.009372407869644214,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.002138325502316585,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 22.815113597886537,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007430673716888669,
+    "baseline_error": 0.00953094104180462,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.002100267324915951,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 22.036305918835897,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007292060878935733,
+    "baseline_error": 0.009411656602402898,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.002119595723467165,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 22.520963237502833,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007391569318646865,
+    "baseline_error": 0.009496426182543321,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0021048568638964565,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 22.16472621843448,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.0071126112420609846,
+    "baseline_error": 0.009351424140534678,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+    "difference_CURE_minus_baseline": -0.0022388128984736936,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 23.940876435807635,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7083631533649923,
+    "baseline_error": 3.1288710235248396,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.4205078701598473,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 45.40001359850141,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7405452111438566,
+    "baseline_error": 3.1735546561953023,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.4330094450514457,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 45.154711366132446,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7351115690204393,
+    "baseline_error": 3.069390255837405,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3342786868169656,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 43.47048031052479,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.6744659191012088,
+    "baseline_error": 3.082878418705812,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.408412499604603,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 45.684983587379115,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7074959412844974,
+    "baseline_error": 3.108315651393274,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.4008197101087767,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 45.06684221343067,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.712482156305769,
+    "baseline_error": 3.048649042264641,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3361668859588718,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 43.828163472904095,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.694480332916121,
+    "baseline_error": 3.099570985449004,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.405090652532883,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 45.33177846641062,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.6432096928151212,
+    "baseline_error": 3.105651665117901,
+    "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.46244197230278,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 47.08969742900193,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.272098690369735,
+    "baseline_error": 2.628158257936094,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3560595675663587,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 51.59733297915169,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.3021304636775712,
+    "baseline_error": 2.6806970986213474,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3785666349437762,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 51.42567713647161,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.300340501907024,
+    "baseline_error": 2.5560247611999514,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.2556842592929274,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 49.12645129084876,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2585556024493594,
+    "baseline_error": 2.595521553309277,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3369659508599174,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 51.5104931089974,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2775282490650335,
+    "baseline_error": 2.614343994169698,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3368157451046645,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 51.133888581071375,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2749887525292782,
+    "baseline_error": 2.628392707991033,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.353403955461755,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 51.49169495665684,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2658652439202134,
+    "baseline_error": 2.602778460741717,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3369132168215037,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 51.364848641037305,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2255837718283173,
+    "baseline_error": 2.6111276333567,
+    "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -1.3855438615283828,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 53.06304616550725,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02019679307440199,
+    "baseline_error": 0.020527982140731312,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.0003311890663293231,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 1.6133542208816687,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.025107796375895226,
+    "baseline_error": 0.025445079142148577,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.0003372827662533502,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 1.3255323922127582,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02510368102994577,
+    "baseline_error": 0.02544240883265927,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.0003387278027135003,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 1.3313511505195663,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02428067675024356,
+    "baseline_error": 0.024635619937692102,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.0003549431874485427,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 1.4407722977796245,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.024402799678300648,
+    "baseline_error": 0.024726633122758843,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.000323833444458195,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 1.3096544234327379,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02975716489577271,
+    "baseline_error": 0.029670668611259738,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 8.649628451297062e-05,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": -0.29152118425854745,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.024425325994179306,
+    "baseline_error": 0.02476025511212608,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.00033492911794677505,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 1.352688477683528,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02374581020412143,
+    "baseline_error": 0.0241809939623199,
+    "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": -0.000435183758198468,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 1.799693424003146,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.006983212400600468,
+    "baseline_error": 0.006196472661745682,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0007867397388547854,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": -12.696574031735386,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007745169723961349,
+    "baseline_error": 0.006953912441406195,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0007912572825551538,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": -11.378591393295556,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007644444170724997,
+    "baseline_error": 0.006854601092735662,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0007898430779893348,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": -11.522816095401822,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007234082367327629,
+    "baseline_error": 0.006470101402809072,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0007639809645185562,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": -11.80786693987308,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007430673716888669,
+    "baseline_error": 0.006655423582475102,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.000775250134413567,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": -11.64839660175705,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007292060878935733,
+    "baseline_error": 0.006615979886230921,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0006760809927048115,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": -10.218909433383573,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007391569318646865,
+    "baseline_error": 0.006616925893743967,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.0007746434249028978,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": -11.70699864774505,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.0071126112420609846,
+    "baseline_error": 0.0064011434180004335,
+    "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+    "difference_CURE_minus_baseline": 0.000711467824060551,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": -11.114699009240404,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7083631533649923,
+    "baseline_error": 11.643225982777574,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -9.934862829412582,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 85.32740706147962,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7405452111438566,
+    "baseline_error": 11.830518222211877,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.08997301106802,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 85.287667214138,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7351115690204393,
+    "baseline_error": 11.942731736143733,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.207620167123293,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 85.4714012894616,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.6744659191012088,
+    "baseline_error": 11.725836562782758,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.05137064368155,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 85.71985964382377,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.7074959412844974,
+    "baseline_error": 11.682492223332238,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -9.97499628204774,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 85.38414656185867,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.712482156305769,
+    "baseline_error": 10.81343155599174,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -9.10094939968597,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 84.1633791508406,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.694480332916121,
+    "baseline_error": 11.707932871512766,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.013452538596644,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 85.52707509077835,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.6432096928151212,
+    "baseline_error": 11.730431374429205,
+    "contrast": "camera_removal/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.087221681614084,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 85.99190737011511,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.272098690369735,
+    "baseline_error": 11.216952741539517,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -9.944854051169782,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 88.65914192845979,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.3021304636775712,
+    "baseline_error": 11.40391481393862,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.101784350261049,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 88.58172404018644,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.300340501907024,
+    "baseline_error": 11.554670565584873,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.254330063677848,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 88.74619146840901,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2585556024493594,
+    "baseline_error": 11.317649436912152,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.059093834462793,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 88.87970855198412,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2775282490650335,
+    "baseline_error": 11.264393531984465,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -9.986865282919432,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 88.65870368042825,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2749887525292782,
+    "baseline_error": 10.392794648761253,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -9.117805896231975,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": 87.73199321626886,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2658652439202134,
+    "baseline_error": 11.293897625126567,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.028032381206353,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 88.79159980072842,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 1.2255837718283173,
+    "baseline_error": 11.31614296703878,
+    "contrast": "camera_removal/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -10.090559195210464,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 89.16959802117957,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02019679307440199,
+    "baseline_error": 0.02058765734292359,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.00039086426852160197,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": 1.8985368855284124,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.025107796375895226,
+    "baseline_error": 0.025482698335180923,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.0003749019592856964,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": 1.4712019675252153,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02510368102994577,
+    "baseline_error": 0.02548003935366453,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.0003763583237187604,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": 1.4770712026574317,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02428067675024356,
+    "baseline_error": 0.024674727765935878,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.0003940510156923184,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": 1.5969822217707152,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.024402799678300648,
+    "baseline_error": 0.024763993135979368,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.00036119345767872055,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": 1.4585428759223196,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02975716489577271,
+    "baseline_error": 0.029665132268675856,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 9.203262709685245e-05,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": -0.31023838445525254,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.024425325994179306,
+    "baseline_error": 0.02479917842723655,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.00037385243305724375,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": 1.5075194291382155,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.02374581020412143,
+    "baseline_error": 0.024212378055321688,
+    "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": -0.0004665678512002572,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": 1.9269806961307978,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.006983212400600468,
+    "baseline_error": 0.00617838670968742,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0008048256909130476,
+    "omitted_recording": "Dataset_2024-03-19-15-35-57",
+    "relative_error_reduction_percent": -13.02646999500887,
+    "remaining_objects": 2424,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007745169723961349,
+    "baseline_error": 0.0069313643844952574,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0008138053394660914,
+    "omitted_recording": "Dataset_2024-03-21-16-07-05",
+    "relative_error_reduction_percent": -11.740911230788686,
+    "remaining_objects": 2353,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007644444170724997,
+    "baseline_error": 0.006837699540613338,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0008067446301116589,
+    "omitted_recording": "Dataset_2024-03-21-16-12-18",
+    "relative_error_reduction_percent": -11.798480253773992,
+    "remaining_objects": 2350,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007234082367327629,
+    "baseline_error": 0.006455174910770071,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0007789074565575579,
+    "omitted_recording": "Dataset_2024-07-24-14-41-29",
+    "relative_error_reduction_percent": -12.066403580451368,
+    "remaining_objects": 2475,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007430673716888669,
+    "baseline_error": 0.00664086517002964,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0007898085468590289,
+    "omitted_recording": "Dataset_2024-07-24-14-54-03",
+    "relative_error_reduction_percent": -11.893157391953245,
+    "remaining_objects": 2493,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007292060878935733,
+    "baseline_error": 0.0066201552078402085,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0006719056710955242,
+    "omitted_recording": "Dataset_2024-07-29-21-21-31",
+    "relative_error_reduction_percent": -10.149394538360523,
+    "remaining_objects": 883,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.007391569318646865,
+    "baseline_error": 0.0066044246523160165,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0007871446663308482,
+    "omitted_recording": "Dataset_2024-08-05-11-13-52",
+    "relative_error_reduction_percent": -11.918444191119892,
+    "remaining_objects": 2477,
+    "remaining_recordings": 7
+  },
+  {
+    "CURE": 0.0071126112420609846,
+    "baseline_error": 0.006380820949923037,
+    "contrast": "radar_thinning/MAE/CURE_vs_zero",
+    "difference_CURE_minus_baseline": 0.0007317902921379479,
+    "omitted_recording": "Dataset_2024-08-05-11-23-01",
+    "relative_error_reduction_percent": -11.468591547718866,
+    "remaining_objects": 2192,
+    "remaining_recordings": 7
+  }
+]
