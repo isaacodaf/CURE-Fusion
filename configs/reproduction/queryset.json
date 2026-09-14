@@ -1,0 +1,284 @@
+{
+  "action_bank": [
+    "task_only",
+    "cure"
+  ],
+  "additional_information": "deterministic learned representation of same tokens every selector receives",
+  "admission_shared_source_paths": [
+    "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json",
+    "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V3.json",
+    "code/cure_fusion/__init__.py",
+    "code/cure_fusion/csu_action_queryset_v2.py",
+    "code/cure_fusion/csu_action_rules_v1.py",
+    "code/cure_fusion/csu_action_v1.py",
+    "code/cure_fusion/csu_queryset_inputs_v2.py",
+    "code/cure_fusion/dfine_cure_development_v2.py",
+    "code/cure_fusion/dfine_cure_losses_v1.py",
+    "code/cure_fusion/dfine_cure_losses_v2.py",
+    "code/cure_fusion/dfine_cure_v1.py",
+    "code/cure_fusion/dfine_cure_v2.py",
+    "code/cure_fusion/metrics.py",
+    "code/cure_fusion/model.py",
+    "code/cure_fusion/statistics.py",
+    "code/cure_fusion/utility.py",
+    "code/scripts/run_csu_action_development_cuda_v1.py",
+    "code/scripts/run_csu_action_queryset_development_v2.py",
+    "code/scripts/train_dfine_cure_development_cuda_v2.py"
+  ],
+  "auxiliary_diagnostic": "gain-weighted wrong-action regret; not an AP bound or objective change",
+  "capture_cache_report_sha256": "5f9bd7af2d92d30b60efd5aa54b8575f26fef4ef0dbeb7ab9036dbcc860c0885",
+  "checkpoints": {
+    "cure": {
+      "checkpoint_sha256": "dbf3106a79a08f15b5ccc2c9e6c37d11c197e79a37a5934f75ff5a81c3ace6b7",
+      "detector_seed": 11,
+      "epoch": 40,
+      "path": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/cure/epoch_040/checkpoint.pt",
+      "retrained_in_this_phase": false,
+      "state_sha256": "a159ed4bb7eb3dd5a47a9b0020e760a2d0357a711b4f213a1640276f42d6ae01"
+    },
+    "modality_dropout": {
+      "checkpoint_sha256": "d9730ca89397629b5f984e5b4eafb606204c709a3e78e8a9ea54b7f8b5cecf6c",
+      "detector_seed": 11,
+      "epoch": 40,
+      "path": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/modality_dropout/epoch_040/checkpoint.pt",
+      "retrained_in_this_phase": false,
+      "state_sha256": "8d089b9025b82dbc673758c4b4cd1c5cd4ec21f68c1247c3ad9e5fe5ee447558"
+    },
+    "task_only": {
+      "checkpoint_sha256": "51dd57ae87b16aaafb11ecb933b8b7a16cc76a30c9350d98dcf12f26729bd879",
+      "detector_seed": 11,
+      "epoch": 40,
+      "path": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/task_only/epoch_040/checkpoint.pt",
+      "retrained_in_this_phase": false,
+      "state_sha256": "a0721dbc7ab0e1219bef6dff50bbd3475f2af15307f3596ae916ee004d239f63"
+    }
+  },
+  "condition_weights": [
+    1,
+    0.08333333333333333,
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "conditions": [
+    "clean",
+    "camera_removed",
+    "radar_removed",
+    "radar_thinned_fresh"
+  ],
+  "controller_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "created_utc": "2026-09-13T16:46:54.597068+00:00",
+  "declared_rule_count": 9,
+  "declared_rules": [
+    "task_only",
+    "cure",
+    "modality_dropout",
+    "positive_mean",
+    "fitting_RMS_margin",
+    "confidence",
+    "utility_input_selector",
+    "zero_input_selector",
+    "permuted_input_selector"
+  ],
+  "detector_forward_calls": 0,
+  "empirical_calibration": {
+    "calibration_sequences": 9,
+    "changes_policy": false,
+    "coverage_scope": "reused empirical development coverage only; no latent CSU or distribution-free claim",
+    "rule": "maximum of nine sequence maxima of absolute action-gain residual across all four conditions"
+  },
+  "evaluation": {
+    "AP_after_all_seeds_and_learned_arms_finished": true,
+    "AP_interval": "withhold when required-class support absent under declared resampling;do notblockpointAP",
+    "all_declared_rows_conditions_retained": true,
+    "all_empty_frames_and_all_four_classes": true,
+    "native_postprocess": "unchanged chosen82-channel sigmoid/globaltop300 then taskmap; no querywise mixing/rescoring/NMS",
+    "primary_metric": "COCO four-class AP@[.50:.95]",
+    "risk_bootstrap": {
+      "draws": 2000,
+      "estimand": "equal-recording mean selected frame risk minus task risk",
+      "interval": "pointwise percentile2.5/97.5; not AP",
+      "seed": 9132026
+    },
+    "secondary_metrics": [
+      "AP50",
+      "AP75",
+      "per-class AP",
+      "frame-risk RMSE",
+      "frame-risk MAE",
+      "sign quality",
+      "selection frequency",
+      "harmful-selection frequency",
+      "selected action risk"
+    ],
+    "seed_summary": "all5 values then mean and std; neverbestseed",
+    "total_cost": "two frozen detector actions+fixed predictor+selector; old single-endpoint timing notsubstitute"
+  },
+  "files": {
+    "QA/csu_action_development_protocol_20260913/ROLES_V1.json": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+    "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2",
+    "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V3.json": "5d0c115f264685956029ed672735aa0814e2ae440c894d5eff4eb40c1f0f7ba2",
+    "QA/csu_sensor_head_control_study_independent_20260913/actual_v2/ACTUAL_REVIEW_V1.json": "84fb31301cfaf7f83ca5aba2c3757e3ff183dd7456929b57e750a373282b2c1e",
+    "QA/dfine_cure_development_protocol_20260913/SPLITS_V1.json": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04",
+    "QA/rtdetr_native_admission_independent_20260913/actual_full_v2/results/ACTUAL_REVIEW_V1.json": "08f59c8440d1ae5d37a90b5bf0d6b396cb86dbf3254b039791163852ff4d7bf1",
+    "QA/rtdetr_native_admission_preparation_20260913/CHECKPOINT_TENSOR_INVENTORY_V1.json": "829470c4b572ff09ad51507291197b9a215c486ef96d82c5877b8bef66304218",
+    "QA/rtdetr_native_overfit_preparation_20260913/BATCH_SCHEDULES_V1.json": "a166f6385d961788ddac54f7173a44e008ef8eb54bf0b2980a97fb147227e44a",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/ARTIFACT_HASHES.json": "4b6d893be6f52633d0dcb31fcc71c6a8446ade968d0dba75a884801753fb5cdb",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/REPORT.json": "74b4972bb069aad9459eb2f4a7fb85389dafff7b7d55dba056cf7be1914659ee",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/protocol.json": "0594f6be86b880c2b1224c3ed432d12cb59e17c4d54ea48f57e61925c78155cb",
+    "QA/rtdetr_native_root_preparation_20260913/AUTHOR_SOURCE_EXTRACTION_V1.json": "f4d0610eae7b9d86ab0465c204481920f85661033af60c2c7363f95ad592bcbb",
+    "code/cure_fusion/__init__.py": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e",
+    "code/cure_fusion/coco_ap_kernel.py": "857c7ab0f3644e3d9ee1bd9681c7220223b8ff4b030e1d85ba3adbf4a505d0ef",
+    "code/cure_fusion/coco_cluster_bootstrap.py": "03bf0586bccecdb464c6aa16ce46ac8914649d8e14a266d7b7e011f0d9e62d13",
+    "code/cure_fusion/csu_action_queryset_v2.py": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "code/cure_fusion/csu_action_rules_v1.py": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "code/cure_fusion/csu_action_v1.py": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "code/cure_fusion/csu_queryset_inputs_v2.py": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa",
+    "code/cure_fusion/csu_sensor_head_control_v1.py": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe",
+    "code/cure_fusion/csu_task_feature_comparison_v2.py": "46c757e5db6be33ac988b90f316267fc8ec33f204303b7490f4c6deecc1b695f",
+    "code/cure_fusion/detection_metrics.py": "986723fc84d8762dfa9995a5ed39ccf125949da53614e5df3801caac26b2ebdd",
+    "code/cure_fusion/dfine_cure_absent_radar_overfit_v1.py": "d1788f4896a6562cbebd1eeaa7beaa3be541f31cd1fc21018e602ff4e28e6920",
+    "code/cure_fusion/dfine_cure_development_v2.py": "9f811db43bb3101bdc7c3ad5f5e8db648181cbf7d0310b4347518d902390743f",
+    "code/cure_fusion/dfine_cure_losses_v1.py": "6203aa00ff9efbe86bd69fc758148f304ada8910f459b3e735ee5a6d577b8117",
+    "code/cure_fusion/dfine_cure_losses_v2.py": "5e5894f295e2d51ba5f1989b489481028047ec3c4e8030bdc3f7472ebb61dba1",
+    "code/cure_fusion/dfine_cure_v1.py": "a7df62d28cd994b3a15b775d3a2c5a336f15397bbee80661ceb7de9a8fa6d42a",
+    "code/cure_fusion/dfine_cure_v2.py": "9d11fa855acf4d5b3acc7b8f50d357d4df5ac8d1a88d7204fdcc277a280f7a5e",
+    "code/cure_fusion/dfine_full_native_four_class_v2.py": "92356835b2bcc8d664b0531dfdb7bdc583dec5602b8c0d695adc1233f327fe1f",
+    "code/cure_fusion/dfine_full_native_overfit_v1.py": "12158cbf335e9133759b41e1a363dc175a9a790110e4a3d293c23979d7469144",
+    "code/cure_fusion/metrics.py": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824",
+    "code/cure_fusion/model.py": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902",
+    "code/cure_fusion/rtdetr_native_admission_v1.py": "fb56bc47acdd5fa285887f136b4527e51c66128ed1d13c8aac08e70bafe85b94",
+    "code/cure_fusion/rtdetr_native_overfit_v1.py": "c96510ce80640711bc00870b503c293f561866d99fe667373e06977be98572f5",
+    "code/cure_fusion/statistics.py": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e",
+    "code/cure_fusion/utility.py": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676",
+    "code/scripts/run_csu_action_development_cuda_v1.py": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "code/scripts/run_csu_action_queryset_development_v2.py": "7d50151fc12098ecb3c5bcc1a33ee7ffcbfe5b5db6cd5067c8e180399e3a3883",
+    "code/scripts/run_csu_sensor_head_control_cuda_v1.py": "8418cde0d29cc7d572fb01c4b61ff23cbf1a7de284dbbf10f121d18ef72c45d1",
+    "code/scripts/run_csu_sensor_head_task_features_cuda_v2.py": "104f53021c0d6f6a2ddbf9c31c1538f2d2282d35066dbf07d3bbcc711bf75033",
+    "code/scripts/run_rtdetr_native_admission_v2.py": "b8a1c711e7d9667c4a41bfae09e90966e3619faf4e5ebecfdf07ecca4a132d80",
+    "code/scripts/run_rtdetr_native_overfit_v1.py": "f5146e1ca300813df951f2bf0819cb078e103e51d46a6f52b1287d6057c90ab3",
+    "code/scripts/train_dfine_cure_development_cuda_v2.py": "3a9e1d191458ab4fa733b5550230e4665863212d74efb3ebb98bd6fa2d97c968",
+    "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+    "research/CSU_QUERYSET_STUDY_FROZEN_PROTOCOL_V2_20260913.json": "5c351c6b92e7be17f5ec65f1be1551033177d4b0a7a87f8ce8c0330d70836132",
+    "research/CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406",
+    "research/CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b",
+    "research/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b",
+    "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V2_20260913.json": "61a7d5731488aaffbad29602f8c81a251fbb7e0c626d2f109e2c6b4f6672898d",
+    "research/RTDETR_NATIVE_OVERFIT_FROZEN_PROTOCOL_V1_20260913.json": "c71c90919228f02eb1b9999bd875518c41eb7c659f586b781fb65b5d3d02ab72"
+  },
+  "fixed_rules": {
+    "confidence": "CURE iff mean over300queries of maximum fourtask sigmoid probability is strictly higher; one deterministic evaluation percondition",
+    "fitting_RMS_margin": "CURE iff mu-weighted_fitting_residual_RMS>0;kappa1;working heuristic not calibrated posterior bound",
+    "positive_mean": "CURE iff mu>0"
+  },
+  "independently_trained_detectors": 1,
+  "launch_authorized": true,
+  "mode": "study",
+  "native_checkpoint_sha256": "39361855c21f8c4757a9bb777a7ff134ae8aa110d0db67a374f081e44c2ce04b",
+  "optimizer": {
+    "batch_unit": "64 source frames, each4conditions",
+    "checkpoint_selection": "final epoch only",
+    "drop_last": false,
+    "epochs": 40,
+    "lr": 0.001,
+    "schedule": "constant in draft; final source must bind any change",
+    "type": "AdamW",
+    "updates_per_epoch": 79,
+    "updates_per_model": 3160,
+    "weight_decay": 0.0001
+  },
+  "parent_protocol_path": "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json",
+  "parent_protocol_sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+  "preparation_text_resolution": "Preserve original executed logit >0; do not substitute rounded FP32 sigmoid >0.5",
+  "prepared_execution_protocol_sha256": "b66feba1b8f577b8772e33deed90b21ed57df1ecf45ea2170e5f018f24beabb7",
+  "prepared_spec_path": "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json",
+  "prepared_spec_sha256": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2",
+  "prior_access": {
+    "all_original40fit_recordings": "Both frozen V2 endpoints were fitted on these recordings. Innercal is held out only from NEW predictor/selector fitting, not from endpoint learning.",
+    "original8development": "Previously evaluated and previously used in earlier model development. Explicitly reused exploratory evaluation; not an independent final test."
+  },
+  "production_token_numpy": "2.1.3",
+  "public_reproduction": {
+    "changes": [
+      "Replace historical source/narrative/log guard inventory with included research source and machine-readable execution metadata only"
+    ],
+    "new_training_executed_by_packaging": false,
+    "original_protocol_sha256": "5c351c6b92e7be17f5ec65f1be1551033177d4b0a7a87f8ce8c0330d70836132",
+    "scientific_fields_unchanged": true,
+    "scope": "Portable reproduction declaration; original completed execution remains unchanged"
+  },
+  "reference_outside_bank": "modality_dropout",
+  "reference_sigmoid_function_used": false,
+  "requires_actual_admission": {
+    "exact_shared_source": true,
+    "exact_token_manifest": true,
+    "load_admission_parameters": false,
+    "report_and_complete_manifest": "external observed hashes; all payloads verified before and after",
+    "status": "passed_queryset_four_model_single_step_CUDA_admission_only"
+  },
+  "role_manifest": "QA/csu_action_development_protocol_20260913/ROLES_V1.json",
+  "role_sha256": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+  "roles": {
+    "controller_fit": {
+      "frames": 5050,
+      "sequences": 31
+    },
+    "inner_calibration": {
+      "frames": 1130,
+      "sequences": 9
+    },
+    "reused_development": {
+      "frames": 992,
+      "sequences": 8
+    }
+  },
+  "runtime": {
+    "TF32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "device": "A100 CUDA only",
+    "full_detector_latency_claim": false,
+    "model_precision": "FP32",
+    "python_torch_numpy_scipy_pycocotools_versions": "record actual values in REPORT"
+  },
+  "saved_artifacts": [
+    "INITIAL.pt",
+    "FINAL.pt",
+    "OPTIMIZER.pt",
+    "FINAL_STEP_BEFORE.pt",
+    "all update indices/losses/LRs",
+    "first/final predictions/all gradients/two token probes",
+    "all role means/extras/logits/choices",
+    "unchanged chosen-output AP/equal-sequence risk"
+  ],
+  "selection_decision": "rule_logit > 0; exact zero chooses task-only",
+  "selector_parameters": 26305,
+  "source_review": {
+    "path": "QA/csu_queryset_runner_independent_20260913/SOURCE_REVIEW_V2.json",
+    "sha256": "4fc61b49277c18c9bdb9dfc2cd9eeef5b369fa6c940b2b7fdc1f59b9095612bf"
+  },
+  "status": "frozen_richer_query_execution_after_source_review",
+  "thinning": {
+    "draw": 0,
+    "exact_stream_salt_seed_to_be_bound_by_root_capture_source": true,
+    "exact_stream_tag": "csu_action_development_v1_fresh",
+    "helper": "dfine_cure_development_v2.thinning_mask",
+    "keep_probability": 0.5,
+    "new_streams_separate_from_original_fit_and_fresh_draws": true,
+    "same_captured_mask_for_all_actions_arms_and_controller_seeds": true,
+    "seed": 9131311
+  },
+  "token_arithmetic": "CPU NumPy FP64 exp(-logaddexp(0,-saved FP32 logits)); cast once FP32; raw boxes copied exactly",
+  "token_authority": "bound FP32 files, original raw boxes and native detections unchanged",
+  "token_preparation_spec_path": "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V3.json",
+  "token_preparation_spec_sha256": "5d0c115f264685956029ed672735aa0814e2ae440c894d5eff4eb40c1f0f7ba2",
+  "total_models": 20,
+  "total_optimizer_updates": 63200,
+  "utility_parameters": 26241,
+  "version": 2
+}

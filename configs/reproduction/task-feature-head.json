@@ -1,0 +1,247 @@
+{
+  "AP": false,
+  "admission_empty_frames": 13,
+  "admission_frames": 64,
+  "admission_objects": 131,
+  "admission_sample_ids": [
+    "train/002188",
+    "train/016724",
+    "train/003705",
+    "train/017138",
+    "train/003754",
+    "train/002193",
+    "train/027586",
+    "train/017249",
+    "train/024705",
+    "train/025965",
+    "train/000877",
+    "train/016894",
+    "train/027700",
+    "train/021005",
+    "train/017062",
+    "train/027987",
+    "train/004914",
+    "train/017220",
+    "train/017189",
+    "train/019057",
+    "train/000386",
+    "train/019424",
+    "train/000414",
+    "train/011661",
+    "train/005000",
+    "train/002616",
+    "train/000696",
+    "train/002951",
+    "train/004966",
+    "train/005339",
+    "train/027513",
+    "train/005206",
+    "train/016505",
+    "train/017307",
+    "train/000244",
+    "train/017106",
+    "train/019033",
+    "train/000326",
+    "train/002677",
+    "train/000397",
+    "train/013132",
+    "train/019417",
+    "train/025175",
+    "train/004621",
+    "train/027796",
+    "train/000728",
+    "train/013182",
+    "train/010371",
+    "train/000842",
+    "train/002170",
+    "train/003018",
+    "train/025165",
+    "train/017102",
+    "train/000900",
+    "train/005184",
+    "train/007590",
+    "train/017147",
+    "train/017166",
+    "train/004021",
+    "train/002883",
+    "train/017265",
+    "train/016441",
+    "train/027692",
+    "train/000220"
+  ],
+  "cache_report_sha256": "5f9bd7af2d92d30b60efd5aa54b8575f26fef4ef0dbeb7ab9036dbcc860c0885",
+  "clean_factual_only": true,
+  "comparison_join": [
+    "identity",
+    "original_annotation_object_index"
+  ],
+  "comparison_readouts": [
+    "fresh_head_on_Task_features",
+    "fresh_head_on_CURE_features",
+    "original_saved_CURE_head",
+    "Task_head_without_utility_supervision"
+  ],
+  "created_utc": "2026-09-13T22:19:16.654193+00:00",
+  "development_frames": 992,
+  "development_objects": 2521,
+  "development_queries": "own fixed Task-only factual complete matching; never CURE historical query indices",
+  "epochs": 40,
+  "files": {
+    "QA/csu_action_development_protocol_20260913/ROLES_V1.json": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+    "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2",
+    "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V3.json": "5d0c115f264685956029ed672735aa0814e2ae440c894d5eff4eb40c1f0f7ba2",
+    "QA/csu_sensor_head_control_study_independent_20260913/actual_v2/ACTUAL_REVIEW_V1.json": "84fb31301cfaf7f83ca5aba2c3757e3ff183dd7456929b57e750a373282b2c1e",
+    "QA/dfine_cure_development_protocol_20260913/SPLITS_V1.json": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04",
+    "QA/rtdetr_native_admission_independent_20260913/actual_full_v2/results/ACTUAL_REVIEW_V1.json": "08f59c8440d1ae5d37a90b5bf0d6b396cb86dbf3254b039791163852ff4d7bf1",
+    "QA/rtdetr_native_admission_preparation_20260913/CHECKPOINT_TENSOR_INVENTORY_V1.json": "829470c4b572ff09ad51507291197b9a215c486ef96d82c5877b8bef66304218",
+    "QA/rtdetr_native_overfit_preparation_20260913/BATCH_SCHEDULES_V1.json": "a166f6385d961788ddac54f7173a44e008ef8eb54bf0b2980a97fb147227e44a",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/ARTIFACT_HASHES.json": "4b6d893be6f52633d0dcb31fcc71c6a8446ade968d0dba75a884801753fb5cdb",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/REPORT.json": "74b4972bb069aad9459eb2f4a7fb85389dafff7b7d55dba056cf7be1914659ee",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/protocol.json": "0594f6be86b880c2b1224c3ed432d12cb59e17c4d54ea48f57e61925c78155cb",
+    "QA/rtdetr_native_root_preparation_20260913/AUTHOR_SOURCE_EXTRACTION_V1.json": "f4d0610eae7b9d86ab0465c204481920f85661033af60c2c7363f95ad592bcbb",
+    "code/cure_fusion/__init__.py": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e",
+    "code/cure_fusion/coco_ap_kernel.py": "857c7ab0f3644e3d9ee1bd9681c7220223b8ff4b030e1d85ba3adbf4a505d0ef",
+    "code/cure_fusion/coco_cluster_bootstrap.py": "03bf0586bccecdb464c6aa16ce46ac8914649d8e14a266d7b7e011f0d9e62d13",
+    "code/cure_fusion/csu_action_queryset_v2.py": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "code/cure_fusion/csu_action_rules_v1.py": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "code/cure_fusion/csu_action_v1.py": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "code/cure_fusion/csu_queryset_inputs_v2.py": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa",
+    "code/cure_fusion/csu_sensor_head_control_v1.py": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe",
+    "code/cure_fusion/csu_task_feature_comparison_v2.py": "46c757e5db6be33ac988b90f316267fc8ec33f204303b7490f4c6deecc1b695f",
+    "code/cure_fusion/detection_metrics.py": "986723fc84d8762dfa9995a5ed39ccf125949da53614e5df3801caac26b2ebdd",
+    "code/cure_fusion/dfine_cure_absent_radar_overfit_v1.py": "d1788f4896a6562cbebd1eeaa7beaa3be541f31cd1fc21018e602ff4e28e6920",
+    "code/cure_fusion/dfine_cure_development_v2.py": "9f811db43bb3101bdc7c3ad5f5e8db648181cbf7d0310b4347518d902390743f",
+    "code/cure_fusion/dfine_cure_losses_v1.py": "6203aa00ff9efbe86bd69fc758148f304ada8910f459b3e735ee5a6d577b8117",
+    "code/cure_fusion/dfine_cure_losses_v2.py": "5e5894f295e2d51ba5f1989b489481028047ec3c4e8030bdc3f7472ebb61dba1",
+    "code/cure_fusion/dfine_cure_v1.py": "a7df62d28cd994b3a15b775d3a2c5a336f15397bbee80661ceb7de9a8fa6d42a",
+    "code/cure_fusion/dfine_cure_v2.py": "9d11fa855acf4d5b3acc7b8f50d357d4df5ac8d1a88d7204fdcc277a280f7a5e",
+    "code/cure_fusion/dfine_full_native_four_class_v2.py": "92356835b2bcc8d664b0531dfdb7bdc583dec5602b8c0d695adc1233f327fe1f",
+    "code/cure_fusion/dfine_full_native_overfit_v1.py": "12158cbf335e9133759b41e1a363dc175a9a790110e4a3d293c23979d7469144",
+    "code/cure_fusion/metrics.py": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824",
+    "code/cure_fusion/model.py": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902",
+    "code/cure_fusion/rtdetr_native_admission_v1.py": "fb56bc47acdd5fa285887f136b4527e51c66128ed1d13c8aac08e70bafe85b94",
+    "code/cure_fusion/rtdetr_native_overfit_v1.py": "c96510ce80640711bc00870b503c293f561866d99fe667373e06977be98572f5",
+    "code/cure_fusion/statistics.py": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e",
+    "code/cure_fusion/utility.py": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676",
+    "code/scripts/run_csu_action_development_cuda_v1.py": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "code/scripts/run_csu_action_queryset_development_v2.py": "7d50151fc12098ecb3c5bcc1a33ee7ffcbfe5b5db6cd5067c8e180399e3a3883",
+    "code/scripts/run_csu_sensor_head_control_cuda_v1.py": "8418cde0d29cc7d572fb01c4b61ff23cbf1a7de284dbbf10f121d18ef72c45d1",
+    "code/scripts/run_csu_sensor_head_task_features_cuda_v2.py": "104f53021c0d6f6a2ddbf9c31c1538f2d2282d35066dbf07d3bbcc711bf75033",
+    "code/scripts/run_rtdetr_native_admission_v2.py": "b8a1c711e7d9667c4a41bfae09e90966e3619faf4e5ebecfdf07ecca4a132d80",
+    "code/scripts/run_rtdetr_native_overfit_v1.py": "f5146e1ca300813df951f2bf0819cb078e103e51d46a6f52b1287d6057c90ab3",
+    "code/scripts/train_dfine_cure_development_cuda_v2.py": "3a9e1d191458ab4fa733b5550230e4665863212d74efb3ebb98bd6fa2d97c968",
+    "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+    "research/CSU_QUERYSET_STUDY_FROZEN_PROTOCOL_V2_20260913.json": "5c351c6b92e7be17f5ec65f1be1551033177d4b0a7a87f8ce8c0330d70836132",
+    "research/CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406",
+    "research/CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b",
+    "research/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b",
+    "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V2_20260913.json": "61a7d5731488aaffbad29602f8c81a251fbb7e0c626d2f109e2c6b4f6672898d",
+    "research/RTDETR_NATIVE_OVERFIT_FROZEN_PROTOCOL_V1_20260913.json": "c71c90919228f02eb1b9999bd875518c41eb7c659f586b781fb65b5d3d02ab72"
+  },
+  "fit_frames": 6180,
+  "fit_objects": 10964,
+  "fitting_queries": "own fixed Task-only factual complete matching",
+  "head_initialization": "original INITIAL.pt six cev tensors",
+  "launch_authorized": true,
+  "microbatch": 16,
+  "mode": "study",
+  "new_interventions": false,
+  "optimizer": {
+    "clip_norm": 1.0,
+    "final_lr": 1e-05,
+    "initial_lr": 0.001,
+    "schedule": "exact original epoch cosine over forty epochs",
+    "type": "AdamW",
+    "weight_decay": 0.0001
+  },
+  "original_protocol_path": "research/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json",
+  "original_study_files": {
+    "ARTIFACT_HASHES.json": {
+      "bytes": 294309,
+      "sha256": "002ce96e727884089ba0103f6e7743db39951194ec7c730afdf570d19a4440ca"
+    },
+    "INITIAL.pt": {
+      "bytes": 882042,
+      "sha256": "c7962694850d9b614b07a923091d503413f555473c6933783eea043123c2ff1c"
+    },
+    "REPORT.json": {
+      "bytes": 685502,
+      "sha256": "f9a79fc51a8017eb8738f80f8d4ffe200746adb56faf4739468d6cab54256147"
+    },
+    "fit_targets/REPORT.json": {
+      "bytes": 299818,
+      "sha256": "2c034cd25e197eb384cdde6d6d26155cb7cde8884b6df67cc8fea44fcf91610e"
+    },
+    "fit_targets/moments.npz": {
+      "bytes": 162334,
+      "sha256": "3ada7d5ba10777859298cc08a9f48fce0137fad8a06f499681b7dfc52d20f443"
+    },
+    "fresh_development_targets/REPORT.json": {
+      "bytes": 48799,
+      "sha256": "a25a8dd4a3777b07875e8dd831f5f903b6c759a67b3a10e8cdb89f371b56a0b3"
+    },
+    "fresh_development_targets/moments.npz": {
+      "bytes": 36945,
+      "sha256": "13ec69806cdaa228d720372cf04b9a42100f6817b3a58064caa35b1392d53187"
+    },
+    "task_only/epoch_040/checkpoint.pt": {
+      "bytes": 2661148,
+      "sha256": "51dd57ae87b16aaafb11ecb933b8b7a16cc76a30c9350d98dcf12f26729bd879"
+    }
+  },
+  "parameters": 66436,
+  "physical_target_units": true,
+  "prepared_admission_protocol_sha256": "418b6773f782970bacde99bea0ab0de6949a94cdf246085be38b7fdfb1348182",
+  "prepared_protocol_sha256": "775ca52755bfee7972a293c5d2536327fd2730081920ffe69d449f2adf3a92cf",
+  "prior_control_files": {
+    "ARTIFACT_HASHES.json": {
+      "bytes": 11748,
+      "sha256": "6644e5c915b24c846989d9414cfafb635284ba7ff87ef97dccfec5545b77a390"
+    },
+    "GATHER_REPORT.json": {
+      "bytes": 342504,
+      "sha256": "1dd71be54e041afe5405befc7fd07f8d612b3211239fcb6761f473b876e63ef7"
+    },
+    "original/REPORT.json": {
+      "bytes": 7155,
+      "sha256": "d806beef8401f7f6827fdf7ece540512a1a82a0486e22f89edf1a9e18d1b530b"
+    },
+    "original/assessment/ALL_OBJECT_OPERANDS.npz": {
+      "bytes": 141875,
+      "sha256": "867bf2f1c1ba78b949dfd78eb7802917dc0442f0b3371551005eeb7b975c02c2"
+    },
+    "original/assessment/REPORT.json": {
+      "bytes": 2450,
+      "sha256": "b06de03f8832cb161407fea8e5cd518f3e0fa8a3d81163d8bc94d0388e588873"
+    },
+    "original/assessment/records.json": {
+      "bytes": 294314,
+      "sha256": "35ff110cd9fa4af9d4c2f0619270ef5bf163054db3aa1e09a98994d19914163a"
+    }
+  },
+  "prior_control_review_path": "QA/csu_sensor_head_control_study_independent_20260913/actual_v2/ACTUAL_REVIEW_V1.json",
+  "public_reproduction": {
+    "changes": [
+      "Replace historical source/narrative/log guard inventory with included research source and machine-readable execution metadata only"
+    ],
+    "new_training_executed_by_packaging": false,
+    "original_protocol_sha256": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b",
+    "scientific_fields_unchanged": true,
+    "scope": "Portable reproduction declaration; original completed execution remains unchanged"
+  },
+  "representation": "original final Task-only cev input: all300 factual512-vectors",
+  "representation_checkpoint": "task_only/epoch_040/checkpoint.pt",
+  "scope": "One post-hoc head seed on frozen Task-only features; both role matches belong to Task. Same original physical teacher targets, reused development. Representation-plus-own-query comparison; no isolated encoder, AP, causal, independent-teacher or generalization claim.",
+  "seed": 11,
+  "source_frame_batch": 64,
+  "status": "frozen_for_declared_execution",
+  "total_updates": 3880,
+  "training_implementation": "exact imported original V1 train function",
+  "updates_per_epoch": 97,
+  "utility_loss_coefficient": 0.1,
+  "version": 2,
+  "working_logvariance_clamp": [
+    -8,
+    5
+  ]
+}

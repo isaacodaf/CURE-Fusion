@@ -1,0 +1,221 @@
+{
+  "adapter_admission_protocol_path": "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V2_20260913.json",
+  "adapter_admission_protocol_sha256": "61a7d5731488aaffbad29602f8c81a251fbb7e0c626d2f109e2c6b4f6672898d",
+  "adapter_config": {
+    "camera_channels": 256,
+    "center_bound": 0.1,
+    "class_bound": 2.0,
+    "geometry_temperature": 0.25,
+    "hidden": 128,
+    "kappa": 0.0,
+    "log_size_bound": 0.2,
+    "native_classes": 80,
+    "query_count": 300,
+    "routing_bound": 0.5,
+    "routing_temperature": 0.75,
+    "shared_classes": [
+      0,
+      1
+    ]
+  },
+  "cache_protocol_path": "research/DFINE_CURE_QUERY_CACHE_PROTOCOL_FROZEN_V1_20260913.json",
+  "cache_protocol_sha256": "114c291d13b82d913b9d0e923d00edc482716b8d76100c1b2a6962b179b64853",
+  "cev": {
+    "epistemic_claim": false,
+    "kappa": 0,
+    "objective": "0.5*((mu-vhat)^2/(exp(clamp(logvar,-8,5))+u2)+log(exp(clamp(logvar,-8,5))+u2))",
+    "posthoc_calibrator_fit": false,
+    "rank_loss": false,
+    "sampling_variance": "camera0; radar unbiased_draw_variance/K",
+    "weight": 0.1
+  },
+  "class_order": [
+    "person",
+    "bicycle",
+    "slidecar",
+    "doll"
+  ],
+  "cost": {
+    "automatic_resume": false,
+    "cached_camera_bytes_per_image": 408000,
+    "clean_plus_augmented_student_image_forwards": 1483200,
+    "endpoint_image_forwards": 15872,
+    "fit_teacher_image_forwards": 61800,
+    "fitting_image_exposures": 741600,
+    "fresh_development_teacher_image_forwards": 17856,
+    "minimum_free_output_GiB": 15
+  },
+  "date": "2026-09-13",
+  "epochs": 40,
+  "evaluation": {
+    "calibration": "Object-pooled descriptive mean RMSE/bias/NLL/central90% workingcoverage on cleancondition; camera deterministic and radar16freshmeans separately",
+    "classes": 4,
+    "empty_frames": true,
+    "geometry_gate": "Every task-selected raw decoded extent must be positive before finalimageclipping; nonpositive raw predictions retained and AP unavailable; valid boxes clipped to zero retained",
+    "maxDets": 100,
+    "metrics": [
+      "COCO AP@[.50:.95]",
+      "AP50",
+      "AP75",
+      "per-class AP"
+    ],
+    "no_inference": "No CIs/pvalues/multiplicity/noninferiority/test/efficacy promotion from this fixedseed development pilot",
+    "postprocess": "Global sigmoid82/top300 BEFORE taskmapping0/1/80/81; no scorethreshold or NMS",
+    "radar_thinned_fresh": "Draw0 of independent fresh16 stream; identical masks across methods",
+    "timing": "Only final checkpoints, after all training; no pretraining or intermediate innerdev AP read"
+  },
+  "evaluation_conditions": [
+    "clean",
+    "camera_removed",
+    "radar_removed",
+    "radar_thinned_fresh"
+  ],
+  "execution_scope": "Single-seed exploratory development; exact actual four-class admission and complete all7172 frozen cache required; no final test or efficacy promotion",
+  "exposure": {
+    "class_balance": "Original unweighted four-class labels; empty frames preserved",
+    "dropout": "Same clean task and shared augmentation plus independent wholecamera0.1/wholeradar0.1 masks on augmented branch only; exposure difference is intentional",
+    "task_only_and_cure": "Identical clean task +0.25 augmented task, identical image order and per-image/epoch independent cameraoff0.1 and radarreturnkeep0.5 masks"
+  },
+  "external_actual_artifact_roles": {
+    "admission": "Actual four-class admission REPORT.json and externally verified SHA supplied at launch; exact V2 frozen protocol/source/complete four-class assignment required; V1 cannot substitute",
+    "cache": "Completed all7172 cache path and externally verified REPORT.json SHA supplied at launch; actual protocol/source/array/member/label bindings replayed before training and rehashed after"
+  },
+  "files": {
+    "QA/csu_action_development_protocol_20260913/ROLES_V1.json": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+    "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2",
+    "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V3.json": "5d0c115f264685956029ed672735aa0814e2ae440c894d5eff4eb40c1f0f7ba2",
+    "QA/csu_sensor_head_control_study_independent_20260913/actual_v2/ACTUAL_REVIEW_V1.json": "84fb31301cfaf7f83ca5aba2c3757e3ff183dd7456929b57e750a373282b2c1e",
+    "QA/dfine_cure_development_protocol_20260913/SPLITS_V1.json": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04",
+    "QA/rtdetr_native_admission_independent_20260913/actual_full_v2/results/ACTUAL_REVIEW_V1.json": "08f59c8440d1ae5d37a90b5bf0d6b396cb86dbf3254b039791163852ff4d7bf1",
+    "QA/rtdetr_native_admission_preparation_20260913/CHECKPOINT_TENSOR_INVENTORY_V1.json": "829470c4b572ff09ad51507291197b9a215c486ef96d82c5877b8bef66304218",
+    "QA/rtdetr_native_overfit_preparation_20260913/BATCH_SCHEDULES_V1.json": "a166f6385d961788ddac54f7173a44e008ef8eb54bf0b2980a97fb147227e44a",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/ARTIFACT_HASHES.json": "4b6d893be6f52633d0dcb31fcc71c6a8446ade968d0dba75a884801753fb5cdb",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/REPORT.json": "74b4972bb069aad9459eb2f4a7fb85389dafff7b7d55dba056cf7be1914659ee",
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/protocol.json": "0594f6be86b880c2b1224c3ed432d12cb59e17c4d54ea48f57e61925c78155cb",
+    "QA/rtdetr_native_root_preparation_20260913/AUTHOR_SOURCE_EXTRACTION_V1.json": "f4d0610eae7b9d86ab0465c204481920f85661033af60c2c7363f95ad592bcbb",
+    "code/cure_fusion/__init__.py": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e",
+    "code/cure_fusion/coco_ap_kernel.py": "857c7ab0f3644e3d9ee1bd9681c7220223b8ff4b030e1d85ba3adbf4a505d0ef",
+    "code/cure_fusion/coco_cluster_bootstrap.py": "03bf0586bccecdb464c6aa16ce46ac8914649d8e14a266d7b7e011f0d9e62d13",
+    "code/cure_fusion/csu_action_queryset_v2.py": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "code/cure_fusion/csu_action_rules_v1.py": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "code/cure_fusion/csu_action_v1.py": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "code/cure_fusion/csu_queryset_inputs_v2.py": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa",
+    "code/cure_fusion/csu_sensor_head_control_v1.py": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe",
+    "code/cure_fusion/csu_task_feature_comparison_v2.py": "46c757e5db6be33ac988b90f316267fc8ec33f204303b7490f4c6deecc1b695f",
+    "code/cure_fusion/detection_metrics.py": "986723fc84d8762dfa9995a5ed39ccf125949da53614e5df3801caac26b2ebdd",
+    "code/cure_fusion/dfine_cure_absent_radar_overfit_v1.py": "d1788f4896a6562cbebd1eeaa7beaa3be541f31cd1fc21018e602ff4e28e6920",
+    "code/cure_fusion/dfine_cure_development_v2.py": "9f811db43bb3101bdc7c3ad5f5e8db648181cbf7d0310b4347518d902390743f",
+    "code/cure_fusion/dfine_cure_losses_v1.py": "6203aa00ff9efbe86bd69fc758148f304ada8910f459b3e735ee5a6d577b8117",
+    "code/cure_fusion/dfine_cure_losses_v2.py": "5e5894f295e2d51ba5f1989b489481028047ec3c4e8030bdc3f7472ebb61dba1",
+    "code/cure_fusion/dfine_cure_v1.py": "a7df62d28cd994b3a15b775d3a2c5a336f15397bbee80661ceb7de9a8fa6d42a",
+    "code/cure_fusion/dfine_cure_v2.py": "9d11fa855acf4d5b3acc7b8f50d357d4df5ac8d1a88d7204fdcc277a280f7a5e",
+    "code/cure_fusion/dfine_full_native_four_class_v2.py": "92356835b2bcc8d664b0531dfdb7bdc583dec5602b8c0d695adc1233f327fe1f",
+    "code/cure_fusion/dfine_full_native_overfit_v1.py": "12158cbf335e9133759b41e1a363dc175a9a790110e4a3d293c23979d7469144",
+    "code/cure_fusion/metrics.py": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824",
+    "code/cure_fusion/model.py": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902",
+    "code/cure_fusion/rtdetr_native_admission_v1.py": "fb56bc47acdd5fa285887f136b4527e51c66128ed1d13c8aac08e70bafe85b94",
+    "code/cure_fusion/rtdetr_native_overfit_v1.py": "c96510ce80640711bc00870b503c293f561866d99fe667373e06977be98572f5",
+    "code/cure_fusion/statistics.py": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e",
+    "code/cure_fusion/utility.py": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676",
+    "code/scripts/run_csu_action_development_cuda_v1.py": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "code/scripts/run_csu_action_queryset_development_v2.py": "7d50151fc12098ecb3c5bcc1a33ee7ffcbfe5b5db6cd5067c8e180399e3a3883",
+    "code/scripts/run_csu_sensor_head_control_cuda_v1.py": "8418cde0d29cc7d572fb01c4b61ff23cbf1a7de284dbbf10f121d18ef72c45d1",
+    "code/scripts/run_csu_sensor_head_task_features_cuda_v2.py": "104f53021c0d6f6a2ddbf9c31c1538f2d2282d35066dbf07d3bbcc711bf75033",
+    "code/scripts/run_rtdetr_native_admission_v2.py": "b8a1c711e7d9667c4a41bfae09e90966e3619faf4e5ebecfdf07ecca4a132d80",
+    "code/scripts/run_rtdetr_native_overfit_v1.py": "f5146e1ca300813df951f2bf0819cb078e103e51d46a6f52b1287d6057c90ab3",
+    "code/scripts/train_dfine_cure_development_cuda_v2.py": "3a9e1d191458ab4fa733b5550230e4665863212d74efb3ebb98bd6fa2d97c968",
+    "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+    "research/CSU_QUERYSET_STUDY_FROZEN_PROTOCOL_V2_20260913.json": "5c351c6b92e7be17f5ec65f1be1551033177d4b0a7a87f8ce8c0330d70836132",
+    "research/CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406",
+    "research/CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b",
+    "research/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b",
+    "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V2_20260913.json": "61a7d5731488aaffbad29602f8c81a251fbb7e0c626d2f109e2c6b4f6672898d",
+    "research/RTDETR_NATIVE_OVERFIT_FROZEN_PROTOCOL_V1_20260913.json": "c71c90919228f02eb1b9999bd875518c41eb7c659f586b781fb65b5d3d02ab72"
+  },
+  "fit_images": 6180,
+  "fit_sequences": 40,
+  "identity_scope": "Original80 projection and boxes only; adapted82 globaltop300 may differ even at initialization",
+  "inner_development_images": 992,
+  "inner_development_sequences": 8,
+  "main_contrast": [
+    "cure",
+    "task_only"
+  ],
+  "native_checkpoint_sha256": "39361855c21f8c4757a9bb777a7ff134ae8aa110d0db67a374f081e44c2ce04b",
+  "native_source_commit": "956d1709314c2c6a4df6f34de232054578a7449f",
+  "native_source_inventory_sha256": "922f4dd782f530e6f79b89f4d078c587b6910417fe1c415bd6ec7bc0e9ff8d60",
+  "novel_head": "Unrestricted Linear128to2 zero weight/bias\u22128; not COCO remapping",
+  "optimization_input_manifest_sha256": "f45c3447a819ba9f84e7e2a9cebcc873eb6735025638186d2400efcbe9277e87",
+  "optimization_records_canonical_sha256": "dcc2a9979b8e1b12ac17416a861a2ebf228d7fdd77bb3f1866da98e51570a349",
+  "optimizer": {
+    "clip_norm": 1.0,
+    "effective_batch": 64,
+    "epoch_cosine": "lr(epoch)=1e-5+0.5*(1e-3-1e-5)*(1+cos(pi*(epoch-1)/39))",
+    "final_lr": 1e-05,
+    "initial_lr": 0.001,
+    "microbatch": 16,
+    "total_optimizer_updates": 11640,
+    "type": "AdamW",
+    "updates_per_arm": 3880,
+    "updates_per_epoch": 97,
+    "weight_decay": 0.0001
+  },
+  "output_channels": 82,
+  "preservation": "Every epoch checkpoint/optimizer/RNG and log plus original initialization, all target masks/gathered operands and all endpoint raw82 tensors retained; no silent resume, bestepoch selection or overwrite",
+  "prior_access": "992 drawn from historically used original optimization, protected from this candidate fitting only, not newly unseen confirmation; original1136 validation and3151 test excluded",
+  "public_reproduction": {
+    "changes": [
+      "Replace historical source/narrative/log guard inventory with included research source and machine-readable execution metadata only"
+    ],
+    "new_training_executed_by_packaging": false,
+    "original_protocol_sha256": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b",
+    "scientific_fields_unchanged": true,
+    "scope": "Portable reproduction declaration; original completed execution remains unchanged"
+  },
+  "reference": "frozen_unadapted_pretrained_reference: common initial adapter state with untrained novel head, not a trained matched fusion control",
+  "seed": 11,
+  "splits_path": "QA/dfine_cure_development_protocol_20260913/SPLITS_V1.json",
+  "splits_sha256": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04",
+  "status": "frozen_before_any_four_class_student_training_or_candidate_inner_development_AP",
+  "task_channels": [
+    0,
+    1,
+    80,
+    81
+  ],
+  "task_loss": {
+    "giou_weight": 2,
+    "l1_weight": 5,
+    "matcher_alpha": 0.25,
+    "matcher_gamma": 2,
+    "matcher_weights": [
+      2,
+      5,
+      2
+    ],
+    "normalization": "Complete effective-batch four-class foreground count, minimum1; exact accumulation including empty microbatches",
+    "omitted": "Full original FGL/DDF/denoising auxiliaries are not reproduced",
+    "positive_size_query_matching_required": true,
+    "vfl_alpha": 0.75,
+    "vfl_gamma": 2,
+    "vfl_weight": 1
+  },
+  "teacher": {
+    "camera": "One deterministic fullremoval, variance of estimated mean exactly0; no fake repeated IID draws",
+    "fit_draws": 8,
+    "fresh": "Same clean-factual teacher/risk, only after all three arms complete; 16 independent radar draws and one deterministic camera removal",
+    "fresh_development_draws": 16,
+    "initial_states": "Every trained arm starts from same seed11 original adapter state, never the teacher endpoint",
+    "policy": "Reuse fixed40-epoch task-only endpoint as frozen radar-fusion teacher; teacher training cost is included once; no development checkpoint selection",
+    "radar": "8 independent Bernoulli keep0.5 draws on existing64returnmask; unbiased variance/8; allmissing draws retained",
+    "risk": "Four-channel fixed factual VFL quality AND weights +5L1+2GIoU, fixed factual assignment and object order, same query across interventions",
+    "streams": "SHA/PCG64 per identity/tag/draw; fit_thinning and fresh_development_thinning are disjoint",
+    "target_condition": "Clean factual inputs only; student CEV NLL only on clean factual output and clean assignment"
+  },
+  "trained_arms": [
+    "task_only",
+    "cure",
+    "modality_dropout"
+  ],
+  "version": 2
+}
