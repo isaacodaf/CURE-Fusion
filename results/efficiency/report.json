@@ -1,0 +1,274 @@
+{
+  "status": "passed_online_efficiency_only",
+  "scope": "CUDA FP32 batch1 tensor-to-output wall time of complete deployed native D-FINE and each final V2 adapter; not AP, field latency, native3D, MPS or performance confirmation.",
+  "protocol_sha256": "51140e31b0131a67421e4f27d9eb936862e5fb503b615283a8e80f1cfec868c6",
+  "study_report_sha256": "f9a79fc51a8017eb8738f80f8d4ffe200746adb56faf4739468d6cab54256147",
+  "study_manifest_sha256": "002ce96e727884089ba0103f6e7743db39951194ec7c730afdf570d19a4440ca",
+  "results": {
+    "native_camera": {
+      "images": 32,
+      "repetitions": 3,
+      "measured_calls": 96,
+      "warmup_calls": 16,
+      "median_ms": 58.02172299991071,
+      "diagnostic_native_calls": 1,
+      "diagnostic_adapter_calls": 0,
+      "diagnostic_identity": "train/002117",
+      "same_query_adapter_replay": "not_applicable",
+      "p95_ms": 59.37320799921508,
+      "reciprocal_median_fps": 17.234924236936894,
+      "sequential_measured_throughput_fps": 17.173283069943803,
+      "native_parameters": 61601635,
+      "adapter_parameters": 0,
+      "combined_parameters": 61601635,
+      "resident_allocated_bytes_before_inputs": 283812864,
+      "peak_allocated_bytes": 430527488,
+      "peak_reserved_bytes": 501219328,
+      "adapter_state_before": null,
+      "adapter_state_after": null
+    },
+    "task_only": {
+      "images": 32,
+      "repetitions": 3,
+      "measured_calls": 96,
+      "warmup_calls": 16,
+      "median_ms": 63.02763199983019,
+      "diagnostic_native_calls": 1,
+      "diagnostic_adapter_calls": 2,
+      "diagnostic_identity": "train/002117",
+      "same_query_adapter_replay": "passed_before_warmups",
+      "p95_ms": 64.56337374902432,
+      "reciprocal_median_fps": 15.866056970103116,
+      "sequential_measured_throughput_fps": 15.833517660470168,
+      "native_parameters": 61601635,
+      "adapter_parameters": 217998,
+      "combined_parameters": 61819633,
+      "resident_allocated_bytes_before_inputs": 284687872,
+      "peak_allocated_bytes": 431402496,
+      "peak_reserved_bytes": 501219328,
+      "adapter_state_before": "a0721dbc7ab0e1219bef6dff50bbd3475f2af15307f3596ae916ee004d239f63",
+      "adapter_state_after": "a0721dbc7ab0e1219bef6dff50bbd3475f2af15307f3596ae916ee004d239f63"
+    },
+    "cure": {
+      "images": 32,
+      "repetitions": 3,
+      "measured_calls": 96,
+      "warmup_calls": 16,
+      "median_ms": 63.505013499707275,
+      "diagnostic_native_calls": 1,
+      "diagnostic_adapter_calls": 2,
+      "diagnostic_identity": "train/002117",
+      "same_query_adapter_replay": "passed_before_warmups",
+      "p95_ms": 64.8319129995798,
+      "reciprocal_median_fps": 15.746788243807073,
+      "sequential_measured_throughput_fps": 15.739171999781231,
+      "native_parameters": 61601635,
+      "adapter_parameters": 217998,
+      "combined_parameters": 61819633,
+      "resident_allocated_bytes_before_inputs": 284687872,
+      "peak_allocated_bytes": 431402496,
+      "peak_reserved_bytes": 501219328,
+      "adapter_state_before": "a159ed4bb7eb3dd5a47a9b0020e760a2d0357a711b4f213a1640276f42d6ae01",
+      "adapter_state_after": "a159ed4bb7eb3dd5a47a9b0020e760a2d0357a711b4f213a1640276f42d6ae01"
+    },
+    "modality_dropout": {
+      "images": 32,
+      "repetitions": 3,
+      "measured_calls": 96,
+      "warmup_calls": 16,
+      "median_ms": 63.05615499968553,
+      "diagnostic_native_calls": 1,
+      "diagnostic_adapter_calls": 2,
+      "diagnostic_identity": "train/002117",
+      "same_query_adapter_replay": "passed_before_warmups",
+      "p95_ms": 64.81921600015994,
+      "reciprocal_median_fps": 15.858880072928441,
+      "sequential_measured_throughput_fps": 15.812007761388324,
+      "native_parameters": 61601635,
+      "adapter_parameters": 217998,
+      "combined_parameters": 61819633,
+      "resident_allocated_bytes_before_inputs": 284687872,
+      "peak_allocated_bytes": 431402496,
+      "peak_reserved_bytes": 501219328,
+      "adapter_state_before": "8d089b9025b82dbc673758c4b4cd1c5cd4ec21f68c1247c3ad9e5fe5ee447558",
+      "adapter_state_after": "8d089b9025b82dbc673758c4b4cd1c5cd4ec21f68c1247c3ad9e5fe5ee447558"
+    }
+  },
+  "AP_evaluated": false,
+  "environment": {
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "precision": "FP32",
+    "tf32": false,
+    "batch_size": 1,
+    "nvidia_smi": "Sun Sep 13 08:14:37 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA A100-SXM4-80GB          Off |   00000000:00:05.0 Off |                    0 |\n| N/A   34C    P0             62W /  400W |     682MiB /  81920MiB |      3%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A           77040      C   python3                                 670MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  "native_deployed_state_before": "22690626a4df56b61325de23a7061d9474bd3beb2e36acd2f7b9ed0796829592",
+  "image_bindings": [
+    {
+      "identity": "train/002117",
+      "path": "images/train_002117.jpg",
+      "sha256": "3752d84d9bf6aa9b27bbe0bcf47a20c59d26c4764e2a65be759e43ff7a636752"
+    },
+    {
+      "identity": "train/027595",
+      "path": "images/train_027595.jpg",
+      "sha256": "52b08199b2fc992ee0bb6f8544987c800ea0c8799a1f68c9aa18b7a5966d9c8a"
+    },
+    {
+      "identity": "train/000447",
+      "path": "images/train_000447.jpg",
+      "sha256": "9ba00ee99c73ffeb1428534d6622a94067836e0cfdfc04840909c0d3c802f1d6"
+    },
+    {
+      "identity": "train/004483",
+      "path": "images/train_004483.jpg",
+      "sha256": "3658db37422f1e8e36e65b13f965e3473432f911be17d6750470205e77795e4c"
+    },
+    {
+      "identity": "train/016530",
+      "path": "images/train_016530.jpg",
+      "sha256": "5c59684558a04846684cd1f2db5b57f0016e7b12247c7a6e893c39847f19d61e"
+    },
+    {
+      "identity": "train/000337",
+      "path": "images/train_000337.jpg",
+      "sha256": "9765af87020d1a20758e515b23d5e40d95330e9afb75977b8e366129786fbe37"
+    },
+    {
+      "identity": "train/000458",
+      "path": "images/train_000458.jpg",
+      "sha256": "208b5a62f0e723a10b9d2800cb7edb0af463f40b2caa5f0b52e51fd4530912d0"
+    },
+    {
+      "identity": "train/002983",
+      "path": "images/train_002983.jpg",
+      "sha256": "bdb9dc7dfbc8168b383b787855c2dfdaf1ff266b0a0e019db66210c30389c9ae"
+    },
+    {
+      "identity": "train/019271",
+      "path": "images/train_019271.jpg",
+      "sha256": "a0cfe3dd3e2371c13d5fa43ad348ddfc15767006b173dffabfeb3141a9597ed7"
+    },
+    {
+      "identity": "train/008800",
+      "path": "images/train_008800.jpg",
+      "sha256": "21d0c0e01f8ed702a917da5e642adb679d100e7621966bf8b32a426f34762ba3"
+    },
+    {
+      "identity": "train/002889",
+      "path": "images/train_002889.jpg",
+      "sha256": "18c53339c4c74153495bee414952e0dc2245667dd13c9c7386688d2567ac4909"
+    },
+    {
+      "identity": "train/004240",
+      "path": "images/train_004240.jpg",
+      "sha256": "e06f3548303f1535f0be1f8e974bfe67d73c4bf55ce95bddcb3966eebc536173"
+    },
+    {
+      "identity": "train/003036",
+      "path": "images/train_003036.jpg",
+      "sha256": "5bb5fee9476729224b24207cdca134e821d86fa267baf0b034ed3b4437845e97"
+    },
+    {
+      "identity": "train/019777",
+      "path": "images/train_019777.jpg",
+      "sha256": "4249c9550a692298ae29f6de3643514afb34ee72875aa18febf4fd88d3a476be"
+    },
+    {
+      "identity": "train/019321",
+      "path": "images/train_019321.jpg",
+      "sha256": "5abbe173a3056e446f3ab5c26cc62b939ec0bc477cff7261e2b36563e9042bb8"
+    },
+    {
+      "identity": "train/016565",
+      "path": "images/train_016565.jpg",
+      "sha256": "06c43c355eabe2464c90a4699b840fa5b7d733211958cdc2124c64db81ff6b12"
+    },
+    {
+      "identity": "train/027469",
+      "path": "images/train_027469.jpg",
+      "sha256": "742678a7cd1c5f2db61ba7ffb8eb67839679fc848a8f494aa619d23516f598f7"
+    },
+    {
+      "identity": "train/000484",
+      "path": "images/train_000484.jpg",
+      "sha256": "238362e815412c82466d955f3b3b3d7fd459c62789ad3b4c3f8d6ade96ab3f9e"
+    },
+    {
+      "identity": "train/016939",
+      "path": "images/train_016939.jpg",
+      "sha256": "df8287d921a92832f0a1f251b3dc0e577d9974505a8ad9debe12718adfc379eb"
+    },
+    {
+      "identity": "train/016536",
+      "path": "images/train_016536.jpg",
+      "sha256": "4f8fa3c0da9639fd39a95b839d8cc037321ab27a2339952f5d844e9051c21e26"
+    },
+    {
+      "identity": "train/004044",
+      "path": "images/train_004044.jpg",
+      "sha256": "7e07d7d051ce8607a2bf7cf866fdd350cfff1d34d3cbbdaa16f9388b4530cd5c"
+    },
+    {
+      "identity": "train/027858",
+      "path": "images/train_027858.jpg",
+      "sha256": "dfad9880f377fb5165276c9db6ed8982a120d7702e433878f8b8cef759347e59"
+    },
+    {
+      "identity": "train/002720",
+      "path": "images/train_002720.jpg",
+      "sha256": "17d45e5fbd74c36edf705add309ca39872d18e8c6828237e84e916026983a24c"
+    },
+    {
+      "identity": "train/027425",
+      "path": "images/train_027425.jpg",
+      "sha256": "5e6630644605f8f1cb15707a3616dad28b5400dd104f291a52f55c5f8ca88d97"
+    },
+    {
+      "identity": "train/001048",
+      "path": "images/train_001048.jpg",
+      "sha256": "fb8a2879c98dd6aaa39188f0231ffb5c2275db93ebb6272175b5599d97dbdcfc"
+    },
+    {
+      "identity": "train/005317",
+      "path": "images/train_005317.jpg",
+      "sha256": "2e864d6ea8b18497f57296efebeef8ef3c16e37bf7d7f9502468b4ab46108d81"
+    },
+    {
+      "identity": "train/002999",
+      "path": "images/train_002999.jpg",
+      "sha256": "5d9feb09eb63ff3ece833f0788a6789dc7142e4e7fa884b2db911b49467ba7f9"
+    },
+    {
+      "identity": "train/003780",
+      "path": "images/train_003780.jpg",
+      "sha256": "2f9fecbed6df21e6952c80a67891b26460d47bcb48116005bd464ee4746c3cae"
+    },
+    {
+      "identity": "train/000952",
+      "path": "images/train_000952.jpg",
+      "sha256": "f082af444473c22892edeb5101ddf352d6c525c69e9fbeb382bf2365953fd959"
+    },
+    {
+      "identity": "train/012562",
+      "path": "images/train_012562.jpg",
+      "sha256": "a6ba72853be9fed59b023001a5e19ef58411cafea765b949e2cb40f13661c67e"
+    },
+    {
+      "identity": "train/016993",
+      "path": "images/train_016993.jpg",
+      "sha256": "f6e387bf5ee4a107bcbeeb3210209585463a43cbefc4bb4d4015d09da4bfb2d9"
+    },
+    {
+      "identity": "train/027435",
+      "path": "images/train_027435.jpg",
+      "sha256": "36f59e41bad5cac4b94369c60770cf54531dc0af19ee92720201532c5fd69dd6"
+    }
+  ],
+  "native_parameters": 61601635,
+  "native_deployed_state_after": "22690626a4df56b61325de23a7061d9474bd3beb2e36acd2f7b9ed0796829592",
+  "final_integrity": "passed"
+}
