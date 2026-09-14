@@ -1,0 +1,50 @@
+{
+  "combined_gate": false,
+  "rows": [
+    {
+      "GT": 2,
+      "camera_absent_empty_FP_score_ge_0_5": 0,
+      "camera_absent_gate": "PASS",
+      "camera_present_empty_FP_score_ge_0_5": 0,
+      "camera_present_gate": "PASS",
+      "empty_frames": 0,
+      "size": 1,
+      "supported_classes": 2,
+      "updates": 500
+    },
+    {
+      "GT": 14,
+      "camera_absent_empty_FP_score_ge_0_5": 0,
+      "camera_absent_gate": "PASS",
+      "camera_present_empty_FP_score_ge_0_5": 0,
+      "camera_present_gate": "PASS",
+      "empty_frames": 3,
+      "size": 8,
+      "supported_classes": 4,
+      "updates": 800
+    },
+    {
+      "GT": 67,
+      "camera_absent_empty_FP_score_ge_0_5": 1,
+      "camera_absent_gate": "FAIL",
+      "camera_present_empty_FP_score_ge_0_5": 4,
+      "camera_present_gate": "FAIL",
+      "empty_frames": 8,
+      "size": 32,
+      "supported_classes": 4,
+      "updates": 1200
+    },
+    {
+      "GT": 245,
+      "camera_absent_empty_FP_score_ge_0_5": 0,
+      "camera_absent_gate": "FAIL",
+      "camera_present_empty_FP_score_ge_0_5": 7,
+      "camera_present_gate": "PASS",
+      "empty_frames": 31,
+      "size": 128,
+      "supported_classes": 4,
+      "updates": 2400
+    }
+  ],
+  "source_sha256": "498b47650f9381021be04c04e3175ada7ae8709823436c1ce98be8d749c5db0c"
+}
