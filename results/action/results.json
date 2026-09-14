@@ -1,0 +1,3442 @@
+[
+  {
+    "condition": "clean",
+    "method": "task_only",
+    "seed": null,
+    "AP_percent": 62.32842133589812,
+    "AP50_percent": 78.5763299149019,
+    "AP75_percent": 69.67570609737066,
+    "per_class_AP_percent": [
+      83.2449159413077,
+      82.01559814586074,
+      39.946699772009865,
+      44.106471484414186
+    ]
+  },
+  {
+    "condition": "clean",
+    "method": "cure",
+    "seed": null,
+    "AP_percent": 61.46852524609443,
+    "AP50_percent": 77.5433292753851,
+    "AP75_percent": 69.44618300991094,
+    "per_class_AP_percent": [
+      83.07143634821811,
+      82.22146427516444,
+      35.614346319943465,
+      44.96685404105169
+    ]
+  },
+  {
+    "condition": "clean",
+    "method": "modality_dropout",
+    "seed": null,
+    "AP_percent": 61.74123413987785,
+    "AP50_percent": 77.73473188998724,
+    "AP75_percent": 68.36204790362369,
+    "per_class_AP_percent": [
+      83.06752945066937,
+      82.41052014955551,
+      37.96609468196074,
+      43.52079227732574
+    ]
+  },
+  {
+    "condition": "clean",
+    "method": "positive_mean",
+    "seed": 11,
+    "AP_percent": 62.047194236954525,
+    "AP50_percent": 78.22572513586974,
+    "AP75_percent": 69.29641756188963,
+    "per_class_AP_percent": [
+      83.13788694983943,
+      82.16376707657943,
+      38.70816943441497,
+      44.178953486984284
+    ],
+    "selection_fraction": 0.3780241935483871,
+    "harmful_selection_fraction": 0.18346774193548387,
+    "mean_frame_risk": 0.5184980630874634,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.003726649689526281,
+      "pointwise_95_interval": [
+        -0.009192466180363677,
+        -0.00010879440996564164
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10895711183547974,
+      "MAE": 0.0693349689245224,
+      "sign_agreement": 0.5080645161290323,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "fitting_RMS_margin",
+    "seed": 11,
+    "AP_percent": 62.343249713722535,
+    "AP50_percent": 78.61998677035635,
+    "AP75_percent": 69.72539561634427,
+    "per_class_AP_percent": [
+      83.24934206956621,
+      82.01493921031555,
+      40.096393292303226,
+      44.01232428270514
+    ],
+    "selection_fraction": 0.014112903225806451,
+    "harmful_selection_fraction": 0.006048387096774193,
+    "mean_frame_risk": 0.5212284922599792,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -4.415972334856126e-05,
+      "pointwise_95_interval": [
+        -0.00021864526536104814,
+        8.616609531536437e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10895711183547974,
+      "MAE": 0.0693349689245224,
+      "sign_agreement": 0.5080645161290323,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_utility",
+    "seed": 11,
+    "AP_percent": 62.21687842703445,
+    "AP50_percent": 78.4268144570375,
+    "AP75_percent": 69.57329330690303,
+    "per_class_AP_percent": [
+      83.25543862645765,
+      82.0811441401569,
+      39.46431240660015,
+      44.06661853492311
+    ],
+    "selection_fraction": 0.25806451612903225,
+    "harmful_selection_fraction": 0.1310483870967742,
+    "mean_frame_risk": 0.5206757187843323,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.000356072407228057,
+      "pointwise_95_interval": [
+        -0.0018675030398189576,
+        0.0008936443545967557
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10895711183547974,
+      "MAE": 0.0693349689245224,
+      "sign_agreement": 0.5080645161290323,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_zero",
+    "seed": 11,
+    "AP_percent": 62.23473469682046,
+    "AP50_percent": 78.46987485355595,
+    "AP75_percent": 69.77671439330287,
+    "per_class_AP_percent": [
+      83.20833880384643,
+      82.01603169951787,
+      39.55357914305502,
+      44.16098914086257
+    ],
+    "selection_fraction": 0.2721774193548387,
+    "harmful_selection_fraction": 0.14919354838709678,
+    "mean_frame_risk": 0.52253258228302,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0007056614807274697,
+      "pointwise_95_interval": [
+        0.00014700383861672203,
+        0.0013318549910272268
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_permuted",
+    "seed": 11,
+    "AP_percent": 62.338123801992126,
+    "AP50_percent": 78.62526416510116,
+    "AP75_percent": 69.85498478846137,
+    "per_class_AP_percent": [
+      83.22510344578893,
+      82.09384749739996,
+      39.958387445635765,
+      44.075156819143885
+    ],
+    "selection_fraction": 0.2610887096774194,
+    "harmful_selection_fraction": 0.14516129032258066,
+    "mean_frame_risk": 0.5227002501487732,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0010147515167177486,
+      "pointwise_95_interval": [
+        -4.9669400982136995e-05,
+        0.002321859066483947
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "confidence",
+    "seed": null,
+    "AP_percent": 61.78948745881993,
+    "AP50_percent": 77.9286612239771,
+    "AP75_percent": 69.22906997161238,
+    "per_class_AP_percent": [
+      83.13520117063722,
+      82.10200798389823,
+      37.56026785242615,
+      44.36047282831808
+    ],
+    "selection_fraction": 0.7086693548387096,
+    "harmful_selection_fraction": 0.3588709677419355,
+    "mean_frame_risk": 0.5177021026611328,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00021255309855711764,
+      "pointwise_95_interval": [
+        -0.005821412928529663,
+        0.005574736263117102
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "positive_mean",
+    "seed": 23,
+    "AP_percent": 62.11876607832697,
+    "AP50_percent": 78.38083924366235,
+    "AP75_percent": 69.5060344882478,
+    "per_class_AP_percent": [
+      83.16782849994433,
+      82.06934117901218,
+      38.977056413462044,
+      44.26083822088928
+    ],
+    "selection_fraction": 0.41330645161290325,
+    "harmful_selection_fraction": 0.1844758064516129,
+    "mean_frame_risk": 0.5155236721038818,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.003639660229535559,
+      "pointwise_95_interval": [
+        -0.006332034356504434,
+        0.00022279604959803514
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10621347278356552,
+      "MAE": 0.06447780877351761,
+      "sign_agreement": 0.5413306451612904,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "fitting_RMS_margin",
+    "seed": 23,
+    "AP_percent": 62.3315701621283,
+    "AP50_percent": 78.59198877894896,
+    "AP75_percent": 69.7128811547849,
+    "per_class_AP_percent": [
+      83.26581795933281,
+      82.01019575640713,
+      40.095397442923556,
+      43.95486948984973
+    ],
+    "selection_fraction": 0.01310483870967742,
+    "harmful_selection_fraction": 0.007056451612903226,
+    "mean_frame_risk": 0.5213555097579956,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 8.035196979845826e-05,
+      "pointwise_95_interval": [
+        -0.00021017323897135325,
+        0.00039647102700814064
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10621347278356552,
+      "MAE": 0.06447780877351761,
+      "sign_agreement": 0.5413306451612904,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_utility",
+    "seed": 23,
+    "AP_percent": 62.22240358822292,
+    "AP50_percent": 78.64164926656497,
+    "AP75_percent": 69.46055448710446,
+    "per_class_AP_percent": [
+      83.23429321436299,
+      82.11485744806389,
+      39.26719465570596,
+      44.27326903475885
+    ],
+    "selection_fraction": 0.2590725806451613,
+    "harmful_selection_fraction": 0.12600806451612903,
+    "mean_frame_risk": 0.5189944505691528,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0013208207802008684,
+      "pointwise_95_interval": [
+        -0.002606383032597183,
+        -5.4558653157032104e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10621347278356552,
+      "MAE": 0.06447780877351761,
+      "sign_agreement": 0.5413306451612904,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_zero",
+    "seed": 23,
+    "AP_percent": 62.323066485476375,
+    "AP50_percent": 78.65438074007645,
+    "AP75_percent": 69.80302176012445,
+    "per_class_AP_percent": [
+      83.2427153604485,
+      81.96190244062713,
+      39.84120042589398,
+      44.24644771493592
+    ],
+    "selection_fraction": 0.2701612903225806,
+    "harmful_selection_fraction": 0.14516129032258066,
+    "mean_frame_risk": 0.5220546722412109,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00048210945099890954,
+      "pointwise_95_interval": [
+        0.0,
+        0.0010613903805828252
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_permuted",
+    "seed": 23,
+    "AP_percent": 62.31119251887265,
+    "AP50_percent": 78.6388327589158,
+    "AP75_percent": 69.79208814759926,
+    "per_class_AP_percent": [
+      83.2422103116199,
+      81.91941468119848,
+      39.85419111462851,
+      44.22895396804366
+    ],
+    "selection_fraction": 0.2661290322580645,
+    "harmful_selection_fraction": 0.14213709677419356,
+    "mean_frame_risk": 0.5223334431648254,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0007099372314287592,
+      "pointwise_95_interval": [
+        0.0,
+        0.0014579025569204534
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "positive_mean",
+    "seed": 37,
+    "AP_percent": 61.94845703215602,
+    "AP50_percent": 78.1817531686415,
+    "AP75_percent": 69.12335900054183,
+    "per_class_AP_percent": [
+      83.08563895159622,
+      82.0327585897913,
+      38.52684956480906,
+      44.14858102242748
+    ],
+    "selection_fraction": 0.4173387096774194,
+    "harmful_selection_fraction": 0.2006048387096774,
+    "mean_frame_risk": 0.519538402557373,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0023192870457480045,
+      "pointwise_95_interval": [
+        -0.0050945046784601706,
+        0.0008531924066817498
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10994881391525269,
+      "MAE": 0.06840535998344421,
+      "sign_agreement": 0.5131048387096774,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "fitting_RMS_margin",
+    "seed": 37,
+    "AP_percent": 62.36000572490023,
+    "AP50_percent": 78.60189252849652,
+    "AP75_percent": 69.74128727294688,
+    "per_class_AP_percent": [
+      83.23221079280259,
+      82.02040863653879,
+      40.17875791812384,
+      44.008645552135704
+    ],
+    "selection_fraction": 0.03225806451612903,
+    "harmful_selection_fraction": 0.017137096774193547,
+    "mean_frame_risk": 0.5216357111930847,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 8.80577389814667e-05,
+      "pointwise_95_interval": [
+        -0.000656907238976864,
+        0.000784387930910638
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10994881391525269,
+      "MAE": 0.06840535998344421,
+      "sign_agreement": 0.5131048387096774,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_utility",
+    "seed": 37,
+    "AP_percent": 62.301722386295275,
+    "AP50_percent": 78.70504514224108,
+    "AP75_percent": 69.83944504508042,
+    "per_class_AP_percent": [
+      83.22205343585578,
+      82.03949249502398,
+      39.765307711350374,
+      44.18003590295098
+    ],
+    "selection_fraction": 0.2288306451612903,
+    "harmful_selection_fraction": 0.11290322580645161,
+    "mean_frame_risk": 0.5197545289993286,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0013466425287333734,
+      "pointwise_95_interval": [
+        -0.002997505402002956,
+        7.87966735098096e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10994881391525269,
+      "MAE": 0.06840535998344421,
+      "sign_agreement": 0.5131048387096774,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_zero",
+    "seed": 37,
+    "AP_percent": 62.32129220385841,
+    "AP50_percent": 78.67107645534543,
+    "AP75_percent": 69.79602927488106,
+    "per_class_AP_percent": [
+      83.24323991900427,
+      81.95675054563341,
+      39.8406334506157,
+      44.24454490018032
+    ],
+    "selection_fraction": 0.25,
+    "harmful_selection_fraction": 0.13407258064516128,
+    "mean_frame_risk": 0.5216124057769775,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0001004576902407393,
+      "pointwise_95_interval": [
+        -0.0004507883103304814,
+        0.0007019534740330918
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_permuted",
+    "seed": 37,
+    "AP_percent": 62.34580728424787,
+    "AP50_percent": 78.69439060306918,
+    "AP75_percent": 69.80826789117135,
+    "per_class_AP_percent": [
+      83.242786038393,
+      82.01637583312427,
+      39.87826402560792,
+      44.24580323986626
+    ],
+    "selection_fraction": 0.24294354838709678,
+    "harmful_selection_fraction": 0.12903225806451613,
+    "mean_frame_risk": 0.5212901830673218,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00016716711676076148,
+      "pointwise_95_interval": [
+        -0.0010327318328554145,
+        0.0004169309872405645
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "positive_mean",
+    "seed": 53,
+    "AP_percent": 62.00720493420033,
+    "AP50_percent": 78.05537383573592,
+    "AP75_percent": 69.38364307841549,
+    "per_class_AP_percent": [
+      83.16956679519308,
+      82.14639545613686,
+      38.629243701207194,
+      44.08361378426419
+    ],
+    "selection_fraction": 0.3961693548387097,
+    "harmful_selection_fraction": 0.1905241935483871,
+    "mean_frame_risk": 0.5203226208686829,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.002091148542769143,
+      "pointwise_95_interval": [
+        -0.004457621307618602,
+        0.00016727611124743637
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11047445237636566,
+      "MAE": 0.06857643276453018,
+      "sign_agreement": 0.5120967741935484,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "fitting_RMS_margin",
+    "seed": 53,
+    "AP_percent": 62.36027755489341,
+    "AP50_percent": 78.63466037330032,
+    "AP75_percent": 69.73024139280942,
+    "per_class_AP_percent": [
+      83.24772302014,
+      82.01972297705893,
+      40.1658636425265,
+      44.00780057984823
+    ],
+    "selection_fraction": 0.024193548387096774,
+    "harmful_selection_fraction": 0.012096774193548387,
+    "mean_frame_risk": 0.5213658809661865,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -2.7807017746775552e-05,
+      "pointwise_95_interval": [
+        -6.642088926625702e-05,
+        0.0
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11047445237636566,
+      "MAE": 0.06857643276453018,
+      "sign_agreement": 0.5120967741935484,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_utility",
+    "seed": 53,
+    "AP_percent": 62.36982231057734,
+    "AP50_percent": 78.6952972514738,
+    "AP75_percent": 69.78714973204785,
+    "per_class_AP_percent": [
+      83.24429252113335,
+      82.10988593368893,
+      39.995378350042174,
+      44.1297324374449
+    ],
+    "selection_fraction": 0.2217741935483871,
+    "harmful_selection_fraction": 0.11189516129032258,
+    "mean_frame_risk": 0.52033531665802,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0008854300711541974,
+      "pointwise_95_interval": [
+        -0.0023713491649327177,
+        0.00032784961730005017
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11047445237636566,
+      "MAE": 0.06857643276453018,
+      "sign_agreement": 0.5120967741935484,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_zero",
+    "seed": 53,
+    "AP_percent": 62.3271926902528,
+    "AP50_percent": 78.6249636080781,
+    "AP75_percent": 69.83788327520249,
+    "per_class_AP_percent": [
+      83.22336387406285,
+      82.13395878620533,
+      39.92438886752192,
+      44.0270592332211
+    ],
+    "selection_fraction": 0.22983870967741934,
+    "harmful_selection_fraction": 0.1219758064516129,
+    "mean_frame_risk": 0.5219687223434448,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0003332130431670065,
+      "pointwise_95_interval": [
+        -0.0015943572171467104,
+        0.0031350691266530625
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_permuted",
+    "seed": 53,
+    "AP_percent": 62.323033700909356,
+    "AP50_percent": 78.63278939200778,
+    "AP75_percent": 69.81488413276294,
+    "per_class_AP_percent": [
+      83.22290254651176,
+      82.08251730894524,
+      39.940187020834074,
+      44.04652792734637
+    ],
+    "selection_fraction": 0.22983870967741934,
+    "harmful_selection_fraction": 0.12399193548387097,
+    "mean_frame_risk": 0.521889328956604,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00027983960494856004,
+      "pointwise_95_interval": [
+        -0.001541471576580727,
+        0.0027973627818066787
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "positive_mean",
+    "seed": 71,
+    "AP_percent": 62.079284468232,
+    "AP50_percent": 78.30636728294574,
+    "AP75_percent": 69.19538932123996,
+    "per_class_AP_percent": [
+      83.21257898670402,
+      82.09271003132989,
+      38.96155723065191,
+      44.050291624242185
+    ],
+    "selection_fraction": 0.3497983870967742,
+    "harmful_selection_fraction": 0.1532258064516129,
+    "mean_frame_risk": 0.5186951160430908,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0024482825037764264,
+      "pointwise_95_interval": [
+        -0.004292245095982776,
+        -0.0007953176078820465
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10834459215402603,
+      "MAE": 0.06648191064596176,
+      "sign_agreement": 0.5403225806451613,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "fitting_RMS_margin",
+    "seed": 71,
+    "AP_percent": 62.340385401134256,
+    "AP50_percent": 78.60119115804535,
+    "AP75_percent": 69.70937396860941,
+    "per_class_AP_percent": [
+      83.24679651621035,
+      82.00965685064482,
+      40.107130708740975,
+      43.997957528940866
+    ],
+    "selection_fraction": 0.008064516129032258,
+    "harmful_selection_fraction": 0.005040322580645161,
+    "mean_frame_risk": 0.5215974450111389,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0002692555573667873,
+      "pointwise_95_interval": [
+        -0.00014576351024069877,
+        0.0008650625997608953
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10834459215402603,
+      "MAE": 0.06648191064596176,
+      "sign_agreement": 0.5403225806451613,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_utility",
+    "seed": 71,
+    "AP_percent": 62.36330316373565,
+    "AP50_percent": 78.83275689124457,
+    "AP75_percent": 69.67082074928591,
+    "per_class_AP_percent": [
+      83.2620260596696,
+      82.07501878366877,
+      39.95305068668499,
+      44.163117124919204
+    ],
+    "selection_fraction": 0.19556451612903225,
+    "harmful_selection_fraction": 0.09475806451612903,
+    "mean_frame_risk": 0.5196548700332642,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0011486004504494812,
+      "pointwise_95_interval": [
+        -0.0023152438928580985,
+        -4.280520011308277e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10834459215402603,
+      "MAE": 0.06648191064596176,
+      "sign_agreement": 0.5403225806451613,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_zero",
+    "seed": 71,
+    "AP_percent": 62.24202390348002,
+    "AP50_percent": 78.52668238853349,
+    "AP75_percent": 69.4396989913155,
+    "per_class_AP_percent": [
+      83.21889653751106,
+      82.07732121597599,
+      39.633272653408,
+      44.03860520702499
+    ],
+    "selection_fraction": 0.25,
+    "harmful_selection_fraction": 0.14012096774193547,
+    "mean_frame_risk": 0.5227159261703491,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0007128895366218774,
+      "pointwise_95_interval": [
+        -0.0006882045927773968,
+        0.0027618726802689573
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "clean",
+    "method": "selector_permuted",
+    "seed": 71,
+    "AP_percent": 62.30949432988445,
+    "AP50_percent": 78.58021954191739,
+    "AP75_percent": 69.82185070624145,
+    "per_class_AP_percent": [
+      83.22386361089329,
+      82.06835417639931,
+      39.880378154330145,
+      44.065381377915045
+    ],
+    "selection_fraction": 0.24798387096774194,
+    "harmful_selection_fraction": 0.13911290322580644,
+    "mean_frame_risk": 0.5228365063667297,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0011001277552243826,
+      "pointwise_95_interval": [
+        -4.678439208359089e-05,
+        0.0029184182872402935
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "task_only",
+    "seed": null,
+    "AP_percent": 0.003693275631156261,
+    "AP50_percent": 0.021925499259057766,
+    "AP75_percent": 0.00012704837413986803,
+    "per_class_AP_percent": [
+      0.006963211916911644,
+      0.007809890607713401,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "camera_removed",
+    "method": "cure",
+    "seed": null,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "camera_removed",
+    "method": "modality_dropout",
+    "seed": null,
+    "AP_percent": 0.07357247999600824,
+    "AP50_percent": 0.41342810770682814,
+    "AP75_percent": 0.0004929668144731084,
+    "per_class_AP_percent": [
+      0.2418511104749091,
+      0.05243880950912386,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "camera_removed",
+    "method": "positive_mean",
+    "seed": 11,
+    "AP_percent": 0.023669254053336926,
+    "AP50_percent": 0.15123748895529515,
+    "AP75_percent": 0.00034578405104537905,
+    "per_class_AP_percent": [
+      0.00938082301765041,
+      0.08529619319569734,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.9818548387096774,
+    "harmful_selection_fraction": 0.19254032258064516,
+    "mean_frame_risk": 8.071148872375488,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.24737874295144724,
+      "pointwise_95_interval": [
+        -0.5974121559117009,
+        -0.05419497331380992
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.45023566484451294,
+      "MAE": 0.24633269011974335,
+      "sign_agreement": 0.7943548387096774,
+      "empirical_band_coverage": 0.9566532258064516
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 11,
+    "AP_percent": 0.011961285764493287,
+    "AP50_percent": 0.07693017625098546,
+    "AP75_percent": 0.00028418236303485577,
+    "per_class_AP_percent": [
+      0.005753794983627501,
+      0.04209134807434564,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.5473790322580645,
+    "harmful_selection_fraction": 0.0655241935483871,
+    "mean_frame_risk": 8.095524787902832,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2057150208898649,
+      "pointwise_95_interval": [
+        -0.5606503566698637,
+        -0.019583126099524357
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.45023566484451294,
+      "MAE": 0.24633269011974335,
+      "sign_agreement": 0.7943548387096774,
+      "empirical_band_coverage": 0.9566532258064516
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_utility",
+    "seed": 11,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.45023566484451294,
+      "MAE": 0.24633269011974335,
+      "sign_agreement": 0.7943548387096774,
+      "empirical_band_coverage": 0.9566532258064516
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_zero",
+    "seed": 11,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_permuted",
+    "seed": 11,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "confidence",
+    "seed": null,
+    "AP_percent": 0.007451419855697171,
+    "AP50_percent": 0.042394577411693994,
+    "AP75_percent": 0.0006526962599520031,
+    "per_class_AP_percent": [
+      0.005501609505831551,
+      0.02430406991695713,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.2701612903225806,
+    "harmful_selection_fraction": 0.01310483870967742,
+    "mean_frame_risk": 8.118182182312012,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.18787462678148523,
+      "pointwise_95_interval": [
+        -0.5466203254186713,
+        -0.0018209968065651307
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "positive_mean",
+    "seed": 23,
+    "AP_percent": 0.018136928270020457,
+    "AP50_percent": 0.1181958092473309,
+    "AP75_percent": 0.000317196845381795,
+    "per_class_AP_percent": [
+      0.006229685193405383,
+      0.06631802788667646,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.7278225806451613,
+    "harmful_selection_fraction": 0.11391129032258064,
+    "mean_frame_risk": 8.084721565246582,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2226645802912543,
+      "pointwise_95_interval": [
+        -0.5745358420584059,
+        -0.033988374066263045
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4650334119796753,
+      "MAE": 0.25541865825653076,
+      "sign_agreement": 0.6975806451612904,
+      "empirical_band_coverage": 0.9516129032258065
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 23,
+    "AP_percent": 0.006901799303634008,
+    "AP50_percent": 0.042201723727949815,
+    "AP75_percent": 0.0006061979652142396,
+    "per_class_AP_percent": [
+      0.005259640726166019,
+      0.022347556488370016,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.35080645161290325,
+    "harmful_selection_fraction": 0.03125,
+    "mean_frame_risk": 8.114462852478027,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.18926450410362355,
+      "pointwise_95_interval": [
+        -0.5468510532776782,
+        -0.004322209700371275
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4650334119796753,
+      "MAE": 0.25541865825653076,
+      "sign_agreement": 0.6975806451612904,
+      "empirical_band_coverage": 0.9516129032258065
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_utility",
+    "seed": 23,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4650334119796753,
+      "MAE": 0.25541865825653076,
+      "sign_agreement": 0.6975806451612904,
+      "empirical_band_coverage": 0.9516129032258065
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_zero",
+    "seed": 23,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_permuted",
+    "seed": 23,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "positive_mean",
+    "seed": 37,
+    "AP_percent": 0.02121785812053898,
+    "AP50_percent": 0.13572067084620204,
+    "AP75_percent": 0.0003232724984644268,
+    "per_class_AP_percent": [
+      0.006885877922310734,
+      0.07798555455984517,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.8921370967741935,
+    "harmful_selection_fraction": 0.16733870967741934,
+    "mean_frame_risk": 8.075676918029785,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.24262605296650175,
+      "pointwise_95_interval": [
+        -0.5955941429219715,
+        -0.04657152181862898
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4528775215148926,
+      "MAE": 0.24679872393608093,
+      "sign_agreement": 0.7550403225806451,
+      "empirical_band_coverage": 0.9536290322580645
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 37,
+    "AP_percent": 0.008281046293214888,
+    "AP50_percent": 0.04967527712933852,
+    "AP75_percent": 0.0007852620488010361,
+    "per_class_AP_percent": [
+      0.005414954612444663,
+      0.027709230560414896,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.41431451612903225,
+    "harmful_selection_fraction": 0.03931451612903226,
+    "mean_frame_risk": 8.106322288513184,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.19534101961533723,
+      "pointwise_95_interval": [
+        -0.5512919443500619,
+        -0.010301438044701045
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4528775215148926,
+      "MAE": 0.24679872393608093,
+      "sign_agreement": 0.7550403225806451,
+      "empirical_band_coverage": 0.9536290322580645
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_utility",
+    "seed": 37,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4528775215148926,
+      "MAE": 0.24679872393608093,
+      "sign_agreement": 0.7550403225806451,
+      "empirical_band_coverage": 0.9536290322580645
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_zero",
+    "seed": 37,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_permuted",
+    "seed": 37,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "positive_mean",
+    "seed": 53,
+    "AP_percent": 0.023981242834080294,
+    "AP50_percent": 0.1536755070269443,
+    "AP75_percent": 0.0003490355161147592,
+    "per_class_AP_percent": [
+      0.009967816182296722,
+      0.08595715515402445,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.9848790322580645,
+    "harmful_selection_fraction": 0.1935483870967742,
+    "mean_frame_risk": 8.07071590423584,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.24773309577298275,
+      "pointwise_95_interval": [
+        -0.5974256108800567,
+        -0.05455392228316284
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4344841241836548,
+      "MAE": 0.2407086342573166,
+      "sign_agreement": 0.7953629032258065,
+      "empirical_band_coverage": 0.9637096774193549
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 53,
+    "AP_percent": 0.013583365777199543,
+    "AP50_percent": 0.08907002076607745,
+    "AP75_percent": 0.00029513400127032484,
+    "per_class_AP_percent": [
+      0.0058112112778852445,
+      0.04852225183091293,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.594758064516129,
+    "harmful_selection_fraction": 0.07459677419354839,
+    "mean_frame_risk": 8.092737197875977,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2069764363971469,
+      "pointwise_95_interval": [
+        -0.5622582397488871,
+        -0.02010369385956681
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4344841241836548,
+      "MAE": 0.2407086342573166,
+      "sign_agreement": 0.7953629032258065,
+      "empirical_band_coverage": 0.9637096774193549
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_utility",
+    "seed": 53,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.4344841241836548,
+      "MAE": 0.2407086342573166,
+      "sign_agreement": 0.7953629032258065,
+      "empirical_band_coverage": 0.9637096774193549
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_zero",
+    "seed": 53,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_permuted",
+    "seed": 53,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "positive_mean",
+    "seed": 71,
+    "AP_percent": 0.016915324233172803,
+    "AP50_percent": 0.11205288870352442,
+    "AP75_percent": 0.00030181122317474076,
+    "per_class_AP_percent": [
+      0.006163529280564685,
+      0.06149776765212653,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.6703629032258065,
+    "harmful_selection_fraction": 0.10080645161290322,
+    "mean_frame_risk": 8.090115547180176,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.21372710812931586,
+      "pointwise_95_interval": [
+        -0.5661154364955209,
+        -0.028698947719713246
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.46227550506591797,
+      "MAE": 0.2566291093826294,
+      "sign_agreement": 0.6663306451612904,
+      "empirical_band_coverage": 0.9536290322580645
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 71,
+    "AP_percent": 0.006566249195874865,
+    "AP50_percent": 0.03958178515569036,
+    "AP75_percent": 0.0005640143377201307,
+    "per_class_AP_percent": [
+      0.004765119978404931,
+      0.02149987680509453,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 0.3155241935483871,
+    "harmful_selection_fraction": 0.023185483870967742,
+    "mean_frame_risk": 8.117056846618652,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.18821241514794973,
+      "pointwise_95_interval": [
+        -0.5460877596832089,
+        -0.00384525477028789
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.46227550506591797,
+      "MAE": 0.2566291093826294,
+      "sign_agreement": 0.6663306451612904,
+      "empirical_band_coverage": 0.9536290322580645
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_utility",
+    "seed": 71,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.46227550506591797,
+      "MAE": 0.2566291093826294,
+      "sign_agreement": 0.6663306451612904,
+      "empirical_band_coverage": 0.9536290322580645
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_zero",
+    "seed": 71,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "camera_removed",
+    "method": "selector_permuted",
+    "seed": 71,
+    "AP_percent": 0.0302036484318159,
+    "AP50_percent": 0.1944402940933885,
+    "AP75_percent": 0.00038252119133091826,
+    "per_class_AP_percent": [
+      0.012647191270752771,
+      0.10816740245651084,
+      0.0,
+      0.0
+    ],
+    "selection_fraction": 1.0,
+    "harmful_selection_fraction": 0.1975806451612903,
+    "mean_frame_risk": 8.06870174407959,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.2487291786287258,
+      "pointwise_95_interval": [
+        -0.5978216144401319,
+        -0.055174466995974655
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "task_only",
+    "seed": null,
+    "AP_percent": 61.45016150323981,
+    "AP50_percent": 78.53307536455249,
+    "AP75_percent": 68.24535498708302,
+    "per_class_AP_percent": [
+      83.34499343526618,
+      81.80073201213095,
+      36.818521306424145,
+      43.836399259137984
+    ]
+  },
+  {
+    "condition": "radar_removed",
+    "method": "cure",
+    "seed": null,
+    "AP_percent": 60.33464463564161,
+    "AP50_percent": 77.10354221971221,
+    "AP75_percent": 68.24228778134488,
+    "per_class_AP_percent": [
+      82.75821700610469,
+      82.02879044105595,
+      33.35415466056054,
+      43.197416434845294
+    ]
+  },
+  {
+    "condition": "radar_removed",
+    "method": "modality_dropout",
+    "seed": null,
+    "AP_percent": 61.724752568486274,
+    "AP50_percent": 78.36727798856433,
+    "AP75_percent": 68.70740304445638,
+    "per_class_AP_percent": [
+      82.97643427813689,
+      82.10733769833489,
+      38.69164874468504,
+      43.12358955278825
+    ]
+  },
+  {
+    "condition": "radar_removed",
+    "method": "positive_mean",
+    "seed": 11,
+    "AP_percent": 60.42474336812024,
+    "AP50_percent": 77.07649748331592,
+    "AP75_percent": 67.57815654444133,
+    "per_class_AP_percent": [
+      83.06363161187693,
+      81.69320432984127,
+      33.83371387580255,
+      43.10842365496023
+    ],
+    "selection_fraction": 0.4717741935483871,
+    "harmful_selection_fraction": 0.21169354838709678,
+    "mean_frame_risk": 0.5537120699882507,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00618800012707118,
+      "pointwise_95_interval": [
+        -0.015706788227367523,
+        0.0023567689462070224
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13695630431175232,
+      "MAE": 0.08271337300539017,
+      "sign_agreement": 0.4939516129032258,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 11,
+    "AP_percent": 61.30480621059575,
+    "AP50_percent": 78.33701552151527,
+    "AP75_percent": 68.13565775538721,
+    "per_class_AP_percent": [
+      83.32838100941206,
+      81.80073908049236,
+      36.61043148217871,
+      43.479673270299884
+    ],
+    "selection_fraction": 0.018145161290322582,
+    "harmful_selection_fraction": 0.010080645161290322,
+    "mean_frame_risk": 0.56846022605896,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 5.701787281782668e-05,
+      "pointwise_95_interval": [
+        -7.99027192494217e-05,
+        0.00025095633770290176
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13695630431175232,
+      "MAE": 0.08271337300539017,
+      "sign_agreement": 0.4939516129032258,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_utility",
+    "seed": 11,
+    "AP_percent": 60.78774770265364,
+    "AP50_percent": 77.61232771212646,
+    "AP75_percent": 67.52032566678466,
+    "per_class_AP_percent": [
+      83.22941597898034,
+      81.95876404367274,
+      35.320585140137005,
+      42.64222564782445
+    ],
+    "selection_fraction": 0.31048387096774194,
+    "harmful_selection_fraction": 0.15524193548387097,
+    "mean_frame_risk": 0.5642371773719788,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0017424032187487806,
+      "pointwise_95_interval": [
+        -0.006917471384420646,
+        0.002653997083635996
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13695630431175232,
+      "MAE": 0.08271337300539017,
+      "sign_agreement": 0.4939516129032258,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_zero",
+    "seed": 11,
+    "AP_percent": 61.06660536484094,
+    "AP50_percent": 78.39145786340141,
+    "AP75_percent": 67.84835495576232,
+    "per_class_AP_percent": [
+      83.32824090262629,
+      81.98164771522883,
+      36.32635661042783,
+      42.63017623108081
+    ],
+    "selection_fraction": 0.29939516129032256,
+    "harmful_selection_fraction": 0.14919354838709678,
+    "mean_frame_risk": 0.5692174434661865,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0006835095563038371,
+      "pointwise_95_interval": [
+        -0.00884751365432292,
+        0.010149694325631124
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_permuted",
+    "seed": 11,
+    "AP_percent": 61.02124052480045,
+    "AP50_percent": 78.27553990810425,
+    "AP75_percent": 67.824358122099,
+    "per_class_AP_percent": [
+      83.31047867188428,
+      82.06485650726351,
+      36.10934769172282,
+      42.60027922833121
+    ],
+    "selection_fraction": 0.3014112903225806,
+    "harmful_selection_fraction": 0.1532258064516129,
+    "mean_frame_risk": 0.5689529776573181,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0004399476532500131,
+      "pointwise_95_interval": [
+        -0.008336918970479395,
+        0.009817226535712487
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "confidence",
+    "seed": null,
+    "AP_percent": 60.41722484993196,
+    "AP50_percent": 77.06887756940684,
+    "AP75_percent": 68.13116581287797,
+    "per_class_AP_percent": [
+      82.78355956543619,
+      81.70172552258764,
+      33.96752956175652,
+      43.216084749947505
+    ],
+    "selection_fraction": 0.75,
+    "harmful_selection_fraction": 0.35181451612903225,
+    "mean_frame_risk": 0.5464509725570679,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0011012026422380404,
+      "pointwise_95_interval": [
+        -0.01890982860720167,
+        0.018427979331487244
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "positive_mean",
+    "seed": 23,
+    "AP_percent": 60.71390665302504,
+    "AP50_percent": 77.30072578827601,
+    "AP75_percent": 68.06970420814739,
+    "per_class_AP_percent": [
+      83.04414259406437,
+      81.80890827127625,
+      34.17081639651251,
+      43.83175935024705
+    ],
+    "selection_fraction": 0.5161290322580645,
+    "harmful_selection_fraction": 0.18850806451612903,
+    "mean_frame_risk": 0.5423073768615723,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.009609271164307674,
+      "pointwise_95_interval": [
+        -0.023000211968106872,
+        0.001504935213233632
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13192851841449738,
+      "MAE": 0.077059805393219,
+      "sign_agreement": 0.5846774193548387,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 23,
+    "AP_percent": 61.36149048386237,
+    "AP50_percent": 78.44385399900422,
+    "AP75_percent": 68.19895327707334,
+    "per_class_AP_percent": [
+      83.3215648366298,
+      81.80461758362819,
+      36.90222388460719,
+      43.41755563058431
+    ],
+    "selection_fraction": 0.017137096774193547,
+    "harmful_selection_fraction": 0.010080645161290322,
+    "mean_frame_risk": 0.5685718655586243,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00020128906690953767,
+      "pointwise_95_interval": [
+        -0.0002209983373943128,
+        0.0008585941148450721
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13192851841449738,
+      "MAE": 0.077059805393219,
+      "sign_agreement": 0.5846774193548387,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_utility",
+    "seed": 23,
+    "AP_percent": 60.670271800993305,
+    "AP50_percent": 77.60975897600737,
+    "AP75_percent": 67.53302497689347,
+    "per_class_AP_percent": [
+      83.2400975965813,
+      81.99299996712035,
+      34.73024765468738,
+      42.71774198558415
+    ],
+    "selection_fraction": 0.33669354838709675,
+    "harmful_selection_fraction": 0.15826612903225806,
+    "mean_frame_risk": 0.562149703502655,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.002635182374947862,
+      "pointwise_95_interval": [
+        -0.009786161009522416,
+        0.0036347753581563807
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13192851841449738,
+      "MAE": 0.077059805393219,
+      "sign_agreement": 0.5846774193548387,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_zero",
+    "seed": 23,
+    "AP_percent": 61.09547588636948,
+    "AP50_percent": 78.40277910565078,
+    "AP75_percent": 67.91018374873417,
+    "per_class_AP_percent": [
+      83.34046343307058,
+      81.95778432449903,
+      36.362478801043416,
+      42.72117698686487
+    ],
+    "selection_fraction": 0.2973790322580645,
+    "harmful_selection_fraction": 0.15221774193548387,
+    "mean_frame_risk": 0.569922924041748,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0011053022012124534,
+      "pointwise_95_interval": [
+        -0.007587418387156762,
+        0.01028552468408618
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_permuted",
+    "seed": 23,
+    "AP_percent": 61.07562662229107,
+    "AP50_percent": 78.36870011522458,
+    "AP75_percent": 67.8825606715023,
+    "per_class_AP_percent": [
+      83.3402506788461,
+      81.89137759781094,
+      36.35957163240585,
+      42.711306580101386
+    ],
+    "selection_fraction": 0.2872983870967742,
+    "harmful_selection_fraction": 0.15221774193548387,
+    "mean_frame_risk": 0.570696234703064,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.001681869980590964,
+      "pointwise_95_interval": [
+        -0.005716571468064768,
+        0.01028552468408618
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "positive_mean",
+    "seed": 37,
+    "AP_percent": 60.29856430659291,
+    "AP50_percent": 76.84879297982337,
+    "AP75_percent": 67.80391649459891,
+    "per_class_AP_percent": [
+      82.98658561014555,
+      81.74917445430839,
+      33.185672898104954,
+      43.2728242638127
+    ],
+    "selection_fraction": 0.5231854838709677,
+    "harmful_selection_fraction": 0.22580645161290322,
+    "mean_frame_risk": 0.551655650138855,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.003947582402906298,
+      "pointwise_95_interval": [
+        -0.014875183791299918,
+        0.004591648670981344
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13691389560699463,
+      "MAE": 0.08105657249689102,
+      "sign_agreement": 0.5171370967741935,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 37,
+    "AP_percent": 61.23480597492982,
+    "AP50_percent": 78.28576769440885,
+    "AP75_percent": 68.06584146722025,
+    "per_class_AP_percent": [
+      83.28531259712037,
+      81.80105895961839,
+      36.6937936594718,
+      43.1590586835087
+    ],
+    "selection_fraction": 0.04334677419354839,
+    "harmful_selection_fraction": 0.02620967741935484,
+    "mean_frame_risk": 0.5680480599403381,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00017821698912122866,
+      "pointwise_95_interval": [
+        -0.0006784427277316331,
+        0.0010697358102811517
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13691389560699463,
+      "MAE": 0.08105657249689102,
+      "sign_agreement": 0.5171370967741935,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_utility",
+    "seed": 37,
+    "AP_percent": 60.795132933515184,
+    "AP50_percent": 77.74756953412935,
+    "AP75_percent": 67.5898054276898,
+    "per_class_AP_percent": [
+      83.24182804102574,
+      81.95763272139317,
+      35.40104481443046,
+      42.58002615721139
+    ],
+    "selection_fraction": 0.30443548387096775,
+    "harmful_selection_fraction": 0.15423387096774194,
+    "mean_frame_risk": 0.5643007755279541,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0018458038628584093,
+      "pointwise_95_interval": [
+        -0.007154179082848594,
+        0.003199713658010155
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13691389560699463,
+      "MAE": 0.08105657249689102,
+      "sign_agreement": 0.5171370967741935,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_zero",
+    "seed": 37,
+    "AP_percent": 61.07343107630938,
+    "AP50_percent": 78.37433477435872,
+    "AP75_percent": 67.881391162247,
+    "per_class_AP_percent": [
+      83.34089018409287,
+      81.91592138848252,
+      36.321951428271596,
+      42.714961304390535
+    ],
+    "selection_fraction": 0.2852822580645161,
+    "harmful_selection_fraction": 0.14919354838709678,
+    "mean_frame_risk": 0.5699177980422974,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0010201348591102205,
+      "pointwise_95_interval": [
+        -0.007048517956198859,
+        0.010260105963241511
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_permuted",
+    "seed": 37,
+    "AP_percent": 61.08214521455455,
+    "AP50_percent": 78.39132793195117,
+    "AP75_percent": 67.88850204507881,
+    "per_class_AP_percent": [
+      83.34089443302071,
+      81.85339471594652,
+      36.41367407522946,
+      42.720617634021565
+    ],
+    "selection_fraction": 0.27318548387096775,
+    "harmful_selection_fraction": 0.14415322580645162,
+    "mean_frame_risk": 0.5707279443740845,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0016180867025231628,
+      "pointwise_95_interval": [
+        -0.005254994520717966,
+        0.010260216661494157
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "positive_mean",
+    "seed": 53,
+    "AP_percent": 60.37187118040301,
+    "AP50_percent": 76.90784682675049,
+    "AP75_percent": 67.61457343595114,
+    "per_class_AP_percent": [
+      83.04997852644259,
+      81.79991150095836,
+      33.648214492081124,
+      42.98938020212999
+    ],
+    "selection_fraction": 0.4788306451612903,
+    "harmful_selection_fraction": 0.21875,
+    "mean_frame_risk": 0.5561317801475525,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0034059542138906093,
+      "pointwise_95_interval": [
+        -0.010599938958765048,
+        0.0031945895760035147
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.1376020759344101,
+      "MAE": 0.0807216539978981,
+      "sign_agreement": 0.48689516129032256,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 53,
+    "AP_percent": 61.36614360669005,
+    "AP50_percent": 78.43055129359965,
+    "AP75_percent": 68.23772129919102,
+    "per_class_AP_percent": [
+      83.31463821484067,
+      81.8159335228242,
+      36.98579267409908,
+      43.348210014996255
+    ],
+    "selection_fraction": 0.02721774193548387,
+    "harmful_selection_fraction": 0.018145161290322582,
+    "mean_frame_risk": 0.5686444044113159,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0001456960220834047,
+      "pointwise_95_interval": [
+        9.242603379600453e-06,
+        0.00033457909495832115
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.1376020759344101,
+      "MAE": 0.0807216539978981,
+      "sign_agreement": 0.48689516129032256,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_utility",
+    "seed": 53,
+    "AP_percent": 60.917229280567106,
+    "AP50_percent": 78.05721158176986,
+    "AP75_percent": 67.59449276636012,
+    "per_class_AP_percent": [
+      83.21111364444891,
+      81.95349512883054,
+      36.02387134575941,
+      42.48043700322957
+    ],
+    "selection_fraction": 0.2933467741935484,
+    "harmful_selection_fraction": 0.14717741935483872,
+    "mean_frame_risk": 0.5643541812896729,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.002047019023195584,
+      "pointwise_95_interval": [
+        -0.008408469054257274,
+        0.0038774787038469106
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.1376020759344101,
+      "MAE": 0.0807216539978981,
+      "sign_agreement": 0.48689516129032256,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_zero",
+    "seed": 53,
+    "AP_percent": 61.09492507795385,
+    "AP50_percent": 78.36124134936726,
+    "AP75_percent": 67.82271702868903,
+    "per_class_AP_percent": [
+      83.32069127159562,
+      81.99938046924787,
+      36.33343874987614,
+      42.72618982109576
+    ],
+    "selection_fraction": 0.2772177419354839,
+    "harmful_selection_fraction": 0.1350806451612903,
+    "mean_frame_risk": 0.5686869025230408,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0002296938806962162,
+      "pointwise_95_interval": [
+        -0.009423861242780896,
+        0.010345148668261528
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_permuted",
+    "seed": 53,
+    "AP_percent": 61.09678408759446,
+    "AP50_percent": 78.40485661431978,
+    "AP75_percent": 67.84416839041344,
+    "per_class_AP_percent": [
+      83.31929746795022,
+      82.00107990065307,
+      36.37481430421232,
+      42.691944677562255
+    ],
+    "selection_fraction": 0.27419354838709675,
+    "harmful_selection_fraction": 0.13709677419354838,
+    "mean_frame_risk": 0.5688455700874329,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00034993652247912736,
+      "pointwise_95_interval": [
+        -0.009043172076534161,
+        0.010308192571798018
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "positive_mean",
+    "seed": 71,
+    "AP_percent": 60.84428176981497,
+    "AP50_percent": 77.27010044955759,
+    "AP75_percent": 67.98319201748495,
+    "per_class_AP_percent": [
+      83.10922406254303,
+      81.83079404882128,
+      34.34018080720345,
+      44.0969281606921
+    ],
+    "selection_fraction": 0.5141129032258065,
+    "harmful_selection_fraction": 0.20362903225806453,
+    "mean_frame_risk": 0.5480054020881653,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.007253967705668296,
+      "pointwise_95_interval": [
+        -0.018737533600244143,
+        0.0017444293819925563
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13395173847675323,
+      "MAE": 0.07769660651683807,
+      "sign_agreement": 0.5524193548387096,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "fitting_RMS_margin",
+    "seed": 71,
+    "AP_percent": 61.42198240075034,
+    "AP50_percent": 78.58278216697708,
+    "AP75_percent": 68.23682429079292,
+    "per_class_AP_percent": [
+      83.28969084656758,
+      81.80815338591958,
+      37.15582489776173,
+      43.43426047275247
+    ],
+    "selection_fraction": 0.014112903225806451,
+    "harmful_selection_fraction": 0.007056451612903226,
+    "mean_frame_risk": 0.5681105852127075,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 7.635659004296288e-05,
+      "pointwise_95_interval": [
+        -0.0005236882101392971,
+        0.0008666415425235098
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13395173847675323,
+      "MAE": 0.07769660651683807,
+      "sign_agreement": 0.5524193548387096,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_utility",
+    "seed": 71,
+    "AP_percent": 60.90179575135672,
+    "AP50_percent": 77.7783662233951,
+    "AP75_percent": 67.79119801873516,
+    "per_class_AP_percent": [
+      83.22128696186161,
+      81.91941979170693,
+      35.42106944948593,
+      43.04540680237245
+    ],
+    "selection_fraction": 0.28225806451612906,
+    "harmful_selection_fraction": 0.12701612903225806,
+    "mean_frame_risk": 0.5605252385139465,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00320339335526962,
+      "pointwise_95_interval": [
+        -0.008996543329301507,
+        0.0017967201534095582
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.13395173847675323,
+      "MAE": 0.07769660651683807,
+      "sign_agreement": 0.5524193548387096,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_zero",
+    "seed": 71,
+    "AP_percent": 61.01247105546243,
+    "AP50_percent": 78.27998876472834,
+    "AP75_percent": 67.83192460252457,
+    "per_class_AP_percent": [
+      83.32820702559947,
+      82.03281524262319,
+      36.14155369843671,
+      42.547308255190316
+    ],
+    "selection_fraction": 0.28931451612903225,
+    "harmful_selection_fraction": 0.14112903225806453,
+    "mean_frame_risk": 0.5688161253929138,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00031024606696900296,
+      "pointwise_95_interval": [
+        -0.008611700764679629,
+        0.009933780839802953
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_removed",
+    "method": "selector_permuted",
+    "seed": 71,
+    "AP_percent": 61.073646218506916,
+    "AP50_percent": 78.36936932312891,
+    "AP75_percent": 67.88201392740298,
+    "per_class_AP_percent": [
+      83.32687317170736,
+      82.06094309980104,
+      36.27453097189837,
+      42.6322376306209
+    ],
+    "selection_fraction": 0.2963709677419355,
+    "harmful_selection_fraction": 0.14415322580645162,
+    "mean_frame_risk": 0.5685740113258362,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0001003522741399687,
+      "pointwise_95_interval": [
+        -0.009031746464400525,
+        0.009815150825001572
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "task_only",
+    "seed": null,
+    "AP_percent": 62.16774028283274,
+    "AP50_percent": 78.37761333058494,
+    "AP75_percent": 69.29444054753368,
+    "per_class_AP_percent": [
+      83.28261767664546,
+      81.93924890829925,
+      39.27825198177113,
+      44.17084256461513
+    ]
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "cure",
+    "seed": null,
+    "AP_percent": 61.319289928647315,
+    "AP50_percent": 77.47543992887367,
+    "AP75_percent": 69.26201032516991,
+    "per_class_AP_percent": [
+      82.98677216504926,
+      82.27392107595402,
+      35.37479237203782,
+      44.641674101548126
+    ]
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "modality_dropout",
+    "seed": null,
+    "AP_percent": 61.654029411269484,
+    "AP50_percent": 77.69052219060498,
+    "AP75_percent": 68.2800262141698,
+    "per_class_AP_percent": [
+      83.06102658295575,
+      82.2716039163389,
+      37.79032424294822,
+      43.49316290283507
+    ]
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "positive_mean",
+    "seed": 11,
+    "AP_percent": 61.85029496211817,
+    "AP50_percent": 78.12774875185698,
+    "AP75_percent": 68.99233381581251,
+    "per_class_AP_percent": [
+      83.13361023178454,
+      82.12995938283947,
+      37.96618193719536,
+      44.17142829665332
+    ],
+    "selection_fraction": 0.38306451612903225,
+    "harmful_selection_fraction": 0.17943548387096775,
+    "mean_frame_risk": 0.5186253190040588,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0028528152443825353,
+      "pointwise_95_interval": [
+        -0.006157824500718833,
+        0.0002785271100225873
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.1120610386133194,
+      "MAE": 0.07077617198228836,
+      "sign_agreement": 0.5151209677419355,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "fitting_RMS_margin",
+    "seed": 11,
+    "AP_percent": 62.20921324685029,
+    "AP50_percent": 78.49410739572058,
+    "AP75_percent": 69.36638162395549,
+    "per_class_AP_percent": [
+      83.2671243120756,
+      81.93958168081316,
+      39.61103398572922,
+      44.01911300878316
+    ],
+    "selection_fraction": 0.017137096774193547,
+    "harmful_selection_fraction": 0.006048387096774193,
+    "mean_frame_risk": 0.5228459239006042,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00018472156076258702,
+      "pointwise_95_interval": [
+        -0.0004382254569180344,
+        0.0
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.1120610386133194,
+      "MAE": 0.07077617198228836,
+      "sign_agreement": 0.5151209677419355,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_utility",
+    "seed": 11,
+    "AP_percent": 61.95326753759358,
+    "AP50_percent": 78.19324735646504,
+    "AP75_percent": 69.37322988724782,
+    "per_class_AP_percent": [
+      83.22678143604398,
+      81.96947233754872,
+      38.60606257114688,
+      44.010753805634714
+    ],
+    "selection_fraction": 0.2590725806451613,
+    "harmful_selection_fraction": 0.11794354838709678,
+    "mean_frame_risk": 0.5220140218734741,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0006344083544563996,
+      "pointwise_95_interval": [
+        -0.0022027615833443985,
+        0.0009042698747454311
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.1120610386133194,
+      "MAE": 0.07077617198228836,
+      "sign_agreement": 0.5151209677419355,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_zero",
+    "seed": 11,
+    "AP_percent": 62.023463177693515,
+    "AP50_percent": 78.30390323552365,
+    "AP75_percent": 69.37925648751782,
+    "per_class_AP_percent": [
+      83.23970486075496,
+      81.95673505272161,
+      38.837798363954086,
+      44.05961443334342
+    ],
+    "selection_fraction": 0.26411290322580644,
+    "harmful_selection_fraction": 0.1350806451612903,
+    "mean_frame_risk": 0.5239144563674927,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0003143687278442653,
+      "pointwise_95_interval": [
+        -0.00015833515282680805,
+        0.0009924809855874628
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_permuted",
+    "seed": 11,
+    "AP_percent": 61.964150672244145,
+    "AP50_percent": 78.23963232552504,
+    "AP75_percent": 69.27249736657832,
+    "per_class_AP_percent": [
+      83.25896627007768,
+      81.95542190721052,
+      38.798387535501874,
+      43.843826976186506
+    ],
+    "selection_fraction": 0.24899193548387097,
+    "harmful_selection_fraction": 0.12600806451612903,
+    "mean_frame_risk": 0.524523913860321,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0008215202348720846,
+      "pointwise_95_interval": [
+        0.00012122830903192737,
+        0.0016290533126179518
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "confidence",
+    "seed": null,
+    "AP_percent": 61.65484383309613,
+    "AP50_percent": 77.88653570294001,
+    "AP75_percent": 69.03791742610579,
+    "per_class_AP_percent": [
+      83.10575785074323,
+      82.11887186389274,
+      36.909119490247726,
+      44.48562612750081
+    ],
+    "selection_fraction": 0.6905241935483871,
+    "harmful_selection_fraction": 0.3487903225806452,
+    "mean_frame_risk": 0.5173461437225342,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 8.660186098456268e-05,
+      "pointwise_95_interval": [
+        -0.007172303155901672,
+        0.007420003612464783
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "positive_mean",
+    "seed": 23,
+    "AP_percent": 61.99994223475893,
+    "AP50_percent": 78.37663776879307,
+    "AP75_percent": 69.22811626841312,
+    "per_class_AP_percent": [
+      83.13007008165661,
+      81.96772644477403,
+      38.614576510874365,
+      44.28739590173071
+    ],
+    "selection_fraction": 0.42036290322580644,
+    "harmful_selection_fraction": 0.18245967741935484,
+    "mean_frame_risk": 0.5161356329917908,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.002753056052090516,
+      "pointwise_95_interval": [
+        -0.0063112209087956735,
+        0.001266663081855185
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10918445140123367,
+      "MAE": 0.06629490852355957,
+      "sign_agreement": 0.5463709677419355,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "fitting_RMS_margin",
+    "seed": 23,
+    "AP_percent": 62.19748004842091,
+    "AP50_percent": 78.44934791727127,
+    "AP75_percent": 69.36616262955756,
+    "per_class_AP_percent": [
+      83.26602559830023,
+      81.93882641034219,
+      39.52884548520074,
+      44.05622269984046
+    ],
+    "selection_fraction": 0.012096774193548387,
+    "harmful_selection_fraction": 0.005040322580645161,
+    "mean_frame_risk": 0.523125946521759,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00011657390993819731,
+      "pointwise_95_interval": [
+        -0.0002785751516556196,
+        0.0
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10918445140123367,
+      "MAE": 0.06629490852355957,
+      "sign_agreement": 0.5463709677419355,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_utility",
+    "seed": 23,
+    "AP_percent": 62.11589631403574,
+    "AP50_percent": 78.59669589911195,
+    "AP75_percent": 69.3341778776147,
+    "per_class_AP_percent": [
+      83.27193331155858,
+      82.0700569213096,
+      38.86517204589339,
+      44.25642297738133
+    ],
+    "selection_fraction": 0.26310483870967744,
+    "harmful_selection_fraction": 0.11995967741935484,
+    "mean_frame_risk": 0.5207684636116028,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0013333924359091522,
+      "pointwise_95_interval": [
+        -0.0025978304625771014,
+        -7.757912915663116e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.10918445140123367,
+      "MAE": 0.06629490852355957,
+      "sign_agreement": 0.5463709677419355,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_zero",
+    "seed": 23,
+    "AP_percent": 62.079922811768554,
+    "AP50_percent": 78.43584159341901,
+    "AP75_percent": 69.41722332291235,
+    "per_class_AP_percent": [
+      83.28043965207615,
+      81.85863700239803,
+      39.12182838080775,
+      44.05878621179228
+    ],
+    "selection_fraction": 0.2701612903225806,
+    "harmful_selection_fraction": 0.13407258064516128,
+    "mean_frame_risk": 0.5236561298370361,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0002767994154607368,
+      "pointwise_95_interval": [
+        -0.0006629516385037004,
+        0.0012045548502126987
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_permuted",
+    "seed": 23,
+    "AP_percent": 62.07907149710115,
+    "AP50_percent": 78.43582586983126,
+    "AP75_percent": 69.41759662861834,
+    "per_class_AP_percent": [
+      83.28014201309999,
+      81.85772153115222,
+      39.125776263896576,
+      44.05264618025582
+    ],
+    "selection_fraction": 0.2651209677419355,
+    "harmful_selection_fraction": 0.13407258064516128,
+    "mean_frame_risk": 0.5237737894058228,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0003678100816306146,
+      "pointwise_95_interval": [
+        -0.0006146546431452211,
+        0.001375982022035398
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "positive_mean",
+    "seed": 37,
+    "AP_percent": 61.675080979101196,
+    "AP50_percent": 78.00757120238018,
+    "AP75_percent": 68.75295194161247,
+    "per_class_AP_percent": [
+      83.0500912614497,
+      81.97863418643684,
+      37.74914881450413,
+      43.922449654014095
+    ],
+    "selection_fraction": 0.4173387096774194,
+    "harmful_selection_fraction": 0.19556451612903225,
+    "mean_frame_risk": 0.5208986401557922,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0007432217834397007,
+      "pointwise_95_interval": [
+        -0.003124478199766813,
+        0.0019562394624518167
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11280032247304916,
+      "MAE": 0.06962858140468597,
+      "sign_agreement": 0.5171370967741935,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "fitting_RMS_margin",
+    "seed": 37,
+    "AP_percent": 62.211945730702226,
+    "AP50_percent": 78.46861988537557,
+    "AP75_percent": 69.38328738959895,
+    "per_class_AP_percent": [
+      83.25700964046915,
+      81.93403459601079,
+      39.60789756594699,
+      44.04884112038196
+    ],
+    "selection_fraction": 0.03225806451612903,
+    "harmful_selection_fraction": 0.015120967741935484,
+    "mean_frame_risk": 0.5232174396514893,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -3.0485684726409677e-05,
+      "pointwise_95_interval": [
+        -0.0007885157305520612,
+        0.0007055580843313301
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11280032247304916,
+      "MAE": 0.06962858140468597,
+      "sign_agreement": 0.5171370967741935,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_utility",
+    "seed": 37,
+    "AP_percent": 62.03727448314744,
+    "AP50_percent": 78.4326072234766,
+    "AP75_percent": 69.36843524563875,
+    "per_class_AP_percent": [
+      83.24747377548172,
+      81.95791928073086,
+      38.99998713266759,
+      43.94371774370961
+    ],
+    "selection_fraction": 0.23084677419354838,
+    "harmful_selection_fraction": 0.10080645161290322,
+    "mean_frame_risk": 0.5213803648948669,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0015434092286266956,
+      "pointwise_95_interval": [
+        -0.002795973442859455,
+        -0.000475551363939861
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11280032247304916,
+      "MAE": 0.06962858140468597,
+      "sign_agreement": 0.5171370967741935,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_zero",
+    "seed": 37,
+    "AP_percent": 62.10865974999661,
+    "AP50_percent": 78.47668848316215,
+    "AP75_percent": 69.41960901331433,
+    "per_class_AP_percent": [
+      83.2806356035725,
+      81.93923711635009,
+      39.12362679645429,
+      44.091139483609574
+    ],
+    "selection_fraction": 0.25100806451612906,
+    "harmful_selection_fraction": 0.12399193548387097,
+    "mean_frame_risk": 0.5225866436958313,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0006200813964729918,
+      "pointwise_95_interval": [
+        -0.001569526664232603,
+        5.280622558313466e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_permuted",
+    "seed": 37,
+    "AP_percent": 62.10060862515099,
+    "AP50_percent": 78.48141398537138,
+    "AP75_percent": 69.42356167223778,
+    "per_class_AP_percent": [
+      83.28082797799435,
+      81.93270562041486,
+      39.132769598226155,
+      44.056131303968606
+    ],
+    "selection_fraction": 0.24596774193548387,
+    "harmful_selection_fraction": 0.11794354838709678,
+    "mean_frame_risk": 0.5226616263389587,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0005647442085708603,
+      "pointwise_95_interval": [
+        -0.0015239590616696196,
+        0.00017363651533655467
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "positive_mean",
+    "seed": 53,
+    "AP_percent": 61.77132448044526,
+    "AP50_percent": 77.93734307980012,
+    "AP75_percent": 68.95604526489288,
+    "per_class_AP_percent": [
+      83.12132440972916,
+      81.97541268459385,
+      38.128769199326754,
+      43.85979162813126
+    ],
+    "selection_fraction": 0.40423387096774194,
+    "harmful_selection_fraction": 0.19657258064516128,
+    "mean_frame_risk": 0.5219364762306213,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00014514649309993867,
+      "pointwise_95_interval": [
+        -0.002423376147719439,
+        0.0021409447212153002
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11352638155221939,
+      "MAE": 0.07002712041139603,
+      "sign_agreement": 0.5020161290322581,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "fitting_RMS_margin",
+    "seed": 53,
+    "AP_percent": 62.199552527901105,
+    "AP50_percent": 78.45839051239395,
+    "AP75_percent": 69.39001176819752,
+    "per_class_AP_percent": [
+      83.27665598239052,
+      81.93182193435347,
+      39.52770511863713,
+      44.06202707622329
+    ],
+    "selection_fraction": 0.024193548387096774,
+    "harmful_selection_fraction": 0.011088709677419355,
+    "mean_frame_risk": 0.5232205390930176,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00011163947500167639,
+      "pointwise_95_interval": [
+        -0.0003573047487359298,
+        2.2386323730900602e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11352638155221939,
+      "MAE": 0.07002712041139603,
+      "sign_agreement": 0.5020161290322581,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_utility",
+    "seed": 53,
+    "AP_percent": 62.08046196047656,
+    "AP50_percent": 78.45880449717659,
+    "AP75_percent": 69.26671917515056,
+    "per_class_AP_percent": [
+      83.25847601972984,
+      82.01966651838394,
+      39.11105425668857,
+      43.932651047103846
+    ],
+    "selection_fraction": 0.21774193548387097,
+    "harmful_selection_fraction": 0.1028225806451613,
+    "mean_frame_risk": 0.5221161246299744,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0009003737230464696,
+      "pointwise_95_interval": [
+        -0.0018760525448419713,
+        -4.9827818073472885e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11352638155221939,
+      "MAE": 0.07002712041139603,
+      "sign_agreement": 0.5020161290322581,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_zero",
+    "seed": 53,
+    "AP_percent": 62.121501830186055,
+    "AP50_percent": 78.4594375652569,
+    "AP75_percent": 69.46252946739257,
+    "per_class_AP_percent": [
+      83.26120985838327,
+      82.10110324150573,
+      39.259624193647205,
+      43.86407002720803
+    ],
+    "selection_fraction": 0.2288306451612903,
+    "harmful_selection_fraction": 0.11693548387096774,
+    "mean_frame_risk": 0.523370087146759,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -5.24526767692765e-05,
+      "pointwise_95_interval": [
+        -0.0021760431537334265,
+        0.002688107503159379
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_permuted",
+    "seed": 53,
+    "AP_percent": 62.128183819877734,
+    "AP50_percent": 78.47958867325498,
+    "AP75_percent": 69.43001887358903,
+    "per_class_AP_percent": [
+      83.2607800309093,
+      82.05621006423037,
+      39.29611919273758,
+      43.89962599163365
+    ],
+    "selection_fraction": 0.22379032258064516,
+    "harmful_selection_fraction": 0.11290322580645161,
+    "mean_frame_risk": 0.5232270956039429,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.00015362671479674927,
+      "pointwise_95_interval": [
+        -0.0021612206876241834,
+        0.0023878117050305228
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "positive_mean",
+    "seed": 71,
+    "AP_percent": 61.963327713231884,
+    "AP50_percent": 78.20820452250109,
+    "AP75_percent": 68.84884758874054,
+    "per_class_AP_percent": [
+      83.21097842839148,
+      81.98689482221614,
+      38.58347624492679,
+      44.07196135739307
+    ],
+    "selection_fraction": 0.3407258064516129,
+    "harmful_selection_fraction": 0.14919354838709678,
+    "mean_frame_risk": 0.5198041796684265,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0016759394948997245,
+      "pointwise_95_interval": [
+        -0.003727681750241911,
+        0.0004818092043392465
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11147097498178482,
+      "MAE": 0.06825540959835052,
+      "sign_agreement": 0.5332661290322581,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "fitting_RMS_margin",
+    "seed": 71,
+    "AP_percent": 62.227187137588935,
+    "AP50_percent": 78.46977143827402,
+    "AP75_percent": 69.35732922250992,
+    "per_class_AP_percent": [
+      83.27774269049696,
+      81.93862378500489,
+      39.55260509088344,
+      44.13977698397047
+    ],
+    "selection_fraction": 0.007056451612903226,
+    "harmful_selection_fraction": 0.0010080645161290322,
+    "mean_frame_risk": 0.5229834318161011,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 1.0272939625865856e-05,
+      "pointwise_95_interval": [
+        -0.00048514329037576353,
+        0.0006683494877619456
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11147097498178482,
+      "MAE": 0.06825540959835052,
+      "sign_agreement": 0.5332661290322581,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_utility",
+    "seed": 71,
+    "AP_percent": 62.0703627886362,
+    "AP50_percent": 78.51764386365787,
+    "AP75_percent": 69.09097768029856,
+    "per_class_AP_percent": [
+      83.2679174235476,
+      82.00098928777582,
+      39.05815045446255,
+      43.954393988758845
+    ],
+    "selection_fraction": 0.19254032258064516,
+    "harmful_selection_fraction": 0.08971774193548387,
+    "mean_frame_risk": 0.5217296481132507,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": -0.0008448354621152613,
+      "pointwise_95_interval": [
+        -0.0016576316394958164,
+        -8.252723664427647e-05
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    },
+    "utility": {
+      "RMSE": 0.11147097498178482,
+      "MAE": 0.06825540959835052,
+      "sign_agreement": 0.5332661290322581,
+      "empirical_band_coverage": 1.0
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_zero",
+    "seed": 71,
+    "AP_percent": 61.97822836849001,
+    "AP50_percent": 78.25295568429486,
+    "AP75_percent": 68.98140188821664,
+    "per_class_AP_percent": [
+      83.24980672874248,
+      82.04540355456116,
+      38.6910780021255,
+      43.926625188530906
+    ],
+    "selection_fraction": 0.24899193548387097,
+    "harmful_selection_fraction": 0.13004032258064516,
+    "mean_frame_risk": 0.5240886211395264,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.0003259474113794983,
+      "pointwise_95_interval": [
+        -0.0011928345300741224,
+        0.0019301371976461969
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  },
+  {
+    "condition": "radar_thinned_fresh",
+    "method": "selector_permuted",
+    "seed": 71,
+    "AP_percent": 62.067785455795,
+    "AP50_percent": 78.34376334586307,
+    "AP75_percent": 69.39920553633908,
+    "per_class_AP_percent": [
+      83.26057417404753,
+      82.03139966643263,
+      39.041940805169986,
+      43.93722717752981
+    ],
+    "selection_fraction": 0.24294354838709678,
+    "harmful_selection_fraction": 0.12298387096774194,
+    "mean_frame_risk": 0.5239314436912537,
+    "paired_sequence_risk_delta": {
+      "sequence_mean": 0.00046893297401931564,
+      "pointwise_95_interval": [
+        -0.0004901878669075703,
+        0.0018311806340307122
+      ],
+      "recordings": 8,
+      "draws": 2000,
+      "seed": 9132026,
+      "estimand": "equal-recording mean frame-risk difference; not AP"
+    }
+  }
+]
