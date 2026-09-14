@@ -21,12 +21,12 @@ def export_tables(output):
   md+=''.join('| '+' | '.join(row)+' |\n' for row in rows)
   (output/(stem+'.md')).write_text(md)
   index.append({k:table[k] for k in ('number','paper_location','title','metric_and_units','source_files','source_mapping','cell_sources')}|{'files':{ext:stem+'.'+ext for ext in ('csv','md')},'rows':len(rows)})
- (output/'index.json').write_text(json.dumps({'table_count':13,'numbering':'Arabic Tables 1–13: main Tables 1–3 and appendix Tables 4–13.','tables':index},indent=2,sort_keys=True)+'\n')
+ (output/'index.json').write_text(json.dumps({'table_count':13,'numbering':'Scientific Tables 1–13.','tables':index},indent=2,sort_keys=True)+'\n')
  return index
 
 def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True)
  args=parser.parse_args();export_tables(args.output)
- print('Exported 13 scientific tables; no manuscript source or model execution required.')
+ print('Exported 13 scientific tables from saved results.')
 
 if __name__=='__main__':main()

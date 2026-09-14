@@ -7,7 +7,7 @@ Start with the CPU quick start below. It reproduces calculations from the saved 
 | Task | Requirements | Output |
 | --- | --- | --- |
 | Browse results | A browser | Eight figures and thirteen tables already in this repository |
-| Recompute utility statistics and tables | Python 3.12 and `requirements.txt`; CPU | Checked JSON/CSV results and publication tables |
+| Recompute utility statistics and tables | Python 3.12 and `requirements.txt`; CPU | Checked JSON/CSV results and scientific tables |
 | Regenerate all eight figures | Same packages, plus Arial | PNG, PDF and SVG outputs, checked against the saved exports |
 | Evaluate your saved detections | Evaluation dependencies and complete COCO annotations/predictions | COCO box AP metrics |
 | Rerun a recorded experiment | A suitable CUDA environment and the exact external inputs | New training/evaluation outputs under the selected frozen protocol |
@@ -47,13 +47,13 @@ The tests check the release manifest, numerical helpers, local source dependenci
 python reproduce_results.py --skip-figures --output outputs/quickstart
 ```
 
-Expected result: `outputs/quickstart/REPRODUCTION.json` reports `passed_saved_research_reproduction`. The `tables/` subdirectory contains regenerated numeric tables and a `publication/` subdirectory with the thirteen publication views.
+Expected result: `outputs/quickstart/REPRODUCTION.json` reports `passed_saved_research_reproduction`. The `tables/` subdirectory contains regenerated numeric tables and a `publication/` subdirectory with the thirteen formatted views.
 
 This command recomputes 40 utility assessment cells, 12 constant comparisons, eight trained-readout comparisons and the recorded 2,000 paired recording draws. It also checks the complete saved detection and action summaries. Utility error and detection AP are separate quantities: the command recomputes utility statistics, but reads detection AP from recorded results. It does not rerun detector inference or training.
 
 Use a new output directory each time, such as `outputs/quickstart_2`. Existing outputs are deliberately preserved.
 
-To export only the publication tables:
+To export only the scientific tables:
 
 ```sh
 python export_tables.py --output outputs/publication_tables
