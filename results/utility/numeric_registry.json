@@ -1,0 +1,771 @@
+{
+  "all_eight_trained_readout_contrasts": [
+    {
+      "CURE_error": 1.7017693768361282,
+      "CURE_minus_baseline": 0.007067875199593843,
+      "baseline": "trained_on_CURE_features",
+      "baseline_error": 1.6947015016365343,
+      "contrast": "camera_removal/RMSE/CURE_vs_trained_on_CURE_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.003688867689095521,
+          0.050140920317044015
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "RMSE",
+      "modality": "camera_removal",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 8,
+        "lower_CURE_error": 0,
+        "undefined": 0
+      },
+      "percent_error_reduction": -0.4170572335463474,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -3.367130172941903,
+          0.21942847427334541
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 1.2722233995848446,
+      "CURE_minus_baseline": 0.0054568902030438515,
+      "baseline": "trained_on_CURE_features",
+      "baseline_error": 1.2667665093818008,
+      "contrast": "camera_removal/MAE/CURE_vs_trained_on_CURE_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.0030404364259518034,
+          0.04941357339413666
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "MAE",
+      "modality": "camera_removal",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 7,
+        "lower_CURE_error": 1,
+        "undefined": 0
+      },
+      "percent_error_reduction": -0.4307731663751424,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -4.572142694033343,
+          0.23918190110333581
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 0.024267386356819486,
+      "CURE_minus_baseline": -0.00010729970070795167,
+      "baseline": "trained_on_CURE_features",
+      "baseline_error": 0.024374686057527437,
+      "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_CURE_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.0003133317829942252,
+          -4.705296339234484e-05
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "RMSE",
+      "modality": "radar_thinning",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 0,
+        "lower_CURE_error": 8,
+        "undefined": 0
+      },
+      "percent_error_reduction": 0.4402095701036335,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          0.2224832436042362,
+          1.0534207205398984
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 0.00736010705825726,
+      "CURE_minus_baseline": -0.00026291494066754944,
+      "baseline": "trained_on_CURE_features",
+      "baseline_error": 0.00762302199892481,
+      "contrast": "radar_thinning/MAE/CURE_vs_trained_on_CURE_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.00053613650867783,
+          -0.00015456498123023286
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "MAE",
+      "modality": "radar_thinning",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 0,
+        "lower_CURE_error": 8,
+        "undefined": 0
+      },
+      "percent_error_reduction": 3.448959490142256,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          1.999144258803487,
+          8.683377533526887
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 1.7017693768361282,
+      "CURE_minus_baseline": -0.14124464885473031,
+      "baseline": "trained_on_Task_features",
+      "baseline_error": 1.8430140256908585,
+      "contrast": "camera_removal/RMSE/CURE_vs_trained_on_Task_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.18863437326660065,
+          -0.033058487145384945
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "RMSE",
+      "modality": "camera_removal",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 0,
+        "lower_CURE_error": 8,
+        "undefined": 0
+      },
+      "percent_error_reduction": 7.663785890168928,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          2.055219616565023,
+          9.522714030573454
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 1.2722233995848446,
+      "CURE_minus_baseline": -0.13125608157468482,
+      "baseline": "trained_on_Task_features",
+      "baseline_error": 1.4034794811595295,
+      "contrast": "camera_removal/MAE/CURE_vs_trained_on_Task_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.17590946937022567,
+          0.01732699980104319
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "MAE",
+      "modality": "camera_removal",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 0,
+        "lower_CURE_error": 8,
+        "undefined": 0
+      },
+      "percent_error_reduction": 9.35219098937189,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -1.6275178379671555,
+          11.939611028818211
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 0.024267386356819486,
+      "CURE_minus_baseline": -6.266106959227843e-05,
+      "baseline": "trained_on_Task_features",
+      "baseline_error": 0.024330047426411764,
+      "contrast": "radar_thinning/RMSE/CURE_vs_trained_on_Task_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.0008260210981572121,
+          0.00047120442056056735
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "RMSE",
+      "modality": "radar_thinning",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 1,
+        "lower_CURE_error": 7,
+        "undefined": 0
+      },
+      "percent_error_reduction": 0.25754602321184095,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -2.1801421309496187,
+          2.674209666275884
+        ],
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE_error": 0.00736010705825726,
+      "CURE_minus_baseline": -7.88978994031575e-05,
+      "baseline": "trained_on_Task_features",
+      "baseline_error": 0.007439004957660418,
+      "contrast": "radar_thinning/MAE/CURE_vs_trained_on_Task_features",
+      "difference_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -0.0009848520337288709,
+          9.702825007501196e-05
+        ],
+        "undefined_draws": 0
+      },
+      "metric": "MAE",
+      "modality": "radar_thinning",
+      "omission_counts": {
+        "equal": 0,
+        "higher_CURE_error": 1,
+        "lower_CURE_error": 7,
+        "undefined": 0
+      },
+      "percent_error_reduction": 1.0605974838329812,
+      "relative_interval": {
+        "defined_draws": 2000,
+        "percentile95": [
+          -1.2756985188802488,
+          15.590718487907232
+        ],
+        "undefined_draws": 0
+      }
+    }
+  ],
+  "all_twelve_constant_contrasts": [
+    {
+      "CURE": 1.7017693768361282,
+      "baseline": "fit_global_mean",
+      "baseline_error": 3.0936339520070075,
+      "contrast": "camera_removal/RMSE/CURE_vs_fit_global_mean",
+      "difference_CURE_minus_baseline": -1.3918645751708794,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -1.891875304703432,
+          -1.0653420219590553
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": true,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "RMSE",
+      "modality": "camera_removal",
+      "relative_error_reduction_percent": 44.99124966830357,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          36.41067776518681,
+          56.92030945274049
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 1.2722233995848446,
+      "baseline": "fit_global_mean",
+      "baseline_error": 2.60349914585004,
+      "contrast": "camera_removal/MAE/CURE_vs_fit_global_mean",
+      "difference_CURE_minus_baseline": -1.3312757462651952,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -1.889380505489188,
+          -1.0304965623924958
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "MAE",
+      "modality": "camera_removal",
+      "relative_error_reduction_percent": 51.134095756752586,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          42.75141921795284,
+          64.1165476165479
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 0.024267386356819486,
+      "baseline": "fit_global_mean",
+      "baseline_error": 0.024814152953480762,
+      "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_mean",
+      "difference_CURE_minus_baseline": -0.0005467665966612766,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -0.000969304125214927,
+          0.00013531183028629435
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "RMSE",
+      "modality": "radar_thinning",
+      "relative_error_reduction_percent": 2.2034465479692344,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -0.6126307466691527,
+          3.953606854626268
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 0.00736010705825726,
+      "baseline": "fit_global_mean",
+      "baseline_error": 0.009486717164250634,
+      "contrast": "radar_thinning/MAE/CURE_vs_fit_global_mean",
+      "difference_CURE_minus_baseline": -0.002126610105993374,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -0.0027087658259827294,
+          -0.0017461896094301784
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "MAE",
+      "modality": "radar_thinning",
+      "relative_error_reduction_percent": 22.416712432486197,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          16.363827410197135,
+          34.80566004799685
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 1.7017693768361282,
+      "baseline": "fit_global_median",
+      "baseline_error": 3.106720686530328,
+      "contrast": "camera_removal/RMSE/CURE_vs_fit_global_median",
+      "difference_CURE_minus_baseline": -1.4049513096941997,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -1.7324667117383268,
+          -1.0611065047914146
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "RMSE",
+      "modality": "camera_removal",
+      "relative_error_reduction_percent": 45.222968250270625,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          36.30723583703755,
+          54.93200612843153
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 1.2722233995848446,
+      "baseline": "fit_global_median",
+      "baseline_error": 2.613362853841997,
+      "contrast": "camera_removal/MAE/CURE_vs_fit_global_median",
+      "difference_CURE_minus_baseline": -1.3411394542571524,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -1.7747791509606405,
+          -1.034822536715876
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "MAE",
+      "modality": "camera_removal",
+      "relative_error_reduction_percent": 51.31853207010637,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          43.159379824959785,
+          62.34890405328059
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 0.024267386356819486,
+      "baseline": "fit_global_median",
+      "baseline_error": 0.02458944267490187,
+      "contrast": "radar_thinning/RMSE/CURE_vs_fit_global_median",
+      "difference_CURE_minus_baseline": -0.00032205631808238447,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -0.0005646518791197392,
+          0.0005681987585958351
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 1,
+      "leave_one_out_lower_error_count": 7,
+      "leave_one_out_undefined_count": 0,
+      "metric": "RMSE",
+      "modality": "radar_thinning",
+      "relative_error_reduction_percent": 1.3097341096352078,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -2.9250904662513584,
+          2.724498783319863
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 0.00736010705825726,
+      "baseline": "fit_global_median",
+      "baseline_error": 0.006593751475508282,
+      "contrast": "radar_thinning/MAE/CURE_vs_fit_global_median",
+      "difference_CURE_minus_baseline": 0.0007663555827489782,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          0.0003629564006456098,
+          0.0009076565709242987
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 8,
+      "leave_one_out_lower_error_count": 0,
+      "leave_one_out_undefined_count": 0,
+      "metric": "MAE",
+      "modality": "radar_thinning",
+      "relative_error_reduction_percent": -11.622451734729712,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -14.018646337471386,
+          -5.230021577512614
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 1.7017693768361282,
+      "baseline": "zero",
+      "baseline_error": 11.705752717769888,
+      "contrast": "camera_removal/RMSE/CURE_vs_zero",
+      "difference_CURE_minus_baseline": -10.003983340933761,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -10.447603533535863,
+          -8.288563425493034
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "RMSE",
+      "modality": "camera_removal",
+      "relative_error_reduction_percent": 85.46211065732867,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          82.1690889161435,
+          86.97970658740316
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 1.2722233995848446,
+      "baseline": "zero",
+      "baseline_error": 11.289562177109557,
+      "contrast": "camera_removal/MAE/CURE_vs_zero",
+      "difference_CURE_minus_baseline": -10.017338777524714,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -10.494293282394061,
+          -8.314504489039718
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 0,
+      "leave_one_out_lower_error_count": 8,
+      "leave_one_out_undefined_count": 0,
+      "metric": "MAE",
+      "modality": "camera_removal",
+      "relative_error_reduction_percent": 88.73097663464422,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          86.20764252585428,
+          89.76017166864912
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 0.024267386356819486,
+      "baseline": "zero",
+      "baseline_error": 0.02462646948484069,
+      "contrast": "radar_thinning/RMSE/CURE_vs_zero",
+      "difference_CURE_minus_baseline": -0.0003590831280212044,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -0.0006233964953692628,
+          0.0005536650139161753
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 1,
+      "leave_one_out_lower_error_count": 7,
+      "leave_one_out_undefined_count": 0,
+      "metric": "RMSE",
+      "modality": "radar_thinning",
+      "relative_error_reduction_percent": 1.4581185835113142,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -2.840808261315458,
+          3.0237172937806474
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    },
+    {
+      "CURE": 0.00736010705825726,
+      "baseline": "zero",
+      "baseline_error": 0.006577789704143582,
+      "contrast": "radar_thinning/MAE/CURE_vs_zero",
+      "difference_CURE_minus_baseline": 0.0007823173541136787,
+      "difference_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          0.00036267372267455446,
+          0.0009110037247836116
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      },
+      "historically_selected_descriptive_contrast": false,
+      "leave_one_out_equal_error_count": 0,
+      "leave_one_out_higher_error_count": 8,
+      "leave_one_out_lower_error_count": 0,
+      "leave_one_out_undefined_count": 0,
+      "metric": "MAE",
+      "modality": "radar_thinning",
+      "relative_error_reduction_percent": -11.89331658962689,
+      "relative_reduction_bootstrap": {
+        "defined_draws": 2000,
+        "percentile_95": [
+          -13.943334862482537,
+          -5.325994158835612
+        ],
+        "policy": "All draws retained; interval unavailable if any draw is undefined",
+        "undefined_draws": 0
+      }
+    }
+  ],
+  "files": {},
+  "new_AP_or_statistics_computed": false,
+  "readout_metrics": {
+    "Task_head_without_utility_supervision": {
+      "Gaussian_mean_NLL_without_additive_constant": [
+        54.14275630387546,
+        2.081824680571525
+      ],
+      "MAE": [
+        10.32560192500727,
+        1.5165468654003311
+      ],
+      "RMSE": [
+        10.60230590410545,
+        1.7275255928301978
+      ],
+      "bias": [
+        -10.32560192500727,
+        -1.2481386438053683
+      ],
+      "central90_estimated_target_mean_coverage": [
+        0.0003966679888932963,
+        0.46846489488298293
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "objects": 2521
+    },
+    "fresh_head_on_CURE_features": {
+      "Gaussian_mean_NLL_without_additive_constant": [
+        1.0683858616637885,
+        -3.781090297920404
+      ],
+      "MAE": [
+        1.2667665093818008,
+        0.00762302199892481
+      ],
+      "RMSE": [
+        1.6947015016365332,
+        0.0243746860575274
+      ],
+      "bias": [
+        0.21189770533990313,
+        0.00029388101757066277
+      ],
+      "central90_estimated_target_mean_coverage": [
+        0.8488694962316541,
+        0.9722332407774693
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "objects": 2521
+    },
+    "fresh_head_on_Task_features": {
+      "Gaussian_mean_NLL_without_additive_constant": [
+        1.0661429584160411,
+        -3.792309496672483
+      ],
+      "MAE": [
+        1.4034794811595295,
+        0.007439004957660418
+      ],
+      "RMSE": [
+        1.8430140256908547,
+        0.024330047426411733
+      ],
+      "bias": [
+        0.3314903074670812,
+        2.954014852563217e-05
+      ],
+      "central90_estimated_target_mean_coverage": [
+        0.8710829036096787,
+        0.9761999206664023
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "objects": 2521
+    },
+    "original_saved_CURE_head": {
+      "Gaussian_mean_NLL_without_additive_constant": [
+        1.0279894325480123,
+        -3.7880075628209453
+      ],
+      "MAE": [
+        1.2722233995848446,
+        0.00736010705825726
+      ],
+      "RMSE": [
+        1.701769376836127,
+        0.024267386356819447
+      ],
+      "bias": [
+        0.2900389066436659,
+        0.00031666099485445833
+      ],
+      "central90_estimated_target_mean_coverage": [
+        0.8516461721539071,
+        0.9738199127330425
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "objects": 2521
+    }
+  },
+  "status": "reviewed_completed_results_for_document_only"
+}
