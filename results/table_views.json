@@ -296,7 +296,7 @@
       "source_files": [
         {
           "path": "results/detection/endpoints.json",
-          "sha256": "66752e4d3339a81987d1819d8dd44a2a89153d690868b2f298be9259cff7194f"
+          "sha256": "c002c068965db369559bc6c6d311f8a65ec08690d11d8aaff15720fbd95d8e6b"
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
@@ -1134,7 +1134,7 @@
       "source_files": [
         {
           "path": "results/detection/endpoints.json",
-          "sha256": "66752e4d3339a81987d1819d8dd44a2a89153d690868b2f298be9259cff7194f"
+          "sha256": "c002c068965db369559bc6c6d311f8a65ec08690d11d8aaff15720fbd95d8e6b"
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
