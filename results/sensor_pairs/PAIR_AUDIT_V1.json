@@ -1,0 +1,196 @@
+{
+  "AP_computed": false,
+  "all_returns_preserved": true,
+  "cases": [
+    {
+      "camera_image": "camera/train_020340.jpg",
+      "camera_image_sha256": "e9e1a8f756b7c2cb99def26642810a4caead11d0eadd3f615dd1a605ccf4c030",
+      "class_name": "Person",
+      "identity": "train/020340",
+      "image_projected_returns": 15,
+      "model_capacity": 64,
+      "original_cache_index": 6967,
+      "original_radar_row": 5969,
+      "projection_max_normalized_error": 5.049478213337011e-08,
+      "raw_csv": "raw/train_020340.csv",
+      "raw_csv_sha256": "59b527cac6731f8d9615a16a1bcb508c7d1c19cd1f4a59557418de10177add70",
+      "raw_return_count": 26,
+      "retained_model_returns": 26,
+      "season": "Summer",
+      "selected_factual_query": 0,
+      "selected_object_index": 1,
+      "sequence": "Dataset_2024-07-29-21-21-31",
+      "sources": {
+        "image": {
+          "path": "train/05_rgb/calibrated/020340.jpg",
+          "sha256": "e9e1a8f756b7c2cb99def26642810a4caead11d0eadd3f615dd1a605ccf4c030"
+        },
+        "label": {
+          "path": "train/02_yolo_rgb_distance/020340.txt",
+          "sha256": "64e622f13c620cd8b609a6968211ace26691814252b3ece0a556e8ee642f85e3"
+        },
+        "metadata": {
+          "path": "train/00_meta_data/020340.txt",
+          "sha256": "c323be3bafc9ed17b3c7c44ff84973981d54ee58702e2eae103fa46db0db5ec8"
+        },
+        "radar": {
+          "path": "train/04_radar/pointcloud/csv/020340.csv",
+          "sha256": "59b527cac6731f8d9615a16a1bcb508c7d1c19cd1f4a59557418de10177add70"
+        }
+      },
+      "time_of_day": "Dawn",
+      "timestamp": null,
+      "weather": "Sunny"
+    },
+    {
+      "camera_image": "camera/train_003936.jpg",
+      "camera_image_sha256": "2ab476f031dcf48f823dabeb809a419a8e263adc96faae23c568ea85fbea59e9",
+      "class_name": "Bike",
+      "identity": "train/003936",
+      "image_projected_returns": 6,
+      "model_capacity": 64,
+      "original_cache_index": 3026,
+      "original_radar_row": 2196,
+      "projection_max_normalized_error": 5.752852672014086e-08,
+      "raw_csv": "raw/train_003936.csv",
+      "raw_csv_sha256": "2eac2e71655c39f6386724c2e6ee5f0162e9d0c86daa068baa5b2816c186bd9f",
+      "raw_return_count": 15,
+      "retained_model_returns": 15,
+      "season": "Winter",
+      "selected_factual_query": 0,
+      "selected_object_index": 0,
+      "sequence": "Dataset_2024-03-21-16-07-05",
+      "sources": {
+        "image": {
+          "path": "train/05_rgb/calibrated/003936.jpg",
+          "sha256": "2ab476f031dcf48f823dabeb809a419a8e263adc96faae23c568ea85fbea59e9"
+        },
+        "label": {
+          "path": "train/02_yolo_rgb_distance/003936.txt",
+          "sha256": "3b549dc8e640cc4fa8e7316c26d5ae7c13eac1d75acec7b345805455a7517bc7"
+        },
+        "metadata": {
+          "path": "train/00_meta_data/003936.txt",
+          "sha256": "f5f5481f376e650fff5bad8476f675a10de174c1b09796e324068a380e156c5b"
+        },
+        "radar": {
+          "path": "train/04_radar/pointcloud/csv/003936.csv",
+          "sha256": "2eac2e71655c39f6386724c2e6ee5f0162e9d0c86daa068baa5b2816c186bd9f"
+        }
+      },
+      "time_of_day": "Day",
+      "timestamp": null,
+      "weather": "Sunny"
+    },
+    {
+      "camera_image": "camera/train_020008.jpg",
+      "camera_image_sha256": "f63c4a6d2ef83ceb7cf12f043bdd2dbba6e0557e66e7a9666079ce9094737ab0",
+      "class_name": "Slidecar",
+      "identity": "train/020008",
+      "image_projected_returns": 5,
+      "model_capacity": 64,
+      "original_cache_index": 6635,
+      "original_radar_row": 5637,
+      "projection_max_normalized_error": 5.914659406691669e-08,
+      "raw_csv": "raw/train_020008.csv",
+      "raw_csv_sha256": "b70063932ad41e88ad4fa9a82e39bb2562fa354f1d512451f60f7c0fe0b75628",
+      "raw_return_count": 7,
+      "retained_model_returns": 7,
+      "season": "Summer",
+      "selected_factual_query": 266,
+      "selected_object_index": 0,
+      "sequence": "Dataset_2024-07-29-21-21-31",
+      "sources": {
+        "image": {
+          "path": "train/05_rgb/calibrated/020008.jpg",
+          "sha256": "f63c4a6d2ef83ceb7cf12f043bdd2dbba6e0557e66e7a9666079ce9094737ab0"
+        },
+        "label": {
+          "path": "train/02_yolo_rgb_distance/020008.txt",
+          "sha256": "17fc04211729e05a981ad24cb6ff4a0ccd00d82bea6a7c39744f4d8a3a1fc721"
+        },
+        "metadata": {
+          "path": "train/00_meta_data/020008.txt",
+          "sha256": "c323be3bafc9ed17b3c7c44ff84973981d54ee58702e2eae103fa46db0db5ec8"
+        },
+        "radar": {
+          "path": "train/04_radar/pointcloud/csv/020008.csv",
+          "sha256": "b70063932ad41e88ad4fa9a82e39bb2562fa354f1d512451f60f7c0fe0b75628"
+        }
+      },
+      "time_of_day": "Dawn",
+      "timestamp": null,
+      "weather": "Sunny"
+    },
+    {
+      "camera_image": "camera/train_020145.jpg",
+      "camera_image_sha256": "60d7fee2eb273c435756cefd3d1c08dde822fc6c58fba3e25d26dea6e418ffba",
+      "class_name": "Doll",
+      "identity": "train/020145",
+      "image_projected_returns": 10,
+      "model_capacity": 64,
+      "original_cache_index": 6772,
+      "original_radar_row": 5774,
+      "projection_max_normalized_error": 5.573732242414309e-08,
+      "raw_csv": "raw/train_020145.csv",
+      "raw_csv_sha256": "b2dcb671c380bfb198d66ae9ed65089aa18f5988680e4b5547c2e995a8e8fcb2",
+      "raw_return_count": 16,
+      "retained_model_returns": 16,
+      "season": "Summer",
+      "selected_factual_query": 5,
+      "selected_object_index": 1,
+      "sequence": "Dataset_2024-07-29-21-21-31",
+      "sources": {
+        "image": {
+          "path": "train/05_rgb/calibrated/020145.jpg",
+          "sha256": "60d7fee2eb273c435756cefd3d1c08dde822fc6c58fba3e25d26dea6e418ffba"
+        },
+        "label": {
+          "path": "train/02_yolo_rgb_distance/020145.txt",
+          "sha256": "e67a5a0ff9a6653fec011c24026c031f9bceb0bd932146f4b69f47fbecf87463"
+        },
+        "metadata": {
+          "path": "train/00_meta_data/020145.txt",
+          "sha256": "c323be3bafc9ed17b3c7c44ff84973981d54ee58702e2eae103fa46db0db5ec8"
+        },
+        "radar": {
+          "path": "train/04_radar/pointcloud/csv/020145.csv",
+          "sha256": "b2dcb671c380bfb198d66ae9ed65089aa18f5988680e4b5547c2e995a8e8fcb2"
+        }
+      },
+      "time_of_day": "Dawn",
+      "timestamp": null,
+      "weather": "Sunny"
+    }
+  ],
+  "fields": [
+    "radar",
+    "radar_mask",
+    "radar_xy",
+    "radar_geometry_mask",
+    "radar_source_count"
+  ],
+  "figure_rendered": false,
+  "findings": [],
+  "learned_operations": false,
+  "license": "SEW-Eurodrive GmbH & Co. KG; dataset and adapted dataset visuals CC-BY-SA-4.0",
+  "model_input_matches_raw_stable_intensity_sort_and_zero_padding": true,
+  "numerical_projection_check_is_physical_accuracy_bound": false,
+  "numpy_version": "2.5.2",
+  "original_parent_cache_rows_exact": true,
+  "pairing": "Equal official split/sample basename and original hash-bound record; no per-frame timestamps retained",
+  "projection": "Exact cached normalized coordinates, verified against unchanged official extrinsics plus local image-export homography",
+  "projection_check_atol_normalized": 1e-06,
+  "radar_object_associations_inferred": false,
+  "raw_array_columns": [
+    "x_m",
+    "y_m",
+    "z_m",
+    "reported_intensity_unspecified_unit",
+    "reported_radial_velocity_mps"
+  ],
+  "selection": "Exact four prior Fig5 class-median camera-target cases; no new selection",
+  "status": "passed_four_existing_fig5_pairs_data_provenance_audit_only",
+  "total_projected": 36,
+  "total_returns": 64
+}
