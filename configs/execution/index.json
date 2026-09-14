@@ -1,0 +1,460 @@
+{
+  "bundled_native_admission": {
+    "ARTIFACT_HASHES.json": "QA/rtdetr_native_root_execution_20260913/actual_v2/ARTIFACT_HASHES.json",
+    "REPORT.json": "QA/rtdetr_native_root_execution_20260913/actual_v2/REPORT.json",
+    "protocol.json": "QA/rtdetr_native_root_execution_20260913/actual_v2/protocol.json"
+  },
+  "experiments": {
+    "action": {
+      "all_scientific_fields_equal": true,
+      "guard_fields_only": [
+        "files"
+      ],
+      "original_protocol": "configs/execution/metadata/012_CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json",
+      "original_protocol_sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+      "public_protocol": "configs/reproduction/action.json",
+      "public_protocol_sha256": "6264e5d10236fa274781277d9929273ef34a9b065138f61f690a54d37ceffb61",
+      "removed_guard_only_files": [
+        "QA/csu_action_admission_20260913/actual_v1/REPORT.json",
+        "QA/csu_action_admission_independent_20260913/actual_replay_v1/REVIEW_V1.json",
+        "QA/csu_action_development_independent_20260913/CPU_CONTRACTS_V1.log",
+        "QA/csu_action_development_independent_20260913/SOURCE_REVIEW_V1.json",
+        "QA/csu_action_development_independent_20260913/test_rules_arithmetic_v1.py",
+        "QA/csu_action_development_independent_20260913/test_runner_contracts_v1.py",
+        "QA/csu_action_development_root_20260913/FOCUSED_TESTS_V1.log",
+        "QA/csu_validation_literature_20260913/COMPONENT_SOURCE_REVIEW_V1.json",
+        "QA/dfine_cure_development_postrun_20260913_v1/actual_full_v2/REVIEW.json",
+        "QA/dfine_cure_development_protocol_20260913/DFINE_SOURCE_INVENTORY_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/SELECTION_RULE_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/prepare_split_v1.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/LICENSE",
+        "QA/dfine_cure_development_protocol_20260913/primary/PROVENANCE.json",
+        "QA/dfine_cure_development_protocol_20260913/primary/dfine_criterion.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/matcher.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/postprocessor.py",
+        "code/scripts/cache_dfine_cure_queries_cuda_v1.py",
+        "code/scripts/run_csu_action_admission_cuda_v1.py",
+        "code/scripts/run_dfine_cure_admission_v1.py",
+        "code/scripts/run_dfine_cure_admission_v2.py",
+        "code/tests/test_csu_action_rules_v1.py",
+        "code/tests/test_dfine_cure_development_v2.py",
+        "code/tests/test_dfine_cure_v1.py",
+        "code/tests/test_dfine_cure_v2.py",
+        "research/CSU_ACTION_ADMISSION_FROZEN_PROTOCOL_V1_20260913.json",
+        "research/CSU_ACTION_REUSED_SEW_PROTOCOL_DRAFT_V2_20260913.md",
+        "research/DFINE_CURE_FOUR_CLASS_DEVELOPMENT_V2_20260913.md",
+        "research/DFINE_CURE_QUERY_CACHE_PROTOCOL_FROZEN_V1_20260913.json",
+        "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V1_20260913.json",
+        "research/DFINE_FULL_NATIVE_OVERFIT_FROZEN_PROTOCOL_V2_20260913.json"
+      ]
+    },
+    "cure-feature-head": {
+      "all_scientific_fields_equal": true,
+      "guard_fields_only": [
+        "files"
+      ],
+      "original_protocol": "configs/execution/metadata/014_CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json",
+      "original_protocol_sha256": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406",
+      "public_protocol": "configs/reproduction/cure-feature-head.json",
+      "public_protocol_sha256": "55b2beb45513284ee7b2641c24b4d7663aef41b66213541d52f582bb43c52caf",
+      "removed_guard_only_files": [
+        "QA/csu_sensor_head_control_preparation_20260913/README_V1.md",
+        "QA/csu_sensor_head_control_preparation_20260913/prepare_v1.py",
+        "QA/csu_sensor_utility_baseline_gap_20260913/DECISION_V1.md",
+        "QA/csu_sensor_utility_baseline_gap_20260913/INPUT_AND_SOURCE_BINDINGS_V1.json",
+        "QA/dfine_cure_development_postrun_20260913_v1/actual_full_v2/REVIEW.json",
+        "QA/dfine_cure_development_protocol_20260913/DFINE_SOURCE_INVENTORY_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/SELECTION_RULE_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/prepare_split_v1.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/LICENSE",
+        "QA/dfine_cure_development_protocol_20260913/primary/PROVENANCE.json",
+        "QA/dfine_cure_development_protocol_20260913/primary/dfine_criterion.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/matcher.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/postprocessor.py",
+        "code/scripts/cache_dfine_cure_queries_cuda_v1.py",
+        "code/scripts/run_dfine_cure_admission_v1.py",
+        "code/scripts/run_dfine_cure_admission_v2.py",
+        "code/tests/test_csu_sensor_head_control_v1.py",
+        "code/tests/test_dfine_cure_development_v2.py",
+        "code/tests/test_dfine_cure_v1.py",
+        "code/tests/test_dfine_cure_v2.py",
+        "research/DFINE_CURE_FOUR_CLASS_DEVELOPMENT_V2_20260913.md",
+        "research/DFINE_CURE_QUERY_CACHE_PROTOCOL_FROZEN_V1_20260913.json",
+        "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V1_20260913.json"
+      ]
+    },
+    "detector": {
+      "all_scientific_fields_equal": true,
+      "guard_fields_only": [
+        "files"
+      ],
+      "original_protocol": "configs/execution/metadata/016_DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json",
+      "original_protocol_sha256": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b",
+      "public_protocol": "configs/reproduction/detector.json",
+      "public_protocol_sha256": "1fdf5561bc15aabcbf0c31d9969c000c03ca1705b8a0c0f8c9cb41b567d440f8",
+      "removed_guard_only_files": [
+        "QA/dfine_cure_development_protocol_20260913/DFINE_SOURCE_INVENTORY_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/SELECTION_RULE_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/prepare_split_v1.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/LICENSE",
+        "QA/dfine_cure_development_protocol_20260913/primary/PROVENANCE.json",
+        "QA/dfine_cure_development_protocol_20260913/primary/dfine_criterion.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/matcher.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/postprocessor.py",
+        "code/scripts/cache_dfine_cure_queries_cuda_v1.py",
+        "code/scripts/run_dfine_cure_admission_v1.py",
+        "code/scripts/run_dfine_cure_admission_v2.py",
+        "code/tests/test_dfine_cure_development_v2.py",
+        "code/tests/test_dfine_cure_v1.py",
+        "code/tests/test_dfine_cure_v2.py",
+        "research/DFINE_CURE_FOUR_CLASS_DEVELOPMENT_V2_20260913.md",
+        "research/DFINE_CURE_QUERY_CACHE_PROTOCOL_FROZEN_V1_20260913.json",
+        "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V1_20260913.json"
+      ]
+    },
+    "native-fitting": {
+      "all_scientific_fields_equal": true,
+      "guard_fields_only": [
+        "files"
+      ],
+      "original_protocol": "configs/execution/metadata/018_RTDETR_NATIVE_OVERFIT_FROZEN_PROTOCOL_V1_20260913.json",
+      "original_protocol_sha256": "c71c90919228f02eb1b9999bd875518c41eb7c659f586b781fb65b5d3d02ab72",
+      "public_protocol": "configs/reproduction/native-fitting.json",
+      "public_protocol_sha256": "4edd881f5edca20cd17a449c9475444d9740c937fae635a96b475e263b148c74",
+      "removed_guard_only_files": [
+        "code/scripts/run_rtdetr_native_admission_v1.py",
+        "code/tests/test_rtdetr_native_admission_v1.py",
+        "research/RTDETR_NATIVE_ADMISSION_PREPARATION_V1_20260913.md",
+        "QA/dfine_geometry_next_diagnosis_20260913/RTDETR_SOURCE_CONTRACT_V1.json",
+        "QA/rtdetr_native_admission_preparation_20260913/ADMISSION128_NATIVE_COCO_V1.json",
+        "QA/rtdetr_native_admission_preparation_20260913/CPU_PREPARATION_RECEIPT_V1.json",
+        "QA/rtdetr_native_admission_preparation_20260913/CPU_TESTS_V1.log",
+        "QA/rtdetr_native_admission_preparation_20260913/NATIVE_TARGET_REFERENCE_V1.npz",
+        "QA/rtdetr_native_admission_preparation_20260913/README_V1.md",
+        "QA/rtdetr_native_admission_preparation_20260913/build_prepared_protocol_v1.py",
+        "QA/rtdetr_native_admission_preparation_20260913/prepare_cpu_v1.py",
+        "research/RTDETR_NATIVE_ADMISSION_PREPARED_PROTOCOL_V1_20260913.json",
+        "code/tests/test_rtdetr_native_admission_v2.py",
+        "QA/rtdetr_native_admission_preparation_20260913/REVISION_V2.md",
+        "QA/rtdetr_native_admission_preparation_20260913/CPU_TESTS_V2.log",
+        "QA/rtdetr_native_admission_preparation_20260913/package_prepared_v2.py",
+        "research/RTDETR_NATIVE_ADMISSION_PREPARED_PROTOCOL_V2_20260913.json",
+        "code/tests/test_rtdetr_native_overfit_v1.py",
+        "research/RTDETR_NATIVE_OVERFIT_PREPARATION_V1_20260913.md",
+        "QA/dfine_cure_admission_actual_independent_20260913/cache_admission128/selected_records.json",
+        "QA/rtdetr_native_overfit_preparation_20260913/CPU_TESTS_V1.log",
+        "QA/rtdetr_native_overfit_preparation_20260913/EXPOSURE_V1.json",
+        "QA/rtdetr_native_overfit_preparation_20260913/build_prepared_v1.py",
+        "QA/rtdetr_native_admission_independent_20260913/SOURCE_REVIEW_V1.json",
+        "QA/dfine_geometry_overfit_root_execution_20260913/ROOT_FINAL_REMOTE_OBSERVATION_V1.json",
+        "QA/rtdetr_native_root_preparation_20260913/freeze_admission_v2.py",
+        "QA/rtdetr_native_root_preparation_20260913/ROOT_SOURCE_REVIEW_V2.json",
+        "QA/rtdetr_native_root_preparation_20260913/ROOT_RUNTIME_VERIFICATION_V1.json",
+        "QA/rtdetr_native_root_preparation_20260913/ISOLATED_RUNTIME_RECEIPT_V1.json",
+        "QA/rtdetr_native_root_preparation_20260913/IMPORT_ONLY_V1.log",
+        "code/scripts/prepare_rtdetr_native_environment_v1.py",
+        "research/RTDETR_NATIVE_OVERFIT_PREPARED_PROTOCOL_V1_20260913.json",
+        "QA/rtdetr_native_overfit_independent_20260913/SOURCE_REVIEW_V1.json",
+        "QA/rtdetr_native_overfit_preparation_20260913/freeze_after_review_v1.py",
+        "code/tests/test_rtdetr_native_freeze_v1.py"
+      ]
+    },
+    "queryset": {
+      "all_scientific_fields_equal": true,
+      "guard_fields_only": [
+        "files",
+        "admission_shared_source_paths"
+      ],
+      "original_protocol": "configs/execution/metadata/013_CSU_QUERYSET_STUDY_FROZEN_PROTOCOL_V2_20260913.json",
+      "original_protocol_sha256": "5c351c6b92e7be17f5ec65f1be1551033177d4b0a7a87f8ce8c0330d70836132",
+      "public_protocol": "configs/reproduction/queryset.json",
+      "public_protocol_sha256": "1d713e3f3e9039dbc5beae698d9138d662195ee7b90c3ef2a880bd9e07934b32",
+      "removed_guard_only_files": [
+        "QA/csu_action_admission_20260913/actual_v1/REPORT.json",
+        "QA/csu_action_admission_independent_20260913/actual_replay_v1/REVIEW_V1.json",
+        "QA/csu_action_development_independent_20260913/CPU_CONTRACTS_V1.log",
+        "QA/csu_action_development_independent_20260913/SOURCE_REVIEW_V1.json",
+        "QA/csu_action_development_independent_20260913/test_rules_arithmetic_v1.py",
+        "QA/csu_action_development_independent_20260913/test_runner_contracts_v1.py",
+        "QA/csu_action_development_root_20260913/FOCUSED_TESTS_V1.log",
+        "QA/csu_action_development_root_20260913/actual_compact_v1/ORIGINAL_MANIFEST.json",
+        "QA/csu_action_development_root_20260913/actual_compact_v1/REPORT.json",
+        "QA/csu_action_development_root_20260913/actual_compact_v1/capture/CAPTURE.json",
+        "QA/csu_action_oracle_risk_diagnostic_20260913/INTERPRETATION_V1.md",
+        "QA/csu_action_oracle_risk_diagnostic_20260913/actual_v1/REPORT_V1.json",
+        "QA/csu_action_study_saved_independent_20260913/FINAL_ACTUAL_REVIEW_V2.json",
+        "QA/csu_queryset_execution_preparation_20260913/README_V2.md",
+        "QA/csu_queryset_execution_preparation_20260913/prepare_v2.py",
+        "QA/csu_queryset_independent_20260913/SOURCE_REVIEW_V2.json",
+        "QA/csu_queryset_inputs_independent_20260913/SOURCE_REVIEW_V3.json",
+        "QA/csu_queryset_preparation_20260913/EXTERNAL_CAPTURE_INVENTORY_V2.json",
+        "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V2.json",
+        "QA/csu_queryset_preparation_20260913/prepare_spec_v2.py",
+        "QA/csu_queryset_preparation_20260913/prepare_token_input_spec_v2.py",
+        "QA/csu_queryset_preparation_20260913/prepare_token_input_spec_v3.py",
+        "QA/csu_validation_literature_20260913/COMPONENT_SOURCE_REVIEW_V1.json",
+        "QA/dfine_cure_development_postrun_20260913_v1/actual_full_v2/REVIEW.json",
+        "QA/dfine_cure_development_protocol_20260913/DFINE_SOURCE_INVENTORY_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/SELECTION_RULE_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/prepare_split_v1.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/LICENSE",
+        "QA/dfine_cure_development_protocol_20260913/primary/PROVENANCE.json",
+        "QA/dfine_cure_development_protocol_20260913/primary/dfine_criterion.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/matcher.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/postprocessor.py",
+        "code/scripts/cache_dfine_cure_queries_cuda_v1.py",
+        "code/scripts/export_csu_action_review_v1.py",
+        "code/scripts/prepare_csu_queryset_tokens_v2.py",
+        "code/scripts/run_csu_action_admission_cuda_v1.py",
+        "code/scripts/run_dfine_cure_admission_v1.py",
+        "code/scripts/run_dfine_cure_admission_v2.py",
+        "code/tests/test_csu_action_queryset_runner_v2.py",
+        "code/tests/test_csu_action_queryset_v2.py",
+        "code/tests/test_csu_action_rules_v1.py",
+        "code/tests/test_csu_queryset_inputs_v2.py",
+        "code/tests/test_dfine_cure_development_v2.py",
+        "code/tests/test_dfine_cure_v1.py",
+        "code/tests/test_dfine_cure_v2.py",
+        "research/CSU_ACTION_ADMISSION_FROZEN_PROTOCOL_V1_20260913.json",
+        "research/CSU_ACTION_REUSED_SEW_PROTOCOL_DRAFT_V2_20260913.md",
+        "research/CSU_NEXT_IMPLEMENTATION_DECISION_20260913.md",
+        "research/DFINE_CURE_FOUR_CLASS_DEVELOPMENT_V2_20260913.md",
+        "research/DFINE_CURE_QUERY_CACHE_PROTOCOL_FROZEN_V1_20260913.json",
+        "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V1_20260913.json",
+        "research/DFINE_FULL_NATIVE_OVERFIT_FROZEN_PROTOCOL_V2_20260913.json",
+        "QA/csu_queryset_execution_preparation_20260913/PREPARED_STUDY_PROTOCOL_V2.json",
+        "QA/csu_queryset_runner_independent_20260913/SOURCE_REVIEW_V2.json"
+      ]
+    },
+    "task-feature-head": {
+      "all_scientific_fields_equal": true,
+      "guard_fields_only": [
+        "files"
+      ],
+      "original_protocol": "configs/execution/metadata/015_CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json",
+      "original_protocol_sha256": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b",
+      "public_protocol": "configs/reproduction/task-feature-head.json",
+      "public_protocol_sha256": "28a9afeec19cd58ce54373b0b2fae862a9a6d57be431b030e23dbfc35766d0fb",
+      "removed_guard_only_files": [
+        "QA/csu_sensor_head_control_preparation_20260913/PREPARED_STUDY_PROTOCOL_V1.json",
+        "QA/csu_sensor_head_control_preparation_20260913/README_V1.md",
+        "QA/csu_sensor_head_control_preparation_20260913/prepare_v1.py",
+        "QA/csu_sensor_head_task_features_preparation_20260913/README_V2.md",
+        "QA/csu_sensor_head_task_features_preparation_20260913/prepare_v2.py",
+        "QA/csu_sensor_utility_baseline_gap_20260913/DECISION_V1.md",
+        "QA/csu_sensor_utility_baseline_gap_20260913/INPUT_AND_SOURCE_BINDINGS_V1.json",
+        "QA/dfine_cure_development_postrun_20260913_v1/actual_full_v2/REVIEW.json",
+        "QA/dfine_cure_development_protocol_20260913/DFINE_SOURCE_INVENTORY_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/SELECTION_RULE_V1.json",
+        "QA/dfine_cure_development_protocol_20260913/prepare_split_v1.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/LICENSE",
+        "QA/dfine_cure_development_protocol_20260913/primary/PROVENANCE.json",
+        "QA/dfine_cure_development_protocol_20260913/primary/dfine_criterion.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/matcher.py",
+        "QA/dfine_cure_development_protocol_20260913/primary/postprocessor.py",
+        "code/scripts/cache_dfine_cure_queries_cuda_v1.py",
+        "code/scripts/run_dfine_cure_admission_v1.py",
+        "code/scripts/run_dfine_cure_admission_v2.py",
+        "code/tests/test_csu_sensor_head_control_v1.py",
+        "code/tests/test_csu_sensor_head_task_features_v2.py",
+        "code/tests/test_dfine_cure_development_v2.py",
+        "code/tests/test_dfine_cure_v1.py",
+        "code/tests/test_dfine_cure_v2.py",
+        "research/DFINE_CURE_FOUR_CLASS_DEVELOPMENT_V2_20260913.md",
+        "research/DFINE_CURE_QUERY_CACHE_PROTOCOL_FROZEN_V1_20260913.json",
+        "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V1_20260913.json"
+      ]
+    }
+  },
+  "metadata": {
+    "QA/csu_action_development_protocol_20260913/ROLES_V1.json": {
+      "bytes": 161114,
+      "file": "configs/execution/metadata/000_ROLES_V1.json",
+      "purposes": [
+        "action: runtime reads scientific role_manifest; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07"
+    },
+    "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json": {
+      "bytes": 12480,
+      "file": "configs/execution/metadata/001_PREPARED_SPEC_V2.json",
+      "purposes": [
+        "queryset: runtime reads scientific prepared_spec_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2"
+    },
+    "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V3.json": {
+      "bytes": 7755,
+      "file": "configs/execution/metadata/002_TOKEN_PREPARATION_SPEC_V3.json",
+      "purposes": [
+        "queryset: runtime reads scientific token_preparation_spec_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "5d0c115f264685956029ed672735aa0814e2ae440c894d5eff4eb40c1f0f7ba2"
+    },
+    "QA/csu_sensor_head_control_study_independent_20260913/actual_v2/ACTUAL_REVIEW_V1.json": {
+      "bytes": 987591,
+      "file": "configs/execution/metadata/003_ACTUAL_REVIEW_V1.json",
+      "purposes": [
+        "task-feature-head: runtime reads scientific prior_control_review_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "84fb31301cfaf7f83ca5aba2c3757e3ff183dd7456929b57e750a373282b2c1e"
+    },
+    "QA/dfine_cure_development_protocol_20260913/SPLITS_V1.json": {
+      "bytes": 251474,
+      "file": "configs/execution/metadata/004_SPLITS_V1.json",
+      "purposes": [
+        "detector: runtime reads scientific splits_path; class/split, source/weight or actual-admission guard remains exact.",
+        "native-fitting: runtime reads scientific splits_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04"
+    },
+    "QA/rtdetr_native_admission_independent_20260913/actual_full_v2/results/ACTUAL_REVIEW_V1.json": {
+      "bytes": 13401,
+      "file": "configs/execution/metadata/005_ACTUAL_REVIEW_V1.json",
+      "purposes": [
+        "Native fitting reads this exact independent actual-admission status and report/manifest/protocol identities."
+      ],
+      "sha256": "08f59c8440d1ae5d37a90b5bf0d6b396cb86dbf3254b039791163852ff4d7bf1"
+    },
+    "QA/rtdetr_native_admission_preparation_20260913/CHECKPOINT_TENSOR_INVENTORY_V1.json": {
+      "bytes": 223100,
+      "file": "configs/execution/metadata/006_CHECKPOINT_TENSOR_INVENTORY_V1.json",
+      "purposes": [
+        "native-fitting: runtime reads scientific checkpoint_inventory_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "829470c4b572ff09ad51507291197b9a215c486ef96d82c5877b8bef66304218"
+    },
+    "QA/rtdetr_native_overfit_preparation_20260913/BATCH_SCHEDULES_V1.json": {
+      "bytes": 236008,
+      "file": "configs/execution/metadata/007_BATCH_SCHEDULES_V1.json",
+      "purposes": [
+        "native-fitting: runtime reads scientific schedule_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "a166f6385d961788ddac54f7173a44e008ef8eb54bf0b2980a97fb147227e44a"
+    },
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/ARTIFACT_HASHES.json": {
+      "bytes": 6252,
+      "file": "configs/execution/metadata/008_ARTIFACT_HASHES.json",
+      "purposes": [
+        "Native fitting admission verifies this original report/manifest/protocol directly; no model arrays are needed for this gate."
+      ],
+      "sha256": "4b6d893be6f52633d0dcb31fcc71c6a8446ade968d0dba75a884801753fb5cdb"
+    },
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/REPORT.json": {
+      "bytes": 1172919,
+      "file": "configs/execution/metadata/009_REPORT.json",
+      "purposes": [
+        "Native fitting admission verifies this original report/manifest/protocol directly; no model arrays are needed for this gate."
+      ],
+      "sha256": "74b4972bb069aad9459eb2f4a7fb85389dafff7b7d55dba056cf7be1914659ee"
+    },
+    "QA/rtdetr_native_root_execution_20260913/actual_v2/protocol.json": {
+      "bytes": 9110,
+      "file": "configs/execution/metadata/010_protocol.json",
+      "purposes": [
+        "Native fitting admission verifies this original report/manifest/protocol directly; no model arrays are needed for this gate."
+      ],
+      "sha256": "0594f6be86b880c2b1224c3ed432d12cb59e17c4d54ea48f57e61925c78155cb"
+    },
+    "QA/rtdetr_native_root_preparation_20260913/AUTHOR_SOURCE_EXTRACTION_V1.json": {
+      "bytes": 40948,
+      "file": "configs/execution/metadata/011_AUTHOR_SOURCE_EXTRACTION_V1.json",
+      "purposes": [
+        "native-fitting: runtime reads scientific source_inventory_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "f4d0610eae7b9d86ab0465c204481920f85661033af60c2c7363f95ad592bcbb"
+    },
+    "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json": {
+      "bytes": 15720,
+      "file": "configs/execution/metadata/012_CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json",
+      "purposes": [
+        "Exact scientific settings compared by the public reproduction preflight; original guard inventory is preserved as provenance, not recursively required."
+      ],
+      "sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4"
+    },
+    "research/CSU_QUERYSET_STUDY_FROZEN_PROTOCOL_V2_20260913.json": {
+      "bytes": 20300,
+      "file": "configs/execution/metadata/013_CSU_QUERYSET_STUDY_FROZEN_PROTOCOL_V2_20260913.json",
+      "purposes": [
+        "Exact scientific settings compared by the public reproduction preflight; original guard inventory is preserved as provenance, not recursively required."
+      ],
+      "sha256": "5c351c6b92e7be17f5ec65f1be1551033177d4b0a7a87f8ce8c0330d70836132"
+    },
+    "research/CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json": {
+      "bytes": 9994,
+      "file": "configs/execution/metadata/014_CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json",
+      "purposes": [
+        "Exact scientific settings compared by the public reproduction preflight; original guard inventory is preserved as provenance, not recursively required."
+      ],
+      "sha256": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406"
+    },
+    "research/CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json": {
+      "bytes": 11848,
+      "file": "configs/execution/metadata/015_CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json",
+      "purposes": [
+        "Exact scientific settings compared by the public reproduction preflight; original guard inventory is preserved as provenance, not recursively required."
+      ],
+      "sha256": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b"
+    },
+    "research/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json": {
+      "bytes": 11352,
+      "file": "configs/execution/metadata/016_DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json",
+      "purposes": [
+        "Exact scientific settings compared by the public reproduction preflight; original guard inventory is preserved as provenance, not recursively required.",
+        "action: runtime reads scientific original_protocol; class/split, source/weight or actual-admission guard remains exact.",
+        "cure-feature-head: runtime reads scientific original_protocol_path; class/split, source/weight or actual-admission guard remains exact.",
+        "task-feature-head: runtime reads scientific original_protocol_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b"
+    },
+    "research/DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V2_20260913.json": {
+      "bytes": 4261,
+      "file": "configs/execution/metadata/017_DFINE_CURE_RESIDUAL_ADMISSION_PROTOCOL_V2_20260913.json",
+      "purposes": [
+        "detector: runtime reads scientific adapter_admission_protocol_path; class/split, source/weight or actual-admission guard remains exact."
+      ],
+      "sha256": "61a7d5731488aaffbad29602f8c81a251fbb7e0c626d2f109e2c6b4f6672898d"
+    },
+    "research/RTDETR_NATIVE_OVERFIT_FROZEN_PROTOCOL_V1_20260913.json": {
+      "bytes": 13866,
+      "file": "configs/execution/metadata/018_RTDETR_NATIVE_OVERFIT_FROZEN_PROTOCOL_V1_20260913.json",
+      "purposes": [
+        "Exact scientific settings compared by the public reproduction preflight; original guard inventory is preserved as provenance, not recursively required."
+      ],
+      "sha256": "c71c90919228f02eb1b9999bd875518c41eb7c659f586b781fb65b5d3d02ab72"
+    }
+  },
+  "research_sources": {
+    "code/cure_fusion/__init__.py": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e",
+    "code/cure_fusion/coco_ap_kernel.py": "857c7ab0f3644e3d9ee1bd9681c7220223b8ff4b030e1d85ba3adbf4a505d0ef",
+    "code/cure_fusion/coco_cluster_bootstrap.py": "03bf0586bccecdb464c6aa16ce46ac8914649d8e14a266d7b7e011f0d9e62d13",
+    "code/cure_fusion/csu_action_queryset_v2.py": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "code/cure_fusion/csu_action_rules_v1.py": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "code/cure_fusion/csu_action_v1.py": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "code/cure_fusion/csu_queryset_inputs_v2.py": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa",
+    "code/cure_fusion/csu_sensor_head_control_v1.py": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe",
+    "code/cure_fusion/csu_task_feature_comparison_v2.py": "46c757e5db6be33ac988b90f316267fc8ec33f204303b7490f4c6deecc1b695f",
+    "code/cure_fusion/detection_metrics.py": "986723fc84d8762dfa9995a5ed39ccf125949da53614e5df3801caac26b2ebdd",
+    "code/cure_fusion/dfine_cure_absent_radar_overfit_v1.py": "d1788f4896a6562cbebd1eeaa7beaa3be541f31cd1fc21018e602ff4e28e6920",
+    "code/cure_fusion/dfine_cure_development_v2.py": "9f811db43bb3101bdc7c3ad5f5e8db648181cbf7d0310b4347518d902390743f",
+    "code/cure_fusion/dfine_cure_losses_v1.py": "6203aa00ff9efbe86bd69fc758148f304ada8910f459b3e735ee5a6d577b8117",
+    "code/cure_fusion/dfine_cure_losses_v2.py": "5e5894f295e2d51ba5f1989b489481028047ec3c4e8030bdc3f7472ebb61dba1",
+    "code/cure_fusion/dfine_cure_v1.py": "a7df62d28cd994b3a15b775d3a2c5a336f15397bbee80661ceb7de9a8fa6d42a",
+    "code/cure_fusion/dfine_cure_v2.py": "9d11fa855acf4d5b3acc7b8f50d357d4df5ac8d1a88d7204fdcc277a280f7a5e",
+    "code/cure_fusion/dfine_full_native_four_class_v2.py": "92356835b2bcc8d664b0531dfdb7bdc583dec5602b8c0d695adc1233f327fe1f",
+    "code/cure_fusion/dfine_full_native_overfit_v1.py": "12158cbf335e9133759b41e1a363dc175a9a790110e4a3d293c23979d7469144",
+    "code/cure_fusion/metrics.py": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824",
+    "code/cure_fusion/model.py": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902",
+    "code/cure_fusion/rtdetr_native_admission_v1.py": "fb56bc47acdd5fa285887f136b4527e51c66128ed1d13c8aac08e70bafe85b94",
+    "code/cure_fusion/rtdetr_native_overfit_v1.py": "c96510ce80640711bc00870b503c293f561866d99fe667373e06977be98572f5",
+    "code/cure_fusion/statistics.py": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e",
+    "code/cure_fusion/utility.py": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676",
+    "code/scripts/run_csu_action_development_cuda_v1.py": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "code/scripts/run_csu_action_queryset_development_v2.py": "7d50151fc12098ecb3c5bcc1a33ee7ffcbfe5b5db6cd5067c8e180399e3a3883",
+    "code/scripts/run_csu_sensor_head_control_cuda_v1.py": "8418cde0d29cc7d572fb01c4b61ff23cbf1a7de284dbbf10f121d18ef72c45d1",
+    "code/scripts/run_csu_sensor_head_task_features_cuda_v2.py": "104f53021c0d6f6a2ddbf9c31c1538f2d2282d35066dbf07d3bbcc711bf75033",
+    "code/scripts/run_rtdetr_native_admission_v2.py": "b8a1c711e7d9667c4a41bfae09e90966e3619faf4e5ebecfdf07ecca4a132d80",
+    "code/scripts/run_rtdetr_native_overfit_v1.py": "f5146e1ca300813df951f2bf0819cb078e103e51d46a6f52b1287d6057c90ab3",
+    "code/scripts/train_dfine_cure_development_cuda_v2.py": "3a9e1d191458ab4fa733b5550230e4665863212d74efb3ebb98bd6fa2d97c968"
+  }
+}
