@@ -1,0 +1,10 @@
+# Four-class development COCO box AP
+
+Table 2. AP (%), IoU 0.50:0.05:0.95; 992 reused development frames; one detector seed.
+
+| Method | Clean | Camera removed | Radar removed | Radar thinned |
+| --- | --- | --- | --- | --- |
+| Unadapted extension | 40.56 | 0.01 | 40.56 | 40.56 |
+| Task-only | 62.33 | 0.00 | 61.45 | 62.19 |
+| CURE | 61.47 | 0.03 | 60.33 | 61.45 |
+| Modality dropout | 61.74 | 0.07 | 61.72 | 61.53 |

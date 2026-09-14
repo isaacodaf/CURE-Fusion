@@ -1,0 +1,10 @@
+# Utility errors against constant predictors
+
+Table 5. RMSE / MAE in teacher-risk units; 2,521 development objects; mean/median fitted on 10,964 optimization objects, zero unfitted.
+
+| Predictor | Camera removal | Radar thinning | Fit population |
+| --- | --- | --- | --- |
+| CURE | 1.7018 / 1.2722 | 0.02427 / 0.00736 | Optimization only |
+| Global mean | 3.0936 / 2.6035 | 0.02481 / 0.00949 | Optimization only |
+| Global median | 3.1067 / 2.6134 | 0.02459 / 0.00659 | Optimization only |
+| Zero | 11.7058 / 11.2896 | 0.02463 / 0.00658 | Unfitted |

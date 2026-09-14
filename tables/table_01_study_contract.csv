@@ -1,0 +1,9 @@
+Quantity,Fitting,Development
+Frames / sequences,"6,180 / 40",992 / 8
+Annotated objects,"10,964","2,521"
+Task classes,"Person, bicycle, slidecar, doll",Same four classes
+Camera input,Frozen 640 × 640 D-FINE query cache,Same extraction and task mapping
+Radar input,"XYZ, intensity, Doppler and derived range",Same paired-return contract
+Radar utility draws,Eight per frame,Sixteen fresh draws per frame
+Camera utility target,Deterministic removal,Deterministic removal
+Fitted model,"Fixed seed 11, 40 epochs per arm","Fixed endpoints, no selection"

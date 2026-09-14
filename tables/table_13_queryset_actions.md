@@ -1,0 +1,15 @@
+# Query-set action study
+
+Table 13. COCO AP (%), mean ± sample SD across five controller seeds; fresh thinning belongs to this action bank.
+
+| Rule | Clean | Camera removed | Radar removed | Fresh thinning |
+| --- | --- | --- | --- | --- |
+| Task-only | 62.328 | 0.004 | 61.450 | 62.168 |
+| CURE | 61.469 | 0.030 | 60.335 | 61.319 |
+| Modality dropout | 61.741 | 0.074 | 61.725 | 61.654 |
+| Confidence | 61.789 | 0.007 | 60.417 | 61.655 |
+| Positive mean | 61.948 ± 0.346 | 0.029 ± 0.001 | 60.710 ± 0.309 | 61.871 ± 0.298 |
+| Fitting RMS margin | 62.281 ± 0.028 | 0.012 ± 0.004 | 61.358 ± 0.062 | 62.140 ± 0.050 |
+| Utility-input selector | 61.962 ± 0.454 | 0.030 ± 0.000 | 60.733 ± 0.420 | 61.818 ± 0.462 |
+| Zero-input selector | 62.364 ± 0.078 | 0.030 ± 0.000 | 61.454 ± 0.033 | 62.222 ± 0.114 |
+| Permuted-input selector | 62.175 ± 0.405 | 0.030 ± 0.000 | 61.241 ± 0.517 | 62.036 ± 0.423 |

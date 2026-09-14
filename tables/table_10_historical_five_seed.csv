@@ -1,0 +1,12 @@
+Method,Factual AP (%),Adverse AP (%)
+Task-only controller,36.56 ± 0.33,33.29 ± 0.63
+Camera only,38.07 ± 0.50,33.37 ± 0.80
+Radar only,0.30 ± 0.01,0.30 ± 0.01
+Concatenation,38.05 ± 0.62,33.29 ± 0.64
+Cross-attention,37.29 ± 0.41,33.18 ± 0.47
+Matched corruption,37.54 ± 0.36,33.91 ± 0.12
+Modality dropout,39.01 ± 0.59,35.12 ± 0.52
+Confidence gate,37.34 ± 0.76,34.20 ± 0.75
+CURE without uncertainty,37.43 ± 0.59,33.80 ± 0.90
+CURE without negative values,37.50 ± 0.57,34.01 ± 0.30
+Stateless CURE,38.13 ± 0.42,34.27 ± 0.47

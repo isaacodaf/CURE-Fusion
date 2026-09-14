@@ -1,0 +1,10 @@
+# Online tensor-to-output cost
+
+Table 3. Median and p95 milliseconds; peak allocator memory in GiB; batch one, FP32.
+
+| Method | Median / p95 (ms) | Peak allocated / reserved (GiB) |
+| --- | --- | --- |
+| Native camera (80 classes) | 58.02 / 59.37 | 0.40 / 0.47 |
+| Task-only (82 classes) | 63.03 / 64.56 | 0.40 / 0.47 |
+| CURE (82 classes) | 63.51 / 64.83 | 0.40 / 0.47 |
+| Dropout (82 classes) | 63.06 / 64.82 | 0.40 / 0.47 |

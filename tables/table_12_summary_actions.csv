@@ -1,0 +1,10 @@
+Rule,Clean,Camera removed,Radar removed,Fresh thinning
+Task-only,62.328,0.004,61.450,62.168
+CURE,61.469,0.030,60.335,61.319
+Modality dropout,61.741,0.074,61.725,61.654
+Confidence,61.789,0.007,60.417,61.655
+Positive mean,62.040 ± 0.066,0.021 ± 0.003,60.531 ± 0.236,61.852 ± 0.134
+Fitting RMS margin,62.347 ± 0.013,0.009 ± 0.003,61.338 ± 0.071,62.209 ± 0.012
+Utility-input selector,62.295 ± 0.074,0.030 ± 0.000,60.814 ± 0.100,62.051 ± 0.062
+Zero-input selector,62.290 ± 0.047,0.030 ± 0.000,61.069 ± 0.034,62.062 ± 0.060
+Permuted-input selector,62.326 ± 0.016,0.030 ± 0.000,61.070 ± 0.029,62.068 ± 0.062

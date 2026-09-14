@@ -1,0 +1,12 @@
+# Relative error reductions against constants
+
+Table 6. Percent error reduction; pointwise descriptive 95% intervals from 2,000 paired recording draws.
+
+| Metric / comparator | Camera reduction (%) [interval] | Radar reduction (%) [interval] |
+| --- | --- | --- |
+| RMSE / fit mean | 44.99 [36.41, 56.92] | 2.20 [-0.61, 3.95] |
+| RMSE / fit median | 45.22 [36.31, 54.93] | 1.31 [-2.93, 2.72] |
+| RMSE / zero | 85.46 [82.17, 86.98] | 1.46 [-2.84, 3.02] |
+| MAE / fit mean | 51.13 [42.75, 64.12] | 22.42 [16.36, 34.81] |
+| MAE / fit median | 51.32 [43.16, 62.35] | -11.62 [-14.02, -5.23] |
+| MAE / zero | 88.73 [86.21, 89.76] | -11.89 [-13.94, -5.33] |
