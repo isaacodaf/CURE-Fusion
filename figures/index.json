@@ -1,0 +1,170 @@
+[
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig1_csu_architecture_v1.pdf",
+        "path": "figures/figure_01_architecture.pdf",
+        "sha256": "5b30004740c8352c67bc6916ceacf13610e0c1a5aa1d7def8d868c37bc740fb2"
+      },
+      "png": {
+        "generator_filename": "fig1_csu_architecture_v1.png",
+        "path": "figures/figure_01_architecture.png",
+        "sha256": "bd848f5b0334f905ea2f8c54b85d0b8e0e565cf947ee49e8aaf4fc44623b22ac"
+      },
+      "svg": {
+        "generator_filename": "fig1_csu_architecture_v1.svg",
+        "path": "figures/figure_01_architecture.svg",
+        "sha256": "0ca0578e697ab4c1fc388fbc4f910438392f98223f3bccaca9ba424db49a4840"
+      }
+    },
+    "number": 1,
+    "title": "Architecture"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig2_dfine_matched_v1.pdf",
+        "path": "figures/figure_02_matched_detection.pdf",
+        "sha256": "b804d3c56a9fb89fcbc4e66377d5e0ea172866fec584f33f81b248ec94b751a9"
+      },
+      "png": {
+        "generator_filename": "fig2_dfine_matched_v1.png",
+        "path": "figures/figure_02_matched_detection.png",
+        "sha256": "a152f9dc0fa331ea45d60b6e9a0f6d4867ebf8a5b68e7be34400f054a4ccf10b"
+      },
+      "svg": {
+        "generator_filename": "fig2_dfine_matched_v1.svg",
+        "path": "figures/figure_02_matched_detection.svg",
+        "sha256": "d266f715de7ebb3cf1bc7108619087e0480126e2c8c768e5baa5e7ee1342d8e8"
+      }
+    },
+    "number": 2,
+    "title": "Matched detection"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig3_current_classes_v1.pdf",
+        "path": "figures/figure_03_per_class_detection.pdf",
+        "sha256": "c3fe69187d0f96ddf8df787c8d9ab9dc1a7e06a58a089112ed7bfc77851dc94b"
+      },
+      "png": {
+        "generator_filename": "fig3_current_classes_v1.png",
+        "path": "figures/figure_03_per_class_detection.png",
+        "sha256": "c28b1ad8fd996adf68b969e7eb26db2e15bd542652e137ddc108f4f0b336cbe2"
+      },
+      "svg": {
+        "generator_filename": "fig3_current_classes_v1.svg",
+        "path": "figures/figure_03_per_class_detection.svg",
+        "sha256": "da31c2dd0edb409b421407a3be8be3e06bf286e2f759633f003caddfc0ba8661"
+      }
+    },
+    "number": 3,
+    "title": "Per class detection"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig4_completed_utility_comparison_v6.pdf",
+        "path": "figures/figure_04_utility_readouts.pdf",
+        "sha256": "742a85ed6df1c3c8e942c887d3ce5ab6e61bcdc893af8ba165efd5579922a114"
+      },
+      "png": {
+        "generator_filename": "fig4_completed_utility_comparison_v6.png",
+        "path": "figures/figure_04_utility_readouts.png",
+        "sha256": "911a93372a3ef72deaf226a363bf0e1827fa608b8f87cd0dee1c4238e813fc71"
+      },
+      "svg": {
+        "generator_filename": "fig4_completed_utility_comparison_v6.svg",
+        "path": "figures/figure_04_utility_readouts.svg",
+        "sha256": "5c53c787b3273ee29eeaf7972a719b5678fb8722435b8ffbcc01c81f7cb87152"
+      }
+    },
+    "number": 4,
+    "title": "Utility readouts"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig5_current_sensor_cases_v3.pdf",
+        "path": "figures/figure_05_camera_cases.pdf",
+        "sha256": "b9adf3dac00392d63e4ee92353e130e9f30abe80d89a81c17df0ec4c918a0681"
+      },
+      "png": {
+        "generator_filename": "fig5_current_sensor_cases_v3.png",
+        "path": "figures/figure_05_camera_cases.png",
+        "sha256": "699522ce8f7c4759d4de6933f03f2aacf2eca619c981546697aaaa56c005ed3f"
+      },
+      "svg": {
+        "generator_filename": "fig5_current_sensor_cases_v3.svg",
+        "path": "figures/figure_05_camera_cases.svg",
+        "sha256": "8efd0924aec76cd9e4905ca0d375e1fbb69cbe27a0627c9fa0a9d0e4f7d627fd"
+      }
+    },
+    "number": 5,
+    "title": "Camera cases"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig6_paired_camera_radar_v1.pdf",
+        "path": "figures/figure_06_paired_camera_radar.pdf",
+        "sha256": "8af8b292f0aface59f2aa568e3d61d865d1cb3bf1847820d42fe4611401dadb2"
+      },
+      "png": {
+        "generator_filename": "fig6_paired_camera_radar_v1.png",
+        "path": "figures/figure_06_paired_camera_radar.png",
+        "sha256": "1f87cb3e4ffde14fde154beee00668e7bec229cfb92268c83e74d2b2c314c32d"
+      },
+      "svg": {
+        "generator_filename": "fig6_paired_camera_radar_v1.svg",
+        "path": "figures/figure_06_paired_camera_radar.svg",
+        "sha256": "8ad45d6333baeb57ba204e87e49306d1a641c52ecb471cc16a6be44476d7bed6"
+      }
+    },
+    "number": 6,
+    "title": "Paired camera radar"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig6_queryset_matched_v2.pdf",
+        "path": "figures/figure_07_queryset_comparison.pdf",
+        "sha256": "8c8aad496518c0f53cefb5829f7f94781e5d2bc311a69607f94aceb3130c08a2"
+      },
+      "png": {
+        "generator_filename": "fig6_queryset_matched_v2.png",
+        "path": "figures/figure_07_queryset_comparison.png",
+        "sha256": "2ec9c2c0097b2dec9b560656663ddcae2f293c60b8423d4c71e0e52fceb61539"
+      },
+      "svg": {
+        "generator_filename": "fig6_queryset_matched_v2.svg",
+        "path": "figures/figure_07_queryset_comparison.svg",
+        "sha256": "1a39a5ae788f5db65b834b26e9ef160840bf628aab7d5fc9e18b1ab49eba9fa4"
+      }
+    },
+    "number": 7,
+    "title": "Queryset comparison"
+  },
+  {
+    "files": {
+      "pdf": {
+        "generator_filename": "fig7_dfine_online_cost_v1.pdf",
+        "path": "figures/figure_08_online_cost.pdf",
+        "sha256": "1f2697179a7d3b35665ab3f43c16f151ad00151ea8c6242d9668800dbaf22251"
+      },
+      "png": {
+        "generator_filename": "fig7_dfine_online_cost_v1.png",
+        "path": "figures/figure_08_online_cost.png",
+        "sha256": "665d9e653575bd6e5989662d7bc33ba73e9e07de7f0e948ba26da30f5fedf246"
+      },
+      "svg": {
+        "generator_filename": "fig7_dfine_online_cost_v1.svg",
+        "path": "figures/figure_08_online_cost.svg",
+        "sha256": "b77187447c5635aca5cd468ac5219d907c555493111b9e98bbd3c421e13fd95a"
+      }
+    },
+    "number": 8,
+    "title": "Online cost"
+  }
+]
