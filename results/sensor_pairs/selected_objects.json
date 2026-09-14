@@ -1,0 +1,170 @@
+[
+  {
+    "identity": "train/020340",
+    "sequence": "Dataset_2024-07-29-21-21-31",
+    "object_index": 1,
+    "query": 0,
+    "class_id": 0,
+    "camera_prediction": 14.450860023498535,
+    "camera_target": 13.47560977935791,
+    "camera_logvar": 0.7068228125572205,
+    "camera_sampling_variance": 0.0,
+    "radar_prediction": 0.0034319981932640076,
+    "radar_target": 3.183633089065552e-05,
+    "radar_logvar": -8.0,
+    "radar_sampling_variance": 4.275038634204975e-08,
+    "class_name": "Person",
+    "class_object_count": 1391,
+    "class_camera_target_median": 13.47560977935791,
+    "gt_cxcywh": [
+      0.5327969789505005,
+      0.4355660080909729,
+      0.24371899664402008,
+      0.871133029460907
+    ],
+    "query_box_cxcywh": [
+      0.5253961682319641,
+      0.44109296798706055,
+      0.258622407913208,
+      0.8722273707389832
+    ],
+    "class_score": 0.9522065028102985,
+    "query_top_channel": 0,
+    "modality_weights": [
+      0.9287475943565369,
+      0.07125244289636612
+    ],
+    "query_source": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/evaluation_cure_clean/000800.npz",
+    "query_batch_index": 7,
+    "image_file": "train_020340.jpg",
+    "image_sha256": "e9e1a8f756b7c2cb99def26642810a4caead11d0eadd3f615dd1a605ccf4c030",
+    "query_class_score_ge_05": true,
+    "selected_query_iou": 0.9308032559060643
+  },
+  {
+    "identity": "train/003936",
+    "sequence": "Dataset_2024-03-21-16-07-05",
+    "object_index": 0,
+    "query": 0,
+    "class_id": 1,
+    "camera_prediction": 8.6920804977417,
+    "camera_target": 9.560543060302734,
+    "camera_logvar": -0.10407962650060654,
+    "camera_sampling_variance": 0.0,
+    "radar_prediction": 9.002536535263062e-05,
+    "radar_target": -0.0012974543496966362,
+    "radar_logvar": -8.0,
+    "radar_sampling_variance": 6.378012926688825e-07,
+    "class_name": "Bike",
+    "class_object_count": 457,
+    "class_camera_target_median": 9.560543060302734,
+    "gt_cxcywh": [
+      0.6155160069465637,
+      0.5473340153694153,
+      0.1808439940214157,
+      0.3377540111541748
+    ],
+    "query_box_cxcywh": [
+      0.6158192753791809,
+      0.5453723073005676,
+      0.1773339807987213,
+      0.3391358256340027
+    ],
+    "class_score": 0.9740904748132087,
+    "query_top_channel": 1,
+    "modality_weights": [
+      0.9565515518188477,
+      0.043448466807603836
+    ],
+    "query_source": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/evaluation_cure_clean/000176.npz",
+    "query_batch_index": 12,
+    "image_file": "train_003936.jpg",
+    "image_sha256": "2ab476f031dcf48f823dabeb809a419a8e263adc96faae23c568ea85fbea59e9",
+    "query_class_score_ge_05": true,
+    "selected_query_iou": 0.969435582726376
+  },
+  {
+    "identity": "train/020008",
+    "sequence": "Dataset_2024-07-29-21-21-31",
+    "object_index": 0,
+    "query": 266,
+    "class_id": 2,
+    "camera_prediction": 8.535889625549316,
+    "camera_target": 8.295246124267578,
+    "camera_logvar": 1.4603596925735474,
+    "camera_sampling_variance": 0.0,
+    "radar_prediction": 0.0059225112199783325,
+    "radar_target": -0.003027200698852539,
+    "radar_logvar": -8.0,
+    "radar_sampling_variance": 1.1236369573452976e-05,
+    "class_name": "Slidecar",
+    "class_object_count": 150,
+    "class_camera_target_median": 8.271781921386719,
+    "gt_cxcywh": [
+      0.5358520150184631,
+      0.5810350179672241,
+      0.03357800096273422,
+      0.06488300114870071
+    ],
+    "query_box_cxcywh": [
+      0.534613311290741,
+      0.5879713892936707,
+      0.030904775485396385,
+      0.04869314655661583
+    ],
+    "class_score": 0.63536540395661,
+    "query_top_channel": 80,
+    "modality_weights": [
+      0.9811533689498901,
+      0.018846668303012848
+    ],
+    "query_source": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/evaluation_cure_clean/000464.npz",
+    "query_batch_index": 11,
+    "image_file": "train_020008.jpg",
+    "image_sha256": "f63c4a6d2ef83ceb7cf12f043bdd2dbba6e0557e66e7a9666079ce9094737ab0",
+    "query_class_score_ge_05": true,
+    "selected_query_iou": 0.6907289608010142
+  },
+  {
+    "identity": "train/020145",
+    "sequence": "Dataset_2024-07-29-21-21-31",
+    "object_index": 1,
+    "query": 5,
+    "class_id": 3,
+    "camera_prediction": 11.486873626708984,
+    "camera_target": 8.168787002563477,
+    "camera_logvar": 0.8723355531692505,
+    "camera_sampling_variance": 0.0,
+    "radar_prediction": -0.002993464469909668,
+    "radar_target": -0.013197436928749084,
+    "radar_logvar": -8.0,
+    "radar_sampling_variance": 0.00026390861603431404,
+    "class_name": "Doll",
+    "class_object_count": 523,
+    "class_camera_target_median": 8.168787002563477,
+    "gt_cxcywh": [
+      0.33772701025009155,
+      0.11789099872112274,
+      0.2423280030488968,
+      0.2357809990644455
+    ],
+    "query_box_cxcywh": [
+      0.33156871795654297,
+      0.11949483305215836,
+      0.2889309525489807,
+      0.2416829764842987
+    ],
+    "class_score": 0.25368546418728893,
+    "query_top_channel": 0,
+    "modality_weights": [
+      0.9684637784957886,
+      0.03153624385595322
+    ],
+    "query_source": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/evaluation_cure_clean/000608.npz",
+    "query_batch_index": 4,
+    "image_file": "train_020145.jpg",
+    "image_sha256": "60d7fee2eb273c435756cefd3d1c08dde822fc6c58fba3e25d26dea6e418ffba",
+    "query_class_score_ge_05": false,
+    "selected_query_iou": 0.8182241181967455
+  }
+]
