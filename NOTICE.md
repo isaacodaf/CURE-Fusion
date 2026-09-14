@@ -1,0 +1,5 @@
+The four camera examples and paired radar operands originate from SEW Multimodal AMR Dataset 2025, SEW-Eurodrive GmbH & Co. KG, under CC-BY-SA 4.0. Generated overlays and radar plots are adaptations. Source: https://github.com/SEW-Eurodrive-Open-Source/Multimodal_AMR_dataset/tree/f9559a0a96bb64beffbf7501d29210c742aefc6e. The original maintainers do not endorse this analysis.
+
+The experiment source uses external D-FINE and RT-DETR author implementations and checkpoints. Their source revisions, checkpoint hashes and applicable upstream terms are recorded with the frozen protocols. This package does not redistribute those model checkpoints or grant rights to their training datasets. pycocotools, NumPy, SciPy, Matplotlib, Pillow, PyTorch and torchvision retain their upstream licenses. Arial is an external system font and is not redistributed.
+
+No new license grant for project-authored code is asserted by this packaging step. Repository owners should select and add their code license before public distribution; the dataset-example terms above remain separate.

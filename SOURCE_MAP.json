@@ -1,0 +1,499 @@
+[
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/__init__.py",
+    "release_sha256": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e",
+    "source": "code/cure_fusion/__init__.py",
+    "source_sha256": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/csu_action_queryset_v2.py",
+    "release_sha256": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "source": "code/cure_fusion/csu_action_queryset_v2.py",
+    "source_sha256": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/csu_action_rules_v1.py",
+    "release_sha256": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "source": "code/cure_fusion/csu_action_rules_v1.py",
+    "source_sha256": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/csu_action_v1.py",
+    "release_sha256": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "source": "code/cure_fusion/csu_action_v1.py",
+    "source_sha256": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/csu_queryset_inputs_v2.py",
+    "release_sha256": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa",
+    "source": "code/cure_fusion/csu_queryset_inputs_v2.py",
+    "source_sha256": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/csu_sensor_head_control_v1.py",
+    "release_sha256": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe",
+    "source": "code/cure_fusion/csu_sensor_head_control_v1.py",
+    "source_sha256": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/csu_task_feature_comparison_v2.py",
+    "release_sha256": "46c757e5db6be33ac988b90f316267fc8ec33f204303b7490f4c6deecc1b695f",
+    "source": "code/cure_fusion/csu_task_feature_comparison_v2.py",
+    "source_sha256": "46c757e5db6be33ac988b90f316267fc8ec33f204303b7490f4c6deecc1b695f"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_cure_absent_radar_overfit_v1.py",
+    "release_sha256": "d1788f4896a6562cbebd1eeaa7beaa3be541f31cd1fc21018e602ff4e28e6920",
+    "source": "code/cure_fusion/dfine_cure_absent_radar_overfit_v1.py",
+    "source_sha256": "d1788f4896a6562cbebd1eeaa7beaa3be541f31cd1fc21018e602ff4e28e6920"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_cure_development_v2.py",
+    "release_sha256": "9f811db43bb3101bdc7c3ad5f5e8db648181cbf7d0310b4347518d902390743f",
+    "source": "code/cure_fusion/dfine_cure_development_v2.py",
+    "source_sha256": "9f811db43bb3101bdc7c3ad5f5e8db648181cbf7d0310b4347518d902390743f"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_cure_losses_v1.py",
+    "release_sha256": "6203aa00ff9efbe86bd69fc758148f304ada8910f459b3e735ee5a6d577b8117",
+    "source": "code/cure_fusion/dfine_cure_losses_v1.py",
+    "source_sha256": "6203aa00ff9efbe86bd69fc758148f304ada8910f459b3e735ee5a6d577b8117"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_cure_losses_v2.py",
+    "release_sha256": "5e5894f295e2d51ba5f1989b489481028047ec3c4e8030bdc3f7472ebb61dba1",
+    "source": "code/cure_fusion/dfine_cure_losses_v2.py",
+    "source_sha256": "5e5894f295e2d51ba5f1989b489481028047ec3c4e8030bdc3f7472ebb61dba1"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_cure_v1.py",
+    "release_sha256": "a7df62d28cd994b3a15b775d3a2c5a336f15397bbee80661ceb7de9a8fa6d42a",
+    "source": "code/cure_fusion/dfine_cure_v1.py",
+    "source_sha256": "a7df62d28cd994b3a15b775d3a2c5a336f15397bbee80661ceb7de9a8fa6d42a"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_cure_v2.py",
+    "release_sha256": "9d11fa855acf4d5b3acc7b8f50d357d4df5ac8d1a88d7204fdcc277a280f7a5e",
+    "source": "code/cure_fusion/dfine_cure_v2.py",
+    "source_sha256": "9d11fa855acf4d5b3acc7b8f50d357d4df5ac8d1a88d7204fdcc277a280f7a5e"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_full_native_four_class_v2.py",
+    "release_sha256": "92356835b2bcc8d664b0531dfdb7bdc583dec5602b8c0d695adc1233f327fe1f",
+    "source": "code/cure_fusion/dfine_full_native_four_class_v2.py",
+    "source_sha256": "92356835b2bcc8d664b0531dfdb7bdc583dec5602b8c0d695adc1233f327fe1f"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/dfine_full_native_overfit_v1.py",
+    "release_sha256": "12158cbf335e9133759b41e1a363dc175a9a790110e4a3d293c23979d7469144",
+    "source": "code/cure_fusion/dfine_full_native_overfit_v1.py",
+    "source_sha256": "12158cbf335e9133759b41e1a363dc175a9a790110e4a3d293c23979d7469144"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/metrics.py",
+    "release_sha256": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824",
+    "source": "code/cure_fusion/metrics.py",
+    "source_sha256": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/model.py",
+    "release_sha256": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902",
+    "source": "code/cure_fusion/model.py",
+    "source_sha256": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/rtdetr_native_admission_v1.py",
+    "release_sha256": "fb56bc47acdd5fa285887f136b4527e51c66128ed1d13c8aac08e70bafe85b94",
+    "source": "code/cure_fusion/rtdetr_native_admission_v1.py",
+    "source_sha256": "fb56bc47acdd5fa285887f136b4527e51c66128ed1d13c8aac08e70bafe85b94"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/rtdetr_native_overfit_v1.py",
+    "release_sha256": "c96510ce80640711bc00870b503c293f561866d99fe667373e06977be98572f5",
+    "source": "code/cure_fusion/rtdetr_native_overfit_v1.py",
+    "source_sha256": "c96510ce80640711bc00870b503c293f561866d99fe667373e06977be98572f5"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/statistics.py",
+    "release_sha256": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e",
+    "source": "code/cure_fusion/statistics.py",
+    "source_sha256": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/utility.py",
+    "release_sha256": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676",
+    "source": "code/cure_fusion/utility.py",
+    "source_sha256": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/scripts/run_csu_action_development_cuda_v1.py",
+    "release_sha256": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "source": "code/scripts/run_csu_action_development_cuda_v1.py",
+    "source_sha256": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/scripts/run_csu_action_queryset_development_v2.py",
+    "release_sha256": "7d50151fc12098ecb3c5bcc1a33ee7ffcbfe5b5db6cd5067c8e180399e3a3883",
+    "source": "code/scripts/run_csu_action_queryset_development_v2.py",
+    "source_sha256": "7d50151fc12098ecb3c5bcc1a33ee7ffcbfe5b5db6cd5067c8e180399e3a3883"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/scripts/run_csu_sensor_head_control_cuda_v1.py",
+    "release_sha256": "8418cde0d29cc7d572fb01c4b61ff23cbf1a7de284dbbf10f121d18ef72c45d1",
+    "source": "code/scripts/run_csu_sensor_head_control_cuda_v1.py",
+    "source_sha256": "8418cde0d29cc7d572fb01c4b61ff23cbf1a7de284dbbf10f121d18ef72c45d1"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/scripts/run_csu_sensor_head_task_features_cuda_v2.py",
+    "release_sha256": "104f53021c0d6f6a2ddbf9c31c1538f2d2282d35066dbf07d3bbcc711bf75033",
+    "source": "code/scripts/run_csu_sensor_head_task_features_cuda_v2.py",
+    "source_sha256": "104f53021c0d6f6a2ddbf9c31c1538f2d2282d35066dbf07d3bbcc711bf75033"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/scripts/run_rtdetr_native_overfit_v1.py",
+    "release_sha256": "f5146e1ca300813df951f2bf0819cb078e103e51d46a6f52b1287d6057c90ab3",
+    "source": "code/scripts/run_rtdetr_native_overfit_v1.py",
+    "source_sha256": "f5146e1ca300813df951f2bf0819cb078e103e51d46a6f52b1287d6057c90ab3"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/scripts/train_dfine_cure_development_cuda_v2.py",
+    "release_sha256": "3a9e1d191458ab4fa733b5550230e4665863212d74efb3ebb98bd6fa2d97c968",
+    "source": "code/scripts/train_dfine_cure_development_cuda_v2.py",
+    "source_sha256": "3a9e1d191458ab4fa733b5550230e4665863212d74efb3ebb98bd6fa2d97c968"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "configs/protocols/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json",
+    "release_sha256": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b",
+    "source": "research/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json",
+    "source_sha256": "229366fbb72da052f3db191120901b6c8d7401261f2b47c78d7b6b8b7ceb144b"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "configs/protocols/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json",
+    "release_sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+    "source": "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json",
+    "source_sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "configs/protocols/CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json",
+    "release_sha256": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406",
+    "source": "research/CSU_SENSOR_HEAD_CONTROL_STUDY_FROZEN_PROTOCOL_V1_20260913.json",
+    "source_sha256": "4a6d8078c02509ba2b19ebbb7e8fb1dd2a973b7a303d0805d2b2533e0fcc1406"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "configs/protocols/CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json",
+    "release_sha256": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b",
+    "source": "research/CSU_TASK_FEATURE_STUDY_FROZEN_PROTOCOL_V2_20260913.json",
+    "source_sha256": "b660e0fd88bd87c9329d0be5c25054466d09c58952d40df99609050fbab5be6b"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "configs/sew_splits.json",
+    "release_sha256": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04",
+    "source": "QA/dfine_cure_development_protocol_20260913/SPLITS_V1.json",
+    "source_sha256": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "analysis/analysis_common_v1.py",
+    "release_sha256": "6c79b8b3a622746bcff485270cedd0ea1a50d0b445da2a7e122042f8900eecc7",
+    "source": "QA/dfine_cure_development_postrun_20260913_v1/analysis_common_v1.py",
+    "source_sha256": "6c79b8b3a622746bcff485270cedd0ea1a50d0b445da2a7e122042f8900eecc7"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "analysis/recording_math_v1.py",
+    "release_sha256": "3d3fa8b807db6b8a027981d1d42bdb6a4037f80096245ac6fb83491934cece9a",
+    "source": "QA/csu_trained_head_recording_comparison_20260913/recording_math_v1.py",
+    "source_sha256": "3d3fa8b807db6b8a027981d1d42bdb6a4037f80096245ac6fb83491934cece9a"
+  },
+  {
+    "operation": "extract_exact_stateless_functions",
+    "release_path": "analysis/constant_recording_math.py",
+    "release_sha256": "9743b390b002c241b02ef8cd34664e5d2287b41085d5f15cd0a52b2e7678b95b",
+    "source": "QA/dfine_cev_recording_stability_20260913/analyze_recording_stability_v1.py",
+    "source_sha256": "d9db6386310de6e1db3207e3ac545f11c209b6cd7ad2b0b18bd5a73a1f55a71a"
+  },
+  {
+    "operation": "extract_exact_stateless_metric_function",
+    "release_path": "analysis/utility_metrics.py",
+    "release_sha256": "4e8cd15ac1a22425949b7d0c96a2470773da99543740f8f9c782f5f89b2214f3",
+    "source": "code/cure_fusion/csu_sensor_head_control_v1.py",
+    "source_sha256": "cdb56f1c3fdd68938dd37224f8adda87fc699d746488fe011f05c69d13d9eefe"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/detection/endpoints.json",
+    "release_sha256": "66752e4d3339a81987d1819d8dd44a2a89153d690868b2f298be9259cff7194f",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/v8_original_sources/NEW_DEVELOPMENT_RESULT_MODEL.json",
+    "source_sha256": "66752e4d3339a81987d1819d8dd44a2a89153d690868b2f298be9259cff7194f"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/efficiency/report.json",
+    "release_sha256": "f133600accc906cf19b49dd4d53352ddcd115ae2db3875de53012935a821a16d",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/v8_original_sources/ADMITTED_ONLINE_REPORT.json",
+    "source_sha256": "f133600accc906cf19b49dd4d53352ddcd115ae2db3875de53012935a821a16d"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/historical/paired_statistics.json",
+    "release_sha256": "d811ac0024f9ae2d24e60250110bae60eacc85122e6500e6c8a9de20947cf4ca",
+    "source": "results/interim/sew_matched_statistics_complete_20260906/statistics.json",
+    "source_sha256": "d811ac0024f9ae2d24e60250110bae60eacc85122e6500e6c8a9de20947cf4ca"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/native_fitting/class_results.json",
+    "release_sha256": "042a4a6216a0f0b8809f889c7e8835e73a27c923b49d14e9c62778adfb19d91e",
+    "source": "QA/rtdetr_native_overfit_root_execution_20260913/FITTING_CLASS_TABLE_V1.json",
+    "source_sha256": "042a4a6216a0f0b8809f889c7e8835e73a27c923b49d14e9c62778adfb19d91e"
+  },
+  {
+    "operation": "all_numeric_readout_contrasts_retained_document_metadata_removed",
+    "release_path": "results/utility/numeric_registry.json",
+    "release_sha256": "c679f07f0abe2f963cdf40e7e119deba0a4825c800ff1da3ebf22a4eef4d793a",
+    "source": "paper/counterfactual_sensor_utility_20260913_v10/NUMERIC_REGISTRY.json",
+    "source_sha256": "0df4a9f9346fd56f5ba15ce49519940c5ade69544170b44a4351a89bb4267666"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/queryset/summary.json",
+    "release_sha256": "f7c3618708214b306e303255c34ef7cf68c6162602f18586d543817f4e328a01",
+    "source": "QA/csu_queryset_root_execution_20260913/study_complete_v2/csu_queryset_study_actual_v2/SUMMARY.json",
+    "source_sha256": "f7c3618708214b306e303255c34ef7cf68c6162602f18586d543817f4e328a01"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/queryset/results.json",
+    "release_sha256": "f637411252a8bafb08020935b4805efcf3e0dc45b8d5da287a51487c11004bf7",
+    "source": "QA/csu_queryset_root_execution_20260913/study_complete_v2/csu_queryset_study_actual_v2/RESULTS.json",
+    "source_sha256": "f637411252a8bafb08020935b4805efcf3e0dc45b8d5da287a51487c11004bf7"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/action/summary.json",
+    "release_sha256": "1c9aa46bac0538a4efb635cf838ed7902cad11a2b5119d1ef30c254ef8cfbe67",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/SUMMARY.json",
+    "source_sha256": "1c9aa46bac0538a4efb635cf838ed7902cad11a2b5119d1ef30c254ef8cfbe67"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/action/results.json",
+    "release_sha256": "e0fff73fa7f05d9a2ae949825673cb68eb77eee9abe1da4df677793edb8e8d7b",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/RESULTS.json",
+    "source_sha256": "e0fff73fa7f05d9a2ae949825673cb68eb77eee9abe1da4df677793edb8e8d7b"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/utility/trained_object_inputs.npz",
+    "release_sha256": "373821e5454170ee73e7d7cf037c53ed33e02d8224c605c6066b5fa3702d74c6",
+    "source": "QA/csu_trained_head_recording_comparison_20260913/actual_v1/OBJECT_INPUTS_V1.npz",
+    "source_sha256": "373821e5454170ee73e7d7cf037c53ed33e02d8224c605c6066b5fa3702d74c6"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/utility/constant_object_errors.npz",
+    "release_sha256": "761976e6659da14a9c092e52ed4233f65126355228cbc883de9007d6cc17c7b9",
+    "source": "QA/dfine_cev_recording_stability_20260913/actual_v1/OBJECT_ERRORS_V1.npz",
+    "source_sha256": "761976e6659da14a9c092e52ed4233f65126355228cbc883de9007d6cc17c7b9"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/utility/head_assessment_arrays.npz",
+    "release_sha256": "88582f786cd530c43d870dd76965349b82e99efc3cb2a3e8b7e36053410df056",
+    "source": "QA/csu_task_feature_root_execution_20260913/study_complete_v2/original/assessment/ALL_OBJECT_OPERANDS.npz",
+    "source_sha256": "88582f786cd530c43d870dd76965349b82e99efc3cb2a3e8b7e36053410df056"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/utility/head_assessment.json",
+    "release_sha256": "0dba3fbe2812a7ef7d032c744c4d11bd1c3037afb930a0aeadefcb9aeeebd16a",
+    "source": "QA/csu_task_feature_root_execution_20260913/study_complete_v2/original/assessment/REPORT.json",
+    "source_sha256": "0dba3fbe2812a7ef7d032c744c4d11bd1c3037afb930a0aeadefcb9aeeebd16a"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/utility/trained_omissions.json",
+    "release_sha256": "819fc2e57a590b169ad6d13315b8c9a17bb7cd8c2f22b9943243b38d1d1dac82",
+    "source": "QA/csu_trained_head_recording_comparison_20260913/actual_v1/OMISSIONS_V1.json",
+    "source_sha256": "819fc2e57a590b169ad6d13315b8c9a17bb7cd8c2f22b9943243b38d1d1dac82"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/utility/constant_omissions.json",
+    "release_sha256": "b0aa8c79e6ea140ee7b1b48dd55da5fd701be772bfcc92d69fa92a4c1a76d962",
+    "source": "QA/dfine_cev_recording_stability_20260913/actual_v1/LEAVE_ONE_RECORDING_OUT_V1.json",
+    "source_sha256": "b0aa8c79e6ea140ee7b1b48dd55da5fd701be772bfcc92d69fa92a4c1a76d962"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/PAIR_AUDIT_V1.json",
+    "release_sha256": "84f163d780b7a1456d47abefb0bde810bbc796df67ee5e789d2bc5a5691b5a3b",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/PAIR_AUDIT_V1.json",
+    "source_sha256": "84f163d780b7a1456d47abefb0bde810bbc796df67ee5e789d2bc5a5691b5a3b"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/all_returns_v1.csv",
+    "release_sha256": "5198c4f8ec8ed6f2dd076fe03ab506377dac5726b7e24c52b67820a201c0cede",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/all_returns_v1.csv",
+    "source_sha256": "5198c4f8ec8ed6f2dd076fe03ab506377dac5726b7e24c52b67820a201c0cede"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/paired_radar_inputs_v1.npz",
+    "release_sha256": "410c6f2f8befebfebc52d9b1e1c90e3cbdb1140f0ee0fd02299081ddd6fed0e5",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/paired_radar_inputs_v1.npz",
+    "source_sha256": "410c6f2f8befebfebc52d9b1e1c90e3cbdb1140f0ee0fd02299081ddd6fed0e5"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/selected_objects.json",
+    "release_sha256": "c760e93a239c6e17555270557a9bc8467c8bc1455b59abfd5893ce624da20879",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/selected_objects.json",
+    "source_sha256": "c760e93a239c6e17555270557a9bc8467c8bc1455b59abfd5893ce624da20879"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/train_003936.jpg",
+    "release_sha256": "2ab476f031dcf48f823dabeb809a419a8e263adc96faae23c568ea85fbea59e9",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/train_003936.jpg",
+    "source_sha256": "2ab476f031dcf48f823dabeb809a419a8e263adc96faae23c568ea85fbea59e9"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/train_020008.jpg",
+    "release_sha256": "f63c4a6d2ef83ceb7cf12f043bdd2dbba6e0557e66e7a9666079ce9094737ab0",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/train_020008.jpg",
+    "source_sha256": "f63c4a6d2ef83ceb7cf12f043bdd2dbba6e0557e66e7a9666079ce9094737ab0"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/train_020145.jpg",
+    "release_sha256": "60d7fee2eb273c435756cefd3d1c08dde822fc6c58fba3e25d26dea6e418ffba",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/train_020145.jpg",
+    "source_sha256": "60d7fee2eb273c435756cefd3d1c08dde822fc6c58fba3e25d26dea6e418ffba"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "results/sensor_pairs/train_020340.jpg",
+    "release_sha256": "e9e1a8f756b7c2cb99def26642810a4caead11d0eadd3f615dd1a605ccf4c030",
+    "source": "QA/cure_v11_figures_20260914/source_inputs/train_020340.jpg",
+    "source_sha256": "e9e1a8f756b7c2cb99def26642810a4caead11d0eadd3f615dd1a605ccf4c030"
+  },
+  {
+    "operation": "retain_executed_endpoint_plot_only",
+    "release_path": "plotting/detection.py",
+    "release_sha256": "9c17b2fd554d3656ed7199ff4c2988d7043f4ad1a1aa4bc2302327e3c52c7d13",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/v8_original_sources/endpoint_figure_v8.py",
+    "source_sha256": "efdcfdeb674e3525c6ce5c19c73e6c63cc4c18f431eca5bb7583bd787175fe99"
+  },
+  {
+    "operation": "retain_executed_efficiency_plot_only",
+    "release_path": "plotting/efficiency.py",
+    "release_sha256": "2aee167e061e2c8e50222a23d5fc51bca64efb2cdf422d6b0a2cffdc4b793e43",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/v8_original_sources/efficiency_figure_v8.py",
+    "source_sha256": "f3a1f9d250428c41aee59f02a5a700c11d05561919af04eb0988d2840187580d"
+  },
+  {
+    "operation": "retain_executed_class_plot_only_with_local_style_import",
+    "release_path": "plotting/classes.py",
+    "release_sha256": "990e539c5d21c7eece6ef42d326f900d6f1925bff6c9839b8ba0aac07e130037",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/v8_original_sources/figure_builder_v7_original.py",
+    "source_sha256": "106893b3d852cca7f50372507d9dad269755b43c770b812f6ab33adeb19c1550"
+  },
+  {
+    "operation": "output_and_protocol_paths_only",
+    "release_path": "plotting/architecture.py",
+    "release_sha256": "2dc9dc40a14a282b05366564d5fc44995ea9eb135dec2fdb44b351b04400ef36",
+    "source": "paper/counterfactual_sensor_utility_20260913_v9/source_inputs/v8_original_sources/draw_architecture_v2.py",
+    "source_sha256": "545d7831eb401d293b1a681574e4bac0cb2cf00b929d619f7f85909d5a81d86b"
+  },
+  {
+    "operation": "package_root_only",
+    "release_path": "plotting/utility.py",
+    "release_sha256": "07439adbe29e32065b899b4fcfa8f078f71250dc374d00699e4977ae7ff1e01e",
+    "source": "QA/cure_v10_production_20260913/render_completed_utility_figure_v6.py",
+    "source_sha256": "4d44b39433d2fb4dfa13bcf315081a9b416456384f9f5304753283e64fbc61ac"
+  },
+  {
+    "operation": "portable_data_argument_and_result_provenance_only_plot_math_unchanged",
+    "release_path": "plotting/queryset.py",
+    "release_sha256": "7957d22d41f44b053e44d1f4146b3e607aec1a3b1b73e3469bba075780544c48",
+    "source": "QA/cure_v10_production_20260913/render_queryset_comparison_v2.py",
+    "source_sha256": "d584670fe9b44cbc0eba92eb490f0144a04c5bdf2a2224cdce227963dccc292d"
+  },
+  {
+    "operation": "exact_copy_final_sensor_renderer",
+    "release_path": "plotting/sensors.py",
+    "release_sha256": "1d1da56c529b42fcadef13a5da93dd0da88084591f7cc3dcd8f7ce2183d4be20",
+    "source": "QA/cure_v11_figures_20260914/render_sensor_figures_v2.py",
+    "source_sha256": "1d1da56c529b42fcadef13a5da93dd0da88084591f7cc3dcd8f7ce2183d4be20"
+  },
+  {
+    "operation": "exact_copy_analysis_import_dependency",
+    "release_path": "code/cure_fusion/coco_cluster_bootstrap.py",
+    "release_sha256": "03bf0586bccecdb464c6aa16ce46ac8914649d8e14a266d7b7e011f0d9e62d13",
+    "source": "code/cure_fusion/coco_cluster_bootstrap.py",
+    "source_sha256": "03bf0586bccecdb464c6aa16ce46ac8914649d8e14a266d7b7e011f0d9e62d13"
+  },
+  {
+    "operation": "exact_copy_analysis_import_dependency",
+    "release_path": "code/cure_fusion/detection_metrics.py",
+    "release_sha256": "986723fc84d8762dfa9995a5ed39ccf125949da53614e5df3801caac26b2ebdd",
+    "source": "code/cure_fusion/detection_metrics.py",
+    "source_sha256": "986723fc84d8762dfa9995a5ed39ccf125949da53614e5df3801caac26b2ebdd"
+  },
+  {
+    "operation": "exact_copy_runtime_import_dependency",
+    "release_path": "code/scripts/run_rtdetr_native_admission_v2.py",
+    "release_sha256": "b8a1c711e7d9667c4a41bfae09e90966e3619faf4e5ebecfdf07ecca4a132d80",
+    "source": "code/scripts/run_rtdetr_native_admission_v2.py",
+    "source_sha256": "b8a1c711e7d9667c4a41bfae09e90966e3619faf4e5ebecfdf07ecca4a132d80"
+  },
+  {
+    "operation": "exact_copy",
+    "release_path": "code/cure_fusion/coco_ap_kernel.py",
+    "release_sha256": "857c7ab0f3644e3d9ee1bd9681c7220223b8ff4b030e1d85ba3adbf4a505d0ef",
+    "source": "code/cure_fusion/coco_ap_kernel.py",
+    "source_sha256": "857c7ab0f3644e3d9ee1bd9681c7220223b8ff4b030e1d85ba3adbf4a505d0ef"
+  },
+  {
+    "operation": "sensitivity numeric report extracted; evaluator installation paths replaced by package source identifiers; numeric operands and evaluator source hashes unchanged",
+    "release_path": "results/sensitivity/results.json",
+    "release_sha256": "b08da74e72e4b27c1729020ef3005d5f16c2bd165f4c4d531ec61df92e56b145",
+    "source": "paper/counterfactual_sensor_utility_20260913_v10/NUMERIC_REGISTRY.json",
+    "source_sha256": "0df4a9f9346fd56f5ba15ce49519940c5ade69544170b44a4351a89bb4267666"
+  }
+]
