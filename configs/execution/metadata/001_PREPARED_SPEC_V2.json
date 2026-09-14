@@ -1,0 +1,272 @@
+{
+  "created_utc": "2026-09-13T16:04:47.892396+00:00",
+  "feature_contract": {
+    "action_order": [
+      "task_only",
+      "cure"
+    ],
+    "activation": "SiLU after each encoder Linear",
+    "all_native_classes": true,
+    "all_queries": true,
+    "cross_model_query_correspondence": false,
+    "encoder": [
+      86,
+      64,
+      64
+    ],
+    "input": "per action saved task-adapted FP32[B,300,82] logits and FP32[B,300,4] raw boxes; no reconstruction from queries",
+    "negative_or_zero_unselected_raw_dimensions": "retain unchanged; selected geometry gate remains original",
+    "normalization": "ordered controller-fit-only FP64 weighted streaming population moments; shared86 channels across both actions/queries; FP32 center/std; floor1e-4",
+    "pooled_width": 256,
+    "pooling": "mean and maximum over300 queries independently per action, concatenate action order",
+    "query_reordering": false,
+    "task_channels": [
+      0,
+      1,
+      80,
+      81
+    ],
+    "token_columns": "all82 original sigmoid probabilities, then same-query rawcxcywh4",
+    "token_shape": [
+      "B",
+      2,
+      300,
+      86
+    ]
+  },
+  "files": {
+    "QA/csu_action_development_protocol_20260913/ROLES_V1.json": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+    "QA/csu_action_development_root_20260913/actual_compact_v1/ORIGINAL_MANIFEST.json": "a0f72a221581db537e0c9da364a5acc44039661264c27b4f82a6506cefd5e0fa",
+    "QA/csu_action_development_root_20260913/actual_compact_v1/REPORT.json": "97ab32cef3974aacb43af23debb2bd363e61afccf1b2746224ef130539ef2072",
+    "QA/csu_action_development_root_20260913/actual_compact_v1/capture/CAPTURE.json": "166d41ed7b2e36218dc0811c704686bed94f0759d50fbba659a681333c546af1",
+    "QA/csu_action_oracle_risk_diagnostic_20260913/INTERPRETATION_V1.md": "32edff4954a759966520e4138bd5cc51c2b13d8826ce339c6b3806519f9784b8",
+    "QA/csu_action_oracle_risk_diagnostic_20260913/actual_v1/REPORT_V1.json": "7195de119c7bcddff54a81c0496e7f83796118319f34e8a01629a2a315d895b1",
+    "QA/csu_action_study_saved_independent_20260913/FINAL_ACTUAL_REVIEW_V2.json": "9c01c9150a4880f65b240358a140375ceab86dda6be1e1cac3cbb1549b1c0756",
+    "QA/csu_queryset_preparation_20260913/EXTERNAL_CAPTURE_INVENTORY_V2.json": "4f00b760bfffdc548bff239a0dc29f5c2dfb003a183f26b5e514f8319166b286",
+    "QA/csu_queryset_preparation_20260913/prepare_spec_v2.py": "33afe3e082bc96473cd811200e60e32586c5f6349ca1369a6777e87eb9e9da31",
+    "code/cure_fusion/csu_action_queryset_v2.py": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "code/cure_fusion/csu_action_rules_v1.py": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "code/cure_fusion/csu_action_v1.py": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "code/scripts/export_csu_action_review_v1.py": "c77363a3178a5df27ab30addfa359413a7de6c04ecc36f9f478bf7943207d1b8",
+    "code/scripts/run_csu_action_development_cuda_v1.py": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "code/tests/test_csu_action_queryset_v2.py": "8bcf7de2bda8b5bf35ad0867a6f555d071b246e2982f2e11055dbbfa9e53c510",
+    "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+    "research/CSU_NEXT_IMPLEMENTATION_DECISION_20260913.md": "fe39db763f37f187f83a27e2c23c51bca59e8dab7bce319f1f543869d9226ef8"
+  },
+  "future_runner_implemented": false,
+  "future_runner_path": "code/scripts/run_csu_action_queryset_development_v2.py",
+  "launch_authorized": false,
+  "learned_CPU_forward_allowed": false,
+  "memory_plan": {
+    "B64_four_condition_token_bytes": 52838400,
+    "all_paired_FP32_token_bytes": 5921203200,
+    "fit_paired_FP32_token_bytes": 4169280000,
+    "policy": "stream or memory-map external tokens; no full-dataset learned activation cache",
+    "wall_clock_estimate": null,
+    "wall_clock_scope": "measure new encoder step; do not reuse old40-summary timing"
+  },
+  "new_evaluation_or_training_executed": false,
+  "no_new_detector_forward_when_original_capture_available": true,
+  "old_source_mutations": false,
+  "parent_protocol": "research/CSU_ACTION_REUSED_SEW_FROZEN_PROTOCOL_V1_20260913.json",
+  "parent_protocol_sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+  "predictor": {
+    "freeze_whole_encoder_and_readout_before_selectors": true,
+    "gain_scale": "sqrt(fitting-weighted mean(A^2)), minimum1e-6",
+    "objective": "sum(w*(mu-A)^2)/(sum(w)*sA^2)",
+    "parameters": 26241,
+    "readout": [
+      256,
+      64,
+      1
+    ]
+  },
+  "preserved_parent_fields": {
+    "action_bank": [
+      "task_only",
+      "cure"
+    ],
+    "capture_cache_report_sha256": "5f9bd7af2d92d30b60efd5aa54b8575f26fef4ef0dbeb7ab9036dbcc860c0885",
+    "checkpoints": {
+      "cure": {
+        "checkpoint_sha256": "dbf3106a79a08f15b5ccc2c9e6c37d11c197e79a37a5934f75ff5a81c3ace6b7",
+        "detector_seed": 11,
+        "epoch": 40,
+        "path": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/cure/epoch_040/checkpoint.pt",
+        "retrained_in_this_phase": false,
+        "state_sha256": "a159ed4bb7eb3dd5a47a9b0020e760a2d0357a711b4f213a1640276f42d6ae01"
+      },
+      "modality_dropout": {
+        "checkpoint_sha256": "d9730ca89397629b5f984e5b4eafb606204c709a3e78e8a9ea54b7f8b5cecf6c",
+        "detector_seed": 11,
+        "epoch": 40,
+        "path": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/modality_dropout/epoch_040/checkpoint.pt",
+        "retrained_in_this_phase": false,
+        "state_sha256": "8d089b9025b82dbc673758c4b4cd1c5cd4ec21f68c1247c3ad9e5fe5ee447558"
+      },
+      "task_only": {
+        "checkpoint_sha256": "51dd57ae87b16aaafb11ecb933b8b7a16cc76a30c9350d98dcf12f26729bd879",
+        "detector_seed": 11,
+        "epoch": 40,
+        "path": "QA/dfine_cure_four_class_development_actual_20260913/dfine_cure_four_class_development_actual_v2/task_only/epoch_040/checkpoint.pt",
+        "retrained_in_this_phase": false,
+        "state_sha256": "a0721dbc7ab0e1219bef6dff50bbd3475f2af15307f3596ae916ee004d239f63"
+      }
+    },
+    "condition_weights": [
+      1,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.08333333333333333
+    ],
+    "conditions": [
+      "clean",
+      "camera_removed",
+      "radar_removed",
+      "radar_thinned_fresh"
+    ],
+    "controller_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "declared_rule_count": 9,
+    "declared_rules": [
+      "task_only",
+      "cure",
+      "modality_dropout",
+      "positive_mean",
+      "fitting_RMS_margin",
+      "confidence",
+      "utility_input_selector",
+      "zero_input_selector",
+      "permuted_input_selector"
+    ],
+    "empirical_calibration": {
+      "calibration_sequences": 9,
+      "changes_policy": false,
+      "coverage_scope": "reused empirical development coverage only; no latent CSU or distribution-free claim",
+      "rule": "maximum of nine sequence maxima of absolute action-gain residual across all four conditions"
+    },
+    "evaluation": {
+      "AP_after_all_seeds_and_learned_arms_finished": true,
+      "AP_interval": "withhold when required-class support absent under declared resampling;do notblockpointAP",
+      "all_declared_rows_conditions_retained": true,
+      "all_empty_frames_and_all_four_classes": true,
+      "native_postprocess": "unchanged chosen82-channel sigmoid/globaltop300 then taskmap; no querywise mixing/rescoring/NMS",
+      "primary_metric": "COCO four-class AP@[.50:.95]",
+      "risk_bootstrap": {
+        "draws": 2000,
+        "estimand": "equal-recording mean selected frame risk minus task risk",
+        "interval": "pointwise percentile2.5/97.5; not AP",
+        "seed": 9132026
+      },
+      "secondary_metrics": [
+        "AP50",
+        "AP75",
+        "per-class AP",
+        "frame-risk RMSE",
+        "frame-risk MAE",
+        "sign quality",
+        "selection frequency",
+        "harmful-selection frequency",
+        "selected action risk"
+      ],
+      "seed_summary": "all5 values then mean and std; neverbestseed",
+      "total_cost": "two frozen detector actions+fixed predictor+selector; old single-endpoint timing notsubstitute"
+    },
+    "fixed_rules": {
+      "confidence": "CURE iff mean over300queries of maximum fourtask sigmoid probability is strictly higher; one deterministic evaluation percondition",
+      "fitting_RMS_margin": "CURE iff mu-weighted_fitting_residual_RMS>0;kappa1;working heuristic not calibrated posterior bound",
+      "positive_mean": "CURE iff mu>0"
+    },
+    "independently_trained_detectors": 1,
+    "native_checkpoint_sha256": "39361855c21f8c4757a9bb777a7ff134ae8aa110d0db67a374f081e44c2ce04b",
+    "optimizer": {
+      "batch_unit": "64 source frames, each4conditions",
+      "checkpoint_selection": "final epoch only",
+      "drop_last": false,
+      "epochs": 40,
+      "lr": 0.001,
+      "schedule": "constant in draft; final source must bind any change",
+      "type": "AdamW",
+      "updates_per_epoch": 79,
+      "updates_per_model": 3160,
+      "weight_decay": 0.0001
+    },
+    "prior_access": {
+      "all_original40fit_recordings": "Both frozen V2 endpoints were fitted on these recordings. Innercal is held out only from NEW predictor/selector fitting, not from endpoint learning.",
+      "original8development": "Previously evaluated and previously used in earlier model development. Explicitly reused exploratory evaluation; not an independent final test."
+    },
+    "reference_outside_bank": "modality_dropout",
+    "role_manifest": "QA/csu_action_development_protocol_20260913/ROLES_V1.json",
+    "role_sha256": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+    "roles": {
+      "controller_fit": {
+        "frames": 5050,
+        "sequences": 31
+      },
+      "inner_calibration": {
+        "frames": 1130,
+        "sequences": 9
+      },
+      "reused_development": {
+        "frames": 992,
+        "sequences": 8
+      }
+    },
+    "thinning": {
+      "draw": 0,
+      "exact_stream_salt_seed_to_be_bound_by_root_capture_source": true,
+      "exact_stream_tag": "csu_action_development_v1_fresh",
+      "helper": "dfine_cure_development_v2.thinning_mask",
+      "keep_probability": 0.5,
+      "new_streams_separate_from_original_fit_and_fresh_draws": true,
+      "same_captured_mask_for_all_actions_arms_and_controller_seeds": true,
+      "seed": 9131311
+    }
+  },
+  "primary_metric": "unchanged COCO four-class AP@[.50:.95], all rules/seeds/conditions after all20fits",
+  "rationale": "Joint score-box information rather than marginal40 summaries; oracle motivates but does not prove learnability",
+  "remaining_work": [
+    "hash-verified original449chunk loader and non-neural pairedtoken extraction",
+    "separate runner adaptation of original fitting/evaluation orchestration",
+    "independent source review and separate CUDA step/admission before any study freeze"
+  ],
+  "scientific_limits": [
+    "new frame-action representation study, not relabeling original fixed-object removal CSU",
+    "no AP or sign-calibration guarantee; no inference from active RT-DETR fitting",
+    "finite pooling may discard information and no GT is available at inference",
+    "camera-absent action bank remains inadequate; selection cannot create detections"
+  ],
+  "selectors": {
+    "decision": "CURE iff sigmoid(rule_logit)>0.5; ties task-only",
+    "encoders_shared_across_actions_but_not_across_models": true,
+    "every_arm_receives_same_rich_tokens": true,
+    "identical_within_seed_initial_state_order_budget": true,
+    "last_scalar": [
+      "frozen_mu/sA",
+      "zero",
+      "within-condition and within-role fixed permutation of frozen_mu/sA"
+    ],
+    "mean_predictor_detached": true,
+    "no_additional_sensor_information": true,
+    "objective": "weighted detached expected original frame risk",
+    "parameters_each": 26305,
+    "permutation": "exact original csu_action_rules_v1.permutation_indices including salt/role/condition",
+    "readout": [
+      257,
+      64,
+      1
+    ],
+    "separate_trainable_encoder_per_arm": true,
+    "zero_control": "no utility INPUT; still rich tokens and action-risk supervision"
+  },
+  "status": "prepared_representation_successor_not_frozen_not_executed",
+  "total_models": 20,
+  "total_optimizer_updates": 63200,
+  "updates_per_model": 3160,
+  "version": 2
+}

@@ -1,0 +1,182 @@
+{
+  "REPORT.json": {
+    "bytes": 1172919,
+    "sha256": "74b4972bb069aad9459eb2f4a7fb85389dafff7b7d55dba056cf7be1914659ee"
+  },
+  "admission128_native_coco.json": {
+    "bytes": 153934,
+    "sha256": "3aea9be29def41ae9a13c3e3af2f22d4dd529ecb140fc0a017c53ba5ae1ea806"
+  },
+  "after_one_step.pt": {
+    "bytes": 918254445,
+    "sha256": "e369401612562be61b2cc72d275c88a6c9688392915bc0e9a03a104e73c8e366"
+  },
+  "empty_only_backward.npz": {
+    "bytes": 67957,
+    "sha256": "a780178539eccdf6bafca39a5e50b6b1c5645c7a1deb27c2b273f36bc8e9bbb4"
+  },
+  "empty_only_forward_before_loss.npz": {
+    "bytes": 63007,
+    "sha256": "3bc221afeebe1c3967a5e346bdfea1b622d4e6a796e4df5f86f84a2d5d12a633"
+  },
+  "initial_state.pt": {
+    "bytes": 306898441,
+    "sha256": "8e21b1bd7711d1f24e8c136cc41670333d59d25005b16d9c5df8f9b7d33c34e3"
+  },
+  "loaded_targets_all128.npz": {
+    "bytes": 53320,
+    "sha256": "c00584d110f26dbc3346aca9266a4bfbef8ce9ae52cb3c8ca46d86837a8fe0a2"
+  },
+  "mixed_backward.npz": {
+    "bytes": 281089,
+    "sha256": "7d24a903abf5e29bed63e7ca39950feb1c9b382bd981634a687a70919d34f353"
+  },
+  "mixed_forward_before_geometry_check.npz": {
+    "bytes": 232268,
+    "sha256": "e9059707f44bf4926acc33b8a7b12c5b0f343cf9948f43613e14bbf006d8eada"
+  },
+  "mixed_gradient_inventory.json": {
+    "bytes": 102338,
+    "sha256": "11ef8526d4d75e6eaa887216635deb5badbd25b713aed9d91145c735bb43ec35"
+  },
+  "native128_decode_000.npz": {
+    "bytes": 109694,
+    "sha256": "ae4b709d2d03004886c4d56caefb1726533e4dd64aedd87ff6d5f1967685832a"
+  },
+  "native128_decode_008.npz": {
+    "bytes": 108186,
+    "sha256": "1e129345570e9aa3af906419c075021127e51e8a5a552a1348290281bd3e9aa1"
+  },
+  "native128_decode_016.npz": {
+    "bytes": 108553,
+    "sha256": "318c4bb20015f649ad2c457ece97c5c3256d6def76e1711eed7a2e737d865963"
+  },
+  "native128_decode_024.npz": {
+    "bytes": 108922,
+    "sha256": "ae9bb75d738cab28a4e88d3eda9d529d833f7c428d97c0da4ebc012b9e7351e7"
+  },
+  "native128_decode_032.npz": {
+    "bytes": 108137,
+    "sha256": "4d15e109255e6e03d68e6e226777d8449401291b22e1090dc69d592212d62a9c"
+  },
+  "native128_decode_040.npz": {
+    "bytes": 108202,
+    "sha256": "9e078e23164e3321ab3945f35596c97a76930b653245bf2750f5f6c544b5e07e"
+  },
+  "native128_decode_048.npz": {
+    "bytes": 102671,
+    "sha256": "b1765282582758cab4f935a824b944a3bad943c3b77634f221b6011244529798"
+  },
+  "native128_decode_056.npz": {
+    "bytes": 108378,
+    "sha256": "051b48893ceb5a4ef1d2f88adbb0f0c0b99398a021086b658ef3775bde3060f1"
+  },
+  "native128_decode_064.npz": {
+    "bytes": 101298,
+    "sha256": "836309001c50df4d9fd9df52ff053453bba465a1cf8dcb3c60e0b6915e923b97"
+  },
+  "native128_decode_072.npz": {
+    "bytes": 108487,
+    "sha256": "88b77b8ab975437f1276aa225288aba4de99c643555b7db4500a70f0a86c5e95"
+  },
+  "native128_decode_080.npz": {
+    "bytes": 107232,
+    "sha256": "4d0c4d53186bca2261042930c366ea35b8f632d6dd297c5bad35aa59e7a5472c"
+  },
+  "native128_decode_088.npz": {
+    "bytes": 108974,
+    "sha256": "a5024aff714ad0ca67f8d36eb3ec6b5243f0ec8ff2cc126207183efbb7f0b3e2"
+  },
+  "native128_decode_096.npz": {
+    "bytes": 108413,
+    "sha256": "9971f3d943fe18d7c3824d320c14462dbfadd11d3771f879eb61af6da919b26a"
+  },
+  "native128_decode_104.npz": {
+    "bytes": 97685,
+    "sha256": "de0fb5492e0b2524247fa33001b6c038e7e323beab0330f1ebbb5cd61a68aef6"
+  },
+  "native128_decode_112.npz": {
+    "bytes": 104274,
+    "sha256": "1a7d3dc0a46b581c58ffea3b06b9caf72f0f085b286e78ccdb619e38657bcefb"
+  },
+  "native128_decode_120.npz": {
+    "bytes": 108839,
+    "sha256": "51cfa0067b0d4b6f68e68960ee7b58442f0a3efc1e75d6ec302be32ca8f8a54d"
+  },
+  "native128_decode_index.json": {
+    "bytes": 59655,
+    "sha256": "6b71e27c20b0627c8386f0cde45e42af2eac4fb2ba5bd30bc94e0e6a7f90393e"
+  },
+  "native128_forward_000.npz": {
+    "bytes": 67805,
+    "sha256": "1da14c57703c101e9b92b32372168cdeb391ae2529f25ecefb967ed9f849f6e6"
+  },
+  "native128_forward_008.npz": {
+    "bytes": 67786,
+    "sha256": "f3b13186eecf4bff017deb042b0f004a5b7b27be7e0cd73ca9ff1dfc8c398adf"
+  },
+  "native128_forward_016.npz": {
+    "bytes": 67812,
+    "sha256": "7cc0b947c52bf6c0bc547fbe2d667dd24bedfe02501af017afaa5662db28b4a2"
+  },
+  "native128_forward_024.npz": {
+    "bytes": 67743,
+    "sha256": "b28ebc2f24fc718d5763f2dad47fab543c236f835b3a26e3dd847891861caafd"
+  },
+  "native128_forward_032.npz": {
+    "bytes": 67842,
+    "sha256": "6284b40f0ae680f9b2c944a778dd6f283f75676ebab9b2d95ad27e804182a5f1"
+  },
+  "native128_forward_040.npz": {
+    "bytes": 67895,
+    "sha256": "b19035c9a729b0437abc3d5664b8c15792923b903ade6c8bc592725434ac0eb7"
+  },
+  "native128_forward_048.npz": {
+    "bytes": 63937,
+    "sha256": "8bc76b94134e1a3db2334f2cfea6ea431c8f8efcc7dedfda55229e1ecbcb7460"
+  },
+  "native128_forward_056.npz": {
+    "bytes": 67834,
+    "sha256": "071973bdf0a9783509698866f5796b67a2f729da8d9513ddb348872308227dad"
+  },
+  "native128_forward_064.npz": {
+    "bytes": 62279,
+    "sha256": "dd53a76d9f44b52cc9dcf4e2e46b2f32ba615f07ca74a2e486ed0d078bc5bfca"
+  },
+  "native128_forward_072.npz": {
+    "bytes": 67821,
+    "sha256": "5fb82f4fd47382dadffad6d5e55f08d8e305e16c5772b903cb46868c45634891"
+  },
+  "native128_forward_080.npz": {
+    "bytes": 67084,
+    "sha256": "4fa1edb09c54add741928d12f51bd0aceea06f1fccf6b5e3d46f24112fe8943e"
+  },
+  "native128_forward_088.npz": {
+    "bytes": 67746,
+    "sha256": "51acd5e3946002e628e18980458411b57b44946ae81f8744787a49c77b0ac463"
+  },
+  "native128_forward_096.npz": {
+    "bytes": 67833,
+    "sha256": "03d22bec734f96de7a253aefb535ab8ed2f8ec5592c2a9bee5f4ae4e7d19e783"
+  },
+  "native128_forward_104.npz": {
+    "bytes": 60828,
+    "sha256": "661403ec4b9ad41445790bcc3324c451038f4ea824112196eb97235ecff0cb02"
+  },
+  "native128_forward_112.npz": {
+    "bytes": 64757,
+    "sha256": "02a6aeed4e35cc3d729b2e9a5f24cac67ccefd110cdf911f81ca12be4a04ff7d"
+  },
+  "native128_forward_120.npz": {
+    "bytes": 67595,
+    "sha256": "bfb0d63b7ddbc16395b1b8638544a85d92745e88e949828e5ffba8873786cfaa"
+  },
+  "protocol.json": {
+    "bytes": 9110,
+    "sha256": "0594f6be86b880c2b1224c3ed432d12cb59e17c4d54ea48f57e61925c78155cb"
+  },
+  "resolved_native_config.json": {
+    "bytes": 4651,
+    "sha256": "3afa97d7b538a820a6cf314ea38badb2207be6e1bfa5a17a1a34e214d3a77b13"
+  }
+}

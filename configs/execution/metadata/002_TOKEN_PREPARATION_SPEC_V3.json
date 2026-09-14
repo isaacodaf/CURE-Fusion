@@ -1,0 +1,137 @@
+{
+  "AP_evaluation": false,
+  "all_native_risks_and_detections_unchanged": true,
+  "arithmetic_relationship": {
+    "authoritative_features": "exact hash-bound FP32 files from this one declared CPU preparation",
+    "confidence": "original FP64 source formula on task channels0/1/80/81 before any FP32 token cast; no score/choice correction",
+    "reference_only_function": "paired_query_tokens_v2 uses Tensor.sigmoid; not used by the production loader or a bit-identity claim",
+    "supersedes": "unspecified CPU/CUDA choice for core paired_query_tokens_v2 reference helper",
+    "unchanged_core_sha256": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd"
+  },
+  "canonical_records": {
+    "bytes": 11107235,
+    "reference_path": "QA/dfine_cure_optimization_inputs_v1_20260913/records.json",
+    "sha256": "ef9d70a7bd24bd940332dae69092253b5230873d32cd3316b914334e8b3f424d"
+  },
+  "capture_inventory_path": "QA/csu_queryset_preparation_20260913/EXTERNAL_CAPTURE_INVENTORY_V2.json",
+  "controller_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "core_prepared_spec_path": "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json",
+  "core_prepared_spec_sha256": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2",
+  "created_utc": "2026-09-13T16:41:12.832991+00:00",
+  "files": {
+    "QA/csu_action_development_protocol_20260913/ROLES_V1.json": "cb827c297cf0de2f6183638e496caec1bac2cf17f437d814f3f3a3d896721f07",
+    "QA/csu_queryset_preparation_20260913/EXTERNAL_CAPTURE_INVENTORY_V2.json": "4f00b760bfffdc548bff239a0dc29f5c2dfb003a183f26b5e514f8319166b286",
+    "QA/csu_queryset_preparation_20260913/PREPARED_SPEC_V2.json": "370d1cc23ac30902fd62fc525677c6405935451b53b8ad358198982f1304aad2",
+    "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V2.json": "dc14e38d4bcf1635eda2bdf33ef185eb1b8fe3c524ca57e39b59d98337a8a4bb",
+    "QA/csu_queryset_preparation_20260913/prepare_token_input_spec_v2.py": "c3343f6c8fba2b177a975b46836eb421d748f45573b51d0bfb49b718a35a2041",
+    "QA/csu_queryset_preparation_20260913/prepare_token_input_spec_v3.py": "191df26ea7c678b35242c5f0e983350dcbe79423789a87eaa814afb558ff36db",
+    "code/cure_fusion/__init__.py": "746a717e608b32cbadec254dfab4eb4b7d533959b96ac2b88a0bfdd916d1226e",
+    "code/cure_fusion/csu_action_queryset_v2.py": "850ee67bee7da5529c9e29fe93a8696299f885c6d09ef5281bf3054ab3ae87dd",
+    "code/cure_fusion/csu_action_rules_v1.py": "c9f41f0509c946a5197fe8c1b21c52ec4de54f01876da017d1857055e43019ff",
+    "code/cure_fusion/csu_action_v1.py": "33ed84af8bf9d83976ee5231528108ba2c89777887899250619ad3321f216fba",
+    "code/cure_fusion/csu_queryset_inputs_v2.py": "d22c6702df410ff75c37cb9db42a0dbe6fe0f26565a8a2dc601ac607dba81bfa",
+    "code/cure_fusion/metrics.py": "da917c67e708bdc4b7b28873badb45e361371f147c72307817a01c227b2aa824",
+    "code/cure_fusion/model.py": "56feef5d9bc5fc1a0a054240635f7cc60292c004ee8ed8af5bdc9aa9b0fc5902",
+    "code/cure_fusion/statistics.py": "01b9e3e4e61a25514d8f0cc77b15d7caa9edb3bbd011e45b296f2f1780a6128e",
+    "code/cure_fusion/utility.py": "4040c39c0a434242fb88ca7e00757ab9f753ad216d57ced8b15f47c0fd69a676",
+    "code/scripts/prepare_csu_queryset_tokens_v2.py": "187618bbf57c58fb5f89c6959d43e50e3ca78fc4f06256ad6533dc2b670b181f",
+    "code/scripts/run_csu_action_development_cuda_v1.py": "147fd4e842c8f7497c3d355cd5e921794b85f18be168727a968843384abe8fd4",
+    "code/tests/test_csu_action_queryset_v2.py": "8bcf7de2bda8b5bf35ad0867a6f555d071b246e2982f2e11055dbbfa9e53c510",
+    "code/tests/test_csu_queryset_inputs_v2.py": "19e126a65300f1987a48568b0b6650aea47250d0fc1e8aba6132ab35c4eaea8b"
+  },
+  "learned_forward": false,
+  "learned_launch_authorized": false,
+  "memory": {
+    "failed_partial_outputs": "retained; never admitted without completed report/manifest",
+    "fit_token_bytes": 4169280000,
+    "fullrawneeded": "all449 original chunks, not three-chunk compact",
+    "raw_compressed_bytes": 4431103874,
+    "token_bytes": 5921203200
+  },
+  "metadata_revision": {
+    "added_paths": [
+      "code/cure_fusion/__init__.py",
+      "code/cure_fusion/model.py",
+      "code/cure_fusion/utility.py",
+      "code/cure_fusion/metrics.py",
+      "code/cure_fusion/statistics.py",
+      "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V2.json",
+      "QA/csu_queryset_preparation_20260913/prepare_token_input_spec_v3.py"
+    ],
+    "previous_path": "QA/csu_queryset_preparation_20260913/TOKEN_PREPARATION_SPEC_V2.json",
+    "previous_sha256": "dc14e38d4bcf1635eda2bdf33ef185eb1b8fe3c524ca57e39b59d98337a8a4bb",
+    "reason": "Bind the unchanged cure_fusion package initializer and its four imported modules in the executable preparation specification",
+    "source_arithmetic_and_scientific_fields_unchanged": true
+  },
+  "new_study_budget_changed": false,
+  "normalization": {
+    "gain_scale": "copy scalarFP32 original NORMALIZATION.npz exactly",
+    "original_normalization": {
+      "bytes": 919,
+      "sha256": "96b87144503ca3429f6d0fadf5b36d221dbb53d257ea12a3b54307be4e4e27bf"
+    },
+    "token_moments": "exact ordered5050 controller-fit IDs only; streaming FP64 population moments; old condition weights; shared86channels; FP32 stdfloor1e-4"
+  },
+  "original_drive_root": "/content/drive/MyDrive/CURE_Pretrained_Host_Pivot_20260913/CSU_Action_Development_V1_Complete_Backup/csu_action_development_actual_v1",
+  "original_full_root": "/content/csu_action_development_actual_v1",
+  "original_manifest": {
+    "bytes": 80630,
+    "sha256": "a0f72a221581db537e0c9da364a5acc44039661264c27b4f82a6506cefd5e0fa"
+  },
+  "original_manifest_filename": "MANIFEST.json",
+  "original_protocol_sha256": "d363f1dcdae1c84f1e9791d195947dc5f713c7bf69153e00ab9036659d4164d4",
+  "original_records_runtime_path": "/content/dfine_cure_optimization_inputs_v1/records.json",
+  "original_report_sha256": "97ab32cef3974aacb43af23debb2bd363e61afccf1b2746224ef130539ef2072",
+  "original_root_provenance": "Root confirmed live report/MANIFEST hashes and original backup receipt on2026-09-13; loader still rehashes every required input",
+  "output_api": {
+    "attributes": [
+      "tokens[role]:read-only mmapFP32[N,4,2,300,86]",
+      "roles:original rolemanifest",
+      "records:identity->canonical record",
+      "normalization:FP32center86/scale86 and scalar originalgain_scale",
+      "selected[condition][arm]:list(labels,boxes,scores)",
+      "confidence:FP64[992,4,2]",
+      "ground_truth:original COCO dict"
+    ],
+    "class_name": "cure_fusion.csu_queryset_inputs_v2.QuerySetCacheV2",
+    "constructor": "(prepared_root, expected_manifest_sha256)",
+    "methods": [
+      "operands(role):gain/base_risk/candidate_risk FP32[N,4],identities,sequences",
+      "batch(role,indices):contiguous CPU NumPy tokens",
+      "verify_unchanged():full prepared artifact hashes"
+    ],
+    "note": "Returned metadata arrays are read-only; caller copies before torch.from_numpy. No detector construction, risk reevaluation, or AP."
+  },
+  "production_numpy_version": "2.1.3",
+  "roles_path": "QA/csu_action_development_protocol_20260913/ROLES_V1.json",
+  "scopes": {
+    "actions": 2,
+    "all_input_rows_and_canonical_targets_verified": true,
+    "chunks": 449,
+    "conditions": 4,
+    "frames": 7172,
+    "ignored_or_repaired_queries": 0,
+    "queries": 300,
+    "roles": {
+      "controller_fit": 5050,
+      "inner_calibration": 1130,
+      "reused_development": 992
+    },
+    "selected_development_arms": [
+      "task_only",
+      "cure",
+      "modality_dropout"
+    ],
+    "token_width": 86
+  },
+  "status": "declared_CPU_token_preparation_only",
+  "study_models": 20,
+  "token_arithmetic": "CPU NumPy FP64 exp(-logaddexp(0,-saved FP32 logits)); cast once FP32; raw boxes copied exactly",
+  "updates_per_model": 3160
+}
