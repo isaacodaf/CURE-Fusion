@@ -1,0 +1,3272 @@
+{
+  "format": "scientific_table_cells_v1",
+  "source_document_sha256": "17fa3c7d337e32dc5fba5a2a5fd408b9c7d7d01c19cd6d6e5774c6e84bb5ed19",
+  "tables": [
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "image count / length of sequence list, comma-separated counts",
+          "json_pointers": [
+            "/fit/images",
+            "/fit/sequences"
+          ],
+          "row_index": 0,
+          "source": "configs/sew_splits.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "sum of four class counts, comma-separated",
+          "json_pointers": [
+            "/fit/class_counts"
+          ],
+          "row_index": 1,
+          "source": "configs/sew_splits.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "image count / length of sequence list, comma-separated counts",
+          "json_pointers": [
+            "/inner_development/images",
+            "/inner_development/sequences"
+          ],
+          "row_index": 0,
+          "source": "configs/sew_splits.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "sum of four class counts, comma-separated",
+          "json_pointers": [
+            "/inner_development/class_counts"
+          ],
+          "row_index": 1,
+          "source": "configs/sew_splits.json"
+        }
+      ],
+      "headers": [
+        "Quantity",
+        "Fitting",
+        "Development"
+      ],
+      "metric_and_units": "Counts, input contracts and fixed fitting protocol",
+      "number": 1,
+      "original_table_block_sha256": "571d75dd3ece1dda0883fe58d6bd9b511d649812a0573e42cf180944cbd1d8ea",
+      "paper_location": "Table 1",
+      "rows": [
+        [
+          "Frames / sequences",
+          "6,180 / 40",
+          "992 / 8"
+        ],
+        [
+          "Annotated objects",
+          "10,964",
+          "2,521"
+        ],
+        [
+          "Task classes",
+          "Person, bicycle, slidecar, doll",
+          "Same four classes"
+        ],
+        [
+          "Camera input",
+          "Frozen 640 \u00d7 640 D-FINE query cache",
+          "Same extraction and task mapping"
+        ],
+        [
+          "Radar input",
+          "XYZ, intensity, Doppler and derived range",
+          "Same paired-return contract"
+        ],
+        [
+          "Radar utility draws",
+          "Eight per frame",
+          "Sixteen fresh draws per frame"
+        ],
+        [
+          "Camera utility target",
+          "Deterministic removal",
+          "Deterministic removal"
+        ],
+        [
+          "Fitted model",
+          "Fixed seed 11, 40 epochs per arm",
+          "Fixed endpoints, no selection"
+        ]
+      ],
+      "slug": "study_contract",
+      "source_files": [
+        {
+          "path": "configs/sew_splits.json",
+          "sha256": "2a2d1f627a055d0669abe1227c1526e7979447429a504d3c4928039aed761a04"
+        }
+      ],
+      "source_mapping": "Population counts match split metadata; remaining cells state the recorded input and fitting contract.",
+      "title": "Current SEW study and input contract"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/0/AP_percent"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/1/AP_percent"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/2/AP_percent"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/3/AP_percent"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/4/AP_percent"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/5/AP_percent"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/6/AP_percent"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/7/AP_percent"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/8/AP_percent"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/9/AP_percent"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/10/AP_percent"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/11/AP_percent"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/12/AP_percent"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/13/AP_percent"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/14/AP_percent"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places",
+          "json_pointers": [
+            "/endpoints/15/AP_percent"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        }
+      ],
+      "headers": [
+        "Method",
+        "Clean",
+        "Camera removed",
+        "Radar removed",
+        "Radar thinned"
+      ],
+      "metric_and_units": "AP (%), IoU 0.50:0.05:0.95; 992 reused development frames; one detector seed",
+      "number": 2,
+      "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
+      "paper_location": "Table 2",
+      "rows": [
+        [
+          "Unadapted extension",
+          "40.56",
+          "0.01",
+          "40.56",
+          "40.56"
+        ],
+        [
+          "Task-only",
+          "62.33",
+          "0.00",
+          "61.45",
+          "62.19"
+        ],
+        [
+          "CURE",
+          "61.47",
+          "0.03",
+          "60.33",
+          "61.45"
+        ],
+        [
+          "Modality dropout",
+          "61.74",
+          "0.07",
+          "61.72",
+          "61.53"
+        ]
+      ],
+      "slug": "matched_detection",
+      "source_files": [
+        {
+          "path": "results/detection/endpoints.json",
+          "sha256": "66752e4d3339a81987d1819d8dd44a2a89153d690868b2f298be9259cff7194f"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Four-class development COCO box AP"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, median / p95",
+          "json_pointers": [
+            "/results/native_camera/median_ms",
+            "/results/native_camera/p95_ms"
+          ],
+          "row_index": 0,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "divide each by 2^30; two decimals, allocated / reserved",
+          "json_pointers": [
+            "/results/native_camera/peak_allocated_bytes",
+            "/results/native_camera/peak_reserved_bytes"
+          ],
+          "row_index": 0,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, median / p95",
+          "json_pointers": [
+            "/results/task_only/median_ms",
+            "/results/task_only/p95_ms"
+          ],
+          "row_index": 1,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "divide each by 2^30; two decimals, allocated / reserved",
+          "json_pointers": [
+            "/results/task_only/peak_allocated_bytes",
+            "/results/task_only/peak_reserved_bytes"
+          ],
+          "row_index": 1,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, median / p95",
+          "json_pointers": [
+            "/results/cure/median_ms",
+            "/results/cure/p95_ms"
+          ],
+          "row_index": 2,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "divide each by 2^30; two decimals, allocated / reserved",
+          "json_pointers": [
+            "/results/cure/peak_allocated_bytes",
+            "/results/cure/peak_reserved_bytes"
+          ],
+          "row_index": 2,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, median / p95",
+          "json_pointers": [
+            "/results/modality_dropout/median_ms",
+            "/results/modality_dropout/p95_ms"
+          ],
+          "row_index": 3,
+          "source": "results/efficiency/report.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "divide each by 2^30; two decimals, allocated / reserved",
+          "json_pointers": [
+            "/results/modality_dropout/peak_allocated_bytes",
+            "/results/modality_dropout/peak_reserved_bytes"
+          ],
+          "row_index": 3,
+          "source": "results/efficiency/report.json"
+        }
+      ],
+      "headers": [
+        "Method",
+        "Median / p95 (ms)",
+        "Peak allocated / reserved (GiB)"
+      ],
+      "metric_and_units": "Median and p95 milliseconds; peak allocator memory in GiB; batch one, FP32",
+      "number": 3,
+      "original_table_block_sha256": "f31448bf170250f2955c106c71e1272b6a2a30264155f6e77c0ecf4dd9b52329",
+      "paper_location": "Table 3",
+      "rows": [
+        [
+          "Native camera (80 classes)",
+          "58.02 / 59.37",
+          "0.40 / 0.47"
+        ],
+        [
+          "Task-only (82 classes)",
+          "63.03 / 64.56",
+          "0.40 / 0.47"
+        ],
+        [
+          "CURE (82 classes)",
+          "63.51 / 64.83",
+          "0.40 / 0.47"
+        ],
+        [
+          "Dropout (82 classes)",
+          "63.06 / 64.82",
+          "0.40 / 0.47"
+        ]
+      ],
+      "slug": "online_efficiency",
+      "source_files": [
+        {
+          "path": "results/efficiency/report.json",
+          "sha256": "f133600accc906cf19b49dd4d53352ddcd115ae2db3875de53012935a821a16d"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Online tensor-to-output cost"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/0/per_class_percent/0"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/0/per_class_percent/1"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/0/per_class_percent/2"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/0/per_class_percent/3"
+          ],
+          "row_index": 0,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/1/per_class_percent/0"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/1/per_class_percent/1"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/1/per_class_percent/2"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/1/per_class_percent/3"
+          ],
+          "row_index": 1,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/2/per_class_percent/0"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/2/per_class_percent/1"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/2/per_class_percent/2"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/2/per_class_percent/3"
+          ],
+          "row_index": 2,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/3/per_class_percent/0"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/3/per_class_percent/1"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/3/per_class_percent/2"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/3/per_class_percent/3"
+          ],
+          "row_index": 3,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/4/per_class_percent/0"
+          ],
+          "row_index": 4,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/4/per_class_percent/1"
+          ],
+          "row_index": 4,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/4/per_class_percent/2"
+          ],
+          "row_index": 4,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/4/per_class_percent/3"
+          ],
+          "row_index": 4,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/5/per_class_percent/0"
+          ],
+          "row_index": 5,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/5/per_class_percent/1"
+          ],
+          "row_index": 5,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/5/per_class_percent/2"
+          ],
+          "row_index": 5,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/5/per_class_percent/3"
+          ],
+          "row_index": 5,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/6/per_class_percent/0"
+          ],
+          "row_index": 6,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/6/per_class_percent/1"
+          ],
+          "row_index": 6,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/6/per_class_percent/2"
+          ],
+          "row_index": 6,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/6/per_class_percent/3"
+          ],
+          "row_index": 6,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/7/per_class_percent/0"
+          ],
+          "row_index": 7,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/7/per_class_percent/1"
+          ],
+          "row_index": 7,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/7/per_class_percent/2"
+          ],
+          "row_index": 7,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/7/per_class_percent/3"
+          ],
+          "row_index": 7,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/8/per_class_percent/0"
+          ],
+          "row_index": 8,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/8/per_class_percent/1"
+          ],
+          "row_index": 8,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/8/per_class_percent/2"
+          ],
+          "row_index": 8,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/8/per_class_percent/3"
+          ],
+          "row_index": 8,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/9/per_class_percent/0"
+          ],
+          "row_index": 9,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/9/per_class_percent/1"
+          ],
+          "row_index": 9,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/9/per_class_percent/2"
+          ],
+          "row_index": 9,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/9/per_class_percent/3"
+          ],
+          "row_index": 9,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/10/per_class_percent/0"
+          ],
+          "row_index": 10,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/10/per_class_percent/1"
+          ],
+          "row_index": 10,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/10/per_class_percent/2"
+          ],
+          "row_index": 10,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/10/per_class_percent/3"
+          ],
+          "row_index": 10,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/11/per_class_percent/0"
+          ],
+          "row_index": 11,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/11/per_class_percent/1"
+          ],
+          "row_index": 11,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/11/per_class_percent/2"
+          ],
+          "row_index": 11,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/11/per_class_percent/3"
+          ],
+          "row_index": 11,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/12/per_class_percent/0"
+          ],
+          "row_index": 12,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/12/per_class_percent/1"
+          ],
+          "row_index": 12,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/12/per_class_percent/2"
+          ],
+          "row_index": 12,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/12/per_class_percent/3"
+          ],
+          "row_index": 12,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/13/per_class_percent/0"
+          ],
+          "row_index": 13,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/13/per_class_percent/1"
+          ],
+          "row_index": 13,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/13/per_class_percent/2"
+          ],
+          "row_index": 13,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/13/per_class_percent/3"
+          ],
+          "row_index": 13,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/14/per_class_percent/0"
+          ],
+          "row_index": 14,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/14/per_class_percent/1"
+          ],
+          "row_index": 14,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/14/per_class_percent/2"
+          ],
+          "row_index": 14,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/14/per_class_percent/3"
+          ],
+          "row_index": 14,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/15/per_class_percent/0"
+          ],
+          "row_index": 15,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/15/per_class_percent/1"
+          ],
+          "row_index": 15,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/15/per_class_percent/2"
+          ],
+          "row_index": 15,
+          "source": "results/detection/endpoints.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "two decimal places; positive values below 0.0001 use two-decimal scientific notation",
+          "json_pointers": [
+            "/endpoints/15/per_class_percent/3"
+          ],
+          "row_index": 15,
+          "source": "results/detection/endpoints.json"
+        }
+      ],
+      "headers": [
+        "Method / condition",
+        "Person",
+        "Bicycle",
+        "Slidecar",
+        "Doll"
+      ],
+      "metric_and_units": "AP (%), IoU 0.50:0.05:0.95; every method and condition",
+      "number": 4,
+      "original_table_block_sha256": "531303a1b84c4284d37c62d97d2a4b4e2fe3e4838d0accdb4a6eade964269078",
+      "paper_location": "Table 4",
+      "rows": [
+        [
+          "Reference, clean",
+          "80.61",
+          "81.64",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "Reference, camera removed",
+          "2.63e-05",
+          "0.05",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "Reference, radar removed",
+          "80.61",
+          "81.64",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "Reference, radar thinned",
+          "80.61",
+          "81.64",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "Task-only, clean",
+          "83.24",
+          "82.02",
+          "39.95",
+          "44.11"
+        ],
+        [
+          "Task-only, camera removed",
+          "0.01",
+          "0.01",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "Task-only, radar removed",
+          "83.34",
+          "81.80",
+          "36.82",
+          "43.84"
+        ],
+        [
+          "Task-only, radar thinned",
+          "83.22",
+          "82.07",
+          "39.29",
+          "44.17"
+        ],
+        [
+          "CURE, clean",
+          "83.07",
+          "82.22",
+          "35.61",
+          "44.97"
+        ],
+        [
+          "CURE, camera removed",
+          "0.01",
+          "0.11",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "CURE, radar removed",
+          "82.76",
+          "82.03",
+          "33.35",
+          "43.20"
+        ],
+        [
+          "CURE, radar thinned",
+          "83.00",
+          "82.26",
+          "35.63",
+          "44.89"
+        ],
+        [
+          "Dropout, clean",
+          "83.07",
+          "82.41",
+          "37.97",
+          "43.52"
+        ],
+        [
+          "Dropout, camera removed",
+          "0.24",
+          "0.05",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "Dropout, radar removed",
+          "82.98",
+          "82.11",
+          "38.69",
+          "43.12"
+        ],
+        [
+          "Dropout, radar thinned",
+          "83.10",
+          "82.26",
+          "37.34",
+          "43.44"
+        ]
+      ],
+      "slug": "per_class_endpoints",
+      "source_files": [
+        {
+          "path": "results/detection/endpoints.json",
+          "sha256": "66752e4d3339a81987d1819d8dd44a2a89153d690868b2f298be9259cff7194f"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Complete current per-class endpoints"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/0/CURE",
+            "/all_twelve_constant_contrasts/1/CURE"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/2/CURE",
+            "/all_twelve_constant_contrasts/3/CURE"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/0/baseline_error",
+            "/all_twelve_constant_contrasts/1/baseline_error"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/2/baseline_error",
+            "/all_twelve_constant_contrasts/3/baseline_error"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/4/baseline_error",
+            "/all_twelve_constant_contrasts/5/baseline_error"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/6/baseline_error",
+            "/all_twelve_constant_contrasts/7/baseline_error"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/8/baseline_error",
+            "/all_twelve_constant_contrasts/9/baseline_error"
+          ],
+          "row_index": 3,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/10/baseline_error",
+            "/all_twelve_constant_contrasts/11/baseline_error"
+          ],
+          "row_index": 3,
+          "source": "results/utility/numeric_registry.json"
+        }
+      ],
+      "headers": [
+        "Predictor",
+        "Camera removal",
+        "Radar thinning",
+        "Fit population"
+      ],
+      "metric_and_units": "RMSE / MAE in teacher-risk units; 2,521 development objects; mean/median fitted on 10,964 optimization objects, zero unfitted",
+      "number": 5,
+      "original_table_block_sha256": "5a2fd8b9e32b2cf7617d1da1e22114a0a3bcd87e400a31e491bba14ae5abbb78",
+      "paper_location": "Table 5",
+      "rows": [
+        [
+          "CURE",
+          "1.7018 / 1.2722",
+          "0.02427 / 0.00736",
+          "Optimization only"
+        ],
+        [
+          "Global mean",
+          "3.0936 / 2.6035",
+          "0.02481 / 0.00949",
+          "Optimization only"
+        ],
+        [
+          "Global median",
+          "3.1067 / 2.6134",
+          "0.02459 / 0.00659",
+          "Optimization only"
+        ],
+        [
+          "Zero",
+          "11.7058 / 11.2896",
+          "0.02463 / 0.00658",
+          "Unfitted"
+        ]
+      ],
+      "slug": "constant_errors",
+      "source_files": [
+        {
+          "path": "results/utility/numeric_registry.json",
+          "sha256": "c679f07f0abe2f963cdf40e7e119deba0a4825c800ff1da3ebf22a4eef4d793a"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Utility errors against constant predictors"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/0/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/0/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/2/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/2/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/4/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/4/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/6/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/6/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/8/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/8/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/10/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/10/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/1/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/1/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 3,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/3/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/3/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 3,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/5/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/5/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 4,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/7/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/7/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 4,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/9/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/9/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 5,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]",
+          "json_pointers": [
+            "/all_twelve_constant_contrasts/11/relative_error_reduction_percent",
+            "/all_twelve_constant_contrasts/11/relative_reduction_bootstrap/percentile_95"
+          ],
+          "row_index": 5,
+          "source": "results/utility/numeric_registry.json"
+        }
+      ],
+      "headers": [
+        "Metric / comparator",
+        "Camera reduction (%) [interval]",
+        "Radar reduction (%) [interval]"
+      ],
+      "metric_and_units": "Percent error reduction; pointwise descriptive 95% intervals from 2,000 paired recording draws",
+      "number": 6,
+      "original_table_block_sha256": "ffb5cb8cdd670a027e79c0e43e2440e744e2a3308ea9901e49dbd14f7c5fd489",
+      "paper_location": "Table 6",
+      "rows": [
+        [
+          "RMSE / fit mean",
+          "44.99 [36.41, 56.92]",
+          "2.20 [-0.61, 3.95]"
+        ],
+        [
+          "RMSE / fit median",
+          "45.22 [36.31, 54.93]",
+          "1.31 [-2.93, 2.72]"
+        ],
+        [
+          "RMSE / zero",
+          "85.46 [82.17, 86.98]",
+          "1.46 [-2.84, 3.02]"
+        ],
+        [
+          "MAE / fit mean",
+          "51.13 [42.75, 64.12]",
+          "22.42 [16.36, 34.81]"
+        ],
+        [
+          "MAE / fit median",
+          "51.32 [43.16, 62.35]",
+          "-11.62 [-14.02, -5.23]"
+        ],
+        [
+          "MAE / zero",
+          "88.73 [86.21, 89.76]",
+          "-11.89 [-13.94, -5.33]"
+        ]
+      ],
+      "slug": "constant_contrasts",
+      "source_files": [
+        {
+          "path": "results/utility/numeric_registry.json",
+          "sha256": "c679f07f0abe2f963cdf40e7e119deba0a4825c800ff1da3ebf22a4eef4d793a"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Relative error reductions against constants"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/readout_metrics/original_saved_CURE_head/RMSE/0",
+            "/readout_metrics/original_saved_CURE_head/MAE/0"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/readout_metrics/original_saved_CURE_head/RMSE/1",
+            "/readout_metrics/original_saved_CURE_head/MAE/1"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "multiply both by 100, two decimals, camera / radar",
+          "json_pointers": [
+            "/readout_metrics/original_saved_CURE_head/central90_estimated_target_mean_coverage"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/readout_metrics/fresh_head_on_CURE_features/RMSE/0",
+            "/readout_metrics/fresh_head_on_CURE_features/MAE/0"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/readout_metrics/fresh_head_on_CURE_features/RMSE/1",
+            "/readout_metrics/fresh_head_on_CURE_features/MAE/1"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "multiply both by 100, two decimals, camera / radar",
+          "json_pointers": [
+            "/readout_metrics/fresh_head_on_CURE_features/central90_estimated_target_mean_coverage"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals, RMSE / MAE",
+          "json_pointers": [
+            "/readout_metrics/fresh_head_on_Task_features/RMSE/0",
+            "/readout_metrics/fresh_head_on_Task_features/MAE/0"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "five decimals, RMSE / MAE",
+          "json_pointers": [
+            "/readout_metrics/fresh_head_on_Task_features/RMSE/1",
+            "/readout_metrics/fresh_head_on_Task_features/MAE/1"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "multiply both by 100, two decimals, camera / radar",
+          "json_pointers": [
+            "/readout_metrics/fresh_head_on_Task_features/central90_estimated_target_mean_coverage"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        }
+      ],
+      "headers": [
+        "Readout",
+        "Camera RMSE / MAE",
+        "Radar RMSE / MAE",
+        "Camera / radar 90% coverage (%)"
+      ],
+      "metric_and_units": "RMSE / MAE in teacher-risk units; 90% estimated-target-mean coverage (%)",
+      "number": 7,
+      "original_table_block_sha256": "dce1bf9295a33689a890dca48bb8b6f2eff0cef696265fac80c3a0d9e492c672",
+      "paper_location": "Table 7",
+      "rows": [
+        [
+          "Original CURE head",
+          "1.7018 / 1.2722",
+          "0.02427 / 0.00736",
+          "85.16 / 97.38"
+        ],
+        [
+          "Fresh CURE-feature head",
+          "1.6947 / 1.2668",
+          "0.02437 / 0.00762",
+          "84.89 / 97.22"
+        ],
+        [
+          "Fresh Task-feature head",
+          "1.8430 / 1.4035",
+          "0.02433 / 0.00744",
+          "87.11 / 97.62"
+        ]
+      ],
+      "slug": "trained_readouts",
+      "source_files": [
+        {
+          "path": "results/utility/head_assessment.json",
+          "sha256": "0dba3fbe2812a7ef7d032c744c4d11bd1c3037afb930a0aeadefcb9aeeebd16a"
+        },
+        {
+          "path": "results/utility/numeric_registry.json",
+          "sha256": "c679f07f0abe2f963cdf40e7e119deba0a4825c800ff1da3ebf22a4eef4d793a"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Trained utility readouts"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/0/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/0/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/0/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/4/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/4/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/4/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 0,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/1/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/1/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/1/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/5/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/5/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/5/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 1,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/2/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/2/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/2/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/6/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/6/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/6/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 2,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/3/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/3/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/3/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 3,
+          "source": "results/utility/numeric_registry.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "two decimals, percent reduction [lower, upper]; lower-error omissions / 8",
+          "json_pointers": [
+            "/all_eight_trained_readout_contrasts/7/percent_error_reduction",
+            "/all_eight_trained_readout_contrasts/7/relative_interval/percentile95",
+            "/all_eight_trained_readout_contrasts/7/omission_counts/lower_CURE_error"
+          ],
+          "row_index": 3,
+          "source": "results/utility/numeric_registry.json"
+        }
+      ],
+      "headers": [
+        "Metric",
+        "CURE-feature: reduction [interval]; lower omissions",
+        "Task-feature: reduction [interval]; lower omissions"
+      ],
+      "metric_and_units": "Percent error reduction; descriptive 95% intervals; count of eight recording omissions with lower CURE error",
+      "number": 8,
+      "original_table_block_sha256": "18b0747a8c7a5dae8288e630e858b64e4ea4bf0680ad3c47227ad428e973d784",
+      "paper_location": "Table 8",
+      "rows": [
+        [
+          "Camera RMSE",
+          "-0.42 [-3.37, 0.22]; 0/8",
+          "7.66 [2.06, 9.52]; 8/8"
+        ],
+        [
+          "Camera MAE",
+          "-0.43 [-4.57, 0.24]; 1/8",
+          "9.35 [-1.63, 11.94]; 8/8"
+        ],
+        [
+          "Radar RMSE",
+          "0.44 [0.22, 1.05]; 8/8",
+          "0.26 [-2.18, 2.67]; 7/8"
+        ],
+        [
+          "Radar MAE",
+          "3.45 [2.00, 8.68]; 8/8",
+          "1.06 [-1.28, 15.59]; 7/8"
+        ]
+      ],
+      "slug": "trained_contrasts",
+      "source_files": [
+        {
+          "path": "results/utility/numeric_registry.json",
+          "sha256": "c679f07f0abe2f963cdf40e7e119deba0a4825c800ff1da3ebf22a4eef4d793a"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Paired trained-readout error contrasts"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 0,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/0/size"
+          ],
+          "row_index": 0,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/0/updates"
+          ],
+          "row_index": 0,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/0/GT",
+            "/rows/0/supported_classes"
+          ],
+          "row_index": 0,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/0/camera_present_gate"
+          ],
+          "row_index": 0,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/0/camera_absent_gate"
+          ],
+          "row_index": 0,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 0,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/1/size"
+          ],
+          "row_index": 1,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/1/updates"
+          ],
+          "row_index": 1,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/1/GT",
+            "/rows/1/supported_classes"
+          ],
+          "row_index": 1,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/1/camera_present_gate"
+          ],
+          "row_index": 1,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/1/camera_absent_gate"
+          ],
+          "row_index": 1,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 0,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/2/size"
+          ],
+          "row_index": 2,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/2/updates"
+          ],
+          "row_index": 2,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/2/GT",
+            "/rows/2/supported_classes"
+          ],
+          "row_index": 2,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/2/camera_present_gate"
+          ],
+          "row_index": 2,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/2/camera_absent_gate"
+          ],
+          "row_index": 2,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 0,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/3/size"
+          ],
+          "row_index": 3,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/3/updates"
+          ],
+          "row_index": 3,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/3/GT",
+            "/rows/3/supported_classes"
+          ],
+          "row_index": 3,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/3/camera_present_gate"
+          ],
+          "row_index": 3,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "exact scalar; GT / supported classes for column 2",
+          "json_pointers": [
+            "/rows/3/camera_absent_gate"
+          ],
+          "row_index": 3,
+          "source": "results/native_fitting/paired_2d_gates.json"
+        }
+      ],
+      "headers": [
+        "Frames",
+        "Updates",
+        "GT / supported classes",
+        "Camera present",
+        "Camera absent"
+      ],
+      "metric_and_units": "Fixed optimization prefixes and updates; all-class geometric/AP gate; no generalization claim",
+      "number": 9,
+      "original_table_block_sha256": "d8e36bfdbb51db28b292c7e4e6a039173be342ee8e0e75fd0ba0cb6491678f27",
+      "paper_location": "Table 9",
+      "rows": [
+        [
+          "1",
+          "500",
+          "2 / 2",
+          "PASS",
+          "PASS"
+        ],
+        [
+          "8",
+          "800",
+          "14 / 4",
+          "PASS",
+          "PASS"
+        ],
+        [
+          "32",
+          "1200",
+          "67 / 4",
+          "FAIL",
+          "FAIL"
+        ],
+        [
+          "128",
+          "2400",
+          "245 / 4",
+          "PASS",
+          "FAIL"
+        ]
+      ],
+      "slug": "paired_2d_fitting",
+      "source_files": [
+        {
+          "path": "results/native_fitting/paired_2d_gates.json",
+          "sha256": "1960a9c9c0a3a75635298c6185533a69503fa8889cf58afd50dd8d6fb171cb00"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Separate 2D fitting gates"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/0/control_mean_AP",
+            "/0/control_seed_SD"
+          ],
+          "row_index": 0,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/10/control_mean_AP",
+            "/10/control_seed_SD"
+          ],
+          "row_index": 0,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/1/control_mean_AP",
+            "/1/control_seed_SD"
+          ],
+          "row_index": 1,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/11/control_mean_AP",
+            "/11/control_seed_SD"
+          ],
+          "row_index": 1,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/2/control_mean_AP",
+            "/2/control_seed_SD"
+          ],
+          "row_index": 2,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/12/control_mean_AP",
+            "/12/control_seed_SD"
+          ],
+          "row_index": 2,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/3/control_mean_AP",
+            "/3/control_seed_SD"
+          ],
+          "row_index": 3,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/13/control_mean_AP",
+            "/13/control_seed_SD"
+          ],
+          "row_index": 3,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/4/control_mean_AP",
+            "/4/control_seed_SD"
+          ],
+          "row_index": 4,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/14/control_mean_AP",
+            "/14/control_seed_SD"
+          ],
+          "row_index": 4,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/5/control_mean_AP",
+            "/5/control_seed_SD"
+          ],
+          "row_index": 5,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/15/control_mean_AP",
+            "/15/control_seed_SD"
+          ],
+          "row_index": 5,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/6/control_mean_AP",
+            "/6/control_seed_SD"
+          ],
+          "row_index": 6,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/16/control_mean_AP",
+            "/16/control_seed_SD"
+          ],
+          "row_index": 6,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/7/control_mean_AP",
+            "/7/control_seed_SD"
+          ],
+          "row_index": 7,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/17/control_mean_AP",
+            "/17/control_seed_SD"
+          ],
+          "row_index": 7,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/8/control_mean_AP",
+            "/8/control_seed_SD"
+          ],
+          "row_index": 8,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/18/control_mean_AP",
+            "/18/control_seed_SD"
+          ],
+          "row_index": 8,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/9/control_mean_AP",
+            "/9/control_seed_SD"
+          ],
+          "row_index": 9,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/19/control_mean_AP",
+            "/19/control_seed_SD"
+          ],
+          "row_index": 9,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/0/candidate_mean_AP",
+            "/0/candidate_seed_SD"
+          ],
+          "row_index": 10,
+          "source": "results/historical/paired_statistics.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "multiply by 100, two decimals, mean \u00b1 sample SD",
+          "json_pointers": [
+            "/10/candidate_mean_AP",
+            "/10/candidate_seed_SD"
+          ],
+          "row_index": 10,
+          "source": "results/historical/paired_statistics.json"
+        }
+      ],
+      "headers": [
+        "Method",
+        "Factual AP (%)",
+        "Adverse AP (%)"
+      ],
+      "metric_and_units": "Factual and natural-adverse AP (%), mean \u00b1 sample SD across five detector seeds; historical population",
+      "number": 10,
+      "original_table_block_sha256": "c9d7998498e0f68b1e9050e3ccef21435f402425c9b4d46b859d4fc3c9bef3d3",
+      "paper_location": "Table 10",
+      "rows": [
+        [
+          "Task-only controller",
+          "36.56 \u00b1 0.33",
+          "33.29 \u00b1 0.63"
+        ],
+        [
+          "Camera only",
+          "38.07 \u00b1 0.50",
+          "33.37 \u00b1 0.80"
+        ],
+        [
+          "Radar only",
+          "0.30 \u00b1 0.01",
+          "0.30 \u00b1 0.01"
+        ],
+        [
+          "Concatenation",
+          "38.05 \u00b1 0.62",
+          "33.29 \u00b1 0.64"
+        ],
+        [
+          "Cross-attention",
+          "37.29 \u00b1 0.41",
+          "33.18 \u00b1 0.47"
+        ],
+        [
+          "Matched corruption",
+          "37.54 \u00b1 0.36",
+          "33.91 \u00b1 0.12"
+        ],
+        [
+          "Modality dropout",
+          "39.01 \u00b1 0.59",
+          "35.12 \u00b1 0.52"
+        ],
+        [
+          "Confidence gate",
+          "37.34 \u00b1 0.76",
+          "34.20 \u00b1 0.75"
+        ],
+        [
+          "CURE without uncertainty",
+          "37.43 \u00b1 0.59",
+          "33.80 \u00b1 0.90"
+        ],
+        [
+          "CURE without negative values",
+          "37.50 \u00b1 0.57",
+          "34.01 \u00b1 0.30"
+        ],
+        [
+          "Stateless CURE",
+          "38.13 \u00b1 0.42",
+          "34.27 \u00b1 0.47"
+        ]
+      ],
+      "slug": "historical_five_seed",
+      "source_files": [
+        {
+          "path": "results/historical/paired_statistics.json",
+          "sha256": "d811ac0024f9ae2d24e60250110bae60eacc85122e6500e6c8a9de20947cf4ca"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Five-seed stateless fusion"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/1/AP/AP_percent",
+            "/arms/1/task_risk/mean_frame_risk"
+          ],
+          "row_index": 0,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/5/AP/AP_percent",
+            "/arms/5/task_risk/mean_frame_risk"
+          ],
+          "row_index": 0,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/2/AP/AP_percent",
+            "/arms/2/task_risk/mean_frame_risk"
+          ],
+          "row_index": 1,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/6/AP/AP_percent",
+            "/arms/6/task_risk/mean_frame_risk"
+          ],
+          "row_index": 1,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/3/AP/AP_percent",
+            "/arms/3/task_risk/mean_frame_risk"
+          ],
+          "row_index": 2,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/7/AP/AP_percent",
+            "/arms/7/task_risk/mean_frame_risk"
+          ],
+          "row_index": 2,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/4/AP/AP_percent",
+            "/arms/4/task_risk/mean_frame_risk"
+          ],
+          "row_index": 3,
+          "source": "results/sensitivity/results.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "four decimals AP / six decimals mean frame risk",
+          "json_pointers": [
+            "/arms/8/AP/AP_percent",
+            "/arms/8/task_risk/mean_frame_risk"
+          ],
+          "row_index": 3,
+          "source": "results/sensitivity/results.json"
+        }
+      ],
+      "headers": [
+        "Camera-mean input",
+        "Original temperature: fit AP / risk",
+        "Corrected temperature: fit AP / risk"
+      ],
+      "metric_and_units": "First 64 fitting frames; AP (%) and equal-frame task risk; original/corrected camera temperature; no trained efficacy comparison",
+      "number": 11,
+      "original_table_block_sha256": "cad990601f26e3e35d804542169bf88aadf54d624797f857674640ab37e64985",
+      "paper_location": "Table 11",
+      "rows": [
+        [
+          "Prediction",
+          "83.9964 / 0.429142",
+          "83.8017 / 0.429580"
+        ],
+        [
+          "Fitting constant",
+          "83.9964 / 0.429142",
+          "84.0350 / 0.429313"
+        ],
+        [
+          "Paired shuffled prediction",
+          "83.9964 / 0.429142",
+          "84.0350 / 0.429249"
+        ],
+        [
+          "Observed removal target",
+          "83.9964 / 0.429142",
+          "84.0121 / 0.429794"
+        ]
+      ],
+      "slug": "routing_sensitivity",
+      "source_files": [
+        {
+          "path": "results/sensitivity/results.json",
+          "sha256": "b08da74e72e4b27c1729020ef3005d5f16c2bd165f4c4d531ec61df92e56b145"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Frozen-controller routing sensitivity"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/8/AP_percent/mean",
+            "/8/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/17/AP_percent/mean",
+            "/17/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/26/AP_percent/mean",
+            "/26/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/35/AP_percent/mean",
+            "/35/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/1/AP_percent/mean",
+            "/1/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/10/AP_percent/mean",
+            "/10/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/19/AP_percent/mean",
+            "/19/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/28/AP_percent/mean",
+            "/28/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/3/AP_percent/mean",
+            "/3/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/12/AP_percent/mean",
+            "/12/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/21/AP_percent/mean",
+            "/21/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/30/AP_percent/mean",
+            "/30/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/0/AP_percent/mean",
+            "/0/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/9/AP_percent/mean",
+            "/9/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/18/AP_percent/mean",
+            "/18/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/27/AP_percent/mean",
+            "/27/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/4/AP_percent/mean",
+            "/4/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/13/AP_percent/mean",
+            "/13/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/22/AP_percent/mean",
+            "/22/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/31/AP_percent/mean",
+            "/31/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/2/AP_percent/mean",
+            "/2/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/11/AP_percent/mean",
+            "/11/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/20/AP_percent/mean",
+            "/20/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/29/AP_percent/mean",
+            "/29/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/6/AP_percent/mean",
+            "/6/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/15/AP_percent/mean",
+            "/15/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/24/AP_percent/mean",
+            "/24/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/33/AP_percent/mean",
+            "/33/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/7/AP_percent/mean",
+            "/7/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/16/AP_percent/mean",
+            "/16/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/25/AP_percent/mean",
+            "/25/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/34/AP_percent/mean",
+            "/34/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/5/AP_percent/mean",
+            "/5/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/14/AP_percent/mean",
+            "/14/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/23/AP_percent/mean",
+            "/23/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/action/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/32/AP_percent/mean",
+            "/32/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/action/summary.json"
+        }
+      ],
+      "headers": [
+        "Rule",
+        "Clean",
+        "Camera removed",
+        "Radar removed",
+        "Fresh thinning"
+      ],
+      "metric_and_units": "COCO AP (%), mean \u00b1 sample SD across five controller seeds; fixed references have no SD",
+      "number": 12,
+      "original_table_block_sha256": "986470eb552d545c9fe8fd3a16723292e204a9bd0b4f93a38cf0205f644486a3",
+      "paper_location": "Table 12",
+      "rows": [
+        [
+          "Task-only",
+          "62.328",
+          "0.004",
+          "61.450",
+          "62.168"
+        ],
+        [
+          "CURE",
+          "61.469",
+          "0.030",
+          "60.335",
+          "61.319"
+        ],
+        [
+          "Modality dropout",
+          "61.741",
+          "0.074",
+          "61.725",
+          "61.654"
+        ],
+        [
+          "Confidence",
+          "61.789",
+          "0.007",
+          "60.417",
+          "61.655"
+        ],
+        [
+          "Positive mean",
+          "62.040 \u00b1 0.066",
+          "0.021 \u00b1 0.003",
+          "60.531 \u00b1 0.236",
+          "61.852 \u00b1 0.134"
+        ],
+        [
+          "Fitting RMS margin",
+          "62.347 \u00b1 0.013",
+          "0.009 \u00b1 0.003",
+          "61.338 \u00b1 0.071",
+          "62.209 \u00b1 0.012"
+        ],
+        [
+          "Utility-input selector",
+          "62.295 \u00b1 0.074",
+          "0.030 \u00b1 0.000",
+          "60.814 \u00b1 0.100",
+          "62.051 \u00b1 0.062"
+        ],
+        [
+          "Zero-input selector",
+          "62.290 \u00b1 0.047",
+          "0.030 \u00b1 0.000",
+          "61.069 \u00b1 0.034",
+          "62.062 \u00b1 0.060"
+        ],
+        [
+          "Permuted-input selector",
+          "62.326 \u00b1 0.016",
+          "0.030 \u00b1 0.000",
+          "61.070 \u00b1 0.029",
+          "62.068 \u00b1 0.062"
+        ]
+      ],
+      "slug": "summary_actions",
+      "source_files": [
+        {
+          "path": "results/action/summary.json",
+          "sha256": "1c9aa46bac0538a4efb635cf838ed7902cad11a2b5119d1ef30c254ef8cfbe67"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Original summary-based action study"
+    },
+    {
+      "cell_sources": [
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/8/AP_percent/mean",
+            "/8/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/17/AP_percent/mean",
+            "/17/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/26/AP_percent/mean",
+            "/26/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/35/AP_percent/mean",
+            "/35/AP_percent/SD"
+          ],
+          "row_index": 0,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/1/AP_percent/mean",
+            "/1/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/10/AP_percent/mean",
+            "/10/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/19/AP_percent/mean",
+            "/19/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/28/AP_percent/mean",
+            "/28/AP_percent/SD"
+          ],
+          "row_index": 1,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/3/AP_percent/mean",
+            "/3/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/12/AP_percent/mean",
+            "/12/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/21/AP_percent/mean",
+            "/21/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/30/AP_percent/mean",
+            "/30/AP_percent/SD"
+          ],
+          "row_index": 2,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/0/AP_percent/mean",
+            "/0/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/9/AP_percent/mean",
+            "/9/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/18/AP_percent/mean",
+            "/18/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/27/AP_percent/mean",
+            "/27/AP_percent/SD"
+          ],
+          "row_index": 3,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/4/AP_percent/mean",
+            "/4/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/13/AP_percent/mean",
+            "/13/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/22/AP_percent/mean",
+            "/22/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/31/AP_percent/mean",
+            "/31/AP_percent/SD"
+          ],
+          "row_index": 4,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/2/AP_percent/mean",
+            "/2/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/11/AP_percent/mean",
+            "/11/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/20/AP_percent/mean",
+            "/20/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/29/AP_percent/mean",
+            "/29/AP_percent/SD"
+          ],
+          "row_index": 5,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/6/AP_percent/mean",
+            "/6/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/15/AP_percent/mean",
+            "/15/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/24/AP_percent/mean",
+            "/24/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/33/AP_percent/mean",
+            "/33/AP_percent/SD"
+          ],
+          "row_index": 6,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/7/AP_percent/mean",
+            "/7/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/16/AP_percent/mean",
+            "/16/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/25/AP_percent/mean",
+            "/25/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/34/AP_percent/mean",
+            "/34/AP_percent/SD"
+          ],
+          "row_index": 7,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 1,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/5/AP_percent/mean",
+            "/5/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 2,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/14/AP_percent/mean",
+            "/14/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 3,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/23/AP_percent/mean",
+            "/23/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/queryset/summary.json"
+        },
+        {
+          "column_index": 4,
+          "display_transform": "three decimals; append \u00b1 sample SD only if the stored SD is non-null",
+          "json_pointers": [
+            "/32/AP_percent/mean",
+            "/32/AP_percent/SD"
+          ],
+          "row_index": 8,
+          "source": "results/queryset/summary.json"
+        }
+      ],
+      "headers": [
+        "Rule",
+        "Clean",
+        "Camera removed",
+        "Radar removed",
+        "Fresh thinning"
+      ],
+      "metric_and_units": "COCO AP (%), mean \u00b1 sample SD across five controller seeds; fresh thinning belongs to this action bank",
+      "number": 13,
+      "original_table_block_sha256": "11427643193dccafdb476d27c60aa29e13cdf978f2ac3b4223c205197b7bf6c3",
+      "paper_location": "Table 13",
+      "rows": [
+        [
+          "Task-only",
+          "62.328",
+          "0.004",
+          "61.450",
+          "62.168"
+        ],
+        [
+          "CURE",
+          "61.469",
+          "0.030",
+          "60.335",
+          "61.319"
+        ],
+        [
+          "Modality dropout",
+          "61.741",
+          "0.074",
+          "61.725",
+          "61.654"
+        ],
+        [
+          "Confidence",
+          "61.789",
+          "0.007",
+          "60.417",
+          "61.655"
+        ],
+        [
+          "Positive mean",
+          "61.948 \u00b1 0.346",
+          "0.029 \u00b1 0.001",
+          "60.710 \u00b1 0.309",
+          "61.871 \u00b1 0.298"
+        ],
+        [
+          "Fitting RMS margin",
+          "62.281 \u00b1 0.028",
+          "0.012 \u00b1 0.004",
+          "61.358 \u00b1 0.062",
+          "62.140 \u00b1 0.050"
+        ],
+        [
+          "Utility-input selector",
+          "61.962 \u00b1 0.454",
+          "0.030 \u00b1 0.000",
+          "60.733 \u00b1 0.420",
+          "61.818 \u00b1 0.462"
+        ],
+        [
+          "Zero-input selector",
+          "62.364 \u00b1 0.078",
+          "0.030 \u00b1 0.000",
+          "61.454 \u00b1 0.033",
+          "62.222 \u00b1 0.114"
+        ],
+        [
+          "Permuted-input selector",
+          "62.175 \u00b1 0.405",
+          "0.030 \u00b1 0.000",
+          "61.241 \u00b1 0.517",
+          "62.036 \u00b1 0.423"
+        ]
+      ],
+      "slug": "queryset_actions",
+      "source_files": [
+        {
+          "path": "results/queryset/summary.json",
+          "sha256": "f7c3618708214b306e303255c34ef7cf68c6162602f18586d543817f4e328a01"
+        }
+      ],
+      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
+      "title": "Query-set action study"
+    }
+  ]
+}
