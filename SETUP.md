@@ -1,4 +1,6 @@
-# Setup and reproduction
+# CURE-Fusion setup
+
+CURE stands for Counterfactual Utility Reasoning. CURE-Fusion combines sensor-utility prediction with a bounded residual controller. Counterfactual Sensor Utility (CSU) is the signed change in a frozen teacher's object loss under a sensor intervention.
 
 Start with the CPU quick start below. It reproduces calculations from the saved scientific operands. Training or reevaluating full detections requires separate datasets, checkpoints and other inputs; those files are not bundled.
 

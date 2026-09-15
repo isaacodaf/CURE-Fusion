@@ -1,12 +1,12 @@
 # CURE-Fusion
 
-### Counterfactual Sensor Utility and the Attribution to Routing Gap in Multimodal Detection
+### CURE-Fusion: Studying the Gap Between Sensor Attribution and Routing in Multimodal Detection
 
 [Getting started](SETUP.md) · [Figures](figures/README.md) · [Results](tables/README.md) · [Model code](code/cure_fusion/dfine_cure_v2.py)
 
 **How much does a sensor contribute to a detection—and does that tell us how to use it?**
 
-CURE-Fusion studies this question through Counterfactual Sensor Utility (CSU), a signed measure of how a frozen teacher's object-level loss changes when a modality is removed or perturbed. It combines a camera–radar detection interface, learned utility estimates and a bounded residual controller to examine the relationship between sensor attribution and routing decisions.
+**CURE** stands for **Counterfactual Utility Reasoning**. CURE-Fusion is the camera–radar framework used in this study. It estimates **Counterfactual Sensor Utility (CSU)**, a signed measure of how a frozen teacher's object-level loss changes when a modality is removed or perturbed. It combines a camera–radar detection interface, learned utility estimates and a bounded residual controller to examine the relationship between sensor attribution and routing decisions.
 
 <p align="center"><img src="figures/figure_01_architecture.png" width="800" alt="CURE-Fusion: controlled sensor interventions, learned utility and bounded residual routing" /></p>
 
