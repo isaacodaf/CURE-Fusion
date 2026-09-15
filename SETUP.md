@@ -85,6 +85,7 @@ python evaluate_saved.py --help
 Supply complete COCO-format ground truth, predictions and their SHA-256 digests:
 
 ```sh
+mkdir -p outputs
 python evaluate_saved.py \
   --ground-truth /absolute/path/ground_truth_coco.json \
   --ground-truth-sha256 REPLACE_WITH_FILE_SHA256 \
@@ -93,9 +94,11 @@ python evaluate_saved.py \
   --output outputs/coco_metrics.json
 ```
 
-The paths and digests above are placeholders to replace. This evaluates all supplied frames under the fixed four-category contract using pycocotools. Full predictions and evaluation annotations are external inputs. Refer to [README.md](README.md) for the evaluation scope and unsupported-class behavior.
+The paths and digests above are placeholders to replace. This evaluates all supplied frames under the fixed four-category contract using pycocotools. Full predictions and evaluation annotations are external inputs. Categories must have IDs 1–4 for person, bicycle, slidecar and doll, respectively; boxes use COCO pixel coordinates `[x, y, width, height]`. Metrics are returned as fractions, and fixed four-class AP is unavailable if any category lacks support. Refer to [the README evaluation example](README.md#evaluate-complete-saved-detections) for the scope and file-hash command.
 
 ## 6. Prepare a CUDA experiment
+
+The [README requirements and training example](README.md#training-and-detection-evaluation) list the SEW dataset, pretrained weights, complete detector feature cache and prerequisite admission report. Those full external inputs are not bundled. The dataset and model links alone do not supply the study-specific cache/report; their preparation launchers are not included in this compact release. Use the full command example only once these inputs are available.
 
 Inspect the included source/protocol package without starting training:
 

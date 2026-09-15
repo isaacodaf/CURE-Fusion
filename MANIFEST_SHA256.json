@@ -8,12 +8,12 @@
     "sha256": "156083e8f5f71413e009b36f2db1a8a8939e824aee486fb4b2aab5e3054520f3"
   },
   "README.md": {
-    "bytes": 5510,
-    "sha256": "ab77ef96c05dd5760c7805684d1f791019340536705fbfbdd2dacfb2b8815ade"
+    "bytes": 10650,
+    "sha256": "505bc3f74363261d6eecf417796a300838de8e6576a6066cce6d4c54c25a7f58"
   },
   "SETUP.md": {
-    "bytes": 7790,
-    "sha256": "b548d646ee3d227b93edbc2f18a8c4c61f291606c5c49ef9794925de77173318"
+    "bytes": 8554,
+    "sha256": "501c339a267019bae92b4845b2e4c306049c0bfce30891f150aed47009542060"
   },
   "SOURCE_MAP.json": {
     "bytes": 26111,

@@ -52,6 +52,65 @@ Open `outputs/quickstart/REPRODUCTION.json` for the check result and `outputs/qu
 
 **[SETUP.md](SETUP.md)** covers installation, tests, figure generation, evaluation of saved detections, CUDA experiment requirements and troubleshooting. Full training requires the external data, caches and checkpoints listed there.
 
+## Training and detection evaluation
+
+To repeat training and detection evaluation, readers also need the relevant datasets, pretrained model weights and saved detector features described below. These inputs are separate from the small saved-result examples included here.
+
+| Input | Source and use |
+| --- | --- |
+| SEW Multimodal AMR Dataset 2025 | Obtain camera images, paired radar observations and annotations from the [dataset authors](https://github.com/SEW-Eurodrive-Open-Source/Multimodal_AMR_dataset). The detector experiment uses the supplied [split manifest](configs/execution/metadata/004_SPLITS_V1.json): 6,180 fitting frames and 992 inner-development frames. |
+| Pretrained detector weights | Use the matching [D-FINE](https://github.com/Peterande/D-FINE) weights for the frozen camera features. The separate native-fitting experiment uses [RT-DETR](https://github.com/lyuwenyu/RT-DETR). Match the upstream revision and checkpoint SHA-256 in [external_dependencies.json](configs/external_dependencies.json); another checkpoint is not interchangeable. |
+| Saved detector features | The detector launcher reads the complete 7,172-frame feature cache, including its array chunks, labels, `REPORT.json`, `protocol.json`, `selected_records.json` and `ARTIFACT_HASHES.json`. This cache contains frozen detector outputs and paired radar inputs. |
+| Training prerequisites | The detector launcher also requires its four-class CUDA admission report, which records the prerequisite supervised-step checks. Later utility/action experiments require the corresponding trained checkpoints and feature banks listed in [the dependency specification](configs/external_dependencies.json). |
+| Detection evaluation inputs | Complete COCO ground-truth and prediction JSON files, with matching image IDs, four task categories and verified file hashes. Evaluating these saved files needs neither CUDA nor image/feature loading. |
+
+**Input availability:** full datasets, model weights, feature caches, detector admission reports and complete prediction exports are not bundled in this repository. Public dataset and model links are given above; study-specific caches and detector reports must be obtained separately. The compact release does not include the feature-extraction/admission launchers, so downloading the dataset and weights alone is not sufficient to run the recorded detector experiment.
+
+### Train the matched detector controls
+
+Check the packaged source and protocol first:
+
+```sh
+python run_experiment.py --experiment detector --check-only
+```
+
+Once the external cache and admission report are available, use an A100 CUDA environment with the required PyTorch, NumPy, SciPy and pycocotools dependencies. Replace every `/absolute/path/...` and `REPLACE_WITH_...` value below with your verified input. The output parent directory must exist, have at least 15 GiB free, and contain no previous run at the selected output path.
+
+```sh
+python run_experiment.py --experiment detector \
+  --python /absolute/path/to/cuda-environment/bin/python -- \
+  --cache /absolute/path/to/complete_feature_cache \
+  --cache-report-sha256 REPLACE_WITH_CACHE_REPORT_SHA256 \
+  --admission-report /absolute/path/to/four_class_admission_REPORT.json \
+  --admission-report-sha256 REPLACE_WITH_ADMISSION_REPORT_SHA256 \
+  --output /absolute/path/to/new_detector_run
+```
+
+The wrapper supplies the included protocol automatically. The launcher trains the matched task-only, modality-dropout and CURE arms, generates utility targets, and evaluates the completed endpoints. It writes checkpoints, logs and evaluation outputs under the selected output directory. The underlying camera detector is frozen in this study; the command trains the fusion components on its saved features. See [SETUP.md](SETUP.md#6-prepare-a-cuda-experiment) for the other experiment entry points and runtime specifications.
+
+### Evaluate complete saved detections
+
+```sh
+python -m pip install -r requirements-evaluation.txt
+mkdir -p outputs
+python evaluate_saved.py \
+  --ground-truth /absolute/path/to/ground_truth_coco.json \
+  --ground-truth-sha256 REPLACE_WITH_GROUND_TRUTH_SHA256 \
+  --predictions /absolute/path/to/predictions_coco.json \
+  --predictions-sha256 REPLACE_WITH_PREDICTIONS_SHA256 \
+  --output outputs/coco_metrics.json
+```
+
+Use a new output filename. Ground-truth categories must have IDs `1, 2, 3, 4`, corresponding to person, bicycle, slidecar and doll; boxes use COCO pixel coordinates `[x, y, width, height]`. This command runs pycocotools on every supplied image and returns AP over IoU 0.50–0.95, AP50, AP75 and per-class AP as fractions. Multiply by 100 to express percentages. Fixed four-class AP is unavailable if any class has no evaluation support.
+
+To calculate a file's SHA-256 on any supported platform:
+
+```sh
+python -c "import hashlib,pathlib,sys; print(hashlib.file_digest(pathlib.Path(sys.argv[1]).open('rb'),'sha256').hexdigest())" /absolute/path/to/file
+```
+
+For recorded study inputs, compare these digests with their supplied manifests before launching; calculating a hash alone does not establish that an input is the correct study file.
+
 ## Code organization
 
 | Directory | Contents |
