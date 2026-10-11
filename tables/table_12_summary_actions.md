@@ -1,4 +1,4 @@
-# Original summary-based action study
+# Summary-based action selection.
 
 Table 12. COCO AP (%), mean ± sample SD across five controller seeds; fixed references have no SD.
 

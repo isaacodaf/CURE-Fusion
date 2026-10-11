@@ -1,4 +1,4 @@
-# Frozen-controller routing sensitivity
+# Frozen-controller routing sensitivity.
 
 Table 11. First 64 fitting frames; AP (%) and equal-frame task risk; original/corrected camera temperature; no trained efficacy comparison.
 

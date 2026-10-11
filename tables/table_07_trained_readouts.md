@@ -1,4 +1,4 @@
-# Trained utility readouts
+# Trained utility readouts and working interval coverage.
 
 Table 7. RMSE / MAE in teacher-risk units; 90% estimated-target-mean coverage (%).
 

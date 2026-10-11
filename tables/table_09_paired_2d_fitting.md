@@ -1,4 +1,4 @@
-# Separate 2D fitting gates
+# Separate 2D fitting diagnostics.
 
 Table 9. Fixed optimization prefixes and updates; all-class geometric/AP gate; no generalization claim.
 

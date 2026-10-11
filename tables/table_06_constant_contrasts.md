@@ -1,4 +1,4 @@
-# Relative error reductions against constants
+# Post-hoc recording comparisons against fitting constants.
 
 Table 6. Percent error reduction; pointwise descriptive 95% intervals from 2,000 paired recording draws.
 

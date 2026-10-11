@@ -1,6 +1,6 @@
-# Current SEW study and input contract
+# Current SEW study and input contract.
 
-Table 1. Counts, input contracts and fixed fitting protocol.
+Study inputs. Counts, input contracts and fixed fitting protocol.
 
 | Quantity | Fitting | Development |
 | --- | --- | --- |
@@ -11,4 +11,4 @@ Table 1. Counts, input contracts and fixed fitting protocol.
 | Radar input | XYZ, intensity, Doppler and derived range | Same paired-return contract |
 | Radar utility draws | Eight per frame | Sixteen fresh draws per frame |
 | Camera utility target | Deterministic removal | Deterministic removal |
-| Fitted model | Fixed seed 11, 40 epochs per arm | Fixed endpoints, no selection |
+| Fitted model | Five adapter seeds, 40 epochs per arm | Fixed endpoints, no selection |
