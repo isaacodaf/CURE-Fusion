@@ -138,3 +138,7 @@ Then supply the required external inputs and an explicit output directory. All i
 ## Data and software terms
 
 See [NOTICE.md](NOTICE.md) for SEW example attribution, upstream dependencies and project-code licensing status. The four included scene examples are adapted under CC-BY-SA 4.0. Dataset and pretrained-model rights remain with their respective providers.
+
+## Five-seed matched controller study
+
+See the completed-study command in [README.md](README.md#completed-five-seed-matched-study). It requires the full 7,172-frame feature cache and the original external task-only teacher checkpoint; included fitting targets and all source files are bound by the unchanged protocol. Downloading images and weights alone does not create that exact cache. The packaged CPU analysis needs no CUDA or dataset download. Its updated figures 2 and 3 and tables 2 and 14–18 use the completed five-adapter-seed study. Other readout, action, timing and sensor examples retain their original scope.

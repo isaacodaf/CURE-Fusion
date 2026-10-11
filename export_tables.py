@@ -1,14 +1,16 @@
-"""Export the 13 scientific tables from included result and protocol operands."""
+"""Export the 18 scientific tables from included result and protocol operands."""
 from pathlib import Path
 import argparse,csv,hashlib,io,json
-from analysis.publication_tables import table_rows
+from analysis.publication_tables import table_rows as original_rows
+from analysis.matched_results import table_rows
 ROOT=Path(__file__).resolve().parent
 
 def export_tables(output):
  output=Path(output);output.mkdir(parents=True,exist_ok=False)
  registry=json.loads((ROOT/'results/table_views.json').read_text());definitions=registry['tables']
- assert len(definitions)==13
- derived=table_rows(ROOT,definitions);index=[]
+ assert len(definitions)==18
+ original=json.loads((ROOT/'results/original_table_views.json').read_text())['tables']
+ derived=table_rows(ROOT,original_rows(ROOT,original));index=[]
  for table in definitions:
   n=table['number'];rows=derived[n];assert rows==table['rows']
   for source in table['source_files']:
@@ -21,12 +23,12 @@ def export_tables(output):
   md+=''.join('| '+' | '.join(row)+' |\n' for row in rows)
   (output/(stem+'.md')).write_text(md)
   index.append({k:table[k] for k in ('number','paper_location','title','metric_and_units','source_files','source_mapping','cell_sources')}|{'files':{ext:stem+'.'+ext for ext in ('csv','md')},'rows':len(rows)})
- (output/'index.json').write_text(json.dumps({'table_count':13,'numbering':'Scientific Tables 1–13.','tables':index},indent=2,sort_keys=True)+'\n')
+ (output/'index.json').write_text(json.dumps({'table_count':18,'numbering':'Scientific Tables 1–18.','tables':index},indent=2,sort_keys=True)+'\n')
  return index
 
 def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True)
  args=parser.parse_args();export_tables(args.output)
- print('Exported 13 scientific tables from saved results.')
+ print('Exported 18 scientific tables from saved results.')
 
 if __name__=='__main__':main()
