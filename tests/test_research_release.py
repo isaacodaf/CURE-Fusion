@@ -16,13 +16,14 @@ class ResearchRelease(unittest.TestCase):
    if p.suffix.lower()=='.pdf':self.assertEqual(p.parent,ROOT/'figures')
  def test_finished_figures_and_tables(self):
   import csv
-  from analysis.publication_tables import table_rows
+  from analysis.publication_tables import table_rows as original_rows
+  from analysis.matched_results import table_rows
   figures=json.loads((ROOT/'figures/index.json').read_text());self.assertEqual([x['number'] for x in figures],list(range(1,9)))
   self.assertEqual(len([p for p in (ROOT/'figures').iterdir() if p.suffix in ('.png','.pdf','.svg')]),24)
   for row in figures:
    for item in row['files'].values():self.assertEqual(hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest(),item['sha256'])
-  definitions=json.loads((ROOT/'results/table_views.json').read_text())['tables'];values=table_rows(ROOT,definitions)
-  index=json.loads((ROOT/'tables/index.json').read_text())['tables'];self.assertEqual(len(index),13)
+  definitions=json.loads((ROOT/'results/table_views.json').read_text())['tables'];original=json.loads((ROOT/'results/original_table_views.json').read_text())['tables'];values=table_rows(ROOT,original_rows(ROOT,original))
+  index=json.loads((ROOT/'tables/index.json').read_text())['tables'];self.assertEqual(len(index),18)
   for t in index:
    with (ROOT/'tables'/t['files']['csv']).open(newline='') as f:rows=list(csv.reader(f))
    self.assertEqual(rows,[definitions[t['number']-1]['headers'],*values[t['number']]])
