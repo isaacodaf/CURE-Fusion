@@ -1,0 +1,257 @@
+{
+  "11": {
+    "all_queries": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.6376000814553369,
+        0.999771148131835
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 19200,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "both_modalities_available": {
+      "base_gate_camera_minus_radar_quantiles": [
+        1.6639944672584535,
+        2.6167044639587402,
+        3.16392947435379
+      ],
+      "median_weight_entropy": 0.2046964901960401,
+      "queries": 19200
+    },
+    "frames": 64,
+    "matched_foreground": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.5083446283627691,
+        0.9999141882570585
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 258,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "scope": "First 64 annotated fitting frames in frozen split order; no AP"
+  },
+  "23": {
+    "all_queries": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.6367253329936118,
+        0.9998305797884679
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 19200,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "both_modalities_available": {
+      "base_gate_camera_minus_radar_quantiles": [
+        3.064821696281433,
+        4.523831605911255,
+        5.357146453857422
+      ],
+      "median_weight_entropy": 0.04664813971372832,
+      "queries": 19200
+    },
+    "frames": 64,
+    "matched_foreground": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.5127286584180175,
+        0.99990418284522
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 258,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "scope": "First 64 annotated fitting frames in frozen split order; no AP"
+  },
+  "37": {
+    "all_queries": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.6207019622344987,
+        0.9997666371906856
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 19200,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "both_modalities_available": {
+      "base_gate_camera_minus_radar_quantiles": [
+        1.9528794527053834,
+        2.9725652933120728,
+        3.9675800323486325
+      ],
+      "median_weight_entropy": 0.15656674901837925,
+      "queries": 19200
+    },
+    "frames": 64,
+    "matched_foreground": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.4985366613586713,
+        0.9999049672836772
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 258,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "scope": "First 64 annotated fitting frames in frozen split order; no AP"
+  },
+  "53": {
+    "all_queries": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.624816368075436,
+        0.9995755931753181
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 19200,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "both_modalities_available": {
+      "base_gate_camera_minus_radar_quantiles": [
+        3.2080085039138795,
+        4.408125638961792,
+        5.944675350189209
+      ],
+      "median_weight_entropy": 0.05141860899256699,
+      "queries": 19200
+    },
+    "frames": 64,
+    "matched_foreground": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.5048091218542038,
+        0.9999058923106106
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 258,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "scope": "First 64 annotated fitting frames in frozen split order; no AP"
+  },
+  "71": {
+    "all_queries": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.6999251838776288,
+        0.9997580660358438
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 19200,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "both_modalities_available": {
+      "base_gate_camera_minus_radar_quantiles": [
+        -2.0841349363327026,
+        -0.17405317723751068,
+        2.2398435711860656
+      ],
+      "median_weight_entropy": 0.5105020438206223,
+      "queries": 19200
+    },
+    "frames": 64,
+    "matched_foreground": {
+      "fraction_abs_tanh_ge_099": [
+        0.0,
+        0.0
+      ],
+      "median_relative_tanh_slope": [
+        0.5073719578449141,
+        0.999931056764029
+      ],
+      "modality_order": [
+        "camera_removal",
+        "radar_thinning"
+      ],
+      "observations": 258,
+      "temperature": [
+        11.671275371025082,
+        0.75
+      ]
+    },
+    "scope": "First 64 annotated fitting frames in frozen split order; no AP"
+  }
+}
