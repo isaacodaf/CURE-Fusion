@@ -2,19 +2,19 @@
   {
     "files": {
       "pdf": {
-        "generator_filename": "fig1_csu_architecture_v1.pdf",
+        "generator_filename": "fig1_csu_architecture_v15.pdf",
         "path": "figures/figure_01_architecture.pdf",
-        "sha256": "5b30004740c8352c67bc6916ceacf13610e0c1a5aa1d7def8d868c37bc740fb2"
+        "sha256": "01e014b36a0571bfea837cde3e3141ad062dee5536bdc8dd4f621b804e4d2c1e"
       },
       "png": {
-        "generator_filename": "fig1_csu_architecture_v1.png",
+        "generator_filename": "fig1_csu_architecture_v15.png",
         "path": "figures/figure_01_architecture.png",
-        "sha256": "bd848f5b0334f905ea2f8c54b85d0b8e0e565cf947ee49e8aaf4fc44623b22ac"
+        "sha256": "2255cb6d5dcca29dd99b78bb5600830dac5e16e55e19fb2f5feabf02603e59b8"
       },
       "svg": {
-        "generator_filename": "fig1_csu_architecture_v1.svg",
+        "generator_filename": "fig1_csu_architecture_v15.svg",
         "path": "figures/figure_01_architecture.svg",
-        "sha256": "0ca0578e697ab4c1fc388fbc4f910438392f98223f3bccaca9ba424db49a4840"
+        "sha256": "4ffd23875fd69b7f8878030d5bb3912c7d72828b3cc343a06ad7c7a8a8d373c3"
       }
     },
     "number": 1,
@@ -23,19 +23,19 @@
   {
     "files": {
       "pdf": {
-        "generator_filename": "fig2_dfine_matched_v1.pdf",
+        "generator_filename": "fig2_five_seed_v15.pdf",
         "path": "figures/figure_02_matched_detection.pdf",
-        "sha256": "b804d3c56a9fb89fcbc4e66377d5e0ea172866fec584f33f81b248ec94b751a9"
+        "sha256": "b3e1a02317817e6a8d386fb2b8adbf44363384da706bdadfca32d51bc27219b5"
       },
       "png": {
-        "generator_filename": "fig2_dfine_matched_v1.png",
+        "generator_filename": "fig2_five_seed_v15.png",
         "path": "figures/figure_02_matched_detection.png",
-        "sha256": "a152f9dc0fa331ea45d60b6e9a0f6d4867ebf8a5b68e7be34400f054a4ccf10b"
+        "sha256": "85cb984175fc035ea9a04ae31caab7525850f2c8f35b05f62b7939471b53acc4"
       },
       "svg": {
-        "generator_filename": "fig2_dfine_matched_v1.svg",
+        "generator_filename": "fig2_five_seed_v15.svg",
         "path": "figures/figure_02_matched_detection.svg",
-        "sha256": "d266f715de7ebb3cf1bc7108619087e0480126e2c8c768e5baa5e7ee1342d8e8"
+        "sha256": "4f18eccc73830a151e38d4f29c50d211206174687c667b2448ba9c6cd76200d1"
       }
     },
     "number": 2,
@@ -44,19 +44,19 @@
   {
     "files": {
       "pdf": {
-        "generator_filename": "fig3_current_classes_v1.pdf",
+        "generator_filename": "fig3_five_seed_classes_v15.pdf",
         "path": "figures/figure_03_per_class_detection.pdf",
-        "sha256": "c3fe69187d0f96ddf8df787c8d9ab9dc1a7e06a58a089112ed7bfc77851dc94b"
+        "sha256": "8de951e4a425238fd073a67e14e3b2e46e4e767618256ba3df19917a364048e9"
       },
       "png": {
-        "generator_filename": "fig3_current_classes_v1.png",
+        "generator_filename": "fig3_five_seed_classes_v15.png",
         "path": "figures/figure_03_per_class_detection.png",
-        "sha256": "c28b1ad8fd996adf68b969e7eb26db2e15bd542652e137ddc108f4f0b336cbe2"
+        "sha256": "4bfdc7ee622b6c6a8f36c02c9536d15f8d9d5e5e3e257c204673f27b091876e7"
       },
       "svg": {
-        "generator_filename": "fig3_current_classes_v1.svg",
+        "generator_filename": "fig3_five_seed_classes_v15.svg",
         "path": "figures/figure_03_per_class_detection.svg",
-        "sha256": "da31c2dd0edb409b421407a3be8be3e06bf286e2f759633f003caddfc0ba8661"
+        "sha256": "80a5320bb43252015ba0d5322269c98b54a5aceebd51c2aed7c412d768dd2b12"
       }
     },
     "number": 3,
@@ -88,17 +88,17 @@
       "pdf": {
         "generator_filename": "fig5_current_sensor_cases_v3.pdf",
         "path": "figures/figure_05_camera_cases.pdf",
-        "sha256": "b9adf3dac00392d63e4ee92353e130e9f30abe80d89a81c17df0ec4c918a0681"
+        "sha256": "c892fe0b45da42477a3c8d4ebdc8d92486a5e4e864f22735d56e97fe863a49b5"
       },
       "png": {
         "generator_filename": "fig5_current_sensor_cases_v3.png",
         "path": "figures/figure_05_camera_cases.png",
-        "sha256": "699522ce8f7c4759d4de6933f03f2aacf2eca619c981546697aaaa56c005ed3f"
+        "sha256": "873faa454aa85fa079ba6ab91bd6ff2ab17a72750451892fc9ecc03cae450a65"
       },
       "svg": {
         "generator_filename": "fig5_current_sensor_cases_v3.svg",
         "path": "figures/figure_05_camera_cases.svg",
-        "sha256": "8efd0924aec76cd9e4905ca0d375e1fbb69cbe27a0627c9fa0a9d0e4f7d627fd"
+        "sha256": "5401d3b92d26529fd33d3e51c03df5c2ef975d5ef6a29c913f90fff919e668f7"
       }
     },
     "number": 5,
