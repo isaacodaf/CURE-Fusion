@@ -1,4 +1,4 @@
-"""Source-bound scientific diagram of the frozen four-class D-FINE/CURE V2.
+"""Source-bound scientific diagram of the four-class D-FINE/CURE interface and its separately frozen V3 scale correction.
 
 No model imports, learned execution, sensor imagery or result values are used.
 Run with a Python environment containing matplotlib, numpy and Pillow.
@@ -12,12 +12,13 @@ from matplotlib.patches import FancyBboxPatch,FancyArrowPatch,Circle
 from matplotlib.path import Path as MPath
 
 import os
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parent
+HERE=Path(__file__).resolve().parent;ROOT=Path(os.environ['CURE_FROZEN_SOURCE'])
 OUT=Path(os.environ['CURE_FIGURE_OUTPUT']);OUT.mkdir(exist_ok=True)
-PROTOCOL='configs/protocols/DFINE_CURE_DEVELOPMENT_PROTOCOL_FROZEN_V2_20260913.json'
+PROTOCOL='configs/protocols/MATCHED_CONTROLLER_V3_FROZEN_PROTOCOL_20261010.json'
 FILES=['code/cure_fusion/dfine_cure_v1.py','code/cure_fusion/dfine_cure_v2.py',
        'code/cure_fusion/dfine_cure_losses_v1.py','code/cure_fusion/dfine_cure_losses_v2.py',
-       'code/cure_fusion/dfine_cure_development_v2.py','code/scripts/train_dfine_cure_development_cuda_v2.py']
+       'code/cure_fusion/dfine_cure_development_v2.py','code/scripts/train_dfine_cure_development_cuda_v2.py',
+       'code/cure_fusion/dfine_cure_v3.py','code/cure_fusion/routing_temperature_v3.py']
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 P=json.loads((ROOT/PROTOCOL).read_text())
 for name in FILES:assert sha(ROOT/name)==P['files'][name],name
@@ -64,7 +65,7 @@ box('camera',26,49,22,9,'Camera features',['Projected query / logit / box'],fill
 box('radar',3,36,19,17,'Paired radar',['XYZ, intensity, Doppler','64 slots + masks','Valid projected XY'],fill='white',body_size=7.2)
 box('local',26,35,22,11,'Local radar features',['Point MLP + attention','Geometry bias; null token'],fill=TEAL_FILL,edge=TEAL,body_size=7.1)
 box('cev',55,63,20,12,'Sensor utility head',[r'Mean $\mu_c,\mu_r$',r'Working variance $\sigma_c^2,\sigma_r^2$'],fill=TEAL_FILL,edge=TEAL,body_size=7.5)
-box('routing',55,48,20,11,'Bounded mean routing',[r'$\beta_{im}=0.5\,\tanh(\mu_{im}/0.75)$','Learned gate + availability'],fill=TEAL_FILL,edge=TEAL,body_size=7.1)
+box('routing',55,48,20,11,'Bounded mean routing',[r'$\beta_{im}=0.5\,\tanh(\mu_{im}/T_m)$','Learned gate + availability'],fill=TEAL_FILL,edge=TEAL,body_size=7.1)
 box('refine',55,35,20,8,'Residual refinement',[r'$q_i,\ w_{ic}e_i^c,\ w_{ir}e_i^r$'],fill=TEAL_FILL,edge=TEAL,body_size=7.5)
 
 # A shared container represents three parallel heads, not a serial cascade.
@@ -135,24 +136,24 @@ for ext in ('pdf','svg','png'):
     metadata={'Creator':'Source-bound CURE-Fusion figure script'}
     if ext=='pdf':metadata.update(CreationDate=None,ModDate=None)
     if ext=='svg':metadata.update(Date=None)
-    fig.savefig(OUT/f'fig1_csu_architecture_v1.{ext}',dpi=600,metadata=metadata)
+    fig.savefig(OUT/f'fig1_csu_architecture_v15.{ext}',dpi=600,metadata=metadata)
 # Lower-resolution inspection derivative only; scientific exports above stay600dpi/vector.
 fig.savefig(OUT/'inspection_v1.png',dpi=170)
 
 def anchors(name):
     tree=ast.parse((ROOT/name).read_text());return {n.name:dict(line=n.lineno,end_line=n.end_lineno) for n in ast.walk(tree) if isinstance(n,(ast.FunctionDef,ast.ClassDef))}
 prov=dict(title='Four-class CURE: counterfactual sensor utility and teacher supervision',
- scope='Implementation schematic for the separate frozen four-class development study; distinct from historical four-draw CURE. No result values or generated sensor scenes.',
+ scope='Common interface for the original and separately frozen five-adapter-seed study. Original temperatures .75/.75; revised temperatures fixed by all fitting targets. No generated sensor scenes.',
  source_protocol=dict(path=PROTOCOL,sha256=sha(ROOT/PROTOCOL)),
  source_files={f:dict(sha256=sha(ROOT/f),anchors=anchors(f)) for f in FILES},
  script_sha256=sha(__file__),nodes=nodes,edges=edges,
  notation={'q_i':'Learned300query embeddings','e_i_c':'Embedded frozen camera query, original logits and boxes','e_i_r':'Attended radar features with valid-geometry bias and null token','mu':'Signed expected object-risk increase under the declared single-modality intervention','sigma2':'exp(clamped working logvariance); not epistemic uncertainty','u2':'Intervention mean sampling variance; deterministic camera0, eight-draw radar variance/8','w':'Learned content-gate logits plus bounded mean bias, softmax with sensor availability'},
- exact_constants={'native_queries':300,'native_query_channels':256,'native_logits':80,'adapted_logits':82,'task_channels':[0,1,80,81],'radar_input_columns':['x','y','z','intensity','Doppler'],'radar_capacity_slots':64,'risk_penalty_kappa':0,'routing_bound':.5,'routing_temperature':.75,'shared_logit_bound':2.,'center_bound':.1,'log_size_bound':.2,'novel_weight_init':0,'novel_bias_init':-8,'training_radar_draws':8,'fresh_calibration_radar_draws':16,'deterministic_camera_evaluations_per_object':1},
+ exact_constants={'native_queries':300,'native_query_channels':256,'native_logits':80,'adapted_logits':82,'task_channels':[0,1,80,81],'radar_input_columns':['x','y','z','intensity','Doppler'],'radar_capacity_slots':64,'risk_penalty_kappa':0,'routing_bound':.5,'original_routing_temperature':.75,'corrected_routing_temperatures':P['routing_temperatures'],'shared_logit_bound':2.,'center_bound':.1,'log_size_bound':.2,'novel_weight_init':0,'novel_bias_init':-8,'training_radar_draws':8,'fresh_calibration_radar_draws':16,'deterministic_camera_evaluations_per_object':1},
  omitted_for_readability=['MLP/LayerNorm/GELU dimensions; retained exactly in the source','Full matched clean+.25augmented VFL+5L1+2GIoU task objective and .1CEV weight; specified in caption','Per-object teacher targets remapped to clean student queries through ground-truth object identity','Unrelated78 logits remain exact copies; shared query-box residuals can alter their geometry'],
  explicit_boundaries=['Working variance has no routing path at kappa0','Frozen task-only fusion endpoint supplies teacher targets; frozen camera-only native detector is not the radar-utility teacher','Teacher input includes factual evaluation as well as the listed interventions','Camera absence retains V2 centered-anchor limitation; no radar-autonomous or native3D claim','No temporal/weather/full-corruption efficacy claim','Original80 projection identity at zero residual; adapted82 globaltop300 is a separate postprocessor'],
  typography={'family':'Arial','figure_width_inches':7.16,'figure_height_inches':5.95,'minimum_node_text_points':7.0,'png_dpi':600},
  QA={'automatic_text_within_node_bounds':True,'automatic_node_text_nonoverlap':True,'model_constructed':False,'learned_forward_executed':False,'visual_inspection_pending':True},
- artifacts={f.name:dict(sha256=sha(f),bytes=f.stat().st_size) for f in OUT.glob('fig1_csu_architecture_v1.*')})
+ artifacts={f.name:dict(sha256=sha(f),bytes=f.stat().st_size) for f in OUT.glob('fig1_csu_architecture_v15.*')})
 for name in FILES:assert sha(ROOT/name)==P['files'][name],name
-(OUT/'ARCHITECTURE_PROVENANCE_V1.json').write_text(json.dumps(prov,indent=2)+'\n')
+(OUT/'ARCHITECTURE_PROVENANCE_V15.json').write_text(json.dumps(prov,indent=2)+'\n')
 print(json.dumps(dict(status='vector_and_600dpi_exports_generated',text_containment_passed=True,artifacts=prov['artifacts']),indent=2))

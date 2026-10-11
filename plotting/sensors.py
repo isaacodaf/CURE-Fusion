@@ -67,7 +67,7 @@ def camera(ax, row, source, overlays=True):
 
 def figure5(rows, source, out):
     fig=plt.figure(figsize=(7.2,3.8))
-    fig.text(.025,.97,'Current CURE outputs across the four task classes',size=11,weight='bold',va='top')
+    fig.text(.025,.97,'Original CURE outputs across the four task classes',size=11,weight='bold',va='top')
     fig.text(.025,.89,'Class-median target selection',size=8,color=GRAY,va='top')
     fig.legend(handles=[Line2D([0],[0],color=GREEN,lw=1.8,label='Selected annotation'),
         Line2D([0],[0],color=BLUE,lw=1.6,ls='--',label='Matched CURE query')],
