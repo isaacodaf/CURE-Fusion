@@ -1,4 +1,4 @@
-# Utility errors against constant predictors
+# Utility prediction errors against fitting constants.
 
 Table 5. RMSE / MAE in teacher-risk units; 2,521 development objects; mean/median fitted on 10,964 optimization objects, zero unfitted.
 

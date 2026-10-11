@@ -10,6 +10,7 @@ from analysis import recording_math_v1 as trained
 from analysis import constant_recording_math as constant
 from analysis.utility_metrics import descriptive_metrics_v1
 from export_tables import export_tables
+from analysis.matched_results import verify as verify_matched
 
 ROOT=Path(__file__).resolve().parent
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -116,16 +117,17 @@ def figures(out):
  env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1',MPLCONFIGDIR=str(out/'matplotlib_config'))
  commands={
  1:[sys.executable,'-m','plotting.architecture'],
- 2:[sys.executable,'-c',"from pathlib import Path;import json;from plotting.detection import matched;matched(json.load(open('results/detection/endpoints.json')),Path(__import__('sys').argv[1]))"],
- 3:[sys.executable,'-c',"from pathlib import Path;import json;from plotting.classes import classes;classes(json.load(open('results/detection/endpoints.json')),Path(__import__('sys').argv[1]))"],
+ 2:[sys.executable,'-m','plotting.detection_five_seed','--verified','results/matched_v3/VERIFIED_RESULTS.json','--original','results/detection/endpoints.json'],
+ 3:[sys.executable,'-m','plotting.classes_five_seed','--verified','results/matched_v3/VERIFIED_RESULTS.json'],
  4:[sys.executable,'-m','plotting.utility','--registry','results/utility/numeric_registry.json','--registry-sha256',sha(ROOT/'results/utility/numeric_registry.json')],
  5:[sys.executable,'-m','plotting.sensors','--source','results/sensor_pairs'],
  7:[sys.executable,'-m','plotting.queryset','--data','results/queryset'],
  8:[sys.executable,'-c',"from pathlib import Path;import json;from plotting.efficiency import efficiency;efficiency(json.load(open('results/efficiency/report.json')),Path(__import__('sys').argv[1]))"]}
  for n,cmd in commands.items():
   dest=out/f'figure{n}'
-  if n==1:dest.mkdir();env['CURE_FIGURE_OUTPUT']=str(dest)
-  elif n in (2,3,8):cmd=cmd+[str(dest)]
+  if n==1:dest.mkdir();env['CURE_FIGURE_OUTPUT']=str(dest);env['CURE_FROZEN_SOURCE']=str(ROOT)
+  elif n in (2,3):cmd=cmd+['--output',str(dest)]
+  elif n==8:cmd=cmd+[str(dest)]
   else:cmd=cmd+['--output',str(dest)]
   p=subprocess.run(cmd,cwd=ROOT,env=env,text=True,capture_output=True)
   (out/f'figure{n}.log').write_text(p.stdout+p.stderr)
@@ -149,14 +151,14 @@ def main():
  manifest=read(ROOT/'MANIFEST_SHA256.json')
  for name,v in manifest.items():assert sha(ROOT/name)==v['sha256'] and (ROOT/name).stat().st_size==v['bytes'],name
  assert not a.output.exists(),'Choose a new output directory';a.output.mkdir(parents=True);tables=a.output/'tables';tables.mkdir()
- result={'utility_recomputation':utility(tables),'saved_result_checks':saved_results(tables),'figures':[]}
+ result={'matched_study_checks':verify_matched(ROOT),'utility_recomputation':utility(tables),'saved_result_checks':saved_results(tables),'figures':[]}
  published=export_tables(tables/'publication')
  for table in published:
   for name in table['files'].values():assert sha(tables/'publication'/name)==sha(ROOT/'tables'/name),name
  assert sha(tables/'publication/index.json')==sha(ROOT/'tables/index.json')
  raw=read(ROOT/'tables/raw/index.json')['files']
  for name,item in raw.items():assert sha(tables/Path(name).name)==sha(ROOT/name)==item['sha256'],name
- result['published_tables']={'tables':13,'rows':sum(t['rows'] for t in published),'all_finished_CSV_and_Markdown_views_exact':True,'full_precision_table_files_exact':len(raw)}
+ result['published_tables']={'tables':18,'rows':sum(t['rows'] for t in published),'all_finished_CSV_and_Markdown_views_exact':True,'full_precision_table_files_exact':len(raw)}
  if not a.skip_figures:result['figures']=figures(a.output.resolve()/'figures')
  result['status']='passed_saved_research_reproduction';result['training_executed']=False
  write(a.output/'REPRODUCTION.json',result);print(json.dumps(result))

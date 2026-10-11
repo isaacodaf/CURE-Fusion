@@ -1,4 +1,4 @@
-# Query-set action study
+# Query-set action selection.
 
 Table 13. COCO AP (%), mean ± sample SD across five controller seeds; fresh thinning belongs to this action bank.
 

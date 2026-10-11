@@ -1,4 +1,4 @@
-# Complete current per-class endpoints
+# Original single-seed per-class endpoints.
 
 Table 4. AP (%), IoU 0.50:0.05:0.95; every method and condition.
 

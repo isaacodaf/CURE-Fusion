@@ -1,0 +1,11 @@
+# Refitted CURE utility statistics, mean ± sample SD across adapter seeds. Errors use raw loss units.
+
+Five-seed utility estimation. Raw task-risk units and coverage (%).
+
+| Statistic | Camera removal | Radar thinning |
+| --- | --- | --- |
+| RMSE | 1.6812 ± 0.0378 | 0.0242 ± 0.0003 |
+| MAE | 1.2853 ± 0.0339 | 0.0072 ± 0.0001 |
+| Prediction − target bias | 0.24330 ± 0.07807 | 0.00034 ± 0.00046 |
+| Gaussian mean NLL | 1.0141 ± 0.0333 | -3.7826 ± 0.0011 |
+| Central 90% coverage (%) | 85.99 ± 0.57 | 97.51 ± 0.05 |

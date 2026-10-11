@@ -1,6 +1,6 @@
 {
-  "numbering": "Scientific Tables 1\u201313.",
-  "table_count": 13,
+  "numbering": "Scientific Tables 1\u201318.",
+  "table_count": 18,
   "tables": [
     {
       "cell_sources": [
@@ -49,7 +49,7 @@
       },
       "metric_and_units": "Counts, input contracts and fixed fitting protocol",
       "number": 1,
-      "paper_location": "Table 1",
+      "paper_location": "Study inputs",
       "rows": 8,
       "source_files": [
         {
@@ -58,171 +58,26 @@
         }
       ],
       "source_mapping": "Population counts match split metadata; remaining cells state the recorded input and fitting contract.",
-      "title": "Current SEW study and input contract"
+      "title": "Current SEW study and input contract."
     },
     {
-      "cell_sources": [
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/0/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/1/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/2/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/3/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/4/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/5/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/6/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/7/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/8/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/9/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/10/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/11/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/12/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/13/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/14/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/15/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        }
-      ],
+      "cell_sources": [],
       "files": {
         "csv": "table_02_matched_detection.csv",
         "md": "table_02_matched_detection.md"
       },
-      "metric_and_units": "AP (%), IoU 0.50:0.05:0.95; 992 reused development frames; one detector seed",
+      "metric_and_units": "COCO box AP (%)",
       "number": 2,
-      "paper_location": "Table 2",
+      "paper_location": "Five-seed matched detection",
       "rows": 4,
       "source_files": [
         {
-          "path": "results/detection/endpoints.json",
-          "sha256": "83d135aff5ef3485ad95138beb029dc389045b570417bed73afda5da544679fd"
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
         }
       ],
-      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Four-class development COCO box AP"
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Five-adapter-seed four-class COCO box AP (%); mean \u00b1 sample SD."
     },
     {
       "cell_sources": [
@@ -322,7 +177,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Online tensor-to-output cost"
+      "title": "Original-study full-detector tensor-to-output cost."
     },
     {
       "cell_sources": [
@@ -918,7 +773,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Complete current per-class endpoints"
+      "title": "Original single-seed per-class endpoints."
     },
     {
       "cell_sources": [
@@ -1018,7 +873,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Utility errors against constant predictors"
+      "title": "Utility prediction errors against fitting constants."
     },
     {
       "cell_sources": [
@@ -1158,7 +1013,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Relative error reductions against constants"
+      "title": "Post-hoc recording comparisons against fitting constants."
     },
     {
       "cell_sources": [
@@ -1269,7 +1124,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Trained utility readouts"
+      "title": "Trained utility readouts and working interval coverage."
     },
     {
       "cell_sources": [
@@ -1377,7 +1232,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Paired trained-readout error contrasts"
+      "title": "Post-hoc recording comparisons against trained readouts."
     },
     {
       "cell_sources": [
@@ -1581,7 +1436,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Separate 2D fitting gates"
+      "title": "Separate 2D fitting diagnostics."
     },
     {
       "cell_sources": [
@@ -1821,7 +1676,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Five-seed stateless fusion"
+      "title": "Five-seed study of stateless fusion."
     },
     {
       "cell_sources": [
@@ -1921,7 +1776,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Frozen-controller routing sensitivity"
+      "title": "Frozen-controller routing sensitivity."
     },
     {
       "cell_sources": [
@@ -2301,7 +2156,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Original summary-based action study"
+      "title": "Summary-based action selection."
     },
     {
       "cell_sources": [
@@ -2681,7 +2536,102 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Query-set action study"
+      "title": "Query-set action selection."
+    },
+    {
+      "cell_sources": [],
+      "files": {
+        "csv": "table_14_original_detection.csv",
+        "md": "table_14_original_detection.md"
+      },
+      "metric_and_units": "COCO box AP (%)",
+      "number": 14,
+      "paper_location": "Original single-seed detection",
+      "rows": 4,
+      "source_files": [
+        {
+          "path": "results/detection/endpoints.json",
+          "sha256": "83d135aff5ef3485ad95138beb029dc389045b570417bed73afda5da544679fd"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Original single-seed endpoints retained as a separate reference. COCO box AP (%)."
+    },
+    {
+      "cell_sources": [],
+      "files": {
+        "csv": "table_15_all_adapter_seeds.csv",
+        "md": "table_15_all_adapter_seeds.md"
+      },
+      "metric_and_units": "COCO box AP (%)",
+      "number": 15,
+      "paper_location": "Every adapter seed and condition",
+      "rows": 15,
+      "source_files": [
+        {
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Every completed adapter seed and detection condition. COCO box AP (%)."
+    },
+    {
+      "cell_sources": [],
+      "files": {
+        "csv": "table_16_five_seed_classes.csv",
+        "md": "table_16_five_seed_classes.md"
+      },
+      "metric_and_units": "COCO box AP (%)",
+      "number": 16,
+      "paper_location": "Five-seed class results",
+      "rows": 12,
+      "source_files": [
+        {
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Complete five-seed per-class AP (%), mean \u00b1 sample SD."
+    },
+    {
+      "cell_sources": [],
+      "files": {
+        "csv": "table_17_five_seed_utility.csv",
+        "md": "table_17_five_seed_utility.md"
+      },
+      "metric_and_units": "Raw task-risk units and coverage (%)",
+      "number": 17,
+      "paper_location": "Five-seed utility estimation",
+      "rows": 5,
+      "source_files": [
+        {
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Refitted CURE utility statistics, mean \u00b1 sample SD across adapter seeds. Errors use raw loss units."
+    },
+    {
+      "cell_sources": [],
+      "files": {
+        "csv": "table_18_fitting_routing_diagnostic.csv",
+        "md": "table_18_fitting_routing_diagnostic.md"
+      },
+      "metric_and_units": "Fitting-only saturation and relative tanh slope",
+      "number": 18,
+      "paper_location": "Fitting routing diagnostic",
+      "rows": 5,
+      "source_files": [
+        {
+          "path": "results/matched_v3/fitting_diagnostics.json",
+          "sha256": "c94ca3e6dd3b40fba42597e696bf8cc1a7f9af0e4c9e6257d828a8e9d96ebf64"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Predeclared fitting routing diagnostic: 64 annotated frames, 258 matched objects per seed."
     }
   ]
 }

@@ -1,4 +1,4 @@
-# Online tensor-to-output cost
+# Original-study full-detector tensor-to-output cost.
 
 Table 3. Median and p95 milliseconds; peak allocator memory in GiB; batch one, FP32.
 

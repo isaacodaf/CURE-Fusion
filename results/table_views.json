@@ -1,6 +1,7 @@
 {
   "format": "scientific_table_cells_v1",
   "source_document_sha256": "17fa3c7d337e32dc5fba5a2a5fd408b9c7d7d01c19cd6d6e5774c6e84bb5ed19",
+  "table_count": 18,
   "tables": [
     {
       "cell_sources": [
@@ -51,7 +52,7 @@
       "metric_and_units": "Counts, input contracts and fixed fitting protocol",
       "number": 1,
       "original_table_block_sha256": "571d75dd3ece1dda0883fe58d6bd9b511d649812a0573e42cf180944cbd1d8ea",
-      "paper_location": "Table 1",
+      "paper_location": "Study inputs",
       "rows": [
         [
           "Frames / sequences",
@@ -90,7 +91,7 @@
         ],
         [
           "Fitted model",
-          "Fixed seed 11, 40 epochs per arm",
+          "Five adapter seeds, 40 epochs per arm",
           "Fixed endpoints, no selection"
         ]
       ],
@@ -102,155 +103,10 @@
         }
       ],
       "source_mapping": "Population counts match split metadata; remaining cells state the recorded input and fitting contract.",
-      "title": "Current SEW study and input contract"
+      "title": "Current SEW study and input contract."
     },
     {
-      "cell_sources": [
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/0/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/1/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/2/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/3/AP_percent"
-          ],
-          "row_index": 0,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/4/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/5/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/6/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/7/AP_percent"
-          ],
-          "row_index": 1,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/8/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/9/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/10/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/11/AP_percent"
-          ],
-          "row_index": 2,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 1,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/12/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 2,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/13/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 3,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/14/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        },
-        {
-          "column_index": 4,
-          "display_transform": "two decimal places",
-          "json_pointers": [
-            "/endpoints/15/AP_percent"
-          ],
-          "row_index": 3,
-          "source": "results/detection/endpoints.json"
-        }
-      ],
+      "cell_sources": [],
       "headers": [
         "Method",
         "Clean",
@@ -258,49 +114,49 @@
         "Radar removed",
         "Radar thinned"
       ],
-      "metric_and_units": "AP (%), IoU 0.50:0.05:0.95; 992 reused development frames; one detector seed",
+      "metric_and_units": "COCO box AP (%)",
       "number": 2,
       "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
-      "paper_location": "Table 2",
+      "paper_location": "Five-seed matched detection",
       "rows": [
         [
-          "Unadapted extension",
-          "40.56",
-          "0.01",
-          "40.56",
-          "40.56"
-        ],
-        [
           "Task-only",
-          "62.33",
-          "0.00",
-          "61.45",
-          "62.19"
+          "62.93 \u00b1 0.69",
+          "0.047 \u00b1 0.031",
+          "62.71 \u00b1 0.70",
+          "62.85 \u00b1 0.74"
         ],
         [
           "CURE",
-          "61.47",
-          "0.03",
-          "60.33",
-          "61.45"
+          "62.28 \u00b1 0.45",
+          "0.029 \u00b1 0.002",
+          "61.71 \u00b1 0.95",
+          "62.20 \u00b1 0.49"
         ],
         [
           "Modality dropout",
-          "61.74",
-          "0.07",
-          "61.72",
-          "61.53"
+          "62.85 \u00b1 0.93",
+          "0.020 \u00b1 0.013",
+          "62.78 \u00b1 0.97",
+          "62.78 \u00b1 0.91"
+        ],
+        [
+          "CURE \u2212 task-only (AP points)",
+          "-0.65 \u00b1 0.73",
+          "-0.018 \u00b1 0.032",
+          "-1.00 \u00b1 1.09",
+          "-0.65 \u00b1 0.80"
         ]
       ],
       "slug": "matched_detection",
       "source_files": [
         {
-          "path": "results/detection/endpoints.json",
-          "sha256": "83d135aff5ef3485ad95138beb029dc389045b570417bed73afda5da544679fd"
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
         }
       ],
-      "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Four-class development COCO box AP"
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Five-adapter-seed four-class COCO box AP (%); mean \u00b1 sample SD."
     },
     {
       "cell_sources": [
@@ -424,7 +280,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Online tensor-to-output cost"
+      "title": "Original-study full-detector tensor-to-output cost."
     },
     {
       "cell_sources": [
@@ -1138,7 +994,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Complete current per-class endpoints"
+      "title": "Original single-seed per-class endpoints."
     },
     {
       "cell_sources": [
@@ -1267,7 +1123,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Utility errors against constant predictors"
+      "title": "Utility prediction errors against fitting constants."
     },
     {
       "cell_sources": [
@@ -1441,7 +1297,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Relative error reductions against constants"
+      "title": "Post-hoc recording comparisons against fitting constants."
     },
     {
       "cell_sources": [
@@ -1575,7 +1431,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Trained utility readouts"
+      "title": "Trained utility readouts and working interval coverage."
     },
     {
       "cell_sources": [
@@ -1670,8 +1526,8 @@
       ],
       "headers": [
         "Metric",
-        "CURE-feature: reduction [interval]; lower omissions",
-        "Task-feature: reduction [interval]; lower omissions"
+        "CURE-feature: reduction (%) [interval]; lower omissions",
+        "Task-feature: reduction (%) [interval]; lower omissions"
       ],
       "metric_and_units": "Percent error reduction; descriptive 95% intervals; count of eight recording omissions with lower CURE error",
       "number": 8,
@@ -1707,7 +1563,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Paired trained-readout error contrasts"
+      "title": "Post-hoc recording comparisons against trained readouts."
     },
     {
       "cell_sources": [
@@ -1945,7 +1801,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Separate 2D fitting gates"
+      "title": "Separate 2D fitting diagnostics."
     },
     {
       "cell_sources": [
@@ -2244,7 +2100,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Five-seed stateless fusion"
+      "title": "Five-seed study of stateless fusion."
     },
     {
       "cell_sources": [
@@ -2368,7 +2224,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Frozen-controller routing sensitivity"
+      "title": "Frozen-controller routing sensitivity."
     },
     {
       "cell_sources": [
@@ -2817,7 +2673,7 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Original summary-based action study"
+      "title": "Summary-based action selection."
     },
     {
       "cell_sources": [
@@ -3266,7 +3122,430 @@
         }
       ],
       "source_mapping": "Rows and displayed precision follow the final table; all numeric cells independently matched to this included structured source.",
-      "title": "Query-set action study"
+      "title": "Query-set action selection."
+    },
+    {
+      "cell_sources": [],
+      "headers": [
+        "Method",
+        "Clean",
+        "Camera removed",
+        "Radar removed",
+        "Radar thinned"
+      ],
+      "metric_and_units": "COCO box AP (%)",
+      "number": 14,
+      "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
+      "paper_location": "Original single-seed detection",
+      "rows": [
+        [
+          "Unadapted extension",
+          "40.562",
+          "0.014",
+          "40.562",
+          "40.562"
+        ],
+        [
+          "Task-only",
+          "62.328",
+          "0.004",
+          "61.450",
+          "62.188"
+        ],
+        [
+          "CURE",
+          "61.469",
+          "0.030",
+          "60.335",
+          "61.445"
+        ],
+        [
+          "Modality dropout",
+          "61.741",
+          "0.074",
+          "61.725",
+          "61.535"
+        ]
+      ],
+      "slug": "original_detection",
+      "source_files": [
+        {
+          "path": "results/detection/endpoints.json",
+          "sha256": "83d135aff5ef3485ad95138beb029dc389045b570417bed73afda5da544679fd"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Original single-seed endpoints retained as a separate reference. COCO box AP (%)."
+    },
+    {
+      "cell_sources": [],
+      "headers": [
+        "Seed",
+        "Method",
+        "Clean",
+        "Camera removed",
+        "Radar removed",
+        "Radar thinned"
+      ],
+      "metric_and_units": "COCO box AP (%)",
+      "number": 15,
+      "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
+      "paper_location": "Every adapter seed and condition",
+      "rows": [
+        [
+          "11",
+          "Task-only",
+          "61.919",
+          "0.087",
+          "61.728",
+          "61.788"
+        ],
+        [
+          "11",
+          "CURE",
+          "61.686",
+          "0.029",
+          "60.674",
+          "61.545"
+        ],
+        [
+          "11",
+          "Modality dropout",
+          "62.441",
+          "0.023",
+          "62.030",
+          "62.319"
+        ],
+        [
+          "23",
+          "Task-only",
+          "63.172",
+          "0.026",
+          "63.001",
+          "63.060"
+        ],
+        [
+          "23",
+          "CURE",
+          "62.370",
+          "0.026",
+          "61.858",
+          "62.252"
+        ],
+        [
+          "23",
+          "Modality dropout",
+          "64.318",
+          "0.018",
+          "64.368",
+          "64.165"
+        ],
+        [
+          "37",
+          "Task-only",
+          "63.815",
+          "0.073",
+          "63.526",
+          "63.828"
+        ],
+        [
+          "37",
+          "CURE",
+          "61.962",
+          "0.028",
+          "60.823",
+          "61.876"
+        ],
+        [
+          "37",
+          "Modality dropout",
+          "62.073",
+          "0.009",
+          "62.164",
+          "61.993"
+        ],
+        [
+          "53",
+          "Task-only",
+          "62.698",
+          "0.032",
+          "62.287",
+          "62.608"
+        ],
+        [
+          "53",
+          "CURE",
+          "62.673",
+          "0.032",
+          "62.334",
+          "62.704"
+        ],
+        [
+          "53",
+          "Modality dropout",
+          "63.231",
+          "0.041",
+          "63.023",
+          "63.224"
+        ],
+        [
+          "71",
+          "Task-only",
+          "63.026",
+          "0.017",
+          "63.017",
+          "62.947"
+        ],
+        [
+          "71",
+          "CURE",
+          "62.708",
+          "0.030",
+          "62.882",
+          "62.616"
+        ],
+        [
+          "71",
+          "Modality dropout",
+          "62.200",
+          "0.012",
+          "62.303",
+          "62.206"
+        ]
+      ],
+      "slug": "all_adapter_seeds",
+      "source_files": [
+        {
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Every completed adapter seed and detection condition. COCO box AP (%)."
+    },
+    {
+      "cell_sources": [],
+      "headers": [
+        "Method",
+        "Condition",
+        "Person",
+        "Bicycle",
+        "Slidecar",
+        "Doll"
+      ],
+      "metric_and_units": "COCO box AP (%)",
+      "number": 16,
+      "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
+      "paper_location": "Five-seed class results",
+      "rows": [
+        [
+          "Task-only",
+          "Clean",
+          "83.10 \u00b1 0.14",
+          "82.29 \u00b1 0.37",
+          "41.56 \u00b1 2.05",
+          "44.75 \u00b1 2.01"
+        ],
+        [
+          "Task-only",
+          "Camera removed",
+          "0.105 \u00b1 0.114",
+          "0.083 \u00b1 0.074",
+          "0.000 \u00b1 0.000",
+          "0.000 \u00b1 0.000"
+        ],
+        [
+          "Task-only",
+          "Radar removed",
+          "83.12 \u00b1 0.20",
+          "81.88 \u00b1 0.23",
+          "41.35 \u00b1 1.73",
+          "44.50 \u00b1 2.11"
+        ],
+        [
+          "Task-only",
+          "Radar thinned",
+          "83.11 \u00b1 0.18",
+          "82.17 \u00b1 0.31",
+          "41.41 \u00b1 2.11",
+          "44.70 \u00b1 2.09"
+        ],
+        [
+          "CURE",
+          "Clean",
+          "83.20 \u00b1 0.14",
+          "82.07 \u00b1 0.42",
+          "39.85 \u00b1 1.59",
+          "43.99 \u00b1 1.03"
+        ],
+        [
+          "CURE",
+          "Camera removed",
+          "0.017 \u00b1 0.015",
+          "0.098 \u00b1 0.015",
+          "0.000 \u00b1 0.000",
+          "0.000 \u00b1 0.000"
+        ],
+        [
+          "CURE",
+          "Radar removed",
+          "83.13 \u00b1 0.06",
+          "81.95 \u00b1 0.30",
+          "38.62 \u00b1 2.81",
+          "43.16 \u00b1 1.34"
+        ],
+        [
+          "CURE",
+          "Radar thinned",
+          "83.19 \u00b1 0.11",
+          "82.05 \u00b1 0.38",
+          "39.56 \u00b1 1.77",
+          "43.99 \u00b1 1.00"
+        ],
+        [
+          "Modality dropout",
+          "Clean",
+          "83.17 \u00b1 0.09",
+          "82.34 \u00b1 0.40",
+          "40.46 \u00b1 2.96",
+          "45.43 \u00b1 1.27"
+        ],
+        [
+          "Modality dropout",
+          "Camera removed",
+          "0.014 \u00b1 0.015",
+          "0.068 \u00b1 0.053",
+          "0.000 \u00b1 0.000",
+          "0.000 \u00b1 0.000"
+        ],
+        [
+          "Modality dropout",
+          "Radar removed",
+          "83.16 \u00b1 0.12",
+          "82.01 \u00b1 0.46",
+          "40.41 \u00b1 2.89",
+          "45.52 \u00b1 1.40"
+        ],
+        [
+          "Modality dropout",
+          "Radar thinned",
+          "83.16 \u00b1 0.13",
+          "82.25 \u00b1 0.37",
+          "40.26 \u00b1 2.89",
+          "45.45 \u00b1 1.26"
+        ]
+      ],
+      "slug": "five_seed_classes",
+      "source_files": [
+        {
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Complete five-seed per-class AP (%), mean \u00b1 sample SD."
+    },
+    {
+      "cell_sources": [],
+      "headers": [
+        "Statistic",
+        "Camera removal",
+        "Radar thinning"
+      ],
+      "metric_and_units": "Raw task-risk units and coverage (%)",
+      "number": 17,
+      "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
+      "paper_location": "Five-seed utility estimation",
+      "rows": [
+        [
+          "RMSE",
+          "1.6812 \u00b1 0.0378",
+          "0.0242 \u00b1 0.0003"
+        ],
+        [
+          "MAE",
+          "1.2853 \u00b1 0.0339",
+          "0.0072 \u00b1 0.0001"
+        ],
+        [
+          "Prediction \u2212 target bias",
+          "0.24330 \u00b1 0.07807",
+          "0.00034 \u00b1 0.00046"
+        ],
+        [
+          "Gaussian mean NLL",
+          "1.0141 \u00b1 0.0333",
+          "-3.7826 \u00b1 0.0011"
+        ],
+        [
+          "Central 90% coverage (%)",
+          "85.99 \u00b1 0.57",
+          "97.51 \u00b1 0.05"
+        ]
+      ],
+      "slug": "five_seed_utility",
+      "source_files": [
+        {
+          "path": "results/matched_v3/VERIFIED_RESULTS.json",
+          "sha256": "f059bbf64a12a33e63d6353c2754f77c1ae3a94b0c1a88d8282603277d7803ce"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Refitted CURE utility statistics, mean \u00b1 sample SD across adapter seeds. Errors use raw loss units."
+    },
+    {
+      "cell_sources": [],
+      "headers": [
+        "Seed",
+        "Saturated camera",
+        "Camera median relative slope",
+        "Radar median relative slope"
+      ],
+      "metric_and_units": "Fitting-only saturation and relative tanh slope",
+      "number": 18,
+      "original_table_block_sha256": "513a0e7fc32b364c690a532334c08bfe9d75d8bbb3f480d4e47e2b57811460e0",
+      "paper_location": "Fitting routing diagnostic",
+      "rows": [
+        [
+          "11",
+          "0 / 258",
+          "0.508345",
+          "0.999914"
+        ],
+        [
+          "23",
+          "0 / 258",
+          "0.512729",
+          "0.999904"
+        ],
+        [
+          "37",
+          "0 / 258",
+          "0.498537",
+          "0.999905"
+        ],
+        [
+          "53",
+          "0 / 258",
+          "0.504809",
+          "0.999906"
+        ],
+        [
+          "71",
+          "0 / 258",
+          "0.507372",
+          "0.999931"
+        ]
+      ],
+      "slug": "fitting_routing_diagnostic",
+      "source_files": [
+        {
+          "path": "results/matched_v3/fitting_diagnostics.json",
+          "sha256": "c94ca3e6dd3b40fba42597e696bf8cc1a7f9af0e4c9e6257d828a8e9d96ebf64"
+        }
+      ],
+      "source_mapping": "All seeds and conditions retained; derived from included result operands.",
+      "title": "Predeclared fitting routing diagnostic: 64 annotated frames, 258 matched objects per seed."
     }
   ]
 }

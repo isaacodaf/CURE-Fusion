@@ -2,7 +2,7 @@
 
 ### CURE-Fusion: Studying the Gap Between Sensor Attribution and Routing in Multimodal Detection
 
-[Getting started](SETUP.md) · [Figures](figures/README.md) · [Results](tables/README.md) · [Model code](code/cure_fusion/dfine_cure_v2.py)
+[Getting started](SETUP.md) · [Figures](figures/README.md) · [Results](tables/README.md) · [Model code](code/cure_fusion/dfine_cure_v3.py)
 
 **How much does a sensor contribute to a detection—and does that tell us how to use it?**
 
@@ -27,13 +27,15 @@ Four recorded scenes show the paired inputs used in the analysis. These are qual
 
 On 2,521 objects from eight reused development recordings, camera-utility RMSE is **7.66% lower** than a trained readout on task-only features and **44.99% lower** than a fitting-mean constant. These are post-hoc utility-prediction comparisons, not detection improvements; the feature comparison also changes factual query correspondence.
 
-| Matched detector | Four-class COCO box AP (%) |
-| --- | ---: |
-| Task-only controller | 62.33 |
-| Modality dropout | 61.74 |
-| CURE-Fusion | 61.47 |
+The separately declared fitting-scale correction was refitted across five adapter-training seeds (11, 23, 37, 53 and 71). Each arm shares one frozen D-FINE-X visual detector and all CURE seeds share one archived task-only teacher.
 
-The central finding is the separation between a learnable removal signal and a useful routing action: the tested controllers do not establish a consistent added AP benefit. The study provides a formulation and diagnostic tools for investigating that distinction. The detection comparison uses one detector seed; action studies use five controller seeds. See the [full results and study conditions](tables/README.md) for all thirteen tables, uncertainty estimates and comparisons.
+| Matched detector | Clean COCO box AP (%), mean ± sample SD |
+| --- | ---: |
+| Task-only | 62.93 ± 0.69 |
+| CURE-Fusion | 62.28 ± 0.45 |
+| Modality dropout | 62.85 ± 0.93 |
+
+CURE is lower in every paired clean comparison; the mean CURE-minus-task-only difference is −0.65 ± 0.73 AP points. Unsaturated camera biases are observed in the declared fitting diagnostic (258 objects per seed), without an added matched detection benefit. These are adapter-seed summaries on eight reused recordings, not population confidence intervals. The original utility-readout, action and timing studies remain separate. See [all results](tables/README.md) for eighteen tables and every condition.
 
 ## Getting started
 
@@ -66,7 +68,7 @@ To repeat training and detection evaluation, readers also need the relevant data
 
 **Input availability:** full datasets, model weights, feature caches, detector admission reports and complete prediction exports are not bundled in this repository. Public dataset and model links are given above; study-specific caches and detector reports must be obtained separately. The compact release does not include the feature-extraction/admission launchers, so downloading the dataset and weights alone is not sufficient to run the recorded detector experiment.
 
-### Train the matched detector controls
+### Original single-seed controls
 
 Check the packaged source and protocol first:
 
@@ -87,6 +89,26 @@ python run_experiment.py --experiment detector \
 ```
 
 The wrapper supplies the included protocol automatically. The launcher trains the matched task-only, modality-dropout and CURE arms, generates utility targets, and evaluates the completed endpoints. It writes checkpoints, logs and evaluation outputs under the selected output directory. The underlying camera detector is frozen in this study; the command trains the fusion components on its saved features. See [SETUP.md](SETUP.md#6-prepare-a-cuda-experiment) for the other experiment entry points and runtime specifications.
+
+### Completed five-seed matched study
+
+The unchanged frozen protocol, model source and fitting targets for the completed study are included. The command below repeats its full training and evaluation matrix when the complete feature cache and original task-only teacher checkpoint are available. Use a new output path; do not select checkpoints by development AP.
+
+```sh
+python run_experiment.py --experiment matched-controller --check-only
+python run_experiment.py --experiment matched-controller \
+  --python /absolute/path/to/cuda-environment/bin/python \
+  --teacher-checkpoint /absolute/path/to/original_task_only_teacher.pt -- \
+  --phase supervise --workers 5 \
+  --cache /absolute/path/to/complete_feature_cache \
+  --output /absolute/path/to/new_matched_run
+```
+
+The recorded environment used an A100-SXM4-80GB, PyTorch 2.11.0+cu130, CUDA 13.0 and FP32 with TF32 disabled. There are 15 endpoints, 600 complete epochs and 58,200 total optimizer updates. The global training barrier precedes every detection evaluation. Runtime admission checks and protocol-bound input hashes must pass.
+
+The original task-only adapter checkpoint is an external input and must match the SHA-256 in [matched_controller.json](configs/execution/matched_controller.json). The visual detector weights and full feature cache also remain external. The wrapper checks the provided checkpoint and reconstructs the original source layout without adding internal work folders to the repository.
+
+The compact results include verified endpoint summaries and all five CURE utility observations. `reproduce_results.py` checks those utility calculations and seed summaries locally; it does not rerun COCO AP without complete prediction exports. Independent saved-artifact replay of all 60 exports passed in the recorded study. Full predictions, fresh teacher arrays and all training chains are separate research artifacts, bound to the hashes in the recorded evaluation reports.
 
 ### Evaluate complete saved detections
 
@@ -115,14 +137,14 @@ For recorded study inputs, compare these digests with their supplied manifests b
 
 | Directory | Contents |
 | --- | --- |
-| [code/cure_fusion/](code/cure_fusion/dfine_cure_v2.py) | Detector adapters, utility objectives, readouts and routing rules |
+| [code/cure_fusion/](code/cure_fusion/dfine_cure_v3.py) | Detector adapters, utility objectives, readouts and routing rules |
 | [code/scripts/](code/scripts/train_dfine_cure_development_cuda_v2.py) | Experiment launchers |
 | [configs/](configs/external_dependencies.json) | Protocols, splits and dependency specifications |
 | [analysis/](analysis/utility_metrics.py) | Utility metrics and recording-level statistics |
 | [plotting/](plotting/architecture.py) | Figure generation |
 | [results/](results/table_views.json) | Scientific result operands and attributed sensor examples |
 | [figures/](figures/README.md) | Eight finished figures |
-| [tables/](tables/README.md) | Thirteen tables and full-precision results |
+| [tables/](tables/README.md) | Eighteen tables and full-precision results |
 | [tests/](tests/test_research_release.py) | Numerical and package checks |
 
 The scientific implementation retains the original `cev_*` tensor names; the paper uses CSU for the corresponding sensor-utility formulation. [SOURCE_MAP.json](SOURCE_MAP.json) records source identities.

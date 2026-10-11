@@ -1,4 +1,4 @@
-# Five-seed stateless fusion
+# Five-seed study of stateless fusion.
 
 Table 10. Factual and natural-adverse AP (%), mean ± sample SD across five detector seeds; historical population.
 

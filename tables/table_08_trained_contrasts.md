@@ -1,8 +1,8 @@
-# Paired trained-readout error contrasts
+# Post-hoc recording comparisons against trained readouts.
 
 Table 8. Percent error reduction; descriptive 95% intervals; count of eight recording omissions with lower CURE error.
 
-| Metric | CURE-feature: reduction [interval]; lower omissions | Task-feature: reduction [interval]; lower omissions |
+| Metric | CURE-feature: reduction (%) [interval]; lower omissions | Task-feature: reduction (%) [interval]; lower omissions |
 | --- | --- | --- |
 | Camera RMSE | -0.42 [-3.37, 0.22]; 0/8 | 7.66 [2.06, 9.52]; 8/8 |
 | Camera MAE | -0.43 [-4.57, 0.24]; 1/8 | 9.35 [-1.63, 11.94]; 8/8 |

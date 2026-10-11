@@ -1,18 +1,18 @@
 {
   "1": {
-    "fig1_csu_architecture_v1.pdf": "5b30004740c8352c67bc6916ceacf13610e0c1a5aa1d7def8d868c37bc740fb2",
-    "fig1_csu_architecture_v1.png": "bd848f5b0334f905ea2f8c54b85d0b8e0e565cf947ee49e8aaf4fc44623b22ac",
-    "fig1_csu_architecture_v1.svg": "0ca0578e697ab4c1fc388fbc4f910438392f98223f3bccaca9ba424db49a4840"
+    "fig1_csu_architecture_v15.pdf": "01e014b36a0571bfea837cde3e3141ad062dee5536bdc8dd4f621b804e4d2c1e",
+    "fig1_csu_architecture_v15.png": "2255cb6d5dcca29dd99b78bb5600830dac5e16e55e19fb2f5feabf02603e59b8",
+    "fig1_csu_architecture_v15.svg": "4ffd23875fd69b7f8878030d5bb3912c7d72828b3cc343a06ad7c7a8a8d373c3"
   },
   "2": {
-    "fig2_dfine_matched_v1.pdf": "b804d3c56a9fb89fcbc4e66377d5e0ea172866fec584f33f81b248ec94b751a9",
-    "fig2_dfine_matched_v1.png": "a152f9dc0fa331ea45d60b6e9a0f6d4867ebf8a5b68e7be34400f054a4ccf10b",
-    "fig2_dfine_matched_v1.svg": "d266f715de7ebb3cf1bc7108619087e0480126e2c8c768e5baa5e7ee1342d8e8"
+    "fig2_five_seed_v15.pdf": "b3e1a02317817e6a8d386fb2b8adbf44363384da706bdadfca32d51bc27219b5",
+    "fig2_five_seed_v15.png": "85cb984175fc035ea9a04ae31caab7525850f2c8f35b05f62b7939471b53acc4",
+    "fig2_five_seed_v15.svg": "4f18eccc73830a151e38d4f29c50d211206174687c667b2448ba9c6cd76200d1"
   },
   "3": {
-    "fig3_current_classes_v1.pdf": "c3fe69187d0f96ddf8df787c8d9ab9dc1a7e06a58a089112ed7bfc77851dc94b",
-    "fig3_current_classes_v1.png": "c28b1ad8fd996adf68b969e7eb26db2e15bd542652e137ddc108f4f0b336cbe2",
-    "fig3_current_classes_v1.svg": "da31c2dd0edb409b421407a3be8be3e06bf286e2f759633f003caddfc0ba8661"
+    "fig3_five_seed_classes_v15.pdf": "8de951e4a425238fd073a67e14e3b2e46e4e767618256ba3df19917a364048e9",
+    "fig3_five_seed_classes_v15.png": "4bfdc7ee622b6c6a8f36c02c9536d15f8d9d5e5e3e257c204673f27b091876e7",
+    "fig3_five_seed_classes_v15.svg": "80a5320bb43252015ba0d5322269c98b54a5aceebd51c2aed7c412d768dd2b12"
   },
   "4": {
     "fig4_completed_utility_comparison_v6.pdf": "742a85ed6df1c3c8e942c887d3ce5ab6e61bcdc893af8ba165efd5579922a114",
@@ -20,9 +20,9 @@
     "fig4_completed_utility_comparison_v6.svg": "5c53c787b3273ee29eeaf7972a719b5678fb8722435b8ffbcc01c81f7cb87152"
   },
   "5": {
-    "fig5_current_sensor_cases_v3.pdf": "b9adf3dac00392d63e4ee92353e130e9f30abe80d89a81c17df0ec4c918a0681",
-    "fig5_current_sensor_cases_v3.png": "699522ce8f7c4759d4de6933f03f2aacf2eca619c981546697aaaa56c005ed3f",
-    "fig5_current_sensor_cases_v3.svg": "8efd0924aec76cd9e4905ca0d375e1fbb69cbe27a0627c9fa0a9d0e4f7d627fd"
+    "fig5_current_sensor_cases_v3.pdf": "c892fe0b45da42477a3c8d4ebdc8d92486a5e4e864f22735d56e97fe863a49b5",
+    "fig5_current_sensor_cases_v3.png": "873faa454aa85fa079ba6ab91bd6ff2ab17a72750451892fc9ecc03cae450a65",
+    "fig5_current_sensor_cases_v3.svg": "5401d3b92d26529fd33d3e51c03df5c2ef975d5ef6a29c913f90fff919e668f7"
   },
   "6": {
     "fig6_paired_camera_radar_v1.pdf": "8af8b292f0aface59f2aa568e3d61d865d1cb3bf1847820d42fe4611401dadb2",

@@ -556,15 +556,17 @@ z
     <text style="font-weight: 700; font-size: 8.2px; font-family: 'Arial'; text-anchor: middle; fill: #20323d" x="328.486415" y="145.79796" transform="rotate(-0 328.486415 145.79796)">Bounded mean routing</text>
    </g>
    <g id="text_24">
-    <!-- $\beta_{im}=0.5\,\tanh(\mu_{im}/0.75)$ -->
-    <g style="fill: #20323d" transform="translate(287.022415 163.395783)">
+    <!-- $\beta_{im}=0.5\,\tanh(\mu_{im}/T_m)$ -->
+    <g style="fill: #20323d" transform="translate(290.217415 163.395783)">
      <text>
       <tspan x="0" y="-0.5625" style="font-style: oblique; font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">β</tspan>
       <tspan x="50.966779" y="-0.5625" style="font-style: oblique; font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">μ</tspan>
+      <tspan x="64.280893" y="-0.5625" style="font-style: oblique; font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">T</tspan>
       <tspan x="4.527115" y="0.502497" style="font-style: oblique; font-size: 4.97px; font-family: 'DejaVu Sans'; fill: #20323d">i</tspan>
       <tspan x="5.906725" y="0.502497" style="font-style: oblique; font-size: 4.97px; font-family: 'DejaVu Sans'; fill: #20323d">m</tspan>
       <tspan x="55.480039" y="0.502497" style="font-style: oblique; font-size: 4.97px; font-family: 'DejaVu Sans'; fill: #20323d">i</tspan>
       <tspan x="56.859648" y="0.502497" style="font-style: oblique; font-size: 4.97px; font-family: 'DejaVu Sans'; fill: #20323d">m</tspan>
+      <tspan x="68.614038" y="0.502497" style="font-style: oblique; font-size: 4.97px; font-family: 'DejaVu Sans'; fill: #20323d">m</tspan>
       <tspan x="12.32002" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">=</tspan>
       <tspan x="19.64584" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">0</tspan>
       <tspan x="24.1591" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">.</tspan>
@@ -575,11 +577,7 @@ z
       <tspan x="43.703305" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">h</tspan>
       <tspan x="48.199246" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">(</tspan>
       <tspan x="61.890909" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">/</tspan>
-      <tspan x="64.280893" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">0</tspan>
-      <tspan x="68.794153" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">.</tspan>
-      <tspan x="71.049051" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">7</tspan>
-      <tspan x="75.562311" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">5</tspan>
-      <tspan x="80.075571" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">)</tspan>
+      <tspan x="73.645299" y="-0.5625" style="font-size: 7.1px; font-family: 'DejaVu Sans'; fill: #20323d">)</tspan>
      </text>
     </g>
    </g>
